@@ -12,12 +12,12 @@ This is the smallest possible program for working with this library.
 module Main exposing (..)
 
 import Tachyons exposing (classes, tachyons)
-import Tachyons.Classes exposing (f1, purple, pointer)
+import Tachyons.Classes exposing (f1, purple, pointer, b)
 import Html exposing (..)
 
 
 main =
-    div [ classes [ f1, purple, pointer ] ]
+    div [ classes [ f1, purple, pointer, b ] ]
         [ tachyons.css
         , text "I'm Purple and big!"
         ]
