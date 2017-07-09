@@ -38,27 +38,25 @@ const setCorrectIndentation = text => {
  * and pull out the relevent information.
  */
 root.walkRules(rule => {
-  if (rule.selector.charAt(0) === ".") {
-    const names = new Set( // get unique classes
-      extract(rule.selector)
-        .filter(str => /^\./g.test(str)) // only want classes, no ids
-        .map(s => s.replace(".", "")) // no dots
-    );
+  const names = new Set( // get unique classes
+    extract(rule.selector)
+      .filter(str => /^\./g.test(str)) // only want classes, no ids
+      .map(s => s.replace(".", "")) // no dots
+  );
 
-    names.forEach(name => {
-      const obj = {
-        name,
-        elmName: name.replace(/-/g, "_"),
-        def: ruleFormatter(rule)
-      };
+  names.forEach(name => {
+    const obj = {
+      name,
+      elmName: name.replace(/-/g, "_"),
+      def: ruleFormatter(rule)
+    };
 
-      console.log(obj);
+    console.log(obj);
 
-      if (name in classObjs)
-        classObjs[name].def += "\n" + defaultIndentation + obj.def; // class has been already registered, only append new def
-      else classObjs[name] = obj;
-    });
-  } else return;
+    if (name in classObjs)
+      classObjs[name].def += "\n" + defaultIndentation + obj.def; // class has been already registered, only append new def
+    else classObjs[name] = obj;
+  });
 });
 
 const classes = _(classObjs).sortBy("name");
