@@ -61,12 +61,22 @@ classes stringList =
     class (String.join " " stringList)
 
 
-{-| [Tachyons 4.6.1](http://tachyons.io/)
+{-| [Tachyons 4.7.3](http://tachyons.io/)
 
-> _"Create fast loading, highly readable, and 100% responsive interfaces with as
-> little css as possible."_
-> also is an implementation of [functional CSS](https://marcelosomers.com/writing/rationalizing-functional-css/).
+This basically includes an `<style>` tag containing the inline CSS code
+for the tachyons version this library supports. Namely 4.7.3.
 
+To use it just place it inside of a HTML tag like so:
+
+    div [] [ tachyons.css ]
+
+If you want to use it from a CDN link rather than a `<style>` tag I would encourage you to
+include the CDN link in your HTML like so:
+
+    <!-- NOTE: this is outside of Elm, inside of Elm it will cause a css flash -->
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.3/css/tachyons.min.css"/>
+
+then use the `Tachyons.Classes` as you normally would.
 -}
 tachyons : { css : Html msg }
 tachyons =

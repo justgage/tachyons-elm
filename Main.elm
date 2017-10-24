@@ -1,10 +1,14 @@
 module Main exposing (..)
 
 import Tachyons exposing (classes, tachyons)
-import Tachyons.Classes exposing (f1, purple, pointer, b)
+import Tachyons.Classes exposing (f1, purple, pointer)
 import Html exposing (..)
 
 
+{-|
+This is just an example of how this works
+-}
+main : Html msg
 main =
     div [ classes [ f1, purple, pointer, Tachyons.Classes.b ] ]
         [ tachyons.css
