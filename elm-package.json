@@ -1,5 +1,5 @@
 {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "summary": "Tachyons CSS classnames for Elm",
     "repository": "https://github.com/justgage/tachyons-elm.git",
     "license": "MIT",
