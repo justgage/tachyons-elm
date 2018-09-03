@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/justgage/tachyons-elm#readme",
   "dependencies": {
-    "lodash": "^4.17.4",
-    "postcss": "^6.0.6",
-    "string-extract-class-names": "^3.3.2"
+    "lodash": "^4.17.10",
+    "lodash.flattendeep": "^4.4.0",
+    "lodash.replace": "^4.1.4",
+    "lodash.without": "^4.4.0",
+    "postcss": "^7.0.2",
+    "string-extract-class-names": "^5.0.0"
   }
 }
