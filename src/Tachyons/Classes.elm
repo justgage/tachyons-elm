@@ -1,3 +1,4 @@
+
 module Tachyons.Classes exposing (..)
 
 {-|
@@ -12,7 +13,7 @@ They do however show the minifed css definition as their comment.
 
 # Classes and their Definitions
 
-@docs absolute, absolute__fill, absolute__fill_l, absolute__fill_m, absolute__fill_ns, absolute_l, absolute_m, absolute_ns, aspect_ratio, aspect_ratio__16x9, aspect_ratio__16x9_l, aspect_ratio__16x9_m, aspect_ratio__16x9_ns, aspect_ratio__1x1, aspect_ratio__1x1_l, aspect_ratio__1x1_m, aspect_ratio__1x1_ns, aspect_ratio__3x4, aspect_ratio__3x4_l, aspect_ratio__3x4_m, aspect_ratio__3x4_ns, aspect_ratio__4x3, aspect_ratio__4x3_l, aspect_ratio__4x3_m, aspect_ratio__4x3_ns, aspect_ratio__4x6, aspect_ratio__4x6_l, aspect_ratio__4x6_m, aspect_ratio__4x6_ns, aspect_ratio__5x7, aspect_ratio__5x7_l, aspect_ratio__5x7_m, aspect_ratio__5x7_ns, aspect_ratio__5x8, aspect_ratio__5x8_l, aspect_ratio__5x8_m, aspect_ratio__5x8_ns, aspect_ratio__6x4, aspect_ratio__6x4_l, aspect_ratio__6x4_m, aspect_ratio__6x4_ns, aspect_ratio__7x5, aspect_ratio__7x5_l, aspect_ratio__7x5_m, aspect_ratio__7x5_ns, aspect_ratio__8x5, aspect_ratio__8x5_l, aspect_ratio__8x5_m, aspect_ratio__8x5_ns, aspect_ratio__9x16, aspect_ratio__9x16_l, aspect_ratio__9x16_m, aspect_ratio__9x16_ns, aspect_ratio__object, aspect_ratio__object_l, aspect_ratio__object_m, aspect_ratio__object_ns, aspect_ratio_l, aspect_ratio_m, aspect_ratio_ns, athelas, avenir, b, b__black, b__black_0125, b__black_025, b__black_05, b__black_10, b__black_20, b__black_30, b__black_40, b__black_50, b__black_60, b__black_70, b__black_80, b__black_90, b__blue, b__dark_blue, b__dark_gray, b__dark_green, b__dark_pink, b__dark_red, b__dashed, b__dashed_l, b__dashed_m, b__dashed_ns, b__dotted, b__dotted_l, b__dotted_m, b__dotted_ns, b__gold, b__gray, b__green, b__hot_pink, b__inherit, b__light_blue, b__light_gray, b__light_green, b__light_pink, b__light_purple, b__light_red, b__light_silver, b__light_yellow, b__lightest_blue, b__mid_gray, b__moon_gray, b__navy, b__near_black, b__near_white, b__none, b__none_l, b__none_m, b__none_ns, b__orange, b__pink, b__purple, b__red, b__silver, b__solid, b__solid_l, b__solid_m, b__solid_ns, b__transparent, b__washed_blue, b__washed_green, b__washed_red, b__washed_yellow, b__white, b__white_0125, b__white_025, b__white_05, b__white_10, b__white_20, b__white_30, b__white_40, b__white_50, b__white_60, b__white_70, b__white_80, b__white_90, b__yellow, b_l, b_m, b_ns, ba, ba_l, ba_m, ba_ns, baskerville, bb, bb_0, bb_0_l, bb_0_m, bb_0_ns, bb_l, bb_m, bb_ns, bg_animate, bg_black, bg_black_05, bg_black_10, bg_black_20, bg_black_30, bg_black_40, bg_black_50, bg_black_60, bg_black_70, bg_black_80, bg_black_90, bg_blue, bg_bottom, bg_bottom_l, bg_bottom_m, bg_bottom_ns, bg_center, bg_center_l, bg_center_m, bg_center_ns, bg_dark_blue, bg_dark_gray, bg_dark_green, bg_dark_pink, bg_dark_red, bg_gold, bg_gray, bg_green, bg_hot_pink, bg_inherit, bg_left, bg_left_l, bg_left_m, bg_left_ns, bg_light_blue, bg_light_gray, bg_light_green, bg_light_pink, bg_light_purple, bg_light_red, bg_light_silver, bg_light_yellow, bg_lightest_blue, bg_mid_gray, bg_moon_gray, bg_navy, bg_near_black, bg_near_white, bg_orange, bg_pink, bg_purple, bg_red, bg_right, bg_right_l, bg_right_m, bg_right_ns, bg_silver, bg_top, bg_top_l, bg_top_m, bg_top_ns, bg_transparent, bg_washed_blue, bg_washed_green, bg_washed_red, bg_washed_yellow, bg_white, bg_white_10, bg_white_20, bg_white_30, bg_white_40, bg_white_50, bg_white_60, bg_white_70, bg_white_80, bg_white_90, bg_yellow, bl, bl_0, bl_0_l, bl_0_m, bl_0_ns, bl_l, bl_m, bl_ns, black, black_05, black_10, black_20, black_30, black_40, black_50, black_60, black_70, black_80, black_90, blue, bn, bn_l, bn_m, bn_ns, bodoni, border_box, bottom__1, bottom__1_l, bottom__1_m, bottom__1_ns, bottom__2, bottom__2_l, bottom__2_m, bottom__2_ns, bottom_0, bottom_0_l, bottom_0_m, bottom_0_ns, bottom_1, bottom_1_l, bottom_1_m, bottom_1_ns, bottom_2, bottom_2_l, bottom_2_m, bottom_2_ns, br, br__bottom, br__bottom_l, br__bottom_m, br__bottom_ns, br__left, br__left_l, br__left_m, br__left_ns, br__right, br__right_l, br__right_m, br__right_ns, br__top, br__top_l, br__top_m, br__top_ns, br_0, br_0_l, br_0_m, br_0_ns, br_100, br_100_l, br_100_m, br_100_ns, br_l, br_m, br_ns, br_pill, br_pill_l, br_pill_m, br_pill_ns, br0, br0_l, br0_m, br0_ns, br1, br1_l, br1_m, br1_ns, br2, br2_l, br2_m, br2_ns, br3, br3_l, br3_m, br3_ns, br4, br4_l, br4_m, br4_ns, bt, bt_0, bt_0_l, bt_0_m, bt_0_ns, bt_l, bt_m, bt_ns, button_reset, bw0, bw0_l, bw0_m, bw0_ns, bw1, bw1_l, bw1_m, bw1_ns, bw2, bw2_l, bw2_m, bw2_ns, bw3, bw3_l, bw3_m, bw3_ns, bw4, bw4_l, bw4_m, bw4_ns, bw5, bw5_l, bw5_m, bw5_ns, calisto, cb, cb_l, cb_m, cb_ns, center, center_l, center_m, center_ns, cf, child, cl, cl_l, cl_m, cl_ns, clip, clip_l, clip_m, clip_ns, cn, cn_l, cn_m, cn_ns, code, collapse, color_inherit, contain, contain_l, contain_m, contain_ns, content_around, content_around_l, content_around_m, content_around_ns, content_between, content_between_l, content_between_m, content_between_ns, content_center, content_center_l, content_center_m, content_center_ns, content_end, content_end_l, content_end_m, content_end_ns, content_start, content_start_l, content_start_m, content_start_ns, content_stretch, content_stretch_l, content_stretch_m, content_stretch_ns, courier, cover, cover_l, cover_m, cover_ns, cr, cr_l, cr_m, cr_ns, dark_blue, dark_gray, dark_green, dark_pink, dark_red, db, db_l, db_m, db_ns, debug, debug_black, debug_grid, debug_grid_16, debug_grid_16_solid, debug_grid_8_solid, debug_white, di, di_l, di_m, di_ns, dib, dib_l, dib_m, dib_ns, dim, dit, dit_l, dit_m, dit_ns, dn, dn_l, dn_m, dn_ns, dt, dt__fixed, dt__fixed_l, dt__fixed_m, dt__fixed_ns, dt_column, dt_column_group, dt_column_group_l, dt_column_group_m, dt_column_group_ns, dt_column_l, dt_column_m, dt_column_ns, dt_l, dt_m, dt_ns, dt_row, dt_row_group, dt_row_group_l, dt_row_group_m, dt_row_group_ns, dt_row_l, dt_row_m, dt_row_ns, dtc, dtc_l, dtc_m, dtc_ns, f_5, f_5_l, f_5_m, f_5_ns, f_6, f_6_l, f_6_m, f_6_ns, f_headline, f_headline_l, f_headline_m, f_headline_ns, f_subheadline, f_subheadline_l, f_subheadline_m, f_subheadline_ns, f1, f1_l, f1_m, f1_ns, f2, f2_l, f2_m, f2_ns, f3, f3_l, f3_m, f3_ns, f4, f4_l, f4_m, f4_ns, f5, f5_l, f5_m, f5_ns, f6, f6_l, f6_m, f6_ns, f7, f7_l, f7_m, f7_ns, fixed, fixed_l, fixed_m, fixed_ns, fl, fl_l, fl_m, fl_ns, flex, flex_auto, flex_auto_l, flex_auto_m, flex_auto_ns, flex_column, flex_column_l, flex_column_m, flex_column_ns, flex_column_reverse, flex_column_reverse_l, flex_column_reverse_m, flex_column_reverse_ns, flex_l, flex_m, flex_none, flex_none_l, flex_none_m, flex_none_ns, flex_nowrap, flex_nowrap_l, flex_nowrap_m, flex_nowrap_ns, flex_ns, flex_row, flex_row_l, flex_row_m, flex_row_ns, flex_row_reverse, flex_row_reverse_l, flex_row_reverse_m, flex_row_reverse_ns, flex_wrap, flex_wrap_l, flex_wrap_m, flex_wrap_ns, flex_wrap_reverse, flex_wrap_reverse_l, flex_wrap_reverse_m, flex_wrap_reverse_ns, fn, fn_l, fn_m, fn_ns, fr, fr_l, fr_m, fr_ns, fs_normal, fs_normal_l, fs_normal_m, fs_normal_ns, fw1, fw1_l, fw1_m, fw1_ns, fw2, fw2_l, fw2_m, fw2_ns, fw3, fw3_l, fw3_m, fw3_ns, fw4, fw4_l, fw4_m, fw4_ns, fw5, fw5_l, fw5_m, fw5_ns, fw6, fw6_l, fw6_m, fw6_ns, fw7, fw7_l, fw7_m, fw7_ns, fw8, fw8_l, fw8_m, fw8_ns, fw9, fw9_l, fw9_m, fw9_ns, garamond, georgia, glow, gold, gray, green, grow, grow_large, h_100, h_100_l, h_100_m, h_100_ns, h_25, h_25_l, h_25_m, h_25_ns, h_50, h_50_l, h_50_m, h_50_ns, h_75, h_75_l, h_75_m, h_75_ns, h_auto, h_auto_l, h_auto_m, h_auto_ns, h_inherit, h_inherit_l, h_inherit_m, h_inherit_ns, h1, h1_l, h1_m, h1_ns, h2, h2_l, h2_m, h2_ns, h3, h3_l, h3_m, h3_ns, h4, h4_l, h4_m, h4_ns, h5, h5_l, h5_m, h5_ns, helvetica, hide_child, hot_pink, hover_bg_black, hover_bg_black_10, hover_bg_black_20, hover_bg_black_30, hover_bg_black_40, hover_bg_black_50, hover_bg_black_60, hover_bg_black_70, hover_bg_black_80, hover_bg_black_90, hover_bg_blue, hover_bg_dark_blue, hover_bg_dark_gray, hover_bg_dark_green, hover_bg_dark_pink, hover_bg_dark_red, hover_bg_gold, hover_bg_gray, hover_bg_green, hover_bg_hot_pink, hover_bg_inherit, hover_bg_light_blue, hover_bg_light_gray, hover_bg_light_green, hover_bg_light_pink, hover_bg_light_purple, hover_bg_light_red, hover_bg_light_silver, hover_bg_light_yellow, hover_bg_lightest_blue, hover_bg_mid_gray, hover_bg_moon_gray, hover_bg_navy, hover_bg_near_black, hover_bg_near_white, hover_bg_orange, hover_bg_pink, hover_bg_purple, hover_bg_red, hover_bg_silver, hover_bg_transparent, hover_bg_washed_blue, hover_bg_washed_green, hover_bg_washed_red, hover_bg_washed_yellow, hover_bg_white, hover_bg_white_10, hover_bg_white_20, hover_bg_white_30, hover_bg_white_40, hover_bg_white_50, hover_bg_white_60, hover_bg_white_70, hover_bg_white_80, hover_bg_white_90, hover_bg_yellow, hover_black, hover_black_10, hover_black_20, hover_black_30, hover_black_40, hover_black_50, hover_black_60, hover_black_70, hover_black_80, hover_black_90, hover_blue, hover_dark_blue, hover_dark_gray, hover_dark_green, hover_dark_pink, hover_dark_red, hover_gold, hover_gray, hover_green, hover_hot_pink, hover_inherit, hover_light_blue, hover_light_gray, hover_light_green, hover_light_pink, hover_light_purple, hover_light_red, hover_light_silver, hover_light_yellow, hover_lightest_blue, hover_mid_gray, hover_moon_gray, hover_navy, hover_near_black, hover_near_white, hover_orange, hover_pink, hover_purple, hover_red, hover_silver, hover_washed_blue, hover_washed_green, hover_washed_red, hover_washed_yellow, hover_white, hover_white_10, hover_white_20, hover_white_30, hover_white_40, hover_white_50, hover_white_60, hover_white_70, hover_white_80, hover_white_90, hover_yellow, i, i_l, i_m, i_ns, indent, indent_l, indent_m, indent_ns, inline_flex, inline_flex_l, inline_flex_m, inline_flex_ns, input_reset, items_baseline, items_baseline_l, items_baseline_m, items_baseline_ns, items_center, items_center_l, items_center_m, items_center_ns, items_end, items_end_l, items_end_m, items_end_ns, items_start, items_start_l, items_start_m, items_start_ns, items_stretch, items_stretch_l, items_stretch_m, items_stretch_ns, justify_around, justify_around_l, justify_around_m, justify_around_ns, justify_between, justify_between_l, justify_between_m, justify_between_ns, justify_center, justify_center_l, justify_center_m, justify_center_ns, justify_end, justify_end_l, justify_end_m, justify_end_ns, justify_start, justify_start_l, justify_start_m, justify_start_ns, left__1, left__1_l, left__1_m, left__1_ns, left__2, left__2_l, left__2_m, left__2_ns, left_0, left_0_l, left_0_m, left_0_ns, left_1, left_1_l, left_1_m, left_1_ns, left_2, left_2_l, left_2_m, left_2_ns, lh_copy, lh_copy_l, lh_copy_m, lh_copy_ns, lh_solid, lh_solid_l, lh_solid_m, lh_solid_ns, lh_title, lh_title_l, lh_title_m, lh_title_ns, light_blue, light_gray, light_green, light_pink, light_purple, light_red, light_silver, light_yellow, lightest_blue, link, list, ma0, ma0_l, ma0_m, ma0_ns, ma1, ma1_l, ma1_m, ma1_ns, ma2, ma2_l, ma2_m, ma2_ns, ma3, ma3_l, ma3_m, ma3_ns, ma4, ma4_l, ma4_m, ma4_ns, ma5, ma5_l, ma5_m, ma5_ns, ma6, ma6_l, ma6_m, ma6_ns, ma7, ma7_l, ma7_m, ma7_ns, mb0, mb0_l, mb0_m, mb0_ns, mb1, mb1_l, mb1_m, mb1_ns, mb2, mb2_l, mb2_m, mb2_ns, mb3, mb3_l, mb3_m, mb3_ns, mb4, mb4_l, mb4_m, mb4_ns, mb5, mb5_l, mb5_m, mb5_ns, mb6, mb6_l, mb6_m, mb6_ns, mb7, mb7_l, mb7_m, mb7_ns, measure, measure_l, measure_m, measure_narrow, measure_narrow_l, measure_narrow_m, measure_narrow_ns, measure_ns, measure_wide, measure_wide_l, measure_wide_m, measure_wide_ns, mh0, mh0_l, mh0_m, mh0_ns, mh1, mh1_l, mh1_m, mh1_ns, mh2, mh2_l, mh2_m, mh2_ns, mh3, mh3_l, mh3_m, mh3_ns, mh4, mh4_l, mh4_m, mh4_ns, mh5, mh5_l, mh5_m, mh5_ns, mh6, mh6_l, mh6_m, mh6_ns, mh7, mh7_l, mh7_m, mh7_ns, mid_gray, min_h_100, min_h_100_l, min_h_100_m, min_h_100_ns, min_vh_100, min_vh_100_l, min_vh_100_m, min_vh_100_ns, ml_auto, ml_auto_l, ml_auto_m, ml_auto_ns, ml0, ml0_l, ml0_m, ml0_ns, ml1, ml1_l, ml1_m, ml1_ns, ml2, ml2_l, ml2_m, ml2_ns, ml3, ml3_l, ml3_m, ml3_ns, ml4, ml4_l, ml4_m, ml4_ns, ml5, ml5_l, ml5_m, ml5_ns, ml6, ml6_l, ml6_m, ml6_ns, ml7, ml7_l, ml7_m, ml7_ns, moon_gray, mr_auto, mr_auto_l, mr_auto_m, mr_auto_ns, mr0, mr0_l, mr0_m, mr0_ns, mr1, mr1_l, mr1_m, mr1_ns, mr2, mr2_l, mr2_m, mr2_ns, mr3, mr3_l, mr3_m, mr3_ns, mr4, mr4_l, mr4_m, mr4_ns, mr5, mr5_l, mr5_m, mr5_ns, mr6, mr6_l, mr6_m, mr6_ns, mr7, mr7_l, mr7_m, mr7_ns, mt0, mt0_l, mt0_m, mt0_ns, mt1, mt1_l, mt1_m, mt1_ns, mt2, mt2_l, mt2_m, mt2_ns, mt3, mt3_l, mt3_m, mt3_ns, mt4, mt4_l, mt4_m, mt4_ns, mt5, mt5_l, mt5_m, mt5_ns, mt6, mt6_l, mt6_m, mt6_ns, mt7, mt7_l, mt7_m, mt7_ns, mv0, mv0_l, mv0_m, mv0_ns, mv1, mv1_l, mv1_m, mv1_ns, mv2, mv2_l, mv2_m, mv2_ns, mv3, mv3_l, mv3_m, mv3_ns, mv4, mv4_l, mv4_m, mv4_ns, mv5, mv5_l, mv5_m, mv5_ns, mv6, mv6_l, mv6_m, mv6_ns, mv7, mv7_l, mv7_m, mv7_ns, mw_100, mw_100_l, mw_100_m, mw_100_ns, mw_none, mw_none_l, mw_none_m, mw_none_ns, mw1, mw1_l, mw1_m, mw1_ns, mw2, mw2_l, mw2_m, mw2_ns, mw3, mw3_l, mw3_m, mw3_ns, mw4, mw4_l, mw4_m, mw4_ns, mw5, mw5_l, mw5_m, mw5_ns, mw6, mw6_l, mw6_m, mw6_ns, mw7, mw7_l, mw7_m, mw7_ns, mw8, mw8_l, mw8_m, mw8_ns, mw9, mw9_l, mw9_m, mw9_ns, na1, na1_l, na1_m, na1_ns, na2, na2_l, na2_m, na2_ns, na3, na3_l, na3_m, na3_ns, na4, na4_l, na4_m, na4_ns, na5, na5_l, na5_m, na5_ns, na6, na6_l, na6_m, na6_ns, na7, na7_l, na7_m, na7_ns, navy, nb1, nb1_l, nb1_m, nb1_ns, nb2, nb2_l, nb2_m, nb2_ns, nb3, nb3_l, nb3_m, nb3_ns, nb4, nb4_l, nb4_m, nb4_ns, nb5, nb5_l, nb5_m, nb5_ns, nb6, nb6_l, nb6_m, nb6_ns, nb7, nb7_l, nb7_m, nb7_ns, near_black, near_white, nested_copy_indent, nested_copy_line_height, nested_copy_seperator, nested_headline_line_height, nested_img, nested_links, nested_list_reset, nl1, nl1_l, nl1_m, nl1_ns, nl2, nl2_l, nl2_m, nl2_ns, nl3, nl3_l, nl3_m, nl3_ns, nl4, nl4_l, nl4_m, nl4_ns, nl5, nl5_l, nl5_m, nl5_ns, nl6, nl6_l, nl6_m, nl6_ns, nl7, nl7_l, nl7_m, nl7_ns, no_underline, no_underline_l, no_underline_m, no_underline_ns, normal, normal_l, normal_m, normal_ns, nowrap, nowrap_l, nowrap_m, nowrap_ns, nr1, nr1_l, nr1_m, nr1_ns, nr2, nr2_l, nr2_m, nr2_ns, nr3, nr3_l, nr3_m, nr3_ns, nr4, nr4_l, nr4_m, nr4_ns, nr5, nr5_l, nr5_m, nr5_ns, nr6, nr6_l, nr6_m, nr6_ns, nr7, nr7_l, nr7_m, nr7_ns, nt1, nt1_l, nt1_m, nt1_ns, nt2, nt2_l, nt2_m, nt2_ns, nt3, nt3_l, nt3_m, nt3_ns, nt4, nt4_l, nt4_m, nt4_ns, nt5, nt5_l, nt5_m, nt5_ns, nt6, nt6_l, nt6_m, nt6_ns, nt7, nt7_l, nt7_m, nt7_ns, o_0, o_025, o_05, o_10, o_100, o_20, o_30, o_40, o_50, o_60, o_70, o_80, o_90, orange, order_0, order_0_l, order_0_m, order_0_ns, order_1, order_1_l, order_1_m, order_1_ns, order_2, order_2_l, order_2_m, order_2_ns, order_3, order_3_l, order_3_m, order_3_ns, order_4, order_4_l, order_4_m, order_4_ns, order_5, order_5_l, order_5_m, order_5_ns, order_6, order_6_l, order_6_m, order_6_ns, order_7, order_7_l, order_7_m, order_7_ns, order_8, order_8_l, order_8_m, order_8_ns, order_last, order_last_l, order_last_m, order_last_ns, outline, outline_0, outline_0_l, outline_0_m, outline_0_ns, outline_l, outline_m, outline_ns, outline_transparent, outline_transparent_l, outline_transparent_m, outline_transparent_ns, overflow_auto, overflow_auto_l, overflow_auto_m, overflow_auto_ns, overflow_container, overflow_hidden, overflow_hidden_l, overflow_hidden_m, overflow_hidden_ns, overflow_scroll, overflow_scroll_l, overflow_scroll_m, overflow_scroll_ns, overflow_visible, overflow_visible_l, overflow_visible_m, overflow_visible_ns, overflow_x_auto, overflow_x_auto_l, overflow_x_auto_m, overflow_x_auto_ns, overflow_x_hidden, overflow_x_hidden_l, overflow_x_hidden_m, overflow_x_hidden_ns, overflow_x_scroll, overflow_x_scroll_l, overflow_x_scroll_m, overflow_x_scroll_ns, overflow_x_visible, overflow_x_visible_l, overflow_x_visible_m, overflow_x_visible_ns, overflow_y_auto, overflow_y_auto_l, overflow_y_auto_m, overflow_y_auto_ns, overflow_y_hidden, overflow_y_hidden_l, overflow_y_hidden_m, overflow_y_hidden_ns, overflow_y_scroll, overflow_y_scroll_l, overflow_y_scroll_m, overflow_y_scroll_ns, overflow_y_visible, overflow_y_visible_l, overflow_y_visible_m, overflow_y_visible_ns, pa0, pa0_l, pa0_m, pa0_ns, pa1, pa1_l, pa1_m, pa1_ns, pa2, pa2_l, pa2_m, pa2_ns, pa3, pa3_l, pa3_m, pa3_ns, pa4, pa4_l, pa4_m, pa4_ns, pa5, pa5_l, pa5_m, pa5_ns, pa6, pa6_l, pa6_m, pa6_ns, pa7, pa7_l, pa7_m, pa7_ns, pb0, pb0_l, pb0_m, pb0_ns, pb1, pb1_l, pb1_m, pb1_ns, pb2, pb2_l, pb2_m, pb2_ns, pb3, pb3_l, pb3_m, pb3_ns, pb4, pb4_l, pb4_m, pb4_ns, pb5, pb5_l, pb5_m, pb5_ns, pb6, pb6_l, pb6_m, pb6_ns, pb7, pb7_l, pb7_m, pb7_ns, ph0, ph0_l, ph0_m, ph0_ns, ph1, ph1_l, ph1_m, ph1_ns, ph2, ph2_l, ph2_m, ph2_ns, ph3, ph3_l, ph3_m, ph3_ns, ph4, ph4_l, ph4_m, ph4_ns, ph5, ph5_l, ph5_m, ph5_ns, ph6, ph6_l, ph6_m, ph6_ns, ph7, ph7_l, ph7_m, ph7_ns, pink, pl0, pl0_l, pl0_m, pl0_ns, pl1, pl1_l, pl1_m, pl1_ns, pl2, pl2_l, pl2_m, pl2_ns, pl3, pl3_l, pl3_m, pl3_ns, pl4, pl4_l, pl4_m, pl4_ns, pl5, pl5_l, pl5_m, pl5_ns, pl6, pl6_l, pl6_m, pl6_ns, pl7, pl7_l, pl7_m, pl7_ns, pointer, pr0, pr0_l, pr0_m, pr0_ns, pr1, pr1_l, pr1_m, pr1_ns, pr2, pr2_l, pr2_m, pr2_ns, pr3, pr3_l, pr3_m, pr3_ns, pr4, pr4_l, pr4_m, pr4_ns, pr5, pr5_l, pr5_m, pr5_ns, pr6, pr6_l, pr6_m, pr6_ns, pr7, pr7_l, pr7_m, pr7_ns, pre, pre_l, pre_m, pre_ns, pt0, pt0_l, pt0_m, pt0_ns, pt1, pt1_l, pt1_m, pt1_ns, pt2, pt2_l, pt2_m, pt2_ns, pt3, pt3_l, pt3_m, pt3_ns, pt4, pt4_l, pt4_m, pt4_ns, pt5, pt5_l, pt5_m, pt5_ns, pt6, pt6_l, pt6_m, pt6_ns, pt7, pt7_l, pt7_m, pt7_ns, purple, pv0, pv0_l, pv0_m, pv0_ns, pv1, pv1_l, pv1_m, pv1_ns, pv2, pv2_l, pv2_m, pv2_ns, pv3, pv3_l, pv3_m, pv3_ns, pv4, pv4_l, pv4_m, pv4_ns, pv5, pv5_l, pv5_m, pv5_ns, pv6, pv6_l, pv6_m, pv6_ns, pv7, pv7_l, pv7_m, pv7_ns, red, relative, relative_l, relative_m, relative_ns, right__1, right__1_l, right__1_m, right__1_ns, right__2, right__2_l, right__2_m, right__2_ns, right_0, right_0_l, right_0_m, right_0_ns, right_1, right_1_l, right_1_m, right_1_ns, right_2, right_2_l, right_2_m, right_2_ns, rotate_135, rotate_135_l, rotate_135_m, rotate_135_ns, rotate_180, rotate_180_l, rotate_180_m, rotate_180_ns, rotate_225, rotate_225_l, rotate_225_m, rotate_225_ns, rotate_270, rotate_270_l, rotate_270_m, rotate_270_ns, rotate_315, rotate_315_l, rotate_315_m, rotate_315_ns, rotate_45, rotate_45_l, rotate_45_m, rotate_45_ns, rotate_90, rotate_90_l, rotate_90_m, rotate_90_ns, sans_serif, self_baseline, self_baseline_l, self_baseline_m, self_baseline_ns, self_center, self_center_l, self_center_m, self_center_ns, self_end, self_end_l, self_end_m, self_end_ns, self_start, self_start_l, self_start_m, self_start_ns, self_stretch, self_stretch_l, self_stretch_m, self_stretch_ns, serif, shadow_1, shadow_1_l, shadow_1_m, shadow_1_ns, shadow_2, shadow_2_l, shadow_2_m, shadow_2_ns, shadow_3, shadow_3_l, shadow_3_m, shadow_3_ns, shadow_4, shadow_4_l, shadow_4_m, shadow_4_ns, shadow_5, shadow_5_l, shadow_5_m, shadow_5_ns, shadow_hover, silver, small_caps, small_caps_l, small_caps_m, small_caps_ns, static, static_l, static_m, static_ns, strike, strike_l, strike_m, strike_ns, stripe_dark, stripe_light, striped__light_gray, striped__light_silver, striped__moon_gray, striped__near_white, system_sans_serif, system_serif, tc, tc_l, tc_m, tc_ns, times, tj, tj_l, tj_m, tj_ns, tl, tl_l, tl_m, tl_ns, top__1, top__1_l, top__1_m, top__1_ns, top__2, top__2_l, top__2_m, top__2_ns, top_0, top_0_l, top_0_m, top_0_ns, top_1, top_1_l, top_1_m, top_1_ns, top_2, top_2_l, top_2_m, top_2_ns, tr, tr_l, tr_m, tr_ns, tracked, tracked_l, tracked_m, tracked_mega, tracked_mega_l, tracked_mega_m, tracked_mega_ns, tracked_ns, tracked_tight, tracked_tight_l, tracked_tight_m, tracked_tight_ns, truncate, truncate_l, truncate_m, truncate_ns, ttc, ttc_l, ttc_m, ttc_ns, ttl, ttl_l, ttl_m, ttl_ns, ttn, ttn_l, ttn_m, ttn_ns, ttu, ttu_l, ttu_m, ttu_ns, underline, underline_hover, underline_l, underline_m, underline_ns, v_base, v_base_l, v_base_m, v_base_ns, v_btm, v_btm_l, v_btm_m, v_btm_ns, v_mid, v_mid_l, v_mid_m, v_mid_ns, v_top, v_top_l, v_top_m, v_top_ns, vh_100, vh_100_l, vh_100_m, vh_100_ns, vh_25, vh_25_l, vh_25_m, vh_25_ns, vh_50, vh_50_l, vh_50_m, vh_50_ns, vh_75, vh_75_l, vh_75_m, vh_75_ns, w_10, w_10_l, w_10_m, w_10_ns, w_100, w_100_l, w_100_m, w_100_ns, w_20, w_20_l, w_20_m, w_20_ns, w_25, w_25_l, w_25_m, w_25_ns, w_30, w_30_l, w_30_m, w_30_ns, w_33, w_33_l, w_33_m, w_33_ns, w_34, w_34_l, w_34_m, w_34_ns, w_40, w_40_l, w_40_m, w_40_ns, w_50, w_50_l, w_50_m, w_50_ns, w_60, w_60_l, w_60_m, w_60_ns, w_70, w_70_l, w_70_m, w_70_ns, w_75, w_75_l, w_75_m, w_75_ns, w_80, w_80_l, w_80_m, w_80_ns, w_90, w_90_l, w_90_m, w_90_ns, w_auto, w_auto_l, w_auto_m, w_auto_ns, w_third, w_third_l, w_third_m, w_third_ns, w_two_thirds, w_two_thirds_l, w_two_thirds_m, w_two_thirds_ns, w1, w1_l, w1_m, w1_ns, w2, w2_l, w2_m, w2_ns, w3, w3_l, w3_m, w3_ns, w4, w4_l, w4_m, w4_ns, w5, w5_l, w5_m, w5_ns, washed_blue, washed_green, washed_red, washed_yellow, white, white_10, white_20, white_30, white_40, white_50, white_60, white_70, white_80, white_90, ws_normal, ws_normal_l, ws_normal_m, ws_normal_ns, yellow, z_0, z_1, z_2, z_3, z_4, z_5, z_999, z_9999, z_inherit, z_initial, z_max, z_unset
+@docs absolute, absolute__fill, absolute__fill_l, absolute__fill_m, absolute__fill_ns, absolute_l, absolute_m, absolute_ns, aspect_ratio, aspect_ratio__16x9, aspect_ratio__16x9_l, aspect_ratio__16x9_m, aspect_ratio__16x9_ns, aspect_ratio__1x1, aspect_ratio__1x1_l, aspect_ratio__1x1_m, aspect_ratio__1x1_ns, aspect_ratio__3x4, aspect_ratio__3x4_l, aspect_ratio__3x4_m, aspect_ratio__3x4_ns, aspect_ratio__4x3, aspect_ratio__4x3_l, aspect_ratio__4x3_m, aspect_ratio__4x3_ns, aspect_ratio__4x6, aspect_ratio__4x6_l, aspect_ratio__4x6_m, aspect_ratio__4x6_ns, aspect_ratio__5x7, aspect_ratio__5x7_l, aspect_ratio__5x7_m, aspect_ratio__5x7_ns, aspect_ratio__5x8, aspect_ratio__5x8_l, aspect_ratio__5x8_m, aspect_ratio__5x8_ns, aspect_ratio__6x4, aspect_ratio__6x4_l, aspect_ratio__6x4_m, aspect_ratio__6x4_ns, aspect_ratio__7x5, aspect_ratio__7x5_l, aspect_ratio__7x5_m, aspect_ratio__7x5_ns, aspect_ratio__8x5, aspect_ratio__8x5_l, aspect_ratio__8x5_m, aspect_ratio__8x5_ns, aspect_ratio__9x16, aspect_ratio__9x16_l, aspect_ratio__9x16_m, aspect_ratio__9x16_ns, aspect_ratio__object, aspect_ratio__object_l, aspect_ratio__object_m, aspect_ratio__object_ns, aspect_ratio_l, aspect_ratio_m, aspect_ratio_ns, athelas, avenir, b, b__black, b__black_0125, b__black_025, b__black_05, b__black_10, b__black_20, b__black_30, b__black_40, b__black_50, b__black_60, b__black_70, b__black_80, b__black_90, b__blue, b__dark_blue, b__dark_gray, b__dark_green, b__dark_pink, b__dark_red, b__dashed, b__dashed_l, b__dashed_m, b__dashed_ns, b__dotted, b__dotted_l, b__dotted_m, b__dotted_ns, b__gold, b__gray, b__green, b__hot_pink, b__inherit, b__light_blue, b__light_gray, b__light_green, b__light_pink, b__light_purple, b__light_red, b__light_silver, b__light_yellow, b__lightest_blue, b__mid_gray, b__moon_gray, b__navy, b__near_black, b__near_white, b__none, b__none_l, b__none_m, b__none_ns, b__orange, b__pink, b__purple, b__red, b__silver, b__solid, b__solid_l, b__solid_m, b__solid_ns, b__transparent, b__washed_blue, b__washed_green, b__washed_red, b__washed_yellow, b__white, b__white_0125, b__white_025, b__white_05, b__white_10, b__white_20, b__white_30, b__white_40, b__white_50, b__white_60, b__white_70, b__white_80, b__white_90, b__yellow, b_l, b_m, b_ns, ba, ba_l, ba_m, ba_ns, baskerville, bb, bb_0, bb_0_l, bb_0_m, bb_0_ns, bb_l, bb_m, bb_ns, bg_animate, bg_black, bg_black_05, bg_black_10, bg_black_20, bg_black_30, bg_black_40, bg_black_50, bg_black_60, bg_black_70, bg_black_80, bg_black_90, bg_blue, bg_bottom, bg_bottom_l, bg_bottom_m, bg_bottom_ns, bg_center, bg_center_l, bg_center_m, bg_center_ns, bg_dark_blue, bg_dark_gray, bg_dark_green, bg_dark_pink, bg_dark_red, bg_gold, bg_gray, bg_green, bg_hot_pink, bg_inherit, bg_left, bg_left_l, bg_left_m, bg_left_ns, bg_light_blue, bg_light_gray, bg_light_green, bg_light_pink, bg_light_purple, bg_light_red, bg_light_silver, bg_light_yellow, bg_lightest_blue, bg_mid_gray, bg_moon_gray, bg_navy, bg_near_black, bg_near_white, bg_orange, bg_pink, bg_purple, bg_red, bg_right, bg_right_l, bg_right_m, bg_right_ns, bg_silver, bg_top, bg_top_l, bg_top_m, bg_top_ns, bg_transparent, bg_washed_blue, bg_washed_green, bg_washed_red, bg_washed_yellow, bg_white, bg_white_10, bg_white_20, bg_white_30, bg_white_40, bg_white_50, bg_white_60, bg_white_70, bg_white_80, bg_white_90, bg_yellow, bl, bl_0, bl_0_l, bl_0_m, bl_0_ns, bl_l, bl_m, bl_ns, black, black_05, black_10, black_20, black_30, black_40, black_50, black_60, black_70, black_80, black_90, blue, bn, bn_l, bn_m, bn_ns, bodoni, border_box, bottom__1, bottom__1_l, bottom__1_m, bottom__1_ns, bottom__2, bottom__2_l, bottom__2_m, bottom__2_ns, bottom_0, bottom_0_l, bottom_0_m, bottom_0_ns, bottom_1, bottom_1_l, bottom_1_m, bottom_1_ns, bottom_2, bottom_2_l, bottom_2_m, bottom_2_ns, br, br__bottom, br__bottom_l, br__bottom_m, br__bottom_ns, br__left, br__left_l, br__left_m, br__left_ns, br__right, br__right_l, br__right_m, br__right_ns, br__top, br__top_l, br__top_m, br__top_ns, br_0, br_0_l, br_0_m, br_0_ns, br_100, br_100_l, br_100_m, br_100_ns, br_l, br_m, br_ns, br_pill, br_pill_l, br_pill_m, br_pill_ns, br0, br0_l, br0_m, br0_ns, br1, br1_l, br1_m, br1_ns, br2, br2_l, br2_m, br2_ns, br3, br3_l, br3_m, br3_ns, br4, br4_l, br4_m, br4_ns, bt, bt_0, bt_0_l, bt_0_m, bt_0_ns, bt_l, bt_m, bt_ns, button_reset, bw0, bw0_l, bw0_m, bw0_ns, bw1, bw1_l, bw1_m, bw1_ns, bw2, bw2_l, bw2_m, bw2_ns, bw3, bw3_l, bw3_m, bw3_ns, bw4, bw4_l, bw4_m, bw4_ns, bw5, bw5_l, bw5_m, bw5_ns, calisto, cb, cb_l, cb_m, cb_ns, center, center_l, center_m, center_ns, cf, child, cl, cl_l, cl_m, cl_ns, clip, clip_l, clip_m, clip_ns, cn, cn_l, cn_m, cn_ns, code, collapse, color_inherit, contain, contain_l, contain_m, contain_ns, content_around, content_around_l, content_around_m, content_around_ns, content_between, content_between_l, content_between_m, content_between_ns, content_center, content_center_l, content_center_m, content_center_ns, content_end, content_end_l, content_end_m, content_end_ns, content_start, content_start_l, content_start_m, content_start_ns, content_stretch, content_stretch_l, content_stretch_m, content_stretch_ns, courier, cover, cover_l, cover_m, cover_ns, cr, cr_l, cr_m, cr_ns, dark_blue, dark_gray, dark_green, dark_pink, dark_red, db, db_l, db_m, db_ns, debug, debug_black, debug_grid, debug_grid_16, debug_grid_16_solid, debug_grid_8_solid, debug_white, di, di_l, di_m, di_ns, dib, dib_l, dib_m, dib_ns, dim, dit, dit_l, dit_m, dit_ns, dn, dn_l, dn_m, dn_ns, dt, dt__fixed, dt__fixed_l, dt__fixed_m, dt__fixed_ns, dt_column, dt_column_group, dt_column_group_l, dt_column_group_m, dt_column_group_ns, dt_column_l, dt_column_m, dt_column_ns, dt_l, dt_m, dt_ns, dt_row, dt_row_group, dt_row_group_l, dt_row_group_m, dt_row_group_ns, dt_row_l, dt_row_m, dt_row_ns, dtc, dtc_l, dtc_m, dtc_ns, f_5, f_5_l, f_5_m, f_5_ns, f_6, f_6_l, f_6_m, f_6_ns, f_headline, f_headline_l, f_headline_m, f_headline_ns, f_subheadline, f_subheadline_l, f_subheadline_m, f_subheadline_ns, f1, f1_l, f1_m, f1_ns, f2, f2_l, f2_m, f2_ns, f3, f3_l, f3_m, f3_ns, f4, f4_l, f4_m, f4_ns, f5, f5_l, f5_m, f5_ns, f6, f6_l, f6_m, f6_ns, f7, f7_l, f7_m, f7_ns, fixed, fixed_l, fixed_m, fixed_ns, fl, fl_l, fl_m, fl_ns, flex, flex_auto, flex_auto_l, flex_auto_m, flex_auto_ns, flex_column, flex_column_l, flex_column_m, flex_column_ns, flex_column_reverse, flex_column_reverse_l, flex_column_reverse_m, flex_column_reverse_ns, flex_grow_0, flex_grow_0_l, flex_grow_0_m, flex_grow_0_ns, flex_grow_1, flex_grow_1_l, flex_grow_1_m, flex_grow_1_ns, flex_l, flex_m, flex_none, flex_none_l, flex_none_m, flex_none_ns, flex_nowrap, flex_nowrap_l, flex_nowrap_m, flex_nowrap_ns, flex_ns, flex_row, flex_row_l, flex_row_m, flex_row_ns, flex_row_reverse, flex_row_reverse_l, flex_row_reverse_m, flex_row_reverse_ns, flex_shrink_0, flex_shrink_0_l, flex_shrink_0_m, flex_shrink_0_ns, flex_shrink_1, flex_shrink_1_l, flex_shrink_1_m, flex_shrink_1_ns, flex_wrap, flex_wrap_l, flex_wrap_m, flex_wrap_ns, flex_wrap_reverse, flex_wrap_reverse_l, flex_wrap_reverse_m, flex_wrap_reverse_ns, fn, fn_l, fn_m, fn_ns, fr, fr_l, fr_m, fr_ns, fs_normal, fs_normal_l, fs_normal_m, fs_normal_ns, fw1, fw1_l, fw1_m, fw1_ns, fw2, fw2_l, fw2_m, fw2_ns, fw3, fw3_l, fw3_m, fw3_ns, fw4, fw4_l, fw4_m, fw4_ns, fw5, fw5_l, fw5_m, fw5_ns, fw6, fw6_l, fw6_m, fw6_ns, fw7, fw7_l, fw7_m, fw7_ns, fw8, fw8_l, fw8_m, fw8_ns, fw9, fw9_l, fw9_m, fw9_ns, garamond, georgia, glow, gold, gray, green, grow, grow_large, h_100, h_100_l, h_100_m, h_100_ns, h_25, h_25_l, h_25_m, h_25_ns, h_50, h_50_l, h_50_m, h_50_ns, h_75, h_75_l, h_75_m, h_75_ns, h_auto, h_auto_l, h_auto_m, h_auto_ns, h_inherit, h_inherit_l, h_inherit_m, h_inherit_ns, h1, h1_l, h1_m, h1_ns, h2, h2_l, h2_m, h2_ns, h3, h3_l, h3_m, h3_ns, h4, h4_l, h4_m, h4_ns, h5, h5_l, h5_m, h5_ns, helvetica, hide_child, hot_pink, hover_bg_black, hover_bg_black_10, hover_bg_black_20, hover_bg_black_30, hover_bg_black_40, hover_bg_black_50, hover_bg_black_60, hover_bg_black_70, hover_bg_black_80, hover_bg_black_90, hover_bg_blue, hover_bg_dark_blue, hover_bg_dark_gray, hover_bg_dark_green, hover_bg_dark_pink, hover_bg_dark_red, hover_bg_gold, hover_bg_gray, hover_bg_green, hover_bg_hot_pink, hover_bg_inherit, hover_bg_light_blue, hover_bg_light_gray, hover_bg_light_green, hover_bg_light_pink, hover_bg_light_purple, hover_bg_light_red, hover_bg_light_silver, hover_bg_light_yellow, hover_bg_lightest_blue, hover_bg_mid_gray, hover_bg_moon_gray, hover_bg_navy, hover_bg_near_black, hover_bg_near_white, hover_bg_orange, hover_bg_pink, hover_bg_purple, hover_bg_red, hover_bg_silver, hover_bg_transparent, hover_bg_washed_blue, hover_bg_washed_green, hover_bg_washed_red, hover_bg_washed_yellow, hover_bg_white, hover_bg_white_10, hover_bg_white_20, hover_bg_white_30, hover_bg_white_40, hover_bg_white_50, hover_bg_white_60, hover_bg_white_70, hover_bg_white_80, hover_bg_white_90, hover_bg_yellow, hover_black, hover_black_10, hover_black_20, hover_black_30, hover_black_40, hover_black_50, hover_black_60, hover_black_70, hover_black_80, hover_black_90, hover_blue, hover_dark_blue, hover_dark_gray, hover_dark_green, hover_dark_pink, hover_dark_red, hover_gold, hover_gray, hover_green, hover_hot_pink, hover_inherit, hover_light_blue, hover_light_gray, hover_light_green, hover_light_pink, hover_light_purple, hover_light_red, hover_light_silver, hover_light_yellow, hover_lightest_blue, hover_mid_gray, hover_moon_gray, hover_navy, hover_near_black, hover_near_white, hover_orange, hover_pink, hover_purple, hover_red, hover_silver, hover_washed_blue, hover_washed_green, hover_washed_red, hover_washed_yellow, hover_white, hover_white_10, hover_white_20, hover_white_30, hover_white_40, hover_white_50, hover_white_60, hover_white_70, hover_white_80, hover_white_90, hover_yellow, i, i_l, i_m, i_ns, indent, indent_l, indent_m, indent_ns, inline_flex, inline_flex_l, inline_flex_m, inline_flex_ns, input_reset, items_baseline, items_baseline_l, items_baseline_m, items_baseline_ns, items_center, items_center_l, items_center_m, items_center_ns, items_end, items_end_l, items_end_m, items_end_ns, items_start, items_start_l, items_start_m, items_start_ns, items_stretch, items_stretch_l, items_stretch_m, items_stretch_ns, justify_around, justify_around_l, justify_around_m, justify_around_ns, justify_between, justify_between_l, justify_between_m, justify_between_ns, justify_center, justify_center_l, justify_center_m, justify_center_ns, justify_end, justify_end_l, justify_end_m, justify_end_ns, justify_start, justify_start_l, justify_start_m, justify_start_ns, left__1, left__1_l, left__1_m, left__1_ns, left__2, left__2_l, left__2_m, left__2_ns, left_0, left_0_l, left_0_m, left_0_ns, left_1, left_1_l, left_1_m, left_1_ns, left_2, left_2_l, left_2_m, left_2_ns, lh_copy, lh_copy_l, lh_copy_m, lh_copy_ns, lh_solid, lh_solid_l, lh_solid_m, lh_solid_ns, lh_title, lh_title_l, lh_title_m, lh_title_ns, light_blue, light_gray, light_green, light_pink, light_purple, light_red, light_silver, light_yellow, lightest_blue, link, list, ma0, ma0_l, ma0_m, ma0_ns, ma1, ma1_l, ma1_m, ma1_ns, ma2, ma2_l, ma2_m, ma2_ns, ma3, ma3_l, ma3_m, ma3_ns, ma4, ma4_l, ma4_m, ma4_ns, ma5, ma5_l, ma5_m, ma5_ns, ma6, ma6_l, ma6_m, ma6_ns, ma7, ma7_l, ma7_m, ma7_ns, mb0, mb0_l, mb0_m, mb0_ns, mb1, mb1_l, mb1_m, mb1_ns, mb2, mb2_l, mb2_m, mb2_ns, mb3, mb3_l, mb3_m, mb3_ns, mb4, mb4_l, mb4_m, mb4_ns, mb5, mb5_l, mb5_m, mb5_ns, mb6, mb6_l, mb6_m, mb6_ns, mb7, mb7_l, mb7_m, mb7_ns, measure, measure_l, measure_m, measure_narrow, measure_narrow_l, measure_narrow_m, measure_narrow_ns, measure_ns, measure_wide, measure_wide_l, measure_wide_m, measure_wide_ns, mh0, mh0_l, mh0_m, mh0_ns, mh1, mh1_l, mh1_m, mh1_ns, mh2, mh2_l, mh2_m, mh2_ns, mh3, mh3_l, mh3_m, mh3_ns, mh4, mh4_l, mh4_m, mh4_ns, mh5, mh5_l, mh5_m, mh5_ns, mh6, mh6_l, mh6_m, mh6_ns, mh7, mh7_l, mh7_m, mh7_ns, mid_gray, min_h_100, min_h_100_l, min_h_100_m, min_h_100_ns, min_vh_100, min_vh_100_l, min_vh_100_m, min_vh_100_ns, ml_auto, ml_auto_l, ml_auto_m, ml_auto_ns, ml0, ml0_l, ml0_m, ml0_ns, ml1, ml1_l, ml1_m, ml1_ns, ml2, ml2_l, ml2_m, ml2_ns, ml3, ml3_l, ml3_m, ml3_ns, ml4, ml4_l, ml4_m, ml4_ns, ml5, ml5_l, ml5_m, ml5_ns, ml6, ml6_l, ml6_m, ml6_ns, ml7, ml7_l, ml7_m, ml7_ns, moon_gray, mr_auto, mr_auto_l, mr_auto_m, mr_auto_ns, mr0, mr0_l, mr0_m, mr0_ns, mr1, mr1_l, mr1_m, mr1_ns, mr2, mr2_l, mr2_m, mr2_ns, mr3, mr3_l, mr3_m, mr3_ns, mr4, mr4_l, mr4_m, mr4_ns, mr5, mr5_l, mr5_m, mr5_ns, mr6, mr6_l, mr6_m, mr6_ns, mr7, mr7_l, mr7_m, mr7_ns, mt0, mt0_l, mt0_m, mt0_ns, mt1, mt1_l, mt1_m, mt1_ns, mt2, mt2_l, mt2_m, mt2_ns, mt3, mt3_l, mt3_m, mt3_ns, mt4, mt4_l, mt4_m, mt4_ns, mt5, mt5_l, mt5_m, mt5_ns, mt6, mt6_l, mt6_m, mt6_ns, mt7, mt7_l, mt7_m, mt7_ns, mv0, mv0_l, mv0_m, mv0_ns, mv1, mv1_l, mv1_m, mv1_ns, mv2, mv2_l, mv2_m, mv2_ns, mv3, mv3_l, mv3_m, mv3_ns, mv4, mv4_l, mv4_m, mv4_ns, mv5, mv5_l, mv5_m, mv5_ns, mv6, mv6_l, mv6_m, mv6_ns, mv7, mv7_l, mv7_m, mv7_ns, mw_100, mw_100_l, mw_100_m, mw_100_ns, mw_none, mw_none_l, mw_none_m, mw_none_ns, mw1, mw1_l, mw1_m, mw1_ns, mw2, mw2_l, mw2_m, mw2_ns, mw3, mw3_l, mw3_m, mw3_ns, mw4, mw4_l, mw4_m, mw4_ns, mw5, mw5_l, mw5_m, mw5_ns, mw6, mw6_l, mw6_m, mw6_ns, mw7, mw7_l, mw7_m, mw7_ns, mw8, mw8_l, mw8_m, mw8_ns, mw9, mw9_l, mw9_m, mw9_ns, na1, na1_l, na1_m, na1_ns, na2, na2_l, na2_m, na2_ns, na3, na3_l, na3_m, na3_ns, na4, na4_l, na4_m, na4_ns, na5, na5_l, na5_m, na5_ns, na6, na6_l, na6_m, na6_ns, na7, na7_l, na7_m, na7_ns, navy, nb1, nb1_l, nb1_m, nb1_ns, nb2, nb2_l, nb2_m, nb2_ns, nb3, nb3_l, nb3_m, nb3_ns, nb4, nb4_l, nb4_m, nb4_ns, nb5, nb5_l, nb5_m, nb5_ns, nb6, nb6_l, nb6_m, nb6_ns, nb7, nb7_l, nb7_m, nb7_ns, near_black, near_white, nested_copy_indent, nested_copy_line_height, nested_copy_separator, nested_headline_line_height, nested_img, nested_links, nested_list_reset, nl1, nl1_l, nl1_m, nl1_ns, nl2, nl2_l, nl2_m, nl2_ns, nl3, nl3_l, nl3_m, nl3_ns, nl4, nl4_l, nl4_m, nl4_ns, nl5, nl5_l, nl5_m, nl5_ns, nl6, nl6_l, nl6_m, nl6_ns, nl7, nl7_l, nl7_m, nl7_ns, no_underline, no_underline_l, no_underline_m, no_underline_ns, normal, normal_l, normal_m, normal_ns, nowrap, nowrap_l, nowrap_m, nowrap_ns, nr1, nr1_l, nr1_m, nr1_ns, nr2, nr2_l, nr2_m, nr2_ns, nr3, nr3_l, nr3_m, nr3_ns, nr4, nr4_l, nr4_m, nr4_ns, nr5, nr5_l, nr5_m, nr5_ns, nr6, nr6_l, nr6_m, nr6_ns, nr7, nr7_l, nr7_m, nr7_ns, nt1, nt1_l, nt1_m, nt1_ns, nt2, nt2_l, nt2_m, nt2_ns, nt3, nt3_l, nt3_m, nt3_ns, nt4, nt4_l, nt4_m, nt4_ns, nt5, nt5_l, nt5_m, nt5_ns, nt6, nt6_l, nt6_m, nt6_ns, nt7, nt7_l, nt7_m, nt7_ns, o_0, o_025, o_05, o_10, o_100, o_20, o_30, o_40, o_50, o_60, o_70, o_80, o_90, orange, order_0, order_0_l, order_0_m, order_0_ns, order_1, order_1_l, order_1_m, order_1_ns, order_2, order_2_l, order_2_m, order_2_ns, order_3, order_3_l, order_3_m, order_3_ns, order_4, order_4_l, order_4_m, order_4_ns, order_5, order_5_l, order_5_m, order_5_ns, order_6, order_6_l, order_6_m, order_6_ns, order_7, order_7_l, order_7_m, order_7_ns, order_8, order_8_l, order_8_m, order_8_ns, order_last, order_last_l, order_last_m, order_last_ns, outline, outline_0, outline_0_l, outline_0_m, outline_0_ns, outline_l, outline_m, outline_ns, outline_transparent, outline_transparent_l, outline_transparent_m, outline_transparent_ns, overflow_auto, overflow_auto_l, overflow_auto_m, overflow_auto_ns, overflow_container, overflow_hidden, overflow_hidden_l, overflow_hidden_m, overflow_hidden_ns, overflow_scroll, overflow_scroll_l, overflow_scroll_m, overflow_scroll_ns, overflow_visible, overflow_visible_l, overflow_visible_m, overflow_visible_ns, overflow_x_auto, overflow_x_auto_l, overflow_x_auto_m, overflow_x_auto_ns, overflow_x_hidden, overflow_x_hidden_l, overflow_x_hidden_m, overflow_x_hidden_ns, overflow_x_scroll, overflow_x_scroll_l, overflow_x_scroll_m, overflow_x_scroll_ns, overflow_x_visible, overflow_x_visible_l, overflow_x_visible_m, overflow_x_visible_ns, overflow_y_auto, overflow_y_auto_l, overflow_y_auto_m, overflow_y_auto_ns, overflow_y_hidden, overflow_y_hidden_l, overflow_y_hidden_m, overflow_y_hidden_ns, overflow_y_scroll, overflow_y_scroll_l, overflow_y_scroll_m, overflow_y_scroll_ns, overflow_y_visible, overflow_y_visible_l, overflow_y_visible_m, overflow_y_visible_ns, pa0, pa0_l, pa0_m, pa0_ns, pa1, pa1_l, pa1_m, pa1_ns, pa2, pa2_l, pa2_m, pa2_ns, pa3, pa3_l, pa3_m, pa3_ns, pa4, pa4_l, pa4_m, pa4_ns, pa5, pa5_l, pa5_m, pa5_ns, pa6, pa6_l, pa6_m, pa6_ns, pa7, pa7_l, pa7_m, pa7_ns, pb0, pb0_l, pb0_m, pb0_ns, pb1, pb1_l, pb1_m, pb1_ns, pb2, pb2_l, pb2_m, pb2_ns, pb3, pb3_l, pb3_m, pb3_ns, pb4, pb4_l, pb4_m, pb4_ns, pb5, pb5_l, pb5_m, pb5_ns, pb6, pb6_l, pb6_m, pb6_ns, pb7, pb7_l, pb7_m, pb7_ns, ph0, ph0_l, ph0_m, ph0_ns, ph1, ph1_l, ph1_m, ph1_ns, ph2, ph2_l, ph2_m, ph2_ns, ph3, ph3_l, ph3_m, ph3_ns, ph4, ph4_l, ph4_m, ph4_ns, ph5, ph5_l, ph5_m, ph5_ns, ph6, ph6_l, ph6_m, ph6_ns, ph7, ph7_l, ph7_m, ph7_ns, pink, pl0, pl0_l, pl0_m, pl0_ns, pl1, pl1_l, pl1_m, pl1_ns, pl2, pl2_l, pl2_m, pl2_ns, pl3, pl3_l, pl3_m, pl3_ns, pl4, pl4_l, pl4_m, pl4_ns, pl5, pl5_l, pl5_m, pl5_ns, pl6, pl6_l, pl6_m, pl6_ns, pl7, pl7_l, pl7_m, pl7_ns, pointer, pr0, pr0_l, pr0_m, pr0_ns, pr1, pr1_l, pr1_m, pr1_ns, pr2, pr2_l, pr2_m, pr2_ns, pr3, pr3_l, pr3_m, pr3_ns, pr4, pr4_l, pr4_m, pr4_ns, pr5, pr5_l, pr5_m, pr5_ns, pr6, pr6_l, pr6_m, pr6_ns, pr7, pr7_l, pr7_m, pr7_ns, pre, pre_l, pre_m, pre_ns, pt0, pt0_l, pt0_m, pt0_ns, pt1, pt1_l, pt1_m, pt1_ns, pt2, pt2_l, pt2_m, pt2_ns, pt3, pt3_l, pt3_m, pt3_ns, pt4, pt4_l, pt4_m, pt4_ns, pt5, pt5_l, pt5_m, pt5_ns, pt6, pt6_l, pt6_m, pt6_ns, pt7, pt7_l, pt7_m, pt7_ns, purple, pv0, pv0_l, pv0_m, pv0_ns, pv1, pv1_l, pv1_m, pv1_ns, pv2, pv2_l, pv2_m, pv2_ns, pv3, pv3_l, pv3_m, pv3_ns, pv4, pv4_l, pv4_m, pv4_ns, pv5, pv5_l, pv5_m, pv5_ns, pv6, pv6_l, pv6_m, pv6_ns, pv7, pv7_l, pv7_m, pv7_ns, red, relative, relative_l, relative_m, relative_ns, right__1, right__1_l, right__1_m, right__1_ns, right__2, right__2_l, right__2_m, right__2_ns, right_0, right_0_l, right_0_m, right_0_ns, right_1, right_1_l, right_1_m, right_1_ns, right_2, right_2_l, right_2_m, right_2_ns, rotate_135, rotate_135_l, rotate_135_m, rotate_135_ns, rotate_180, rotate_180_l, rotate_180_m, rotate_180_ns, rotate_225, rotate_225_l, rotate_225_m, rotate_225_ns, rotate_270, rotate_270_l, rotate_270_m, rotate_270_ns, rotate_315, rotate_315_l, rotate_315_m, rotate_315_ns, rotate_45, rotate_45_l, rotate_45_m, rotate_45_ns, rotate_90, rotate_90_l, rotate_90_m, rotate_90_ns, sans_serif, self_baseline, self_baseline_l, self_baseline_m, self_baseline_ns, self_center, self_center_l, self_center_m, self_center_ns, self_end, self_end_l, self_end_m, self_end_ns, self_start, self_start_l, self_start_m, self_start_ns, self_stretch, self_stretch_l, self_stretch_m, self_stretch_ns, serif, shadow_1, shadow_1_l, shadow_1_m, shadow_1_ns, shadow_2, shadow_2_l, shadow_2_m, shadow_2_ns, shadow_3, shadow_3_l, shadow_3_m, shadow_3_ns, shadow_4, shadow_4_l, shadow_4_m, shadow_4_ns, shadow_5, shadow_5_l, shadow_5_m, shadow_5_ns, shadow_hover, silver, small_caps, small_caps_l, small_caps_m, small_caps_ns, static, static_l, static_m, static_ns, strike, strike_l, strike_m, strike_ns, stripe_dark, stripe_light, striped__light_gray, striped__light_silver, striped__moon_gray, striped__near_white, system_sans_serif, system_serif, tc, tc_l, tc_m, tc_ns, times, tj, tj_l, tj_m, tj_ns, tl, tl_l, tl_m, tl_ns, top__1, top__1_l, top__1_m, top__1_ns, top__2, top__2_l, top__2_m, top__2_ns, top_0, top_0_l, top_0_m, top_0_ns, top_1, top_1_l, top_1_m, top_1_ns, top_2, top_2_l, top_2_m, top_2_ns, tr, tr_l, tr_m, tr_ns, tracked, tracked_l, tracked_m, tracked_mega, tracked_mega_l, tracked_mega_m, tracked_mega_ns, tracked_ns, tracked_tight, tracked_tight_l, tracked_tight_m, tracked_tight_ns, truncate, truncate_l, truncate_m, truncate_ns, ttc, ttc_l, ttc_m, ttc_ns, ttl, ttl_l, ttl_m, ttl_ns, ttn, ttn_l, ttn_m, ttn_ns, ttu, ttu_l, ttu_m, ttu_ns, underline, underline_hover, underline_l, underline_m, underline_ns, v_base, v_base_l, v_base_m, v_base_ns, v_btm, v_btm_l, v_btm_m, v_btm_ns, v_mid, v_mid_l, v_mid_m, v_mid_ns, v_top, v_top_l, v_top_m, v_top_ns, vh_100, vh_100_l, vh_100_m, vh_100_ns, vh_25, vh_25_l, vh_25_m, vh_25_ns, vh_50, vh_50_l, vh_50_m, vh_50_ns, vh_75, vh_75_l, vh_75_m, vh_75_ns, w_10, w_10_l, w_10_m, w_10_ns, w_100, w_100_l, w_100_m, w_100_ns, w_20, w_20_l, w_20_m, w_20_ns, w_25, w_25_l, w_25_m, w_25_ns, w_30, w_30_l, w_30_m, w_30_ns, w_33, w_33_l, w_33_m, w_33_ns, w_34, w_34_l, w_34_m, w_34_ns, w_40, w_40_l, w_40_m, w_40_ns, w_50, w_50_l, w_50_m, w_50_ns, w_60, w_60_l, w_60_m, w_60_ns, w_70, w_70_l, w_70_m, w_70_ns, w_75, w_75_l, w_75_m, w_75_ns, w_80, w_80_l, w_80_m, w_80_ns, w_90, w_90_l, w_90_m, w_90_ns, w_auto, w_auto_l, w_auto_m, w_auto_ns, w_third, w_third_l, w_third_m, w_third_ns, w_two_thirds, w_two_thirds_l, w_two_thirds_m, w_two_thirds_ns, w1, w1_l, w1_m, w1_ns, w2, w2_l, w2_m, w2_ns, w3, w3_l, w3_m, w3_ns, w4, w4_l, w4_m, w4_ns, w5, w5_l, w5_m, w5_ns, washed_blue, washed_green, washed_red, washed_yellow, white, white_10, white_20, white_30, white_40, white_50, white_60, white_70, white_80, white_90, ws_normal, ws_normal_l, ws_normal_m, ws_normal_ns, yellow, z_0, z_1, z_2, z_3, z_4, z_5, z_999, z_9999, z_inherit, z_initial, z_max, z_unset
 
 -}
 
@@ -27,6 +28,7 @@ absolute =
     "absolute"
 
 
+
 {-| This class maps to this CSS definition:
 
     .absolute--fill { top: 0; right: 0; bottom: 0; left: 0; }
@@ -35,6 +37,7 @@ absolute =
 absolute__fill : String
 absolute__fill =
     "absolute--fill"
+
 
 
 {-| This class maps to this CSS definition:
@@ -47,6 +50,7 @@ absolute__fill_l =
     "absolute--fill-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .absolute--fill-m { top: 0; right: 0; bottom: 0; left: 0; }
@@ -55,6 +59,7 @@ absolute__fill_l =
 absolute__fill_m : String
 absolute__fill_m =
     "absolute--fill-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -67,6 +72,7 @@ absolute__fill_ns =
     "absolute--fill-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .absolute-l { position: absolute; }
@@ -75,6 +81,7 @@ absolute__fill_ns =
 absolute_l : String
 absolute_l =
     "absolute-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -87,6 +94,7 @@ absolute_m =
     "absolute-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .absolute-ns { position: absolute; }
@@ -95,6 +103,7 @@ absolute_m =
 absolute_ns : String
 absolute_ns =
     "absolute-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -107,6 +116,7 @@ aspect_ratio =
     "aspect-ratio"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--16x9 { padding-bottom: 56.25%; }
@@ -115,6 +125,7 @@ aspect_ratio =
 aspect_ratio__16x9 : String
 aspect_ratio__16x9 =
     "aspect-ratio--16x9"
+
 
 
 {-| This class maps to this CSS definition:
@@ -127,6 +138,7 @@ aspect_ratio__16x9_l =
     "aspect-ratio--16x9-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
@@ -135,6 +147,7 @@ aspect_ratio__16x9_l =
 aspect_ratio__16x9_m : String
 aspect_ratio__16x9_m =
     "aspect-ratio--16x9-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -147,6 +160,7 @@ aspect_ratio__16x9_ns =
     "aspect-ratio--16x9-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--1x1 { padding-bottom: 100%; }
@@ -155,6 +169,7 @@ aspect_ratio__16x9_ns =
 aspect_ratio__1x1 : String
 aspect_ratio__1x1 =
     "aspect-ratio--1x1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -167,6 +182,7 @@ aspect_ratio__1x1_l =
     "aspect-ratio--1x1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--1x1-m { padding-bottom: 100%; }
@@ -175,6 +191,7 @@ aspect_ratio__1x1_l =
 aspect_ratio__1x1_m : String
 aspect_ratio__1x1_m =
     "aspect-ratio--1x1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -187,6 +204,7 @@ aspect_ratio__1x1_ns =
     "aspect-ratio--1x1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--3x4 { padding-bottom: 133.33%; }
@@ -195,6 +213,7 @@ aspect_ratio__1x1_ns =
 aspect_ratio__3x4 : String
 aspect_ratio__3x4 =
     "aspect-ratio--3x4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -207,6 +226,7 @@ aspect_ratio__3x4_l =
     "aspect-ratio--3x4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--3x4-m { padding-bottom: 133.33%; }
@@ -215,6 +235,7 @@ aspect_ratio__3x4_l =
 aspect_ratio__3x4_m : String
 aspect_ratio__3x4_m =
     "aspect-ratio--3x4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -227,6 +248,7 @@ aspect_ratio__3x4_ns =
     "aspect-ratio--3x4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--4x3 { padding-bottom: 75%; }
@@ -235,6 +257,7 @@ aspect_ratio__3x4_ns =
 aspect_ratio__4x3 : String
 aspect_ratio__4x3 =
     "aspect-ratio--4x3"
+
 
 
 {-| This class maps to this CSS definition:
@@ -247,6 +270,7 @@ aspect_ratio__4x3_l =
     "aspect-ratio--4x3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--4x3-m { padding-bottom: 75%; }
@@ -255,6 +279,7 @@ aspect_ratio__4x3_l =
 aspect_ratio__4x3_m : String
 aspect_ratio__4x3_m =
     "aspect-ratio--4x3-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -267,6 +292,7 @@ aspect_ratio__4x3_ns =
     "aspect-ratio--4x3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--4x6 { padding-bottom: 150%; }
@@ -275,6 +301,7 @@ aspect_ratio__4x3_ns =
 aspect_ratio__4x6 : String
 aspect_ratio__4x6 =
     "aspect-ratio--4x6"
+
 
 
 {-| This class maps to this CSS definition:
@@ -287,6 +314,7 @@ aspect_ratio__4x6_l =
     "aspect-ratio--4x6-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--4x6-m { padding-bottom: 150%; }
@@ -295,6 +323,7 @@ aspect_ratio__4x6_l =
 aspect_ratio__4x6_m : String
 aspect_ratio__4x6_m =
     "aspect-ratio--4x6-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -307,6 +336,7 @@ aspect_ratio__4x6_ns =
     "aspect-ratio--4x6-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--5x7 { padding-bottom: 140%; }
@@ -315,6 +345,7 @@ aspect_ratio__4x6_ns =
 aspect_ratio__5x7 : String
 aspect_ratio__5x7 =
     "aspect-ratio--5x7"
+
 
 
 {-| This class maps to this CSS definition:
@@ -327,6 +358,7 @@ aspect_ratio__5x7_l =
     "aspect-ratio--5x7-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--5x7-m { padding-bottom: 140%; }
@@ -335,6 +367,7 @@ aspect_ratio__5x7_l =
 aspect_ratio__5x7_m : String
 aspect_ratio__5x7_m =
     "aspect-ratio--5x7-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -347,6 +380,7 @@ aspect_ratio__5x7_ns =
     "aspect-ratio--5x7-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--5x8 { padding-bottom: 160%; }
@@ -355,6 +389,7 @@ aspect_ratio__5x7_ns =
 aspect_ratio__5x8 : String
 aspect_ratio__5x8 =
     "aspect-ratio--5x8"
+
 
 
 {-| This class maps to this CSS definition:
@@ -367,6 +402,7 @@ aspect_ratio__5x8_l =
     "aspect-ratio--5x8-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--5x8-m { padding-bottom: 160%; }
@@ -375,6 +411,7 @@ aspect_ratio__5x8_l =
 aspect_ratio__5x8_m : String
 aspect_ratio__5x8_m =
     "aspect-ratio--5x8-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -387,6 +424,7 @@ aspect_ratio__5x8_ns =
     "aspect-ratio--5x8-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--6x4 { padding-bottom: 66.6%; }
@@ -395,6 +433,7 @@ aspect_ratio__5x8_ns =
 aspect_ratio__6x4 : String
 aspect_ratio__6x4 =
     "aspect-ratio--6x4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -407,6 +446,7 @@ aspect_ratio__6x4_l =
     "aspect-ratio--6x4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--6x4-m { padding-bottom: 66.6%; }
@@ -415,6 +455,7 @@ aspect_ratio__6x4_l =
 aspect_ratio__6x4_m : String
 aspect_ratio__6x4_m =
     "aspect-ratio--6x4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -427,6 +468,7 @@ aspect_ratio__6x4_ns =
     "aspect-ratio--6x4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--7x5 { padding-bottom: 71.42%; }
@@ -435,6 +477,7 @@ aspect_ratio__6x4_ns =
 aspect_ratio__7x5 : String
 aspect_ratio__7x5 =
     "aspect-ratio--7x5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -447,6 +490,7 @@ aspect_ratio__7x5_l =
     "aspect-ratio--7x5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--7x5-m { padding-bottom: 71.42%; }
@@ -455,6 +499,7 @@ aspect_ratio__7x5_l =
 aspect_ratio__7x5_m : String
 aspect_ratio__7x5_m =
     "aspect-ratio--7x5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -467,6 +512,7 @@ aspect_ratio__7x5_ns =
     "aspect-ratio--7x5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--8x5 { padding-bottom: 62.5%; }
@@ -475,6 +521,7 @@ aspect_ratio__7x5_ns =
 aspect_ratio__8x5 : String
 aspect_ratio__8x5 =
     "aspect-ratio--8x5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -487,6 +534,7 @@ aspect_ratio__8x5_l =
     "aspect-ratio--8x5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--8x5-m { padding-bottom: 62.5%; }
@@ -495,6 +543,7 @@ aspect_ratio__8x5_l =
 aspect_ratio__8x5_m : String
 aspect_ratio__8x5_m =
     "aspect-ratio--8x5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -507,6 +556,7 @@ aspect_ratio__8x5_ns =
     "aspect-ratio--8x5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--9x16 { padding-bottom: 177.77%; }
@@ -515,6 +565,7 @@ aspect_ratio__8x5_ns =
 aspect_ratio__9x16 : String
 aspect_ratio__9x16 =
     "aspect-ratio--9x16"
+
 
 
 {-| This class maps to this CSS definition:
@@ -527,6 +578,7 @@ aspect_ratio__9x16_l =
     "aspect-ratio--9x16-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--9x16-m { padding-bottom: 177.77%; }
@@ -535,6 +587,7 @@ aspect_ratio__9x16_l =
 aspect_ratio__9x16_m : String
 aspect_ratio__9x16_m =
     "aspect-ratio--9x16-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -547,6 +600,7 @@ aspect_ratio__9x16_ns =
     "aspect-ratio--9x16-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--object { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
@@ -555,6 +609,7 @@ aspect_ratio__9x16_ns =
 aspect_ratio__object : String
 aspect_ratio__object =
     "aspect-ratio--object"
+
 
 
 {-| This class maps to this CSS definition:
@@ -567,6 +622,7 @@ aspect_ratio__object_l =
     "aspect-ratio--object-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio--object-m { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
@@ -575,6 +631,7 @@ aspect_ratio__object_l =
 aspect_ratio__object_m : String
 aspect_ratio__object_m =
     "aspect-ratio--object-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -587,6 +644,7 @@ aspect_ratio__object_ns =
     "aspect-ratio--object-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio-l { height: 0; position: relative; }
@@ -595,6 +653,7 @@ aspect_ratio__object_ns =
 aspect_ratio_l : String
 aspect_ratio_l =
     "aspect-ratio-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -607,6 +666,7 @@ aspect_ratio_m =
     "aspect-ratio-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .aspect-ratio-ns { height: 0; position: relative; }
@@ -615,6 +675,7 @@ aspect_ratio_m =
 aspect_ratio_ns : String
 aspect_ratio_ns =
     "aspect-ratio-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -627,6 +688,7 @@ athelas =
     "athelas"
 
 
+
 {-| This class maps to this CSS definition:
 
     .avenir { font-family: 'avenir next', avenir, sans-serif; }
@@ -635,6 +697,7 @@ athelas =
 avenir : String
 avenir =
     "avenir"
+
 
 
 {-| This class maps to this CSS definition:
@@ -647,6 +710,7 @@ b =
     "b"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--black { border-color: #000; }
@@ -655,6 +719,7 @@ b =
 b__black : String
 b__black =
     "b--black"
+
 
 
 {-| This class maps to this CSS definition:
@@ -667,6 +732,7 @@ b__black_0125 =
     "b--black-0125"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--black-025 { border-color: rgba( 0, 0, 0, .025 ); }
@@ -675,6 +741,7 @@ b__black_0125 =
 b__black_025 : String
 b__black_025 =
     "b--black-025"
+
 
 
 {-| This class maps to this CSS definition:
@@ -687,6 +754,7 @@ b__black_05 =
     "b--black-05"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--black-10 { border-color: rgba( 0, 0, 0, .1 ); }
@@ -695,6 +763,7 @@ b__black_05 =
 b__black_10 : String
 b__black_10 =
     "b--black-10"
+
 
 
 {-| This class maps to this CSS definition:
@@ -707,6 +776,7 @@ b__black_20 =
     "b--black-20"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--black-30 { border-color: rgba( 0, 0, 0, .3 ); }
@@ -715,6 +785,7 @@ b__black_20 =
 b__black_30 : String
 b__black_30 =
     "b--black-30"
+
 
 
 {-| This class maps to this CSS definition:
@@ -727,6 +798,7 @@ b__black_40 =
     "b--black-40"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--black-50 { border-color: rgba( 0, 0, 0, .5 ); }
@@ -735,6 +807,7 @@ b__black_40 =
 b__black_50 : String
 b__black_50 =
     "b--black-50"
+
 
 
 {-| This class maps to this CSS definition:
@@ -747,6 +820,7 @@ b__black_60 =
     "b--black-60"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--black-70 { border-color: rgba( 0, 0, 0, .7 ); }
@@ -755,6 +829,7 @@ b__black_60 =
 b__black_70 : String
 b__black_70 =
     "b--black-70"
+
 
 
 {-| This class maps to this CSS definition:
@@ -767,6 +842,7 @@ b__black_80 =
     "b--black-80"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--black-90 { border-color: rgba( 0, 0, 0, .9 ); }
@@ -775,6 +851,7 @@ b__black_80 =
 b__black_90 : String
 b__black_90 =
     "b--black-90"
+
 
 
 {-| This class maps to this CSS definition:
@@ -787,6 +864,7 @@ b__blue =
     "b--blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--dark-blue { border-color: #00449e; }
@@ -795,6 +873,7 @@ b__blue =
 b__dark_blue : String
 b__dark_blue =
     "b--dark-blue"
+
 
 
 {-| This class maps to this CSS definition:
@@ -807,6 +886,7 @@ b__dark_gray =
     "b--dark-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--dark-green { border-color: #137752; }
@@ -815,6 +895,7 @@ b__dark_gray =
 b__dark_green : String
 b__dark_green =
     "b--dark-green"
+
 
 
 {-| This class maps to this CSS definition:
@@ -827,6 +908,7 @@ b__dark_pink =
     "b--dark-pink"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--dark-red { border-color: #e7040f; }
@@ -835,6 +917,7 @@ b__dark_pink =
 b__dark_red : String
 b__dark_red =
     "b--dark-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -847,6 +930,7 @@ b__dashed =
     "b--dashed"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--dashed-l { border-style: dashed; }
@@ -855,6 +939,7 @@ b__dashed =
 b__dashed_l : String
 b__dashed_l =
     "b--dashed-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -867,6 +952,7 @@ b__dashed_m =
     "b--dashed-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--dashed-ns { border-style: dashed; }
@@ -875,6 +961,7 @@ b__dashed_m =
 b__dashed_ns : String
 b__dashed_ns =
     "b--dashed-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -887,6 +974,7 @@ b__dotted =
     "b--dotted"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--dotted-l { border-style: dotted; }
@@ -895,6 +983,7 @@ b__dotted =
 b__dotted_l : String
 b__dotted_l =
     "b--dotted-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -907,6 +996,7 @@ b__dotted_m =
     "b--dotted-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--dotted-ns { border-style: dotted; }
@@ -915,6 +1005,7 @@ b__dotted_m =
 b__dotted_ns : String
 b__dotted_ns =
     "b--dotted-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -927,6 +1018,7 @@ b__gold =
     "b--gold"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--gray { border-color: #777; }
@@ -935,6 +1027,7 @@ b__gold =
 b__gray : String
 b__gray =
     "b--gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -947,6 +1040,7 @@ b__green =
     "b--green"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--hot-pink { border-color: #ff41b4; }
@@ -955,6 +1049,7 @@ b__green =
 b__hot_pink : String
 b__hot_pink =
     "b--hot-pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -967,6 +1062,7 @@ b__inherit =
     "b--inherit"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--light-blue { border-color: #96ccff; }
@@ -975,6 +1071,7 @@ b__inherit =
 b__light_blue : String
 b__light_blue =
     "b--light-blue"
+
 
 
 {-| This class maps to this CSS definition:
@@ -987,6 +1084,7 @@ b__light_gray =
     "b--light-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--light-green { border-color: #9eebcf; }
@@ -995,6 +1093,7 @@ b__light_gray =
 b__light_green : String
 b__light_green =
     "b--light-green"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1007,6 +1106,7 @@ b__light_pink =
     "b--light-pink"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--light-purple { border-color: #a463f2; }
@@ -1015,6 +1115,7 @@ b__light_pink =
 b__light_purple : String
 b__light_purple =
     "b--light-purple"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1027,6 +1128,7 @@ b__light_red =
     "b--light-red"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--light-silver { border-color: #aaa; }
@@ -1035,6 +1137,7 @@ b__light_red =
 b__light_silver : String
 b__light_silver =
     "b--light-silver"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1047,6 +1150,7 @@ b__light_yellow =
     "b--light-yellow"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--lightest-blue { border-color: #cdecff; }
@@ -1055,6 +1159,7 @@ b__light_yellow =
 b__lightest_blue : String
 b__lightest_blue =
     "b--lightest-blue"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1067,6 +1172,7 @@ b__mid_gray =
     "b--mid-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--moon-gray { border-color: #ccc; }
@@ -1075,6 +1181,7 @@ b__mid_gray =
 b__moon_gray : String
 b__moon_gray =
     "b--moon-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1087,6 +1194,7 @@ b__navy =
     "b--navy"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--near-black { border-color: #111; }
@@ -1095,6 +1203,7 @@ b__navy =
 b__near_black : String
 b__near_black =
     "b--near-black"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1107,6 +1216,7 @@ b__near_white =
     "b--near-white"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--none { border-style: none; }
@@ -1115,6 +1225,7 @@ b__near_white =
 b__none : String
 b__none =
     "b--none"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1127,6 +1238,7 @@ b__none_l =
     "b--none-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--none-m { border-style: none; }
@@ -1135,6 +1247,7 @@ b__none_l =
 b__none_m : String
 b__none_m =
     "b--none-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1147,6 +1260,7 @@ b__none_ns =
     "b--none-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--orange { border-color: #ff6300; }
@@ -1155,6 +1269,7 @@ b__none_ns =
 b__orange : String
 b__orange =
     "b--orange"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1167,6 +1282,7 @@ b__pink =
     "b--pink"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--purple { border-color: #5e2ca5; }
@@ -1175,6 +1291,7 @@ b__pink =
 b__purple : String
 b__purple =
     "b--purple"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1187,6 +1304,7 @@ b__red =
     "b--red"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--silver { border-color: #999; }
@@ -1195,6 +1313,7 @@ b__red =
 b__silver : String
 b__silver =
     "b--silver"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1207,6 +1326,7 @@ b__solid =
     "b--solid"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--solid-l { border-style: solid; }
@@ -1215,6 +1335,7 @@ b__solid =
 b__solid_l : String
 b__solid_l =
     "b--solid-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1227,6 +1348,7 @@ b__solid_m =
     "b--solid-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--solid-ns { border-style: solid; }
@@ -1235,6 +1357,7 @@ b__solid_m =
 b__solid_ns : String
 b__solid_ns =
     "b--solid-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1247,6 +1370,7 @@ b__transparent =
     "b--transparent"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--washed-blue { border-color: #f6fffe; }
@@ -1255,6 +1379,7 @@ b__transparent =
 b__washed_blue : String
 b__washed_blue =
     "b--washed-blue"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1267,6 +1392,7 @@ b__washed_green =
     "b--washed-green"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--washed-red { border-color: #ffdfdf; }
@@ -1275,6 +1401,7 @@ b__washed_green =
 b__washed_red : String
 b__washed_red =
     "b--washed-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1287,6 +1414,7 @@ b__washed_yellow =
     "b--washed-yellow"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--white { border-color: #fff; }
@@ -1295,6 +1423,7 @@ b__washed_yellow =
 b__white : String
 b__white =
     "b--white"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1307,6 +1436,7 @@ b__white_0125 =
     "b--white-0125"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--white-025 { border-color: rgba( 255, 255, 255, .025 ); }
@@ -1315,6 +1445,7 @@ b__white_0125 =
 b__white_025 : String
 b__white_025 =
     "b--white-025"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1327,6 +1458,7 @@ b__white_05 =
     "b--white-05"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--white-10 { border-color: rgba( 255, 255, 255, .1 ); }
@@ -1335,6 +1467,7 @@ b__white_05 =
 b__white_10 : String
 b__white_10 =
     "b--white-10"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1347,6 +1480,7 @@ b__white_20 =
     "b--white-20"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--white-30 { border-color: rgba( 255, 255, 255, .3 ); }
@@ -1355,6 +1489,7 @@ b__white_20 =
 b__white_30 : String
 b__white_30 =
     "b--white-30"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1367,6 +1502,7 @@ b__white_40 =
     "b--white-40"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--white-50 { border-color: rgba( 255, 255, 255, .5 ); }
@@ -1375,6 +1511,7 @@ b__white_40 =
 b__white_50 : String
 b__white_50 =
     "b--white-50"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1387,6 +1524,7 @@ b__white_60 =
     "b--white-60"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--white-70 { border-color: rgba( 255, 255, 255, .7 ); }
@@ -1395,6 +1533,7 @@ b__white_60 =
 b__white_70 : String
 b__white_70 =
     "b--white-70"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1407,6 +1546,7 @@ b__white_80 =
     "b--white-80"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b--white-90 { border-color: rgba( 255, 255, 255, .9 ); }
@@ -1415,6 +1555,7 @@ b__white_80 =
 b__white_90 : String
 b__white_90 =
     "b--white-90"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1427,6 +1568,7 @@ b__yellow =
     "b--yellow"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b-l { font-weight: bold; }
@@ -1435,6 +1577,7 @@ b__yellow =
 b_l : String
 b_l =
     "b-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1447,6 +1590,7 @@ b_m =
     "b-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .b-ns { font-weight: bold; }
@@ -1455,6 +1599,7 @@ b_m =
 b_ns : String
 b_ns =
     "b-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1467,6 +1612,7 @@ ba =
     "ba"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ba-l { border-style: solid; border-width: 1px; }
@@ -1475,6 +1621,7 @@ ba =
 ba_l : String
 ba_l =
     "ba-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1487,6 +1634,7 @@ ba_m =
     "ba-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ba-ns { border-style: solid; border-width: 1px; }
@@ -1495,6 +1643,7 @@ ba_m =
 ba_ns : String
 ba_ns =
     "ba-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1507,6 +1656,7 @@ baskerville =
     "baskerville"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bb { border-bottom-style: solid; border-bottom-width: 1px; }
@@ -1515,6 +1665,7 @@ baskerville =
 bb : String
 bb =
     "bb"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1527,6 +1678,7 @@ bb_0 =
     "bb-0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bb-0-l { border-bottom-width: 0; }
@@ -1535,6 +1687,7 @@ bb_0 =
 bb_0_l : String
 bb_0_l =
     "bb-0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1547,6 +1700,7 @@ bb_0_m =
     "bb-0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bb-0-ns { border-bottom-width: 0; }
@@ -1555,6 +1709,7 @@ bb_0_m =
 bb_0_ns : String
 bb_0_ns =
     "bb-0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1567,6 +1722,7 @@ bb_l =
     "bb-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
@@ -1575,6 +1731,7 @@ bb_l =
 bb_m : String
 bb_m =
     "bb-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1587,6 +1744,7 @@ bb_ns =
     "bb-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-animate, .bg-animate:hover, .bg-animate:focus { transition: background-color .15s ease-in-out; }
@@ -1595,6 +1753,7 @@ bb_ns =
 bg_animate : String
 bg_animate =
     "bg-animate"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1607,6 +1766,7 @@ bg_black =
     "bg-black"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-black-05 { background-color: rgba( 0, 0, 0, .05 ); }
@@ -1615,6 +1775,7 @@ bg_black =
 bg_black_05 : String
 bg_black_05 =
     "bg-black-05"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1627,6 +1788,7 @@ bg_black_10 =
     "bg-black-10"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-black-20 { background-color: rgba( 0, 0, 0, .2 ); }
@@ -1635,6 +1797,7 @@ bg_black_10 =
 bg_black_20 : String
 bg_black_20 =
     "bg-black-20"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1647,6 +1810,7 @@ bg_black_30 =
     "bg-black-30"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-black-40 { background-color: rgba( 0, 0, 0, .4 ); }
@@ -1655,6 +1819,7 @@ bg_black_30 =
 bg_black_40 : String
 bg_black_40 =
     "bg-black-40"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1667,6 +1832,7 @@ bg_black_50 =
     "bg-black-50"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-black-60 { background-color: rgba( 0, 0, 0, .6 ); }
@@ -1675,6 +1841,7 @@ bg_black_50 =
 bg_black_60 : String
 bg_black_60 =
     "bg-black-60"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1687,6 +1854,7 @@ bg_black_70 =
     "bg-black-70"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
@@ -1695,6 +1863,7 @@ bg_black_70 =
 bg_black_80 : String
 bg_black_80 =
     "bg-black-80"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1707,6 +1876,7 @@ bg_black_90 =
     "bg-black-90"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-blue { background-color: #357edd; }
@@ -1715,6 +1885,7 @@ bg_black_90 =
 bg_blue : String
 bg_blue =
     "bg-blue"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1727,6 +1898,7 @@ bg_bottom =
     "bg-bottom"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-bottom-l { background-repeat: no-repeat; background-position: bottom center; }
@@ -1735,6 +1907,7 @@ bg_bottom =
 bg_bottom_l : String
 bg_bottom_l =
     "bg-bottom-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1747,6 +1920,7 @@ bg_bottom_m =
     "bg-bottom-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-bottom-ns { background-repeat: no-repeat; background-position: bottom center; }
@@ -1755,6 +1929,7 @@ bg_bottom_m =
 bg_bottom_ns : String
 bg_bottom_ns =
     "bg-bottom-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1767,6 +1942,7 @@ bg_center =
     "bg-center"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-center-l { background-repeat: no-repeat; background-position: center center; }
@@ -1775,6 +1951,7 @@ bg_center =
 bg_center_l : String
 bg_center_l =
     "bg-center-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1787,6 +1964,7 @@ bg_center_m =
     "bg-center-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-center-ns { background-repeat: no-repeat; background-position: center center; }
@@ -1795,6 +1973,7 @@ bg_center_m =
 bg_center_ns : String
 bg_center_ns =
     "bg-center-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1807,6 +1986,7 @@ bg_dark_blue =
     "bg-dark-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-dark-gray { background-color: #333; }
@@ -1815,6 +1995,7 @@ bg_dark_blue =
 bg_dark_gray : String
 bg_dark_gray =
     "bg-dark-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1827,6 +2008,7 @@ bg_dark_green =
     "bg-dark-green"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-dark-pink { background-color: #d5008f; }
@@ -1835,6 +2017,7 @@ bg_dark_green =
 bg_dark_pink : String
 bg_dark_pink =
     "bg-dark-pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1847,6 +2030,7 @@ bg_dark_red =
     "bg-dark-red"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-gold { background-color: #ffb700; }
@@ -1855,6 +2039,7 @@ bg_dark_red =
 bg_gold : String
 bg_gold =
     "bg-gold"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1867,6 +2052,7 @@ bg_gray =
     "bg-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-green { background-color: #19a974; }
@@ -1875,6 +2061,7 @@ bg_gray =
 bg_green : String
 bg_green =
     "bg-green"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1887,6 +2074,7 @@ bg_hot_pink =
     "bg-hot-pink"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-inherit { background-color: inherit; }
@@ -1895,6 +2083,7 @@ bg_hot_pink =
 bg_inherit : String
 bg_inherit =
     "bg-inherit"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1907,6 +2096,7 @@ bg_left =
     "bg-left"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-left-l { background-repeat: no-repeat; background-position: center left; }
@@ -1915,6 +2105,7 @@ bg_left =
 bg_left_l : String
 bg_left_l =
     "bg-left-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1927,6 +2118,7 @@ bg_left_m =
     "bg-left-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-left-ns { background-repeat: no-repeat; background-position: center left; }
@@ -1935,6 +2127,7 @@ bg_left_m =
 bg_left_ns : String
 bg_left_ns =
     "bg-left-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1947,6 +2140,7 @@ bg_light_blue =
     "bg-light-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-light-gray { background-color: #eee; }
@@ -1955,6 +2149,7 @@ bg_light_blue =
 bg_light_gray : String
 bg_light_gray =
     "bg-light-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1967,6 +2162,7 @@ bg_light_green =
     "bg-light-green"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-light-pink { background-color: #ffa3d7; }
@@ -1975,6 +2171,7 @@ bg_light_green =
 bg_light_pink : String
 bg_light_pink =
     "bg-light-pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -1987,6 +2184,7 @@ bg_light_purple =
     "bg-light-purple"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-light-red { background-color: #ff725c; }
@@ -1995,6 +2193,7 @@ bg_light_purple =
 bg_light_red : String
 bg_light_red =
     "bg-light-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2007,6 +2206,7 @@ bg_light_silver =
     "bg-light-silver"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-light-yellow { background-color: #fbf1a9; }
@@ -2015,6 +2215,7 @@ bg_light_silver =
 bg_light_yellow : String
 bg_light_yellow =
     "bg-light-yellow"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2027,6 +2228,7 @@ bg_lightest_blue =
     "bg-lightest-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-mid-gray { background-color: #555; }
@@ -2035,6 +2237,7 @@ bg_lightest_blue =
 bg_mid_gray : String
 bg_mid_gray =
     "bg-mid-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2047,6 +2250,7 @@ bg_moon_gray =
     "bg-moon-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-navy { background-color: #001b44; }
@@ -2055,6 +2259,7 @@ bg_moon_gray =
 bg_navy : String
 bg_navy =
     "bg-navy"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2067,6 +2272,7 @@ bg_near_black =
     "bg-near-black"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-near-white { background-color: #f4f4f4; }
@@ -2075,6 +2281,7 @@ bg_near_black =
 bg_near_white : String
 bg_near_white =
     "bg-near-white"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2087,6 +2294,7 @@ bg_orange =
     "bg-orange"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-pink { background-color: #ff80cc; }
@@ -2095,6 +2303,7 @@ bg_orange =
 bg_pink : String
 bg_pink =
     "bg-pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2107,6 +2316,7 @@ bg_purple =
     "bg-purple"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-red { background-color: #ff4136; }
@@ -2115,6 +2325,7 @@ bg_purple =
 bg_red : String
 bg_red =
     "bg-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2127,6 +2338,7 @@ bg_right =
     "bg-right"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-right-l { background-repeat: no-repeat; background-position: center right; }
@@ -2135,6 +2347,7 @@ bg_right =
 bg_right_l : String
 bg_right_l =
     "bg-right-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2147,6 +2360,7 @@ bg_right_m =
     "bg-right-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-right-ns { background-repeat: no-repeat; background-position: center right; }
@@ -2155,6 +2369,7 @@ bg_right_m =
 bg_right_ns : String
 bg_right_ns =
     "bg-right-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2167,6 +2382,7 @@ bg_silver =
     "bg-silver"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-top { background-repeat: no-repeat; background-position: top center; }
@@ -2175,6 +2391,7 @@ bg_silver =
 bg_top : String
 bg_top =
     "bg-top"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2187,6 +2404,7 @@ bg_top_l =
     "bg-top-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-top-m { background-repeat: no-repeat; background-position: top center; }
@@ -2195,6 +2413,7 @@ bg_top_l =
 bg_top_m : String
 bg_top_m =
     "bg-top-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2207,6 +2426,7 @@ bg_top_ns =
     "bg-top-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-transparent { background-color: transparent; }
@@ -2215,6 +2435,7 @@ bg_top_ns =
 bg_transparent : String
 bg_transparent =
     "bg-transparent"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2227,6 +2448,7 @@ bg_washed_blue =
     "bg-washed-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-washed-green { background-color: #e8fdf5; }
@@ -2235,6 +2457,7 @@ bg_washed_blue =
 bg_washed_green : String
 bg_washed_green =
     "bg-washed-green"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2247,6 +2470,7 @@ bg_washed_red =
     "bg-washed-red"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-washed-yellow { background-color: #fffceb; }
@@ -2255,6 +2479,7 @@ bg_washed_red =
 bg_washed_yellow : String
 bg_washed_yellow =
     "bg-washed-yellow"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2267,6 +2492,7 @@ bg_white =
     "bg-white"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-white-10 { background-color: rgba( 255, 255, 255, .1 ); }
@@ -2275,6 +2501,7 @@ bg_white =
 bg_white_10 : String
 bg_white_10 =
     "bg-white-10"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2287,6 +2514,7 @@ bg_white_20 =
     "bg-white-20"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-white-30 { background-color: rgba( 255, 255, 255, .3 ); }
@@ -2295,6 +2523,7 @@ bg_white_20 =
 bg_white_30 : String
 bg_white_30 =
     "bg-white-30"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2307,6 +2536,7 @@ bg_white_40 =
     "bg-white-40"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-white-50 { background-color: rgba( 255, 255, 255, .5 ); }
@@ -2315,6 +2545,7 @@ bg_white_40 =
 bg_white_50 : String
 bg_white_50 =
     "bg-white-50"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2327,6 +2558,7 @@ bg_white_60 =
     "bg-white-60"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-white-70 { background-color: rgba( 255, 255, 255, .7 ); }
@@ -2335,6 +2567,7 @@ bg_white_60 =
 bg_white_70 : String
 bg_white_70 =
     "bg-white-70"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2347,6 +2580,7 @@ bg_white_80 =
     "bg-white-80"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bg-white-90 { background-color: rgba( 255, 255, 255, .9 ); }
@@ -2355,6 +2589,7 @@ bg_white_80 =
 bg_white_90 : String
 bg_white_90 =
     "bg-white-90"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2367,6 +2602,7 @@ bg_yellow =
     "bg-yellow"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bl { border-left-style: solid; border-left-width: 1px; }
@@ -2375,6 +2611,7 @@ bg_yellow =
 bl : String
 bl =
     "bl"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2387,6 +2624,7 @@ bl_0 =
     "bl-0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bl-0-l { border-left-width: 0; }
@@ -2395,6 +2633,7 @@ bl_0 =
 bl_0_l : String
 bl_0_l =
     "bl-0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2407,6 +2646,7 @@ bl_0_m =
     "bl-0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bl-0-ns { border-left-width: 0; }
@@ -2415,6 +2655,7 @@ bl_0_m =
 bl_0_ns : String
 bl_0_ns =
     "bl-0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2427,6 +2668,7 @@ bl_l =
     "bl-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bl-m { border-left-style: solid; border-left-width: 1px; }
@@ -2435,6 +2677,7 @@ bl_l =
 bl_m : String
 bl_m =
     "bl-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2447,6 +2690,7 @@ bl_ns =
     "bl-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .black { color: #000; }
@@ -2455,6 +2699,7 @@ bl_ns =
 black : String
 black =
     "black"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2467,6 +2712,7 @@ black_05 =
     "black-05"
 
 
+
 {-| This class maps to this CSS definition:
 
     .black-10 { color: rgba( 0, 0, 0, .1 ); }
@@ -2475,6 +2721,7 @@ black_05 =
 black_10 : String
 black_10 =
     "black-10"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2487,6 +2734,7 @@ black_20 =
     "black-20"
 
 
+
 {-| This class maps to this CSS definition:
 
     .black-30 { color: rgba( 0, 0, 0, .3 ); }
@@ -2495,6 +2743,7 @@ black_20 =
 black_30 : String
 black_30 =
     "black-30"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2507,6 +2756,7 @@ black_40 =
     "black-40"
 
 
+
 {-| This class maps to this CSS definition:
 
     .black-50 { color: rgba( 0, 0, 0, .5 ); }
@@ -2515,6 +2765,7 @@ black_40 =
 black_50 : String
 black_50 =
     "black-50"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2527,6 +2778,7 @@ black_60 =
     "black-60"
 
 
+
 {-| This class maps to this CSS definition:
 
     .black-70 { color: rgba( 0, 0, 0, .7 ); }
@@ -2535,6 +2787,7 @@ black_60 =
 black_70 : String
 black_70 =
     "black-70"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2547,6 +2800,7 @@ black_80 =
     "black-80"
 
 
+
 {-| This class maps to this CSS definition:
 
     .black-90 { color: rgba( 0, 0, 0, .9 ); }
@@ -2555,6 +2809,7 @@ black_80 =
 black_90 : String
 black_90 =
     "black-90"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2567,6 +2822,7 @@ blue =
     "blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bn { border-style: none; border-width: 0; }
@@ -2575,6 +2831,7 @@ blue =
 bn : String
 bn =
     "bn"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2587,6 +2844,7 @@ bn_l =
     "bn-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bn-m { border-style: none; border-width: 0; }
@@ -2595,6 +2853,7 @@ bn_l =
 bn_m : String
 bn_m =
     "bn-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2607,6 +2866,7 @@ bn_ns =
     "bn-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bodoni { font-family: "Bodoni MT", serif; }
@@ -2617,17 +2877,20 @@ bodoni =
     "bodoni"
 
 
+
 {-| This class maps to this CSS definition:
 
-    html, body, div, article, section, main, footer, header, form, fieldset, legend,
-    pre, code, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, textarea, table,
-    td, th, tr, input[type="email"], input[type="number"], input[type="password"],
-    input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
+    html, body, div, article, aside, section, main, nav, footer, header, form,
+     fieldset, legend, pre, code, a, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt,
+     dd, blockquote, figcaption, figure, textarea, table, td, th, tr,
+     input[type="email"], input[type="number"], input[type="password"],
+     input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 
 -}
 border_box : String
 border_box =
     "border-box"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2640,6 +2903,7 @@ bottom__1 =
     "bottom--1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bottom--1-l { bottom: -1rem; }
@@ -2648,6 +2912,7 @@ bottom__1 =
 bottom__1_l : String
 bottom__1_l =
     "bottom--1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2660,6 +2925,7 @@ bottom__1_m =
     "bottom--1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bottom--1-ns { bottom: -1rem; }
@@ -2668,6 +2934,7 @@ bottom__1_m =
 bottom__1_ns : String
 bottom__1_ns =
     "bottom--1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2680,6 +2947,7 @@ bottom__2 =
     "bottom--2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bottom--2-l { bottom: -2rem; }
@@ -2688,6 +2956,7 @@ bottom__2 =
 bottom__2_l : String
 bottom__2_l =
     "bottom--2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2700,6 +2969,7 @@ bottom__2_m =
     "bottom--2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bottom--2-ns { bottom: -2rem; }
@@ -2708,6 +2978,7 @@ bottom__2_m =
 bottom__2_ns : String
 bottom__2_ns =
     "bottom--2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2720,6 +2991,7 @@ bottom_0 =
     "bottom-0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bottom-0-l { bottom: 0; }
@@ -2728,6 +3000,7 @@ bottom_0 =
 bottom_0_l : String
 bottom_0_l =
     "bottom-0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2740,6 +3013,7 @@ bottom_0_m =
     "bottom-0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bottom-0-ns { bottom: 0; }
@@ -2748,6 +3022,7 @@ bottom_0_m =
 bottom_0_ns : String
 bottom_0_ns =
     "bottom-0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2760,6 +3035,7 @@ bottom_1 =
     "bottom-1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bottom-1-l { bottom: 1rem; }
@@ -2768,6 +3044,7 @@ bottom_1 =
 bottom_1_l : String
 bottom_1_l =
     "bottom-1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2780,6 +3057,7 @@ bottom_1_m =
     "bottom-1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bottom-1-ns { bottom: 1rem; }
@@ -2788,6 +3066,7 @@ bottom_1_m =
 bottom_1_ns : String
 bottom_1_ns =
     "bottom-1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2800,6 +3079,7 @@ bottom_2 =
     "bottom-2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bottom-2-l { bottom: 2rem; }
@@ -2808,6 +3088,7 @@ bottom_2 =
 bottom_2_l : String
 bottom_2_l =
     "bottom-2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2820,6 +3101,7 @@ bottom_2_m =
     "bottom-2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bottom-2-ns { bottom: 2rem; }
@@ -2828,6 +3110,7 @@ bottom_2_m =
 bottom_2_ns : String
 bottom_2_ns =
     "bottom-2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2840,6 +3123,7 @@ br =
     "br"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
@@ -2848,6 +3132,7 @@ br =
 br__bottom : String
 br__bottom =
     "br--bottom"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2860,6 +3145,7 @@ br__bottom_l =
     "br--bottom-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br--bottom-m { border-top-left-radius: 0; border-top-right-radius: 0; }
@@ -2868,6 +3154,7 @@ br__bottom_l =
 br__bottom_m : String
 br__bottom_m =
     "br--bottom-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2880,6 +3167,7 @@ br__bottom_ns =
     "br--bottom-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br--left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
@@ -2888,6 +3176,7 @@ br__bottom_ns =
 br__left : String
 br__left =
     "br--left"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2900,6 +3189,7 @@ br__left_l =
     "br--left-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br--left-m { border-top-right-radius: 0; border-bottom-right-radius: 0; }
@@ -2908,6 +3198,7 @@ br__left_l =
 br__left_m : String
 br__left_m =
     "br--left-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2920,6 +3211,7 @@ br__left_ns =
     "br--left-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -2928,6 +3220,7 @@ br__left_ns =
 br__right : String
 br__right =
     "br--right"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2940,6 +3233,7 @@ br__right_l =
     "br--right-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br--right-m { border-top-left-radius: 0; border-bottom-left-radius: 0; }
@@ -2948,6 +3242,7 @@ br__right_l =
 br__right_m : String
 br__right_m =
     "br--right-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2960,6 +3255,7 @@ br__right_ns =
     "br--right-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
@@ -2968,6 +3264,7 @@ br__right_ns =
 br__top : String
 br__top =
     "br--top"
+
 
 
 {-| This class maps to this CSS definition:
@@ -2980,6 +3277,7 @@ br__top_l =
     "br--top-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br--top-m { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
@@ -2988,6 +3286,7 @@ br__top_l =
 br__top_m : String
 br__top_m =
     "br--top-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3000,6 +3299,7 @@ br__top_ns =
     "br--top-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br-0 { border-right-width: 0; }
@@ -3008,6 +3308,7 @@ br__top_ns =
 br_0 : String
 br_0 =
     "br-0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3020,6 +3321,7 @@ br_0_l =
     "br-0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br-0-m { border-right-width: 0; }
@@ -3028,6 +3330,7 @@ br_0_l =
 br_0_m : String
 br_0_m =
     "br-0-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3040,6 +3343,7 @@ br_0_ns =
     "br-0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br-100 { border-radius: 100%; }
@@ -3048,6 +3352,7 @@ br_0_ns =
 br_100 : String
 br_100 =
     "br-100"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3060,6 +3365,7 @@ br_100_l =
     "br-100-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br-100-m { border-radius: 100%; }
@@ -3068,6 +3374,7 @@ br_100_l =
 br_100_m : String
 br_100_m =
     "br-100-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3080,6 +3387,7 @@ br_100_ns =
     "br-100-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br-l { border-right-style: solid; border-right-width: 1px; }
@@ -3088,6 +3396,7 @@ br_100_ns =
 br_l : String
 br_l =
     "br-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3100,6 +3409,7 @@ br_m =
     "br-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br-ns { border-right-style: solid; border-right-width: 1px; }
@@ -3108,6 +3418,7 @@ br_m =
 br_ns : String
 br_ns =
     "br-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3120,6 +3431,7 @@ br_pill =
     "br-pill"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br-pill-l { border-radius: 9999px; }
@@ -3128,6 +3440,7 @@ br_pill =
 br_pill_l : String
 br_pill_l =
     "br-pill-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3140,6 +3453,7 @@ br_pill_m =
     "br-pill-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br-pill-ns { border-radius: 9999px; }
@@ -3148,6 +3462,7 @@ br_pill_m =
 br_pill_ns : String
 br_pill_ns =
     "br-pill-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3160,6 +3475,7 @@ br0 =
     "br0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br0-l { border-radius: 0; }
@@ -3168,6 +3484,7 @@ br0 =
 br0_l : String
 br0_l =
     "br0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3180,6 +3497,7 @@ br0_m =
     "br0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br0-ns { border-radius: 0; }
@@ -3188,6 +3506,7 @@ br0_m =
 br0_ns : String
 br0_ns =
     "br0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3200,6 +3519,7 @@ br1 =
     "br1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br1-l { border-radius: .125rem; }
@@ -3208,6 +3528,7 @@ br1 =
 br1_l : String
 br1_l =
     "br1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3220,6 +3541,7 @@ br1_m =
     "br1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br1-ns { border-radius: .125rem; }
@@ -3228,6 +3550,7 @@ br1_m =
 br1_ns : String
 br1_ns =
     "br1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3240,6 +3563,7 @@ br2 =
     "br2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br2-l { border-radius: .25rem; }
@@ -3248,6 +3572,7 @@ br2 =
 br2_l : String
 br2_l =
     "br2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3260,6 +3585,7 @@ br2_m =
     "br2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br2-ns { border-radius: .25rem; }
@@ -3268,6 +3594,7 @@ br2_m =
 br2_ns : String
 br2_ns =
     "br2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3280,6 +3607,7 @@ br3 =
     "br3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br3-l { border-radius: .5rem; }
@@ -3288,6 +3616,7 @@ br3 =
 br3_l : String
 br3_l =
     "br3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3300,6 +3629,7 @@ br3_m =
     "br3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br3-ns { border-radius: .5rem; }
@@ -3308,6 +3638,7 @@ br3_m =
 br3_ns : String
 br3_ns =
     "br3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3320,6 +3651,7 @@ br4 =
     "br4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br4-l { border-radius: 1rem; }
@@ -3328,6 +3660,7 @@ br4 =
 br4_l : String
 br4_l =
     "br4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3340,6 +3673,7 @@ br4_m =
     "br4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .br4-ns { border-radius: 1rem; }
@@ -3348,6 +3682,7 @@ br4_m =
 br4_ns : String
 br4_ns =
     "br4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3360,6 +3695,7 @@ bt =
     "bt"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bt-0 { border-top-width: 0; }
@@ -3368,6 +3704,7 @@ bt =
 bt_0 : String
 bt_0 =
     "bt-0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3380,6 +3717,7 @@ bt_0_l =
     "bt-0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bt-0-m { border-top-width: 0; }
@@ -3388,6 +3726,7 @@ bt_0_l =
 bt_0_m : String
 bt_0_m =
     "bt-0-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3400,6 +3739,7 @@ bt_0_ns =
     "bt-0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bt-l { border-top-style: solid; border-top-width: 1px; }
@@ -3408,6 +3748,7 @@ bt_0_ns =
 bt_l : String
 bt_l =
     "bt-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3420,6 +3761,7 @@ bt_m =
     "bt-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bt-ns { border-top-style: solid; border-top-width: 1px; }
@@ -3428,6 +3770,7 @@ bt_m =
 bt_ns : String
 bt_ns =
     "bt-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3440,6 +3783,7 @@ button_reset =
     "button-reset"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw0 { border-width: 0; }
@@ -3448,6 +3792,7 @@ button_reset =
 bw0 : String
 bw0 =
     "bw0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3460,6 +3805,7 @@ bw0_l =
     "bw0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw0-m { border-width: 0; }
@@ -3468,6 +3814,7 @@ bw0_l =
 bw0_m : String
 bw0_m =
     "bw0-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3480,6 +3827,7 @@ bw0_ns =
     "bw0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw1 { border-width: .125rem; }
@@ -3488,6 +3836,7 @@ bw0_ns =
 bw1 : String
 bw1 =
     "bw1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3500,6 +3849,7 @@ bw1_l =
     "bw1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw1-m { border-width: .125rem; }
@@ -3508,6 +3858,7 @@ bw1_l =
 bw1_m : String
 bw1_m =
     "bw1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3520,6 +3871,7 @@ bw1_ns =
     "bw1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw2 { border-width: .25rem; }
@@ -3528,6 +3880,7 @@ bw1_ns =
 bw2 : String
 bw2 =
     "bw2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3540,6 +3893,7 @@ bw2_l =
     "bw2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw2-m { border-width: .25rem; }
@@ -3548,6 +3902,7 @@ bw2_l =
 bw2_m : String
 bw2_m =
     "bw2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3560,6 +3915,7 @@ bw2_ns =
     "bw2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw3 { border-width: .5rem; }
@@ -3568,6 +3924,7 @@ bw2_ns =
 bw3 : String
 bw3 =
     "bw3"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3580,6 +3937,7 @@ bw3_l =
     "bw3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw3-m { border-width: .5rem; }
@@ -3588,6 +3946,7 @@ bw3_l =
 bw3_m : String
 bw3_m =
     "bw3-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3600,6 +3959,7 @@ bw3_ns =
     "bw3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw4 { border-width: 1rem; }
@@ -3608,6 +3968,7 @@ bw3_ns =
 bw4 : String
 bw4 =
     "bw4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3620,6 +3981,7 @@ bw4_l =
     "bw4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw4-m { border-width: 1rem; }
@@ -3628,6 +3990,7 @@ bw4_l =
 bw4_m : String
 bw4_m =
     "bw4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3640,6 +4003,7 @@ bw4_ns =
     "bw4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw5 { border-width: 2rem; }
@@ -3648,6 +4012,7 @@ bw4_ns =
 bw5 : String
 bw5 =
     "bw5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3660,6 +4025,7 @@ bw5_l =
     "bw5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .bw5-m { border-width: 2rem; }
@@ -3668,6 +4034,7 @@ bw5_l =
 bw5_m : String
 bw5_m =
     "bw5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3680,6 +4047,7 @@ bw5_ns =
     "bw5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .calisto { font-family: "Calisto MT", serif; }
@@ -3688,6 +4056,7 @@ bw5_ns =
 calisto : String
 calisto =
     "calisto"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3700,6 +4069,7 @@ cb =
     "cb"
 
 
+
 {-| This class maps to this CSS definition:
 
     .cb-l { clear: both; }
@@ -3708,6 +4078,7 @@ cb =
 cb_l : String
 cb_l =
     "cb-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3720,6 +4091,7 @@ cb_m =
     "cb-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .cb-ns { clear: both; }
@@ -3728,6 +4100,7 @@ cb_m =
 cb_ns : String
 cb_ns =
     "cb-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3740,6 +4113,7 @@ center =
     "center"
 
 
+
 {-| This class maps to this CSS definition:
 
     .center-l { margin-right: auto; margin-left: auto; }
@@ -3748,6 +4122,7 @@ center =
 center_l : String
 center_l =
     "center-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3760,6 +4135,7 @@ center_m =
     "center-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .center-ns { margin-right: auto; margin-left: auto; }
@@ -3768,6 +4144,7 @@ center_m =
 center_ns : String
 center_ns =
     "center-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3782,6 +4159,7 @@ cf =
     "cf"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hide-child .child { opacity: 0; transition: opacity .15s ease-in; }
@@ -3791,6 +4169,7 @@ cf =
 child : String
 child =
     "child"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3803,6 +4182,7 @@ cl =
     "cl"
 
 
+
 {-| This class maps to this CSS definition:
 
     .cl-l { clear: left; }
@@ -3811,6 +4191,7 @@ cl =
 cl_l : String
 cl_l =
     "cl-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3823,6 +4204,7 @@ cl_m =
     "cl-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .cl-ns { clear: left; }
@@ -3831,6 +4213,7 @@ cl_m =
 cl_ns : String
 cl_ns =
     "cl-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3843,9 +4226,10 @@ clip =
     "clip"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .clip-l { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
+    .clip-l { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 
 -}
 clip_l : String
@@ -3853,9 +4237,10 @@ clip_l =
     "clip-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .clip-m { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
+    .clip-m { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 
 -}
 clip_m : String
@@ -3863,14 +4248,16 @@ clip_m =
     "clip-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .clip-ns { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
+    .clip-ns { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 
 -}
 clip_ns : String
 clip_ns =
     "clip-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3883,6 +4270,7 @@ cn =
     "cn"
 
 
+
 {-| This class maps to this CSS definition:
 
     .cn-l { clear: none; }
@@ -3891,6 +4279,7 @@ cn =
 cn_l : String
 cn_l =
     "cn-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3903,6 +4292,7 @@ cn_m =
     "cn-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .cn-ns { clear: none; }
@@ -3911,6 +4301,7 @@ cn_m =
 cn_ns : String
 cn_ns =
     "cn-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3923,6 +4314,7 @@ code =
     "code"
 
 
+
 {-| This class maps to this CSS definition:
 
     .collapse { border-collapse: collapse; border-spacing: 0; }
@@ -3931,6 +4323,7 @@ code =
 collapse : String
 collapse =
     "collapse"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3943,6 +4336,7 @@ color_inherit =
     "color-inherit"
 
 
+
 {-| This class maps to this CSS definition:
 
     .contain { background-size: contain !important; }
@@ -3951,6 +4345,7 @@ color_inherit =
 contain : String
 contain =
     "contain"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3963,6 +4358,7 @@ contain_l =
     "contain-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .contain-m { background-size: contain !important; }
@@ -3971,6 +4367,7 @@ contain_l =
 contain_m : String
 contain_m =
     "contain-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -3983,9 +4380,10 @@ contain_ns =
     "contain-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-around { -ms-flex-line-pack: distribute; align-content: space-around; }
+    .content-around { align-content: space-around; }
 
 -}
 content_around : String
@@ -3993,9 +4391,10 @@ content_around =
     "content-around"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-around-l { -ms-flex-line-pack: distribute; align-content: space-around; }
+    .content-around-l { align-content: space-around; }
 
 -}
 content_around_l : String
@@ -4003,9 +4402,10 @@ content_around_l =
     "content-around-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-around-m { -ms-flex-line-pack: distribute; align-content: space-around; }
+    .content-around-m { align-content: space-around; }
 
 -}
 content_around_m : String
@@ -4013,9 +4413,10 @@ content_around_m =
     "content-around-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-around-ns { -ms-flex-line-pack: distribute; align-content: space-around; }
+    .content-around-ns { align-content: space-around; }
 
 -}
 content_around_ns : String
@@ -4023,9 +4424,10 @@ content_around_ns =
     "content-around-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-between { -ms-flex-line-pack: justify; align-content: space-between; }
+    .content-between { align-content: space-between; }
 
 -}
 content_between : String
@@ -4033,9 +4435,10 @@ content_between =
     "content-between"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-between-l { -ms-flex-line-pack: justify; align-content: space-between; }
+    .content-between-l { align-content: space-between; }
 
 -}
 content_between_l : String
@@ -4043,9 +4446,10 @@ content_between_l =
     "content-between-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-between-m { -ms-flex-line-pack: justify; align-content: space-between; }
+    .content-between-m { align-content: space-between; }
 
 -}
 content_between_m : String
@@ -4053,9 +4457,10 @@ content_between_m =
     "content-between-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-between-ns { -ms-flex-line-pack: justify; align-content: space-between; }
+    .content-between-ns { align-content: space-between; }
 
 -}
 content_between_ns : String
@@ -4063,9 +4468,10 @@ content_between_ns =
     "content-between-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-center { -ms-flex-line-pack: center; align-content: center; }
+    .content-center { align-content: center; }
 
 -}
 content_center : String
@@ -4073,9 +4479,10 @@ content_center =
     "content-center"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-center-l { -ms-flex-line-pack: center; align-content: center; }
+    .content-center-l { align-content: center; }
 
 -}
 content_center_l : String
@@ -4083,9 +4490,10 @@ content_center_l =
     "content-center-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-center-m { -ms-flex-line-pack: center; align-content: center; }
+    .content-center-m { align-content: center; }
 
 -}
 content_center_m : String
@@ -4093,9 +4501,10 @@ content_center_m =
     "content-center-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-center-ns { -ms-flex-line-pack: center; align-content: center; }
+    .content-center-ns { align-content: center; }
 
 -}
 content_center_ns : String
@@ -4103,9 +4512,10 @@ content_center_ns =
     "content-center-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-end { -ms-flex-line-pack: end; align-content: flex-end; }
+    .content-end { align-content: flex-end; }
 
 -}
 content_end : String
@@ -4113,9 +4523,10 @@ content_end =
     "content-end"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-end-l { -ms-flex-line-pack: end; align-content: flex-end; }
+    .content-end-l { align-content: flex-end; }
 
 -}
 content_end_l : String
@@ -4123,9 +4534,10 @@ content_end_l =
     "content-end-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-end-m { -ms-flex-line-pack: end; align-content: flex-end; }
+    .content-end-m { align-content: flex-end; }
 
 -}
 content_end_m : String
@@ -4133,9 +4545,10 @@ content_end_m =
     "content-end-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-end-ns { -ms-flex-line-pack: end; align-content: flex-end; }
+    .content-end-ns { align-content: flex-end; }
 
 -}
 content_end_ns : String
@@ -4143,9 +4556,10 @@ content_end_ns =
     "content-end-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-start { -ms-flex-line-pack: start; align-content: flex-start; }
+    .content-start { align-content: flex-start; }
 
 -}
 content_start : String
@@ -4153,9 +4567,10 @@ content_start =
     "content-start"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-start-l { -ms-flex-line-pack: start; align-content: flex-start; }
+    .content-start-l { align-content: flex-start; }
 
 -}
 content_start_l : String
@@ -4163,9 +4578,10 @@ content_start_l =
     "content-start-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-start-m { -ms-flex-line-pack: start; align-content: flex-start; }
+    .content-start-m { align-content: flex-start; }
 
 -}
 content_start_m : String
@@ -4173,9 +4589,10 @@ content_start_m =
     "content-start-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-start-ns { -ms-flex-line-pack: start; align-content: flex-start; }
+    .content-start-ns { align-content: flex-start; }
 
 -}
 content_start_ns : String
@@ -4183,9 +4600,10 @@ content_start_ns =
     "content-start-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-stretch { -ms-flex-line-pack: stretch; align-content: stretch; }
+    .content-stretch { align-content: stretch; }
 
 -}
 content_stretch : String
@@ -4193,9 +4611,10 @@ content_stretch =
     "content-stretch"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-stretch-l { -ms-flex-line-pack: stretch; align-content: stretch; }
+    .content-stretch-l { align-content: stretch; }
 
 -}
 content_stretch_l : String
@@ -4203,9 +4622,10 @@ content_stretch_l =
     "content-stretch-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-stretch-m { -ms-flex-line-pack: stretch; align-content: stretch; }
+    .content-stretch-m { align-content: stretch; }
 
 -}
 content_stretch_m : String
@@ -4213,14 +4633,16 @@ content_stretch_m =
     "content-stretch-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .content-stretch-ns { -ms-flex-line-pack: stretch; align-content: stretch; }
+    .content-stretch-ns { align-content: stretch; }
 
 -}
 content_stretch_ns : String
 content_stretch_ns =
     "content-stretch-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4233,6 +4655,7 @@ courier =
     "courier"
 
 
+
 {-| This class maps to this CSS definition:
 
     .cover { background-size: cover !important; }
@@ -4241,6 +4664,7 @@ courier =
 cover : String
 cover =
     "cover"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4253,6 +4677,7 @@ cover_l =
     "cover-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .cover-m { background-size: cover !important; }
@@ -4261,6 +4686,7 @@ cover_l =
 cover_m : String
 cover_m =
     "cover-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4273,6 +4699,7 @@ cover_ns =
     "cover-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .cr { clear: right; }
@@ -4281,6 +4708,7 @@ cover_ns =
 cr : String
 cr =
     "cr"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4293,6 +4721,7 @@ cr_l =
     "cr-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .cr-m { clear: right; }
@@ -4301,6 +4730,7 @@ cr_l =
 cr_m : String
 cr_m =
     "cr-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4313,6 +4743,7 @@ cr_ns =
     "cr-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dark-blue { color: #00449e; }
@@ -4321,6 +4752,7 @@ cr_ns =
 dark_blue : String
 dark_blue =
     "dark-blue"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4333,6 +4765,7 @@ dark_gray =
     "dark-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dark-green { color: #137752; }
@@ -4341,6 +4774,7 @@ dark_gray =
 dark_green : String
 dark_green =
     "dark-green"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4353,6 +4787,7 @@ dark_pink =
     "dark-pink"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dark-red { color: #e7040f; }
@@ -4361,6 +4796,7 @@ dark_pink =
 dark_red : String
 dark_red =
     "dark-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4373,6 +4809,7 @@ db =
     "db"
 
 
+
 {-| This class maps to this CSS definition:
 
     .db-l { display: block; }
@@ -4381,6 +4818,7 @@ db =
 db_l : String
 db_l =
     "db-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4393,6 +4831,7 @@ db_m =
     "db-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .db-ns { display: block; }
@@ -4401,6 +4840,7 @@ db_m =
 db_ns : String
 db_ns =
     "db-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4413,6 +4853,7 @@ debug =
     "debug"
 
 
+
 {-| This class maps to this CSS definition:
 
     .debug-black * { outline: 1px solid black; }
@@ -4421,6 +4862,7 @@ debug =
 debug_black : String
 debug_black =
     "debug-black"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4433,6 +4875,7 @@ debug_grid =
     "debug-grid"
 
 
+
 {-| This class maps to this CSS definition:
 
     .debug-grid-16 { background: transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR4AWOgCLz/b0epAa6UGuBOqQHOQHLUgFEDnAbcBZ4UGwDOkiCnkIhdgNgNxAYAiYlD+8sEuo8AAAAASUVORK5CYII= ) repeat top left; }
@@ -4441,6 +4884,7 @@ debug_grid =
 debug_grid_16 : String
 debug_grid_16 =
     "debug-grid-16"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4453,6 +4897,7 @@ debug_grid_16_solid =
     "debug-grid-16-solid"
 
 
+
 {-| This class maps to this CSS definition:
 
     .debug-grid-8-solid { background: white url( data:image/gif;base64,R0lGODdhCAAIAPEAAADw/wDx/////wAAACwAAAAACAAIAAACDZQvgaeb/lxbAIKA8y0AOw== ) repeat top left; }
@@ -4461,6 +4906,7 @@ debug_grid_16_solid =
 debug_grid_8_solid : String
 debug_grid_8_solid =
     "debug-grid-8-solid"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4473,6 +4919,7 @@ debug_white =
     "debug-white"
 
 
+
 {-| This class maps to this CSS definition:
 
     .di { display: inline; }
@@ -4481,6 +4928,7 @@ debug_white =
 di : String
 di =
     "di"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4493,6 +4941,7 @@ di_l =
     "di-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .di-m { display: inline; }
@@ -4501,6 +4950,7 @@ di_l =
 di_m : String
 di_m =
     "di-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4513,6 +4963,7 @@ di_ns =
     "di-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dib { display: inline-block; }
@@ -4521,6 +4972,7 @@ di_ns =
 dib : String
 dib =
     "dib"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4533,6 +4985,7 @@ dib_l =
     "dib-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dib-m { display: inline-block; }
@@ -4543,6 +4996,7 @@ dib_m =
     "dib-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dib-ns { display: inline-block; }
@@ -4551,6 +5005,7 @@ dib_m =
 dib_ns : String
 dib_ns =
     "dib-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4565,6 +5020,7 @@ dim =
     "dim"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dit { display: inline-table; }
@@ -4573,6 +5029,7 @@ dim =
 dit : String
 dit =
     "dit"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4585,6 +5042,7 @@ dit_l =
     "dit-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dit-m { display: inline-table; }
@@ -4593,6 +5051,7 @@ dit_l =
 dit_m : String
 dit_m =
     "dit-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4605,6 +5064,7 @@ dit_ns =
     "dit-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dn { display: none; }
@@ -4613,6 +5073,7 @@ dit_ns =
 dn : String
 dn =
     "dn"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4625,6 +5086,7 @@ dn_l =
     "dn-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dn-m { display: none; }
@@ -4633,6 +5095,7 @@ dn_l =
 dn_m : String
 dn_m =
     "dn-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4645,6 +5108,7 @@ dn_ns =
     "dn-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt { display: table; }
@@ -4653,6 +5117,7 @@ dn_ns =
 dt : String
 dt =
     "dt"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4665,6 +5130,7 @@ dt__fixed =
     "dt--fixed"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt--fixed-l { table-layout: fixed; width: 100%; }
@@ -4673,6 +5139,7 @@ dt__fixed =
 dt__fixed_l : String
 dt__fixed_l =
     "dt--fixed-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4685,6 +5152,7 @@ dt__fixed_m =
     "dt--fixed-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt--fixed-ns { table-layout: fixed; width: 100%; }
@@ -4693,6 +5161,7 @@ dt__fixed_m =
 dt__fixed_ns : String
 dt__fixed_ns =
     "dt--fixed-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4705,6 +5174,7 @@ dt_column =
     "dt-column"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt-column-group { display: table-column-group; }
@@ -4713,6 +5183,7 @@ dt_column =
 dt_column_group : String
 dt_column_group =
     "dt-column-group"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4725,6 +5196,7 @@ dt_column_group_l =
     "dt-column-group-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt-column-group-m { display: table-column-group; }
@@ -4733,6 +5205,7 @@ dt_column_group_l =
 dt_column_group_m : String
 dt_column_group_m =
     "dt-column-group-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4745,6 +5218,7 @@ dt_column_group_ns =
     "dt-column-group-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt-column-l { display: table-column; }
@@ -4753,6 +5227,7 @@ dt_column_group_ns =
 dt_column_l : String
 dt_column_l =
     "dt-column-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4765,6 +5240,7 @@ dt_column_m =
     "dt-column-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt-column-ns { display: table-column; }
@@ -4773,6 +5249,7 @@ dt_column_m =
 dt_column_ns : String
 dt_column_ns =
     "dt-column-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4785,6 +5262,7 @@ dt_l =
     "dt-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt-m { display: table; }
@@ -4793,6 +5271,7 @@ dt_l =
 dt_m : String
 dt_m =
     "dt-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4805,6 +5284,7 @@ dt_ns =
     "dt-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt-row { display: table-row; }
@@ -4813,6 +5293,7 @@ dt_ns =
 dt_row : String
 dt_row =
     "dt-row"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4825,6 +5306,7 @@ dt_row_group =
     "dt-row-group"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt-row-group-l { display: table-row-group; }
@@ -4833,6 +5315,7 @@ dt_row_group =
 dt_row_group_l : String
 dt_row_group_l =
     "dt-row-group-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4845,6 +5328,7 @@ dt_row_group_m =
     "dt-row-group-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt-row-group-ns { display: table-row-group; }
@@ -4853,6 +5337,7 @@ dt_row_group_m =
 dt_row_group_ns : String
 dt_row_group_ns =
     "dt-row-group-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4865,6 +5350,7 @@ dt_row_l =
     "dt-row-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dt-row-m { display: table-row; }
@@ -4873,6 +5359,7 @@ dt_row_l =
 dt_row_m : String
 dt_row_m =
     "dt-row-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4885,6 +5372,7 @@ dt_row_ns =
     "dt-row-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dtc { display: table-cell; }
@@ -4893,6 +5381,7 @@ dt_row_ns =
 dtc : String
 dtc =
     "dtc"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4905,6 +5394,7 @@ dtc_l =
     "dtc-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .dtc-m { display: table-cell; }
@@ -4913,6 +5403,7 @@ dtc_l =
 dtc_m : String
 dtc_m =
     "dtc-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4925,6 +5416,7 @@ dtc_ns =
     "dtc-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f-5, .f-subheadline { font-size: 5rem; }
@@ -4933,6 +5425,7 @@ dtc_ns =
 f_5 : String
 f_5 =
     "f-5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4945,6 +5438,7 @@ f_5_l =
     "f-5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f-5-m, .f-subheadline-m { font-size: 5rem; }
@@ -4953,6 +5447,7 @@ f_5_l =
 f_5_m : String
 f_5_m =
     "f-5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4965,6 +5460,7 @@ f_5_ns =
     "f-5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f-6, .f-headline { font-size: 6rem; }
@@ -4973,6 +5469,7 @@ f_5_ns =
 f_6 : String
 f_6 =
     "f-6"
+
 
 
 {-| This class maps to this CSS definition:
@@ -4985,6 +5482,7 @@ f_6_l =
     "f-6-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f-6-m, .f-headline-m { font-size: 6rem; }
@@ -4993,6 +5491,7 @@ f_6_l =
 f_6_m : String
 f_6_m =
     "f-6-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5005,6 +5504,7 @@ f_6_ns =
     "f-6-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f-6, .f-headline { font-size: 6rem; }
@@ -5013,6 +5513,7 @@ f_6_ns =
 f_headline : String
 f_headline =
     "f-headline"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5025,6 +5526,7 @@ f_headline_l =
     "f-headline-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f-6-m, .f-headline-m { font-size: 6rem; }
@@ -5033,6 +5535,7 @@ f_headline_l =
 f_headline_m : String
 f_headline_m =
     "f-headline-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5045,6 +5548,7 @@ f_headline_ns =
     "f-headline-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f-5, .f-subheadline { font-size: 5rem; }
@@ -5053,6 +5557,7 @@ f_headline_ns =
 f_subheadline : String
 f_subheadline =
     "f-subheadline"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5065,6 +5570,7 @@ f_subheadline_l =
     "f-subheadline-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f-5-m, .f-subheadline-m { font-size: 5rem; }
@@ -5073,6 +5579,7 @@ f_subheadline_l =
 f_subheadline_m : String
 f_subheadline_m =
     "f-subheadline-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5085,6 +5592,7 @@ f_subheadline_ns =
     "f-subheadline-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f1 { font-size: 3rem; }
@@ -5093,6 +5601,7 @@ f_subheadline_ns =
 f1 : String
 f1 =
     "f1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5105,6 +5614,7 @@ f1_l =
     "f1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f1-m { font-size: 3rem; }
@@ -5113,6 +5623,7 @@ f1_l =
 f1_m : String
 f1_m =
     "f1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5125,6 +5636,7 @@ f1_ns =
     "f1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f2 { font-size: 2.25rem; }
@@ -5133,6 +5645,7 @@ f1_ns =
 f2 : String
 f2 =
     "f2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5145,6 +5658,7 @@ f2_l =
     "f2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f2-m { font-size: 2.25rem; }
@@ -5153,6 +5667,7 @@ f2_l =
 f2_m : String
 f2_m =
     "f2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5165,6 +5680,7 @@ f2_ns =
     "f2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f3 { font-size: 1.5rem; }
@@ -5173,6 +5689,7 @@ f2_ns =
 f3 : String
 f3 =
     "f3"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5185,6 +5702,7 @@ f3_l =
     "f3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f3-m { font-size: 1.5rem; }
@@ -5193,6 +5711,7 @@ f3_l =
 f3_m : String
 f3_m =
     "f3-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5205,6 +5724,7 @@ f3_ns =
     "f3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f4 { font-size: 1.25rem; }
@@ -5213,6 +5733,7 @@ f3_ns =
 f4 : String
 f4 =
     "f4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5225,6 +5746,7 @@ f4_l =
     "f4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f4-m { font-size: 1.25rem; }
@@ -5233,6 +5755,7 @@ f4_l =
 f4_m : String
 f4_m =
     "f4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5245,6 +5768,7 @@ f4_ns =
     "f4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f5 { font-size: 1rem; }
@@ -5253,6 +5777,7 @@ f4_ns =
 f5 : String
 f5 =
     "f5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5265,6 +5790,7 @@ f5_l =
     "f5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f5-m { font-size: 1rem; }
@@ -5273,6 +5799,7 @@ f5_l =
 f5_m : String
 f5_m =
     "f5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5285,6 +5812,7 @@ f5_ns =
     "f5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f6 { font-size: .875rem; }
@@ -5293,6 +5821,7 @@ f5_ns =
 f6 : String
 f6 =
     "f6"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5305,6 +5834,7 @@ f6_l =
     "f6-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f6-m { font-size: .875rem; }
@@ -5313,6 +5843,7 @@ f6_l =
 f6_m : String
 f6_m =
     "f6-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5325,6 +5856,7 @@ f6_ns =
     "f6-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f7 { font-size: .75rem; }
@@ -5333,6 +5865,7 @@ f6_ns =
 f7 : String
 f7 =
     "f7"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5345,6 +5878,7 @@ f7_l =
     "f7-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .f7-m { font-size: .75rem; }
@@ -5353,6 +5887,7 @@ f7_l =
 f7_m : String
 f7_m =
     "f7-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5365,6 +5900,7 @@ f7_ns =
     "f7-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fixed { position: fixed; }
@@ -5373,6 +5909,7 @@ f7_ns =
 fixed : String
 fixed =
     "fixed"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5385,6 +5922,7 @@ fixed_l =
     "fixed-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fixed-m { position: fixed; }
@@ -5393,6 +5931,7 @@ fixed_l =
 fixed_m : String
 fixed_m =
     "fixed-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5405,6 +5944,7 @@ fixed_ns =
     "fixed-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fl { float: left; _display: inline; }
@@ -5415,9 +5955,10 @@ fl =
     "fl"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .fl-l { float: left; display: inline; }
+    .fl-l { float: left; _display: inline; }
 
 -}
 fl_l : String
@@ -5425,9 +5966,10 @@ fl_l =
     "fl-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .fl-m { float: left; display: inline; }
+    .fl-m { float: left; _display: inline; }
 
 -}
 fl_m : String
@@ -5435,9 +5977,10 @@ fl_m =
     "fl-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .fl-ns { float: left; display: inline; }
+    .fl-ns { float: left; _display: inline; }
 
 -}
 fl_ns : String
@@ -5445,9 +5988,10 @@ fl_ns =
     "fl-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
+    .flex { display: flex; }
 
 -}
 flex : String
@@ -5455,9 +5999,10 @@ flex =
     "flex"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-auto { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
+    .flex-auto { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
 
 -}
 flex_auto : String
@@ -5465,9 +6010,10 @@ flex_auto =
     "flex-auto"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-auto-l { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
+    .flex-auto-l { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
 
 -}
 flex_auto_l : String
@@ -5475,9 +6021,10 @@ flex_auto_l =
     "flex-auto-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-auto-m { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
+    .flex-auto-m { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
 
 -}
 flex_auto_m : String
@@ -5485,9 +6032,10 @@ flex_auto_m =
     "flex-auto-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-auto-ns { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
+    .flex-auto-ns { flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
 
 -}
 flex_auto_ns : String
@@ -5495,9 +6043,10 @@ flex_auto_ns =
     "flex-auto-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-column { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+    .flex-column { flex-direction: column; }
 
 -}
 flex_column : String
@@ -5505,9 +6054,10 @@ flex_column =
     "flex-column"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-column-l { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+    .flex-column-l { flex-direction: column; }
 
 -}
 flex_column_l : String
@@ -5515,9 +6065,10 @@ flex_column_l =
     "flex-column-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-column-m { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+    .flex-column-m { flex-direction: column; }
 
 -}
 flex_column_m : String
@@ -5525,9 +6076,10 @@ flex_column_m =
     "flex-column-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-column-ns { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+    .flex-column-ns { flex-direction: column; }
 
 -}
 flex_column_ns : String
@@ -5535,9 +6087,10 @@ flex_column_ns =
     "flex-column-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-column-reverse { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+    .flex-column-reverse { flex-direction: column-reverse; }
 
 -}
 flex_column_reverse : String
@@ -5545,9 +6098,10 @@ flex_column_reverse =
     "flex-column-reverse"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-column-reverse-l { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+    .flex-column-reverse-l { flex-direction: column-reverse; }
 
 -}
 flex_column_reverse_l : String
@@ -5555,9 +6109,10 @@ flex_column_reverse_l =
     "flex-column-reverse-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-column-reverse-m { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+    .flex-column-reverse-m { flex-direction: column-reverse; }
 
 -}
 flex_column_reverse_m : String
@@ -5565,9 +6120,10 @@ flex_column_reverse_m =
     "flex-column-reverse-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-column-reverse-ns { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+    .flex-column-reverse-ns { flex-direction: column-reverse; }
 
 -}
 flex_column_reverse_ns : String
@@ -5575,9 +6131,98 @@ flex_column_reverse_ns =
     "flex-column-reverse-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-l { display: -webkit-box; display: -ms-flexbox; display: flex; }
+    .flex-grow-0 { flex-grow: 0; }
+
+-}
+flex_grow_0 : String
+flex_grow_0 =
+    "flex-grow-0"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-grow-0-l { flex-grow: 0; }
+
+-}
+flex_grow_0_l : String
+flex_grow_0_l =
+    "flex-grow-0-l"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-grow-0-m { flex-grow: 0; }
+
+-}
+flex_grow_0_m : String
+flex_grow_0_m =
+    "flex-grow-0-m"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-grow-0-ns { flex-grow: 0; }
+
+-}
+flex_grow_0_ns : String
+flex_grow_0_ns =
+    "flex-grow-0-ns"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-grow-1 { flex-grow: 1; }
+
+-}
+flex_grow_1 : String
+flex_grow_1 =
+    "flex-grow-1"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-grow-1-l { flex-grow: 1; }
+
+-}
+flex_grow_1_l : String
+flex_grow_1_l =
+    "flex-grow-1-l"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-grow-1-m { flex-grow: 1; }
+
+-}
+flex_grow_1_m : String
+flex_grow_1_m =
+    "flex-grow-1-m"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-grow-1-ns { flex-grow: 1; }
+
+-}
+flex_grow_1_ns : String
+flex_grow_1_ns =
+    "flex-grow-1-ns"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-l { display: flex; }
 
 -}
 flex_l : String
@@ -5585,9 +6230,10 @@ flex_l =
     "flex-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-m { display: -webkit-box; display: -ms-flexbox; display: flex; }
+    .flex-m { display: flex; }
 
 -}
 flex_m : String
@@ -5595,9 +6241,10 @@ flex_m =
     "flex-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-none { -webkit-box-flex: 0; -ms-flex: none; flex: none; }
+    .flex-none { flex: none; }
 
 -}
 flex_none : String
@@ -5605,9 +6252,10 @@ flex_none =
     "flex-none"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-none-l { -webkit-box-flex: 0; -ms-flex: none; flex: none; }
+    .flex-none-l { flex: none; }
 
 -}
 flex_none_l : String
@@ -5615,9 +6263,10 @@ flex_none_l =
     "flex-none-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-none-m { -webkit-box-flex: 0; -ms-flex: none; flex: none; }
+    .flex-none-m { flex: none; }
 
 -}
 flex_none_m : String
@@ -5625,9 +6274,10 @@ flex_none_m =
     "flex-none-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-none-ns { -webkit-box-flex: 0; -ms-flex: none; flex: none; }
+    .flex-none-ns { flex: none; }
 
 -}
 flex_none_ns : String
@@ -5635,9 +6285,10 @@ flex_none_ns =
     "flex-none-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-nowrap { -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+    .flex-nowrap { flex-wrap: nowrap; }
 
 -}
 flex_nowrap : String
@@ -5645,9 +6296,10 @@ flex_nowrap =
     "flex-nowrap"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-nowrap-l { -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+    .flex-nowrap-l { flex-wrap: nowrap; }
 
 -}
 flex_nowrap_l : String
@@ -5655,9 +6307,10 @@ flex_nowrap_l =
     "flex-nowrap-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-nowrap-m { -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+    .flex-nowrap-m { flex-wrap: nowrap; }
 
 -}
 flex_nowrap_m : String
@@ -5665,9 +6318,10 @@ flex_nowrap_m =
     "flex-nowrap-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-nowrap-ns { -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+    .flex-nowrap-ns { flex-wrap: nowrap; }
 
 -}
 flex_nowrap_ns : String
@@ -5675,9 +6329,10 @@ flex_nowrap_ns =
     "flex-nowrap-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-ns { display: -webkit-box; display: -ms-flexbox; display: flex; }
+    .flex-ns { display: flex; }
 
 -}
 flex_ns : String
@@ -5685,9 +6340,10 @@ flex_ns =
     "flex-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-row { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+    .flex-row { flex-direction: row; }
 
 -}
 flex_row : String
@@ -5695,9 +6351,10 @@ flex_row =
     "flex-row"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-row-l { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+    .flex-row-l { flex-direction: row; }
 
 -}
 flex_row_l : String
@@ -5705,9 +6362,10 @@ flex_row_l =
     "flex-row-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-row-m { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+    .flex-row-m { flex-direction: row; }
 
 -}
 flex_row_m : String
@@ -5715,9 +6373,10 @@ flex_row_m =
     "flex-row-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-row-ns { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+    .flex-row-ns { flex-direction: row; }
 
 -}
 flex_row_ns : String
@@ -5725,9 +6384,10 @@ flex_row_ns =
     "flex-row-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-row-reverse { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+    .flex-row-reverse { flex-direction: row-reverse; }
 
 -}
 flex_row_reverse : String
@@ -5735,9 +6395,10 @@ flex_row_reverse =
     "flex-row-reverse"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-row-reverse-l { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+    .flex-row-reverse-l { flex-direction: row-reverse; }
 
 -}
 flex_row_reverse_l : String
@@ -5745,9 +6406,10 @@ flex_row_reverse_l =
     "flex-row-reverse-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-row-reverse-m { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+    .flex-row-reverse-m { flex-direction: row-reverse; }
 
 -}
 flex_row_reverse_m : String
@@ -5755,9 +6417,10 @@ flex_row_reverse_m =
     "flex-row-reverse-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-row-reverse-ns { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+    .flex-row-reverse-ns { flex-direction: row-reverse; }
 
 -}
 flex_row_reverse_ns : String
@@ -5765,9 +6428,98 @@ flex_row_reverse_ns =
     "flex-row-reverse-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-wrap { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+    .flex-shrink-0 { flex-shrink: 0; }
+
+-}
+flex_shrink_0 : String
+flex_shrink_0 =
+    "flex-shrink-0"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-shrink-0-l { flex-shrink: 0; }
+
+-}
+flex_shrink_0_l : String
+flex_shrink_0_l =
+    "flex-shrink-0-l"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-shrink-0-m { flex-shrink: 0; }
+
+-}
+flex_shrink_0_m : String
+flex_shrink_0_m =
+    "flex-shrink-0-m"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-shrink-0-ns { flex-shrink: 0; }
+
+-}
+flex_shrink_0_ns : String
+flex_shrink_0_ns =
+    "flex-shrink-0-ns"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-shrink-1 { flex-shrink: 1; }
+
+-}
+flex_shrink_1 : String
+flex_shrink_1 =
+    "flex-shrink-1"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-shrink-1-l { flex-shrink: 1; }
+
+-}
+flex_shrink_1_l : String
+flex_shrink_1_l =
+    "flex-shrink-1-l"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-shrink-1-m { flex-shrink: 1; }
+
+-}
+flex_shrink_1_m : String
+flex_shrink_1_m =
+    "flex-shrink-1-m"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-shrink-1-ns { flex-shrink: 1; }
+
+-}
+flex_shrink_1_ns : String
+flex_shrink_1_ns =
+    "flex-shrink-1-ns"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .flex-wrap { flex-wrap: wrap; }
 
 -}
 flex_wrap : String
@@ -5775,9 +6527,10 @@ flex_wrap =
     "flex-wrap"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-wrap-l { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+    .flex-wrap-l { flex-wrap: wrap; }
 
 -}
 flex_wrap_l : String
@@ -5785,9 +6538,10 @@ flex_wrap_l =
     "flex-wrap-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-wrap-m { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+    .flex-wrap-m { flex-wrap: wrap; }
 
 -}
 flex_wrap_m : String
@@ -5795,9 +6549,10 @@ flex_wrap_m =
     "flex-wrap-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-wrap-ns { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+    .flex-wrap-ns { flex-wrap: wrap; }
 
 -}
 flex_wrap_ns : String
@@ -5805,9 +6560,10 @@ flex_wrap_ns =
     "flex-wrap-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-wrap-reverse { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+    .flex-wrap-reverse { flex-wrap: wrap-reverse; }
 
 -}
 flex_wrap_reverse : String
@@ -5815,9 +6571,10 @@ flex_wrap_reverse =
     "flex-wrap-reverse"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-wrap-reverse-l { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+    .flex-wrap-reverse-l { flex-wrap: wrap-reverse; }
 
 -}
 flex_wrap_reverse_l : String
@@ -5825,9 +6582,10 @@ flex_wrap_reverse_l =
     "flex-wrap-reverse-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-wrap-reverse-m { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+    .flex-wrap-reverse-m { flex-wrap: wrap-reverse; }
 
 -}
 flex_wrap_reverse_m : String
@@ -5835,14 +6593,16 @@ flex_wrap_reverse_m =
     "flex-wrap-reverse-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .flex-wrap-reverse-ns { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+    .flex-wrap-reverse-ns { flex-wrap: wrap-reverse; }
 
 -}
 flex_wrap_reverse_ns : String
 flex_wrap_reverse_ns =
     "flex-wrap-reverse-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5855,6 +6615,7 @@ fn =
     "fn"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fn-l { float: none; }
@@ -5863,6 +6624,7 @@ fn =
 fn_l : String
 fn_l =
     "fn-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5875,6 +6637,7 @@ fn_m =
     "fn-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fn-ns { float: none; }
@@ -5883,6 +6646,7 @@ fn_m =
 fn_ns : String
 fn_ns =
     "fn-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5895,9 +6659,10 @@ fr =
     "fr"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .fr-l { float: right; display: inline; }
+    .fr-l { float: right; _display: inline; }
 
 -}
 fr_l : String
@@ -5905,9 +6670,10 @@ fr_l =
     "fr-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .fr-m { float: right; display: inline; }
+    .fr-m { float: right; _display: inline; }
 
 -}
 fr_m : String
@@ -5915,14 +6681,16 @@ fr_m =
     "fr-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .fr-ns { float: right; display: inline; }
+    .fr-ns { float: right; _display: inline; }
 
 -}
 fr_ns : String
 fr_ns =
     "fr-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5935,6 +6703,7 @@ fs_normal =
     "fs-normal"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fs-normal-l { font-style: normal; }
@@ -5943,6 +6712,7 @@ fs_normal =
 fs_normal_l : String
 fs_normal_l =
     "fs-normal-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5955,6 +6725,7 @@ fs_normal_m =
     "fs-normal-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fs-normal-ns { font-style: normal; }
@@ -5963,6 +6734,7 @@ fs_normal_m =
 fs_normal_ns : String
 fs_normal_ns =
     "fs-normal-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5975,6 +6747,7 @@ fw1 =
     "fw1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw1-l { font-weight: 100; }
@@ -5983,6 +6756,7 @@ fw1 =
 fw1_l : String
 fw1_l =
     "fw1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -5995,6 +6769,7 @@ fw1_m =
     "fw1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw1-ns { font-weight: 100; }
@@ -6003,6 +6778,7 @@ fw1_m =
 fw1_ns : String
 fw1_ns =
     "fw1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6015,6 +6791,7 @@ fw2 =
     "fw2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw2-l { font-weight: 200; }
@@ -6023,6 +6800,7 @@ fw2 =
 fw2_l : String
 fw2_l =
     "fw2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6035,6 +6813,7 @@ fw2_m =
     "fw2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw2-ns { font-weight: 200; }
@@ -6043,6 +6822,7 @@ fw2_m =
 fw2_ns : String
 fw2_ns =
     "fw2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6055,6 +6835,7 @@ fw3 =
     "fw3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw3-l { font-weight: 300; }
@@ -6063,6 +6844,7 @@ fw3 =
 fw3_l : String
 fw3_l =
     "fw3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6075,6 +6857,7 @@ fw3_m =
     "fw3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw3-ns { font-weight: 300; }
@@ -6083,6 +6866,7 @@ fw3_m =
 fw3_ns : String
 fw3_ns =
     "fw3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6095,6 +6879,7 @@ fw4 =
     "fw4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw4-l { font-weight: 400; }
@@ -6103,6 +6888,7 @@ fw4 =
 fw4_l : String
 fw4_l =
     "fw4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6115,6 +6901,7 @@ fw4_m =
     "fw4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw4-ns { font-weight: 400; }
@@ -6123,6 +6910,7 @@ fw4_m =
 fw4_ns : String
 fw4_ns =
     "fw4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6135,6 +6923,7 @@ fw5 =
     "fw5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw5-l { font-weight: 500; }
@@ -6143,6 +6932,7 @@ fw5 =
 fw5_l : String
 fw5_l =
     "fw5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6155,6 +6945,7 @@ fw5_m =
     "fw5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw5-ns { font-weight: 500; }
@@ -6163,6 +6954,7 @@ fw5_m =
 fw5_ns : String
 fw5_ns =
     "fw5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6175,6 +6967,7 @@ fw6 =
     "fw6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw6-l { font-weight: 600; }
@@ -6183,6 +6976,7 @@ fw6 =
 fw6_l : String
 fw6_l =
     "fw6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6195,6 +6989,7 @@ fw6_m =
     "fw6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw6-ns { font-weight: 600; }
@@ -6203,6 +6998,7 @@ fw6_m =
 fw6_ns : String
 fw6_ns =
     "fw6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6215,6 +7011,7 @@ fw7 =
     "fw7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw7-l { font-weight: 700; }
@@ -6223,6 +7020,7 @@ fw7 =
 fw7_l : String
 fw7_l =
     "fw7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6235,6 +7033,7 @@ fw7_m =
     "fw7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw7-ns { font-weight: 700; }
@@ -6243,6 +7042,7 @@ fw7_m =
 fw7_ns : String
 fw7_ns =
     "fw7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6255,6 +7055,7 @@ fw8 =
     "fw8"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw8-l { font-weight: 800; }
@@ -6263,6 +7064,7 @@ fw8 =
 fw8_l : String
 fw8_l =
     "fw8-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6275,6 +7077,7 @@ fw8_m =
     "fw8-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw8-ns { font-weight: 800; }
@@ -6283,6 +7086,7 @@ fw8_m =
 fw8_ns : String
 fw8_ns =
     "fw8-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6295,6 +7099,7 @@ fw9 =
     "fw9"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw9-l { font-weight: 900; }
@@ -6303,6 +7108,7 @@ fw9 =
 fw9_l : String
 fw9_l =
     "fw9-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6315,6 +7121,7 @@ fw9_m =
     "fw9-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .fw9-ns { font-weight: 900; }
@@ -6323,6 +7130,7 @@ fw9_m =
 fw9_ns : String
 fw9_ns =
     "fw9-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6335,6 +7143,7 @@ garamond =
     "garamond"
 
 
+
 {-| This class maps to this CSS definition:
 
     .georgia { font-family: georgia, serif; }
@@ -6343,6 +7152,7 @@ garamond =
 georgia : String
 georgia =
     "georgia"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6356,6 +7166,7 @@ glow =
     "glow"
 
 
+
 {-| This class maps to this CSS definition:
 
     .gold { color: #ffb700; }
@@ -6364,6 +7175,7 @@ glow =
 gold : String
 gold =
     "gold"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6376,6 +7188,7 @@ gray =
     "gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .green { color: #19a974; }
@@ -6384,6 +7197,7 @@ gray =
 green : String
 green =
     "green"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6398,6 +7212,7 @@ grow =
     "grow"
 
 
+
 {-| This class maps to this CSS definition:
 
     .grow-large { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-in-out; transition: transform .25s ease-in-out; transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out; }
@@ -6410,6 +7225,7 @@ grow_large =
     "grow-large"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-100 { height: 100%; }
@@ -6418,6 +7234,7 @@ grow_large =
 h_100 : String
 h_100 =
     "h-100"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6430,6 +7247,7 @@ h_100_l =
     "h-100-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-100-m { height: 100%; }
@@ -6438,6 +7256,7 @@ h_100_l =
 h_100_m : String
 h_100_m =
     "h-100-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6450,6 +7269,7 @@ h_100_ns =
     "h-100-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-25 { height: 25%; }
@@ -6458,6 +7278,7 @@ h_100_ns =
 h_25 : String
 h_25 =
     "h-25"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6470,6 +7291,7 @@ h_25_l =
     "h-25-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-25-m { height: 25%; }
@@ -6478,6 +7300,7 @@ h_25_l =
 h_25_m : String
 h_25_m =
     "h-25-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6490,6 +7313,7 @@ h_25_ns =
     "h-25-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-50 { height: 50%; }
@@ -6498,6 +7322,7 @@ h_25_ns =
 h_50 : String
 h_50 =
     "h-50"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6510,6 +7335,7 @@ h_50_l =
     "h-50-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-50-m { height: 50%; }
@@ -6518,6 +7344,7 @@ h_50_l =
 h_50_m : String
 h_50_m =
     "h-50-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6530,6 +7357,7 @@ h_50_ns =
     "h-50-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-75 { height: 75%; }
@@ -6538,6 +7366,7 @@ h_50_ns =
 h_75 : String
 h_75 =
     "h-75"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6550,6 +7379,7 @@ h_75_l =
     "h-75-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-75-m { height: 75%; }
@@ -6558,6 +7388,7 @@ h_75_l =
 h_75_m : String
 h_75_m =
     "h-75-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6570,6 +7401,7 @@ h_75_ns =
     "h-75-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-auto { height: auto; }
@@ -6578,6 +7410,7 @@ h_75_ns =
 h_auto : String
 h_auto =
     "h-auto"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6590,6 +7423,7 @@ h_auto_l =
     "h-auto-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-auto-m { height: auto; }
@@ -6598,6 +7432,7 @@ h_auto_l =
 h_auto_m : String
 h_auto_m =
     "h-auto-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6610,6 +7445,7 @@ h_auto_ns =
     "h-auto-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-inherit { height: inherit; }
@@ -6618,6 +7454,7 @@ h_auto_ns =
 h_inherit : String
 h_inherit =
     "h-inherit"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6630,6 +7467,7 @@ h_inherit_l =
     "h-inherit-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h-inherit-m { height: inherit; }
@@ -6638,6 +7476,7 @@ h_inherit_l =
 h_inherit_m : String
 h_inherit_m =
     "h-inherit-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6650,6 +7489,7 @@ h_inherit_ns =
     "h-inherit-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h1 { height: 1rem; }
@@ -6658,6 +7498,7 @@ h_inherit_ns =
 h1 : String
 h1 =
     "h1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6670,6 +7511,7 @@ h1_l =
     "h1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h1-m { height: 1rem; }
@@ -6678,6 +7520,7 @@ h1_l =
 h1_m : String
 h1_m =
     "h1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6690,6 +7533,7 @@ h1_ns =
     "h1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h2 { height: 2rem; }
@@ -6698,6 +7542,7 @@ h1_ns =
 h2 : String
 h2 =
     "h2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6710,6 +7555,7 @@ h2_l =
     "h2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h2-m { height: 2rem; }
@@ -6718,6 +7564,7 @@ h2_l =
 h2_m : String
 h2_m =
     "h2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6730,6 +7577,7 @@ h2_ns =
     "h2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h3 { height: 4rem; }
@@ -6738,6 +7586,7 @@ h2_ns =
 h3 : String
 h3 =
     "h3"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6750,6 +7599,7 @@ h3_l =
     "h3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h3-m { height: 4rem; }
@@ -6758,6 +7608,7 @@ h3_l =
 h3_m : String
 h3_m =
     "h3-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6770,6 +7621,7 @@ h3_ns =
     "h3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h4 { height: 8rem; }
@@ -6778,6 +7630,7 @@ h3_ns =
 h4 : String
 h4 =
     "h4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6790,6 +7643,7 @@ h4_l =
     "h4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h4-m { height: 8rem; }
@@ -6798,6 +7652,7 @@ h4_l =
 h4_m : String
 h4_m =
     "h4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6810,6 +7665,7 @@ h4_ns =
     "h4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h5 { height: 16rem; }
@@ -6818,6 +7674,7 @@ h4_ns =
 h5 : String
 h5 =
     "h5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6830,6 +7687,7 @@ h5_l =
     "h5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .h5-m { height: 16rem; }
@@ -6838,6 +7696,7 @@ h5_l =
 h5_m : String
 h5_m =
     "h5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6850,6 +7709,7 @@ h5_ns =
     "h5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
@@ -6858,6 +7718,7 @@ h5_ns =
 helvetica : String
 helvetica =
     "helvetica"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6871,6 +7732,7 @@ hide_child =
     "hide-child"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hot-pink { color: #ff41b4; }
@@ -6879,6 +7741,7 @@ hide_child =
 hot_pink : String
 hot_pink =
     "hot-pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6892,6 +7755,7 @@ hover_bg_black =
     "hover-bg-black"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-black-10:hover { background-color: rgba( 0, 0, 0, .1 ); }
@@ -6901,6 +7765,7 @@ hover_bg_black =
 hover_bg_black_10 : String
 hover_bg_black_10 =
     "hover-bg-black-10"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6914,6 +7779,7 @@ hover_bg_black_20 =
     "hover-bg-black-20"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-black-30:hover { background-color: rgba( 0, 0, 0, .3 ); }
@@ -6923,6 +7789,7 @@ hover_bg_black_20 =
 hover_bg_black_30 : String
 hover_bg_black_30 =
     "hover-bg-black-30"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6936,6 +7803,7 @@ hover_bg_black_40 =
     "hover-bg-black-40"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-black-50:hover { background-color: rgba( 0, 0, 0, .5 ); }
@@ -6945,6 +7813,7 @@ hover_bg_black_40 =
 hover_bg_black_50 : String
 hover_bg_black_50 =
     "hover-bg-black-50"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6958,6 +7827,7 @@ hover_bg_black_60 =
     "hover-bg-black-60"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-black-70:hover { background-color: rgba( 0, 0, 0, .7 ); }
@@ -6967,6 +7837,7 @@ hover_bg_black_60 =
 hover_bg_black_70 : String
 hover_bg_black_70 =
     "hover-bg-black-70"
+
 
 
 {-| This class maps to this CSS definition:
@@ -6980,6 +7851,7 @@ hover_bg_black_80 =
     "hover-bg-black-80"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-black-90:hover { background-color: rgba( 0, 0, 0, .9 ); }
@@ -6989,6 +7861,7 @@ hover_bg_black_80 =
 hover_bg_black_90 : String
 hover_bg_black_90 =
     "hover-bg-black-90"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7002,6 +7875,7 @@ hover_bg_blue =
     "hover-bg-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-dark-blue:hover { background-color: #00449e; }
@@ -7011,6 +7885,7 @@ hover_bg_blue =
 hover_bg_dark_blue : String
 hover_bg_dark_blue =
     "hover-bg-dark-blue"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7024,6 +7899,7 @@ hover_bg_dark_gray =
     "hover-bg-dark-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-dark-green:hover { background-color: #137752; }
@@ -7033,6 +7909,7 @@ hover_bg_dark_gray =
 hover_bg_dark_green : String
 hover_bg_dark_green =
     "hover-bg-dark-green"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7046,6 +7923,7 @@ hover_bg_dark_pink =
     "hover-bg-dark-pink"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-dark-red:hover { background-color: #e7040f; }
@@ -7055,6 +7933,7 @@ hover_bg_dark_pink =
 hover_bg_dark_red : String
 hover_bg_dark_red =
     "hover-bg-dark-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7068,6 +7947,7 @@ hover_bg_gold =
     "hover-bg-gold"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-gray:hover { background-color: #777; }
@@ -7077,6 +7957,7 @@ hover_bg_gold =
 hover_bg_gray : String
 hover_bg_gray =
     "hover-bg-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7090,6 +7971,7 @@ hover_bg_green =
     "hover-bg-green"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-hot-pink:hover { background-color: #ff41b4; }
@@ -7101,6 +7983,7 @@ hover_bg_hot_pink =
     "hover-bg-hot-pink"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-inherit:hover, .hover-bg-inherit:focus { background-color: inherit; }
@@ -7109,6 +7992,7 @@ hover_bg_hot_pink =
 hover_bg_inherit : String
 hover_bg_inherit =
     "hover-bg-inherit"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7122,6 +8006,7 @@ hover_bg_light_blue =
     "hover-bg-light-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-light-gray:hover { background-color: #eee; }
@@ -7131,6 +8016,7 @@ hover_bg_light_blue =
 hover_bg_light_gray : String
 hover_bg_light_gray =
     "hover-bg-light-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7144,6 +8030,7 @@ hover_bg_light_green =
     "hover-bg-light-green"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-light-pink:hover { background-color: #ffa3d7; }
@@ -7153,6 +8040,7 @@ hover_bg_light_green =
 hover_bg_light_pink : String
 hover_bg_light_pink =
     "hover-bg-light-pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7166,6 +8054,7 @@ hover_bg_light_purple =
     "hover-bg-light-purple"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-light-red:hover { background-color: #ff725c; }
@@ -7175,6 +8064,7 @@ hover_bg_light_purple =
 hover_bg_light_red : String
 hover_bg_light_red =
     "hover-bg-light-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7188,6 +8078,7 @@ hover_bg_light_silver =
     "hover-bg-light-silver"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-light-yellow:hover { background-color: #fbf1a9; }
@@ -7197,6 +8088,7 @@ hover_bg_light_silver =
 hover_bg_light_yellow : String
 hover_bg_light_yellow =
     "hover-bg-light-yellow"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7210,6 +8102,7 @@ hover_bg_lightest_blue =
     "hover-bg-lightest-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-mid-gray:hover { background-color: #555; }
@@ -7219,6 +8112,7 @@ hover_bg_lightest_blue =
 hover_bg_mid_gray : String
 hover_bg_mid_gray =
     "hover-bg-mid-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7232,6 +8126,7 @@ hover_bg_moon_gray =
     "hover-bg-moon-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-navy:hover { background-color: #001b44; }
@@ -7241,6 +8136,7 @@ hover_bg_moon_gray =
 hover_bg_navy : String
 hover_bg_navy =
     "hover-bg-navy"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7254,6 +8150,7 @@ hover_bg_near_black =
     "hover-bg-near-black"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-near-white:hover { background-color: #f4f4f4; }
@@ -7263,6 +8160,7 @@ hover_bg_near_black =
 hover_bg_near_white : String
 hover_bg_near_white =
     "hover-bg-near-white"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7276,6 +8174,7 @@ hover_bg_orange =
     "hover-bg-orange"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-pink:hover { background-color: #ff80cc; }
@@ -7285,6 +8184,7 @@ hover_bg_orange =
 hover_bg_pink : String
 hover_bg_pink =
     "hover-bg-pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7298,6 +8198,7 @@ hover_bg_purple =
     "hover-bg-purple"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-red:hover { background-color: #ff4136; }
@@ -7307,6 +8208,7 @@ hover_bg_purple =
 hover_bg_red : String
 hover_bg_red =
     "hover-bg-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7320,6 +8222,7 @@ hover_bg_silver =
     "hover-bg-silver"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-transparent:hover { background-color: transparent; }
@@ -7329,6 +8232,7 @@ hover_bg_silver =
 hover_bg_transparent : String
 hover_bg_transparent =
     "hover-bg-transparent"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7342,6 +8246,7 @@ hover_bg_washed_blue =
     "hover-bg-washed-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-washed-green:hover { background-color: #e8fdf5; }
@@ -7351,6 +8256,7 @@ hover_bg_washed_blue =
 hover_bg_washed_green : String
 hover_bg_washed_green =
     "hover-bg-washed-green"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7364,6 +8270,7 @@ hover_bg_washed_red =
     "hover-bg-washed-red"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-washed-yellow:hover { background-color: #fffceb; }
@@ -7373,6 +8280,7 @@ hover_bg_washed_red =
 hover_bg_washed_yellow : String
 hover_bg_washed_yellow =
     "hover-bg-washed-yellow"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7386,6 +8294,7 @@ hover_bg_white =
     "hover-bg-white"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-white-10:hover { background-color: rgba( 255, 255, 255, .1 ); }
@@ -7395,6 +8304,7 @@ hover_bg_white =
 hover_bg_white_10 : String
 hover_bg_white_10 =
     "hover-bg-white-10"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7408,6 +8318,7 @@ hover_bg_white_20 =
     "hover-bg-white-20"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-white-30:hover { background-color: rgba( 255, 255, 255, .3 ); }
@@ -7417,6 +8328,7 @@ hover_bg_white_20 =
 hover_bg_white_30 : String
 hover_bg_white_30 =
     "hover-bg-white-30"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7430,6 +8342,7 @@ hover_bg_white_40 =
     "hover-bg-white-40"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-white-50:hover { background-color: rgba( 255, 255, 255, .5 ); }
@@ -7439,6 +8352,7 @@ hover_bg_white_40 =
 hover_bg_white_50 : String
 hover_bg_white_50 =
     "hover-bg-white-50"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7452,6 +8366,7 @@ hover_bg_white_60 =
     "hover-bg-white-60"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-white-70:hover { background-color: rgba( 255, 255, 255, .7 ); }
@@ -7461,6 +8376,7 @@ hover_bg_white_60 =
 hover_bg_white_70 : String
 hover_bg_white_70 =
     "hover-bg-white-70"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7474,6 +8390,7 @@ hover_bg_white_80 =
     "hover-bg-white-80"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-bg-white-90:hover { background-color: rgba( 255, 255, 255, .9 ); }
@@ -7483,6 +8400,7 @@ hover_bg_white_80 =
 hover_bg_white_90 : String
 hover_bg_white_90 =
     "hover-bg-white-90"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7496,6 +8414,7 @@ hover_bg_yellow =
     "hover-bg-yellow"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-black:hover { color: #000; }
@@ -7505,6 +8424,7 @@ hover_bg_yellow =
 hover_black : String
 hover_black =
     "hover-black"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7518,6 +8438,7 @@ hover_black_10 =
     "hover-black-10"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-black-20:hover { color: rgba( 0, 0, 0, .2 ); }
@@ -7527,6 +8448,7 @@ hover_black_10 =
 hover_black_20 : String
 hover_black_20 =
     "hover-black-20"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7540,6 +8462,7 @@ hover_black_30 =
     "hover-black-30"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-black-40:hover { color: rgba( 0, 0, 0, .4 ); }
@@ -7549,6 +8472,7 @@ hover_black_30 =
 hover_black_40 : String
 hover_black_40 =
     "hover-black-40"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7562,6 +8486,7 @@ hover_black_50 =
     "hover-black-50"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-black-60:hover { color: rgba( 0, 0, 0, .6 ); }
@@ -7571,6 +8496,7 @@ hover_black_50 =
 hover_black_60 : String
 hover_black_60 =
     "hover-black-60"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7584,6 +8510,7 @@ hover_black_70 =
     "hover-black-70"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-black-80:hover { color: rgba( 0, 0, 0, .8 ); }
@@ -7593,6 +8520,7 @@ hover_black_70 =
 hover_black_80 : String
 hover_black_80 =
     "hover-black-80"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7606,6 +8534,7 @@ hover_black_90 =
     "hover-black-90"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-blue:hover { color: #357edd; }
@@ -7615,6 +8544,7 @@ hover_black_90 =
 hover_blue : String
 hover_blue =
     "hover-blue"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7628,6 +8558,7 @@ hover_dark_blue =
     "hover-dark-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-dark-gray:hover { color: #333; }
@@ -7637,6 +8568,7 @@ hover_dark_blue =
 hover_dark_gray : String
 hover_dark_gray =
     "hover-dark-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7650,6 +8582,7 @@ hover_dark_green =
     "hover-dark-green"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-dark-pink:hover { color: #d5008f; }
@@ -7659,6 +8592,7 @@ hover_dark_green =
 hover_dark_pink : String
 hover_dark_pink =
     "hover-dark-pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7672,6 +8606,7 @@ hover_dark_red =
     "hover-dark-red"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-gold:hover { color: #ffb700; }
@@ -7681,6 +8616,7 @@ hover_dark_red =
 hover_gold : String
 hover_gold =
     "hover-gold"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7694,6 +8630,7 @@ hover_gray =
     "hover-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-green:hover { color: #19a974; }
@@ -7703,6 +8640,7 @@ hover_gray =
 hover_green : String
 hover_green =
     "hover-green"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7716,6 +8654,7 @@ hover_hot_pink =
     "hover-hot-pink"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-inherit:hover, .hover-inherit:focus { color: inherit; }
@@ -7724,6 +8663,7 @@ hover_hot_pink =
 hover_inherit : String
 hover_inherit =
     "hover-inherit"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7737,6 +8677,7 @@ hover_light_blue =
     "hover-light-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-light-gray:hover { color: #eee; }
@@ -7746,6 +8687,7 @@ hover_light_blue =
 hover_light_gray : String
 hover_light_gray =
     "hover-light-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7759,6 +8701,7 @@ hover_light_green =
     "hover-light-green"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-light-pink:hover { color: #ffa3d7; }
@@ -7768,6 +8711,7 @@ hover_light_green =
 hover_light_pink : String
 hover_light_pink =
     "hover-light-pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7781,6 +8725,7 @@ hover_light_purple =
     "hover-light-purple"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-light-red:hover { color: #ff725c; }
@@ -7790,6 +8735,7 @@ hover_light_purple =
 hover_light_red : String
 hover_light_red =
     "hover-light-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7803,6 +8749,7 @@ hover_light_silver =
     "hover-light-silver"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-light-yellow:hover { color: #fbf1a9; }
@@ -7812,6 +8759,7 @@ hover_light_silver =
 hover_light_yellow : String
 hover_light_yellow =
     "hover-light-yellow"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7825,6 +8773,7 @@ hover_lightest_blue =
     "hover-lightest-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-mid-gray:hover { color: #555; }
@@ -7834,6 +8783,7 @@ hover_lightest_blue =
 hover_mid_gray : String
 hover_mid_gray =
     "hover-mid-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7847,6 +8797,7 @@ hover_moon_gray =
     "hover-moon-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-navy:hover { color: #001b44; }
@@ -7856,6 +8807,7 @@ hover_moon_gray =
 hover_navy : String
 hover_navy =
     "hover-navy"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7869,6 +8821,7 @@ hover_near_black =
     "hover-near-black"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-near-white:hover { color: #f4f4f4; }
@@ -7878,6 +8831,7 @@ hover_near_black =
 hover_near_white : String
 hover_near_white =
     "hover-near-white"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7891,6 +8845,7 @@ hover_orange =
     "hover-orange"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-pink:hover { color: #ff80cc; }
@@ -7900,6 +8855,7 @@ hover_orange =
 hover_pink : String
 hover_pink =
     "hover-pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7913,6 +8869,7 @@ hover_purple =
     "hover-purple"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-red:hover { color: #ff4136; }
@@ -7922,6 +8879,7 @@ hover_purple =
 hover_red : String
 hover_red =
     "hover-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7935,6 +8893,7 @@ hover_silver =
     "hover-silver"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-washed-blue:hover { color: #f6fffe; }
@@ -7944,6 +8903,7 @@ hover_silver =
 hover_washed_blue : String
 hover_washed_blue =
     "hover-washed-blue"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7957,6 +8917,7 @@ hover_washed_green =
     "hover-washed-green"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-washed-red:hover { color: #ffdfdf; }
@@ -7966,6 +8927,7 @@ hover_washed_green =
 hover_washed_red : String
 hover_washed_red =
     "hover-washed-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -7979,6 +8941,7 @@ hover_washed_yellow =
     "hover-washed-yellow"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-white:hover { color: #fff; }
@@ -7988,6 +8951,7 @@ hover_washed_yellow =
 hover_white : String
 hover_white =
     "hover-white"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8001,6 +8965,7 @@ hover_white_10 =
     "hover-white-10"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-white-20:hover { color: rgba( 255, 255, 255, .2 ); }
@@ -8010,6 +8975,7 @@ hover_white_10 =
 hover_white_20 : String
 hover_white_20 =
     "hover-white-20"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8023,6 +8989,7 @@ hover_white_30 =
     "hover-white-30"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-white-40:hover { color: rgba( 255, 255, 255, .4 ); }
@@ -8032,6 +8999,7 @@ hover_white_30 =
 hover_white_40 : String
 hover_white_40 =
     "hover-white-40"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8045,6 +9013,7 @@ hover_white_50 =
     "hover-white-50"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-white-60:hover { color: rgba( 255, 255, 255, .6 ); }
@@ -8054,6 +9023,7 @@ hover_white_50 =
 hover_white_60 : String
 hover_white_60 =
     "hover-white-60"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8067,6 +9037,7 @@ hover_white_70 =
     "hover-white-70"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-white-80:hover { color: rgba( 255, 255, 255, .8 ); }
@@ -8076,6 +9047,7 @@ hover_white_70 =
 hover_white_80 : String
 hover_white_80 =
     "hover-white-80"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8089,6 +9061,7 @@ hover_white_90 =
     "hover-white-90"
 
 
+
 {-| This class maps to this CSS definition:
 
     .hover-yellow:hover { color: #ffd700; }
@@ -8098,6 +9071,7 @@ hover_white_90 =
 hover_yellow : String
 hover_yellow =
     "hover-yellow"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8110,6 +9084,7 @@ i =
     "i"
 
 
+
 {-| This class maps to this CSS definition:
 
     .i-l { font-style: italic; }
@@ -8118,6 +9093,7 @@ i =
 i_l : String
 i_l =
     "i-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8130,6 +9106,7 @@ i_m =
     "i-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .i-ns { font-style: italic; }
@@ -8138,6 +9115,7 @@ i_m =
 i_ns : String
 i_ns =
     "i-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8150,6 +9128,7 @@ indent =
     "indent"
 
 
+
 {-| This class maps to this CSS definition:
 
     .indent-l { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
@@ -8158,6 +9137,7 @@ indent =
 indent_l : String
 indent_l =
     "indent-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8170,6 +9150,7 @@ indent_m =
     "indent-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
@@ -8180,9 +9161,10 @@ indent_ns =
     "indent-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .inline-flex { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
+    .inline-flex { display: inline-flex; }
 
 -}
 inline_flex : String
@@ -8190,9 +9172,10 @@ inline_flex =
     "inline-flex"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .inline-flex-l { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
+    .inline-flex-l { display: inline-flex; }
 
 -}
 inline_flex_l : String
@@ -8200,9 +9183,10 @@ inline_flex_l =
     "inline-flex-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .inline-flex-m { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
+    .inline-flex-m { display: inline-flex; }
 
 -}
 inline_flex_m : String
@@ -8210,14 +9194,16 @@ inline_flex_m =
     "inline-flex-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .inline-flex-ns { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
+    .inline-flex-ns { display: inline-flex; }
 
 -}
 inline_flex_ns : String
 inline_flex_ns =
     "inline-flex-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8231,9 +9217,10 @@ input_reset =
     "input-reset"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-baseline { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+    .items-baseline { align-items: baseline; }
 
 -}
 items_baseline : String
@@ -8241,9 +9228,10 @@ items_baseline =
     "items-baseline"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-baseline-l { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+    .items-baseline-l { align-items: baseline; }
 
 -}
 items_baseline_l : String
@@ -8251,9 +9239,10 @@ items_baseline_l =
     "items-baseline-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-baseline-m { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+    .items-baseline-m { align-items: baseline; }
 
 -}
 items_baseline_m : String
@@ -8261,9 +9250,10 @@ items_baseline_m =
     "items-baseline-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-baseline-ns { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+    .items-baseline-ns { align-items: baseline; }
 
 -}
 items_baseline_ns : String
@@ -8271,9 +9261,10 @@ items_baseline_ns =
     "items-baseline-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-center { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+    .items-center { align-items: center; }
 
 -}
 items_center : String
@@ -8281,9 +9272,10 @@ items_center =
     "items-center"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-center-l { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+    .items-center-l { align-items: center; }
 
 -}
 items_center_l : String
@@ -8291,9 +9283,10 @@ items_center_l =
     "items-center-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-center-m { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+    .items-center-m { align-items: center; }
 
 -}
 items_center_m : String
@@ -8301,9 +9294,10 @@ items_center_m =
     "items-center-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-center-ns { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+    .items-center-ns { align-items: center; }
 
 -}
 items_center_ns : String
@@ -8311,9 +9305,10 @@ items_center_ns =
     "items-center-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-end { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+    .items-end { align-items: flex-end; }
 
 -}
 items_end : String
@@ -8321,9 +9316,10 @@ items_end =
     "items-end"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-end-l { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+    .items-end-l { align-items: flex-end; }
 
 -}
 items_end_l : String
@@ -8331,9 +9327,10 @@ items_end_l =
     "items-end-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-end-m { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+    .items-end-m { align-items: flex-end; }
 
 -}
 items_end_m : String
@@ -8341,9 +9338,10 @@ items_end_m =
     "items-end-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-end-ns { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+    .items-end-ns { align-items: flex-end; }
 
 -}
 items_end_ns : String
@@ -8351,9 +9349,10 @@ items_end_ns =
     "items-end-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-start { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+    .items-start { align-items: flex-start; }
 
 -}
 items_start : String
@@ -8361,9 +9360,10 @@ items_start =
     "items-start"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-start-l { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+    .items-start-l { align-items: flex-start; }
 
 -}
 items_start_l : String
@@ -8371,9 +9371,10 @@ items_start_l =
     "items-start-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-start-m { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+    .items-start-m { align-items: flex-start; }
 
 -}
 items_start_m : String
@@ -8381,9 +9382,10 @@ items_start_m =
     "items-start-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-start-ns { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+    .items-start-ns { align-items: flex-start; }
 
 -}
 items_start_ns : String
@@ -8391,9 +9393,10 @@ items_start_ns =
     "items-start-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-stretch { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
+    .items-stretch { align-items: stretch; }
 
 -}
 items_stretch : String
@@ -8401,9 +9404,10 @@ items_stretch =
     "items-stretch"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-stretch-l { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
+    .items-stretch-l { align-items: stretch; }
 
 -}
 items_stretch_l : String
@@ -8411,9 +9415,10 @@ items_stretch_l =
     "items-stretch-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-stretch-m { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
+    .items-stretch-m { align-items: stretch; }
 
 -}
 items_stretch_m : String
@@ -8421,9 +9426,10 @@ items_stretch_m =
     "items-stretch-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .items-stretch-ns { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
+    .items-stretch-ns { align-items: stretch; }
 
 -}
 items_stretch_ns : String
@@ -8431,9 +9437,10 @@ items_stretch_ns =
     "items-stretch-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-around { -ms-flex-pack: distribute; justify-content: space-around; }
+    .justify-around { justify-content: space-around; }
 
 -}
 justify_around : String
@@ -8441,9 +9448,10 @@ justify_around =
     "justify-around"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-around-l { -ms-flex-pack: distribute; justify-content: space-around; }
+    .justify-around-l { justify-content: space-around; }
 
 -}
 justify_around_l : String
@@ -8451,9 +9459,10 @@ justify_around_l =
     "justify-around-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-around-m { -ms-flex-pack: distribute; justify-content: space-around; }
+    .justify-around-m { justify-content: space-around; }
 
 -}
 justify_around_m : String
@@ -8461,9 +9470,10 @@ justify_around_m =
     "justify-around-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-around-ns { -ms-flex-pack: distribute; justify-content: space-around; }
+    .justify-around-ns { justify-content: space-around; }
 
 -}
 justify_around_ns : String
@@ -8471,9 +9481,10 @@ justify_around_ns =
     "justify-around-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-between { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+    .justify-between { justify-content: space-between; }
 
 -}
 justify_between : String
@@ -8481,9 +9492,10 @@ justify_between =
     "justify-between"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-between-l { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+    .justify-between-l { justify-content: space-between; }
 
 -}
 justify_between_l : String
@@ -8491,9 +9503,10 @@ justify_between_l =
     "justify-between-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-between-m { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+    .justify-between-m { justify-content: space-between; }
 
 -}
 justify_between_m : String
@@ -8501,9 +9514,10 @@ justify_between_m =
     "justify-between-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-between-ns { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+    .justify-between-ns { justify-content: space-between; }
 
 -}
 justify_between_ns : String
@@ -8511,9 +9525,10 @@ justify_between_ns =
     "justify-between-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+    .justify-center { justify-content: center; }
 
 -}
 justify_center : String
@@ -8521,9 +9536,10 @@ justify_center =
     "justify-center"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-center-l { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+    .justify-center-l { justify-content: center; }
 
 -}
 justify_center_l : String
@@ -8531,9 +9547,10 @@ justify_center_l =
     "justify-center-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-center-m { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+    .justify-center-m { justify-content: center; }
 
 -}
 justify_center_m : String
@@ -8541,9 +9558,10 @@ justify_center_m =
     "justify-center-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-center-ns { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+    .justify-center-ns { justify-content: center; }
 
 -}
 justify_center_ns : String
@@ -8551,9 +9569,10 @@ justify_center_ns =
     "justify-center-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-end { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+    .justify-end { justify-content: flex-end; }
 
 -}
 justify_end : String
@@ -8561,9 +9580,10 @@ justify_end =
     "justify-end"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-end-l { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+    .justify-end-l { justify-content: flex-end; }
 
 -}
 justify_end_l : String
@@ -8571,9 +9591,10 @@ justify_end_l =
     "justify-end-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-end-m { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+    .justify-end-m { justify-content: flex-end; }
 
 -}
 justify_end_m : String
@@ -8581,9 +9602,10 @@ justify_end_m =
     "justify-end-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-end-ns { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+    .justify-end-ns { justify-content: flex-end; }
 
 -}
 justify_end_ns : String
@@ -8591,9 +9613,10 @@ justify_end_ns =
     "justify-end-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-start { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+    .justify-start { justify-content: flex-start; }
 
 -}
 justify_start : String
@@ -8601,9 +9624,10 @@ justify_start =
     "justify-start"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-start-l { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+    .justify-start-l { justify-content: flex-start; }
 
 -}
 justify_start_l : String
@@ -8611,9 +9635,10 @@ justify_start_l =
     "justify-start-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-start-m { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+    .justify-start-m { justify-content: flex-start; }
 
 -}
 justify_start_m : String
@@ -8621,14 +9646,16 @@ justify_start_m =
     "justify-start-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .justify-start-ns { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+    .justify-start-ns { justify-content: flex-start; }
 
 -}
 justify_start_ns : String
 justify_start_ns =
     "justify-start-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8641,6 +9668,7 @@ left__1 =
     "left--1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .left--1-l { left: -1rem; }
@@ -8649,6 +9677,7 @@ left__1 =
 left__1_l : String
 left__1_l =
     "left--1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8661,6 +9690,7 @@ left__1_m =
     "left--1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .left--1-ns { left: -1rem; }
@@ -8669,6 +9699,7 @@ left__1_m =
 left__1_ns : String
 left__1_ns =
     "left--1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8681,6 +9712,7 @@ left__2 =
     "left--2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .left--2-l { left: -2rem; }
@@ -8689,6 +9721,7 @@ left__2 =
 left__2_l : String
 left__2_l =
     "left--2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8701,6 +9734,7 @@ left__2_m =
     "left--2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .left--2-ns { left: -2rem; }
@@ -8709,6 +9743,7 @@ left__2_m =
 left__2_ns : String
 left__2_ns =
     "left--2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8721,6 +9756,7 @@ left_0 =
     "left-0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .left-0-l { left: 0; }
@@ -8729,6 +9765,7 @@ left_0 =
 left_0_l : String
 left_0_l =
     "left-0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8741,6 +9778,7 @@ left_0_m =
     "left-0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .left-0-ns { left: 0; }
@@ -8749,6 +9787,7 @@ left_0_m =
 left_0_ns : String
 left_0_ns =
     "left-0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8761,6 +9800,7 @@ left_1 =
     "left-1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .left-1-l { left: 1rem; }
@@ -8769,6 +9809,7 @@ left_1 =
 left_1_l : String
 left_1_l =
     "left-1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8781,6 +9822,7 @@ left_1_m =
     "left-1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .left-1-ns { left: 1rem; }
@@ -8789,6 +9831,7 @@ left_1_m =
 left_1_ns : String
 left_1_ns =
     "left-1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8801,6 +9844,7 @@ left_2 =
     "left-2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .left-2-l { left: 2rem; }
@@ -8809,6 +9853,7 @@ left_2 =
 left_2_l : String
 left_2_l =
     "left-2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8821,6 +9866,7 @@ left_2_m =
     "left-2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .left-2-ns { left: 2rem; }
@@ -8829,6 +9875,7 @@ left_2_m =
 left_2_ns : String
 left_2_ns =
     "left-2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8841,6 +9888,7 @@ lh_copy =
     "lh-copy"
 
 
+
 {-| This class maps to this CSS definition:
 
     .lh-copy-l { line-height: 1.5; }
@@ -8849,6 +9897,7 @@ lh_copy =
 lh_copy_l : String
 lh_copy_l =
     "lh-copy-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8861,6 +9910,7 @@ lh_copy_m =
     "lh-copy-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .lh-copy-ns { line-height: 1.5; }
@@ -8869,6 +9919,7 @@ lh_copy_m =
 lh_copy_ns : String
 lh_copy_ns =
     "lh-copy-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8881,6 +9932,7 @@ lh_solid =
     "lh-solid"
 
 
+
 {-| This class maps to this CSS definition:
 
     .lh-solid-l { line-height: 1; }
@@ -8889,6 +9941,7 @@ lh_solid =
 lh_solid_l : String
 lh_solid_l =
     "lh-solid-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8901,6 +9954,7 @@ lh_solid_m =
     "lh-solid-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .lh-solid-ns { line-height: 1; }
@@ -8909,6 +9963,7 @@ lh_solid_m =
 lh_solid_ns : String
 lh_solid_ns =
     "lh-solid-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8921,6 +9976,7 @@ lh_title =
     "lh-title"
 
 
+
 {-| This class maps to this CSS definition:
 
     .lh-title-l { line-height: 1.25; }
@@ -8929,6 +9985,7 @@ lh_title =
 lh_title_l : String
 lh_title_l =
     "lh-title-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8941,6 +9998,7 @@ lh_title_m =
     "lh-title-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .lh-title-ns { line-height: 1.25; }
@@ -8949,6 +10007,7 @@ lh_title_m =
 lh_title_ns : String
 lh_title_ns =
     "lh-title-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8961,6 +10020,7 @@ light_blue =
     "light-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .light-gray { color: #eee; }
@@ -8969,6 +10029,7 @@ light_blue =
 light_gray : String
 light_gray =
     "light-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -8981,6 +10042,7 @@ light_green =
     "light-green"
 
 
+
 {-| This class maps to this CSS definition:
 
     .light-pink { color: #ffa3d7; }
@@ -8989,6 +10051,7 @@ light_green =
 light_pink : String
 light_pink =
     "light-pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9001,6 +10064,7 @@ light_purple =
     "light-purple"
 
 
+
 {-| This class maps to this CSS definition:
 
     .light-red { color: #ff725c; }
@@ -9009,6 +10073,7 @@ light_purple =
 light_red : String
 light_red =
     "light-red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9021,6 +10086,7 @@ light_silver =
     "light-silver"
 
 
+
 {-| This class maps to this CSS definition:
 
     .light-yellow { color: #fbf1a9; }
@@ -9031,6 +10097,7 @@ light_yellow =
     "light-yellow"
 
 
+
 {-| This class maps to this CSS definition:
 
     .lightest-blue { color: #cdecff; }
@@ -9039,6 +10106,7 @@ light_yellow =
 lightest_blue : String
 lightest_blue =
     "lightest-blue"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9055,6 +10123,7 @@ link =
     "link"
 
 
+
 {-| This class maps to this CSS definition:
 
     .list { list-style-type: none; }
@@ -9063,6 +10132,7 @@ link =
 list : String
 list =
     "list"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9075,6 +10145,7 @@ ma0 =
     "ma0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma0-l { margin: 0; }
@@ -9083,6 +10154,7 @@ ma0 =
 ma0_l : String
 ma0_l =
     "ma0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9095,6 +10167,7 @@ ma0_m =
     "ma0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma0-ns { margin: 0; }
@@ -9103,6 +10176,7 @@ ma0_m =
 ma0_ns : String
 ma0_ns =
     "ma0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9115,6 +10189,7 @@ ma1 =
     "ma1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma1-l { margin: .25rem; }
@@ -9123,6 +10198,7 @@ ma1 =
 ma1_l : String
 ma1_l =
     "ma1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9135,6 +10211,7 @@ ma1_m =
     "ma1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma1-ns { margin: .25rem; }
@@ -9143,6 +10220,7 @@ ma1_m =
 ma1_ns : String
 ma1_ns =
     "ma1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9155,6 +10233,7 @@ ma2 =
     "ma2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma2-l { margin: .5rem; }
@@ -9163,6 +10242,7 @@ ma2 =
 ma2_l : String
 ma2_l =
     "ma2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9175,6 +10255,7 @@ ma2_m =
     "ma2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma2-ns { margin: .5rem; }
@@ -9183,6 +10264,7 @@ ma2_m =
 ma2_ns : String
 ma2_ns =
     "ma2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9195,6 +10277,7 @@ ma3 =
     "ma3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma3-l { margin: 1rem; }
@@ -9203,6 +10286,7 @@ ma3 =
 ma3_l : String
 ma3_l =
     "ma3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9215,6 +10299,7 @@ ma3_m =
     "ma3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma3-ns { margin: 1rem; }
@@ -9223,6 +10308,7 @@ ma3_m =
 ma3_ns : String
 ma3_ns =
     "ma3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9235,6 +10321,7 @@ ma4 =
     "ma4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma4-l { margin: 2rem; }
@@ -9243,6 +10330,7 @@ ma4 =
 ma4_l : String
 ma4_l =
     "ma4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9255,6 +10343,7 @@ ma4_m =
     "ma4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma4-ns { margin: 2rem; }
@@ -9263,6 +10352,7 @@ ma4_m =
 ma4_ns : String
 ma4_ns =
     "ma4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9275,6 +10365,7 @@ ma5 =
     "ma5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma5-l { margin: 4rem; }
@@ -9283,6 +10374,7 @@ ma5 =
 ma5_l : String
 ma5_l =
     "ma5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9295,6 +10387,7 @@ ma5_m =
     "ma5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma5-ns { margin: 4rem; }
@@ -9303,6 +10396,7 @@ ma5_m =
 ma5_ns : String
 ma5_ns =
     "ma5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9315,6 +10409,7 @@ ma6 =
     "ma6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma6-l { margin: 8rem; }
@@ -9323,6 +10418,7 @@ ma6 =
 ma6_l : String
 ma6_l =
     "ma6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9335,6 +10431,7 @@ ma6_m =
     "ma6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma6-ns { margin: 8rem; }
@@ -9343,6 +10440,7 @@ ma6_m =
 ma6_ns : String
 ma6_ns =
     "ma6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9355,6 +10453,7 @@ ma7 =
     "ma7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma7-l { margin: 16rem; }
@@ -9363,6 +10462,7 @@ ma7 =
 ma7_l : String
 ma7_l =
     "ma7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9375,6 +10475,7 @@ ma7_m =
     "ma7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ma7-ns { margin: 16rem; }
@@ -9383,6 +10484,7 @@ ma7_m =
 ma7_ns : String
 ma7_ns =
     "ma7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9395,6 +10497,7 @@ mb0 =
     "mb0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb0-l { margin-bottom: 0; }
@@ -9403,6 +10506,7 @@ mb0 =
 mb0_l : String
 mb0_l =
     "mb0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9415,6 +10519,7 @@ mb0_m =
     "mb0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb0-ns { margin-bottom: 0; }
@@ -9423,6 +10528,7 @@ mb0_m =
 mb0_ns : String
 mb0_ns =
     "mb0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9435,6 +10541,7 @@ mb1 =
     "mb1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb1-l { margin-bottom: .25rem; }
@@ -9443,6 +10550,7 @@ mb1 =
 mb1_l : String
 mb1_l =
     "mb1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9455,6 +10563,7 @@ mb1_m =
     "mb1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb1-ns { margin-bottom: .25rem; }
@@ -9463,6 +10572,7 @@ mb1_m =
 mb1_ns : String
 mb1_ns =
     "mb1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9475,6 +10585,7 @@ mb2 =
     "mb2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb2-l { margin-bottom: .5rem; }
@@ -9483,6 +10594,7 @@ mb2 =
 mb2_l : String
 mb2_l =
     "mb2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9495,6 +10607,7 @@ mb2_m =
     "mb2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb2-ns { margin-bottom: .5rem; }
@@ -9503,6 +10616,7 @@ mb2_m =
 mb2_ns : String
 mb2_ns =
     "mb2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9515,6 +10629,7 @@ mb3 =
     "mb3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb3-l { margin-bottom: 1rem; }
@@ -9523,6 +10638,7 @@ mb3 =
 mb3_l : String
 mb3_l =
     "mb3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9535,6 +10651,7 @@ mb3_m =
     "mb3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb3-ns { margin-bottom: 1rem; }
@@ -9543,6 +10660,7 @@ mb3_m =
 mb3_ns : String
 mb3_ns =
     "mb3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9555,6 +10673,7 @@ mb4 =
     "mb4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb4-l { margin-bottom: 2rem; }
@@ -9563,6 +10682,7 @@ mb4 =
 mb4_l : String
 mb4_l =
     "mb4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9575,6 +10695,7 @@ mb4_m =
     "mb4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb4-ns { margin-bottom: 2rem; }
@@ -9583,6 +10704,7 @@ mb4_m =
 mb4_ns : String
 mb4_ns =
     "mb4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9595,6 +10717,7 @@ mb5 =
     "mb5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb5-l { margin-bottom: 4rem; }
@@ -9603,6 +10726,7 @@ mb5 =
 mb5_l : String
 mb5_l =
     "mb5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9615,6 +10739,7 @@ mb5_m =
     "mb5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb5-ns { margin-bottom: 4rem; }
@@ -9623,6 +10748,7 @@ mb5_m =
 mb5_ns : String
 mb5_ns =
     "mb5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9635,6 +10761,7 @@ mb6 =
     "mb6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb6-l { margin-bottom: 8rem; }
@@ -9643,6 +10770,7 @@ mb6 =
 mb6_l : String
 mb6_l =
     "mb6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9655,6 +10783,7 @@ mb6_m =
     "mb6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb6-ns { margin-bottom: 8rem; }
@@ -9663,6 +10792,7 @@ mb6_m =
 mb6_ns : String
 mb6_ns =
     "mb6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9675,6 +10805,7 @@ mb7 =
     "mb7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb7-l { margin-bottom: 16rem; }
@@ -9683,6 +10814,7 @@ mb7 =
 mb7_l : String
 mb7_l =
     "mb7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9695,6 +10827,7 @@ mb7_m =
     "mb7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mb7-ns { margin-bottom: 16rem; }
@@ -9703,6 +10836,7 @@ mb7_m =
 mb7_ns : String
 mb7_ns =
     "mb7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9715,6 +10849,7 @@ measure =
     "measure"
 
 
+
 {-| This class maps to this CSS definition:
 
     .measure-l { max-width: 30em; }
@@ -9723,6 +10858,7 @@ measure =
 measure_l : String
 measure_l =
     "measure-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9735,6 +10871,7 @@ measure_m =
     "measure-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .measure-narrow { max-width: 20em; }
@@ -9743,6 +10880,7 @@ measure_m =
 measure_narrow : String
 measure_narrow =
     "measure-narrow"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9755,6 +10893,7 @@ measure_narrow_l =
     "measure-narrow-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .measure-narrow-m { max-width: 20em; }
@@ -9763,6 +10902,7 @@ measure_narrow_l =
 measure_narrow_m : String
 measure_narrow_m =
     "measure-narrow-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9775,6 +10915,7 @@ measure_narrow_ns =
     "measure-narrow-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .measure-ns { max-width: 30em; }
@@ -9783,6 +10924,7 @@ measure_narrow_ns =
 measure_ns : String
 measure_ns =
     "measure-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9795,6 +10937,7 @@ measure_wide =
     "measure-wide"
 
 
+
 {-| This class maps to this CSS definition:
 
     .measure-wide-l { max-width: 34em; }
@@ -9803,6 +10946,7 @@ measure_wide =
 measure_wide_l : String
 measure_wide_l =
     "measure-wide-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9815,6 +10959,7 @@ measure_wide_m =
     "measure-wide-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .measure-wide-ns { max-width: 34em; }
@@ -9823,6 +10968,7 @@ measure_wide_m =
 measure_wide_ns : String
 measure_wide_ns =
     "measure-wide-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9835,6 +10981,7 @@ mh0 =
     "mh0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh0-l { margin-left: 0; margin-right: 0; }
@@ -9843,6 +10990,7 @@ mh0 =
 mh0_l : String
 mh0_l =
     "mh0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9855,6 +11003,7 @@ mh0_m =
     "mh0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh0-ns { margin-left: 0; margin-right: 0; }
@@ -9863,6 +11012,7 @@ mh0_m =
 mh0_ns : String
 mh0_ns =
     "mh0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9875,6 +11025,7 @@ mh1 =
     "mh1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh1-l { margin-left: .25rem; margin-right: .25rem; }
@@ -9883,6 +11034,7 @@ mh1 =
 mh1_l : String
 mh1_l =
     "mh1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9895,6 +11047,7 @@ mh1_m =
     "mh1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh1-ns { margin-left: .25rem; margin-right: .25rem; }
@@ -9903,6 +11056,7 @@ mh1_m =
 mh1_ns : String
 mh1_ns =
     "mh1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9915,6 +11069,7 @@ mh2 =
     "mh2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh2-l { margin-left: .5rem; margin-right: .5rem; }
@@ -9923,6 +11078,7 @@ mh2 =
 mh2_l : String
 mh2_l =
     "mh2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9935,6 +11091,7 @@ mh2_m =
     "mh2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh2-ns { margin-left: .5rem; margin-right: .5rem; }
@@ -9943,6 +11100,7 @@ mh2_m =
 mh2_ns : String
 mh2_ns =
     "mh2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9955,6 +11113,7 @@ mh3 =
     "mh3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh3-l { margin-left: 1rem; margin-right: 1rem; }
@@ -9963,6 +11122,7 @@ mh3 =
 mh3_l : String
 mh3_l =
     "mh3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9975,6 +11135,7 @@ mh3_m =
     "mh3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh3-ns { margin-left: 1rem; margin-right: 1rem; }
@@ -9983,6 +11144,7 @@ mh3_m =
 mh3_ns : String
 mh3_ns =
     "mh3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -9995,6 +11157,7 @@ mh4 =
     "mh4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh4-l { margin-left: 2rem; margin-right: 2rem; }
@@ -10003,6 +11166,7 @@ mh4 =
 mh4_l : String
 mh4_l =
     "mh4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10015,6 +11179,7 @@ mh4_m =
     "mh4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh4-ns { margin-left: 2rem; margin-right: 2rem; }
@@ -10023,6 +11188,7 @@ mh4_m =
 mh4_ns : String
 mh4_ns =
     "mh4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10035,6 +11201,7 @@ mh5 =
     "mh5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh5-l { margin-left: 4rem; margin-right: 4rem; }
@@ -10043,6 +11210,7 @@ mh5 =
 mh5_l : String
 mh5_l =
     "mh5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10055,6 +11223,7 @@ mh5_m =
     "mh5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh5-ns { margin-left: 4rem; margin-right: 4rem; }
@@ -10063,6 +11232,7 @@ mh5_m =
 mh5_ns : String
 mh5_ns =
     "mh5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10075,6 +11245,7 @@ mh6 =
     "mh6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh6-l { margin-left: 8rem; margin-right: 8rem; }
@@ -10083,6 +11254,7 @@ mh6 =
 mh6_l : String
 mh6_l =
     "mh6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10095,6 +11267,7 @@ mh6_m =
     "mh6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh6-ns { margin-left: 8rem; margin-right: 8rem; }
@@ -10103,6 +11276,7 @@ mh6_m =
 mh6_ns : String
 mh6_ns =
     "mh6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10115,6 +11289,7 @@ mh7 =
     "mh7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh7-l { margin-left: 16rem; margin-right: 16rem; }
@@ -10123,6 +11298,7 @@ mh7 =
 mh7_l : String
 mh7_l =
     "mh7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10135,6 +11311,7 @@ mh7_m =
     "mh7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mh7-ns { margin-left: 16rem; margin-right: 16rem; }
@@ -10143,6 +11320,7 @@ mh7_m =
 mh7_ns : String
 mh7_ns =
     "mh7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10155,6 +11333,7 @@ mid_gray =
     "mid-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .min-h-100 { min-height: 100%; }
@@ -10163,6 +11342,7 @@ mid_gray =
 min_h_100 : String
 min_h_100 =
     "min-h-100"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10175,6 +11355,7 @@ min_h_100_l =
     "min-h-100-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .min-h-100-m { min-height: 100%; }
@@ -10183,6 +11364,7 @@ min_h_100_l =
 min_h_100_m : String
 min_h_100_m =
     "min-h-100-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10195,6 +11377,7 @@ min_h_100_ns =
     "min-h-100-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .min-vh-100 { min-height: 100vh; }
@@ -10203,6 +11386,7 @@ min_h_100_ns =
 min_vh_100 : String
 min_vh_100 =
     "min-vh-100"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10215,6 +11399,7 @@ min_vh_100_l =
     "min-vh-100-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .min-vh-100-m { min-height: 100vh; }
@@ -10223,6 +11408,7 @@ min_vh_100_l =
 min_vh_100_m : String
 min_vh_100_m =
     "min-vh-100-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10235,6 +11421,7 @@ min_vh_100_ns =
     "min-vh-100-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml-auto { margin-left: auto; }
@@ -10243,6 +11430,7 @@ min_vh_100_ns =
 ml_auto : String
 ml_auto =
     "ml-auto"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10255,6 +11443,7 @@ ml_auto_l =
     "ml-auto-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml-auto-m { margin-left: auto; }
@@ -10263,6 +11452,7 @@ ml_auto_l =
 ml_auto_m : String
 ml_auto_m =
     "ml-auto-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10275,6 +11465,7 @@ ml_auto_ns =
     "ml-auto-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml0 { margin-left: 0; }
@@ -10283,6 +11474,7 @@ ml_auto_ns =
 ml0 : String
 ml0 =
     "ml0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10295,6 +11487,7 @@ ml0_l =
     "ml0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml0-m { margin-left: 0; }
@@ -10303,6 +11496,7 @@ ml0_l =
 ml0_m : String
 ml0_m =
     "ml0-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10315,6 +11509,7 @@ ml0_ns =
     "ml0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml1 { margin-left: .25rem; }
@@ -10323,6 +11518,7 @@ ml0_ns =
 ml1 : String
 ml1 =
     "ml1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10335,6 +11531,7 @@ ml1_l =
     "ml1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml1-m { margin-left: .25rem; }
@@ -10343,6 +11540,7 @@ ml1_l =
 ml1_m : String
 ml1_m =
     "ml1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10355,6 +11553,7 @@ ml1_ns =
     "ml1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml2 { margin-left: .5rem; }
@@ -10363,6 +11562,7 @@ ml1_ns =
 ml2 : String
 ml2 =
     "ml2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10375,6 +11575,7 @@ ml2_l =
     "ml2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml2-m { margin-left: .5rem; }
@@ -10383,6 +11584,7 @@ ml2_l =
 ml2_m : String
 ml2_m =
     "ml2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10395,6 +11597,7 @@ ml2_ns =
     "ml2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml3 { margin-left: 1rem; }
@@ -10403,6 +11606,7 @@ ml2_ns =
 ml3 : String
 ml3 =
     "ml3"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10415,6 +11619,7 @@ ml3_l =
     "ml3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml3-m { margin-left: 1rem; }
@@ -10423,6 +11628,7 @@ ml3_l =
 ml3_m : String
 ml3_m =
     "ml3-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10435,6 +11641,7 @@ ml3_ns =
     "ml3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml4 { margin-left: 2rem; }
@@ -10443,6 +11650,7 @@ ml3_ns =
 ml4 : String
 ml4 =
     "ml4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10455,6 +11663,7 @@ ml4_l =
     "ml4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml4-m { margin-left: 2rem; }
@@ -10463,6 +11672,7 @@ ml4_l =
 ml4_m : String
 ml4_m =
     "ml4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10475,6 +11685,7 @@ ml4_ns =
     "ml4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml5 { margin-left: 4rem; }
@@ -10483,6 +11694,7 @@ ml4_ns =
 ml5 : String
 ml5 =
     "ml5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10495,6 +11707,7 @@ ml5_l =
     "ml5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml5-m { margin-left: 4rem; }
@@ -10503,6 +11716,7 @@ ml5_l =
 ml5_m : String
 ml5_m =
     "ml5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10515,6 +11729,7 @@ ml5_ns =
     "ml5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml6 { margin-left: 8rem; }
@@ -10523,6 +11738,7 @@ ml5_ns =
 ml6 : String
 ml6 =
     "ml6"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10535,6 +11751,7 @@ ml6_l =
     "ml6-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml6-m { margin-left: 8rem; }
@@ -10543,6 +11760,7 @@ ml6_l =
 ml6_m : String
 ml6_m =
     "ml6-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10555,6 +11773,7 @@ ml6_ns =
     "ml6-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml7 { margin-left: 16rem; }
@@ -10563,6 +11782,7 @@ ml6_ns =
 ml7 : String
 ml7 =
     "ml7"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10575,6 +11795,7 @@ ml7_l =
     "ml7-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ml7-m { margin-left: 16rem; }
@@ -10583,6 +11804,7 @@ ml7_l =
 ml7_m : String
 ml7_m =
     "ml7-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10595,6 +11817,7 @@ ml7_ns =
     "ml7-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .moon-gray { color: #ccc; }
@@ -10603,6 +11826,7 @@ ml7_ns =
 moon_gray : String
 moon_gray =
     "moon-gray"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10615,6 +11839,7 @@ mr_auto =
     "mr-auto"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr-auto-l { margin-right: auto; }
@@ -10623,6 +11848,7 @@ mr_auto =
 mr_auto_l : String
 mr_auto_l =
     "mr-auto-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10635,6 +11861,7 @@ mr_auto_m =
     "mr-auto-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr-auto-ns { margin-right: auto; }
@@ -10643,6 +11870,7 @@ mr_auto_m =
 mr_auto_ns : String
 mr_auto_ns =
     "mr-auto-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10655,6 +11883,7 @@ mr0 =
     "mr0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr0-l { margin-right: 0; }
@@ -10663,6 +11892,7 @@ mr0 =
 mr0_l : String
 mr0_l =
     "mr0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10675,6 +11905,7 @@ mr0_m =
     "mr0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr0-ns { margin-right: 0; }
@@ -10683,6 +11914,7 @@ mr0_m =
 mr0_ns : String
 mr0_ns =
     "mr0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10695,6 +11927,7 @@ mr1 =
     "mr1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr1-l { margin-right: .25rem; }
@@ -10703,6 +11936,7 @@ mr1 =
 mr1_l : String
 mr1_l =
     "mr1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10715,6 +11949,7 @@ mr1_m =
     "mr1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr1-ns { margin-right: .25rem; }
@@ -10723,6 +11958,7 @@ mr1_m =
 mr1_ns : String
 mr1_ns =
     "mr1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10735,6 +11971,7 @@ mr2 =
     "mr2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr2-l { margin-right: .5rem; }
@@ -10743,6 +11980,7 @@ mr2 =
 mr2_l : String
 mr2_l =
     "mr2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10755,6 +11993,7 @@ mr2_m =
     "mr2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr2-ns { margin-right: .5rem; }
@@ -10763,6 +12002,7 @@ mr2_m =
 mr2_ns : String
 mr2_ns =
     "mr2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10775,6 +12015,7 @@ mr3 =
     "mr3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr3-l { margin-right: 1rem; }
@@ -10783,6 +12024,7 @@ mr3 =
 mr3_l : String
 mr3_l =
     "mr3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10795,6 +12037,7 @@ mr3_m =
     "mr3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr3-ns { margin-right: 1rem; }
@@ -10803,6 +12046,7 @@ mr3_m =
 mr3_ns : String
 mr3_ns =
     "mr3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10815,6 +12059,7 @@ mr4 =
     "mr4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr4-l { margin-right: 2rem; }
@@ -10823,6 +12068,7 @@ mr4 =
 mr4_l : String
 mr4_l =
     "mr4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10835,6 +12081,7 @@ mr4_m =
     "mr4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr4-ns { margin-right: 2rem; }
@@ -10843,6 +12090,7 @@ mr4_m =
 mr4_ns : String
 mr4_ns =
     "mr4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10855,6 +12103,7 @@ mr5 =
     "mr5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr5-l { margin-right: 4rem; }
@@ -10863,6 +12112,7 @@ mr5 =
 mr5_l : String
 mr5_l =
     "mr5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10875,6 +12125,7 @@ mr5_m =
     "mr5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr5-ns { margin-right: 4rem; }
@@ -10883,6 +12134,7 @@ mr5_m =
 mr5_ns : String
 mr5_ns =
     "mr5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10895,6 +12147,7 @@ mr6 =
     "mr6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr6-l { margin-right: 8rem; }
@@ -10903,6 +12156,7 @@ mr6 =
 mr6_l : String
 mr6_l =
     "mr6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10915,6 +12169,7 @@ mr6_m =
     "mr6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr6-ns { margin-right: 8rem; }
@@ -10923,6 +12178,7 @@ mr6_m =
 mr6_ns : String
 mr6_ns =
     "mr6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10935,6 +12191,7 @@ mr7 =
     "mr7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr7-l { margin-right: 16rem; }
@@ -10943,6 +12200,7 @@ mr7 =
 mr7_l : String
 mr7_l =
     "mr7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10955,6 +12213,7 @@ mr7_m =
     "mr7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mr7-ns { margin-right: 16rem; }
@@ -10963,6 +12222,7 @@ mr7_m =
 mr7_ns : String
 mr7_ns =
     "mr7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10975,6 +12235,7 @@ mt0 =
     "mt0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt0-l { margin-top: 0; }
@@ -10983,6 +12244,7 @@ mt0 =
 mt0_l : String
 mt0_l =
     "mt0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -10995,6 +12257,7 @@ mt0_m =
     "mt0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt0-ns { margin-top: 0; }
@@ -11003,6 +12266,7 @@ mt0_m =
 mt0_ns : String
 mt0_ns =
     "mt0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11015,6 +12279,7 @@ mt1 =
     "mt1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt1-l { margin-top: .25rem; }
@@ -11023,6 +12288,7 @@ mt1 =
 mt1_l : String
 mt1_l =
     "mt1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11035,6 +12301,7 @@ mt1_m =
     "mt1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt1-ns { margin-top: .25rem; }
@@ -11043,6 +12310,7 @@ mt1_m =
 mt1_ns : String
 mt1_ns =
     "mt1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11055,6 +12323,7 @@ mt2 =
     "mt2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt2-l { margin-top: .5rem; }
@@ -11063,6 +12332,7 @@ mt2 =
 mt2_l : String
 mt2_l =
     "mt2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11075,6 +12345,7 @@ mt2_m =
     "mt2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt2-ns { margin-top: .5rem; }
@@ -11083,6 +12354,7 @@ mt2_m =
 mt2_ns : String
 mt2_ns =
     "mt2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11095,6 +12367,7 @@ mt3 =
     "mt3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt3-l { margin-top: 1rem; }
@@ -11103,6 +12376,7 @@ mt3 =
 mt3_l : String
 mt3_l =
     "mt3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11115,6 +12389,7 @@ mt3_m =
     "mt3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt3-ns { margin-top: 1rem; }
@@ -11123,6 +12398,7 @@ mt3_m =
 mt3_ns : String
 mt3_ns =
     "mt3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11135,6 +12411,7 @@ mt4 =
     "mt4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt4-l { margin-top: 2rem; }
@@ -11143,6 +12420,7 @@ mt4 =
 mt4_l : String
 mt4_l =
     "mt4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11155,6 +12433,7 @@ mt4_m =
     "mt4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt4-ns { margin-top: 2rem; }
@@ -11163,6 +12442,7 @@ mt4_m =
 mt4_ns : String
 mt4_ns =
     "mt4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11175,6 +12455,7 @@ mt5 =
     "mt5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt5-l { margin-top: 4rem; }
@@ -11183,6 +12464,7 @@ mt5 =
 mt5_l : String
 mt5_l =
     "mt5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11195,6 +12477,7 @@ mt5_m =
     "mt5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt5-ns { margin-top: 4rem; }
@@ -11203,6 +12486,7 @@ mt5_m =
 mt5_ns : String
 mt5_ns =
     "mt5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11215,6 +12499,7 @@ mt6 =
     "mt6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt6-l { margin-top: 8rem; }
@@ -11223,6 +12508,7 @@ mt6 =
 mt6_l : String
 mt6_l =
     "mt6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11235,6 +12521,7 @@ mt6_m =
     "mt6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt6-ns { margin-top: 8rem; }
@@ -11243,6 +12530,7 @@ mt6_m =
 mt6_ns : String
 mt6_ns =
     "mt6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11255,6 +12543,7 @@ mt7 =
     "mt7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt7-l { margin-top: 16rem; }
@@ -11263,6 +12552,7 @@ mt7 =
 mt7_l : String
 mt7_l =
     "mt7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11275,6 +12565,7 @@ mt7_m =
     "mt7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mt7-ns { margin-top: 16rem; }
@@ -11283,6 +12574,7 @@ mt7_m =
 mt7_ns : String
 mt7_ns =
     "mt7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11295,6 +12587,7 @@ mv0 =
     "mv0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv0-l { margin-top: 0; margin-bottom: 0; }
@@ -11303,6 +12596,7 @@ mv0 =
 mv0_l : String
 mv0_l =
     "mv0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11315,6 +12609,7 @@ mv0_m =
     "mv0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv0-ns { margin-top: 0; margin-bottom: 0; }
@@ -11323,6 +12618,7 @@ mv0_m =
 mv0_ns : String
 mv0_ns =
     "mv0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11335,6 +12631,7 @@ mv1 =
     "mv1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv1-l { margin-top: .25rem; margin-bottom: .25rem; }
@@ -11343,6 +12640,7 @@ mv1 =
 mv1_l : String
 mv1_l =
     "mv1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11355,6 +12653,7 @@ mv1_m =
     "mv1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv1-ns { margin-top: .25rem; margin-bottom: .25rem; }
@@ -11363,6 +12662,7 @@ mv1_m =
 mv1_ns : String
 mv1_ns =
     "mv1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11375,6 +12675,7 @@ mv2 =
     "mv2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv2-l { margin-top: .5rem; margin-bottom: .5rem; }
@@ -11383,6 +12684,7 @@ mv2 =
 mv2_l : String
 mv2_l =
     "mv2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11395,6 +12697,7 @@ mv2_m =
     "mv2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv2-ns { margin-top: .5rem; margin-bottom: .5rem; }
@@ -11403,6 +12706,7 @@ mv2_m =
 mv2_ns : String
 mv2_ns =
     "mv2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11415,6 +12719,7 @@ mv3 =
     "mv3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv3-l { margin-top: 1rem; margin-bottom: 1rem; }
@@ -11423,6 +12728,7 @@ mv3 =
 mv3_l : String
 mv3_l =
     "mv3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11435,6 +12741,7 @@ mv3_m =
     "mv3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv3-ns { margin-top: 1rem; margin-bottom: 1rem; }
@@ -11443,6 +12750,7 @@ mv3_m =
 mv3_ns : String
 mv3_ns =
     "mv3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11455,6 +12763,7 @@ mv4 =
     "mv4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv4-l { margin-top: 2rem; margin-bottom: 2rem; }
@@ -11463,6 +12772,7 @@ mv4 =
 mv4_l : String
 mv4_l =
     "mv4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11475,6 +12785,7 @@ mv4_m =
     "mv4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv4-ns { margin-top: 2rem; margin-bottom: 2rem; }
@@ -11483,6 +12794,7 @@ mv4_m =
 mv4_ns : String
 mv4_ns =
     "mv4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11495,6 +12807,7 @@ mv5 =
     "mv5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv5-l { margin-top: 4rem; margin-bottom: 4rem; }
@@ -11503,6 +12816,7 @@ mv5 =
 mv5_l : String
 mv5_l =
     "mv5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11515,6 +12829,7 @@ mv5_m =
     "mv5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv5-ns { margin-top: 4rem; margin-bottom: 4rem; }
@@ -11523,6 +12838,7 @@ mv5_m =
 mv5_ns : String
 mv5_ns =
     "mv5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11535,6 +12851,7 @@ mv6 =
     "mv6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv6-l { margin-top: 8rem; margin-bottom: 8rem; }
@@ -11543,6 +12860,7 @@ mv6 =
 mv6_l : String
 mv6_l =
     "mv6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11555,6 +12873,7 @@ mv6_m =
     "mv6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv6-ns { margin-top: 8rem; margin-bottom: 8rem; }
@@ -11563,6 +12882,7 @@ mv6_m =
 mv6_ns : String
 mv6_ns =
     "mv6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11575,6 +12895,7 @@ mv7 =
     "mv7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv7-l { margin-top: 16rem; margin-bottom: 16rem; }
@@ -11583,6 +12904,7 @@ mv7 =
 mv7_l : String
 mv7_l =
     "mv7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11595,6 +12917,7 @@ mv7_m =
     "mv7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mv7-ns { margin-top: 16rem; margin-bottom: 16rem; }
@@ -11603,6 +12926,7 @@ mv7_m =
 mv7_ns : String
 mv7_ns =
     "mv7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11615,6 +12939,7 @@ mw_100 =
     "mw-100"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw-100-l { max-width: 100%; }
@@ -11623,6 +12948,7 @@ mw_100 =
 mw_100_l : String
 mw_100_l =
     "mw-100-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11635,6 +12961,7 @@ mw_100_m =
     "mw-100-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw-100-ns { max-width: 100%; }
@@ -11643,6 +12970,7 @@ mw_100_m =
 mw_100_ns : String
 mw_100_ns =
     "mw-100-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11655,6 +12983,7 @@ mw_none =
     "mw-none"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw-none-l { max-width: none; }
@@ -11663,6 +12992,7 @@ mw_none =
 mw_none_l : String
 mw_none_l =
     "mw-none-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11675,6 +13005,7 @@ mw_none_m =
     "mw-none-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw-none-ns { max-width: none; }
@@ -11683,6 +13014,7 @@ mw_none_m =
 mw_none_ns : String
 mw_none_ns =
     "mw-none-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11695,6 +13027,7 @@ mw1 =
     "mw1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw1-l { max-width: 1rem; }
@@ -11703,6 +13036,7 @@ mw1 =
 mw1_l : String
 mw1_l =
     "mw1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11715,6 +13049,7 @@ mw1_m =
     "mw1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw1-ns { max-width: 1rem; }
@@ -11723,6 +13058,7 @@ mw1_m =
 mw1_ns : String
 mw1_ns =
     "mw1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11735,6 +13071,7 @@ mw2 =
     "mw2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw2-l { max-width: 2rem; }
@@ -11743,6 +13080,7 @@ mw2 =
 mw2_l : String
 mw2_l =
     "mw2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11755,6 +13093,7 @@ mw2_m =
     "mw2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw2-ns { max-width: 2rem; }
@@ -11763,6 +13102,7 @@ mw2_m =
 mw2_ns : String
 mw2_ns =
     "mw2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11775,6 +13115,7 @@ mw3 =
     "mw3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw3-l { max-width: 4rem; }
@@ -11783,6 +13124,7 @@ mw3 =
 mw3_l : String
 mw3_l =
     "mw3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11795,6 +13137,7 @@ mw3_m =
     "mw3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw3-ns { max-width: 4rem; }
@@ -11803,6 +13146,7 @@ mw3_m =
 mw3_ns : String
 mw3_ns =
     "mw3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11815,6 +13159,7 @@ mw4 =
     "mw4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw4-l { max-width: 8rem; }
@@ -11823,6 +13168,7 @@ mw4 =
 mw4_l : String
 mw4_l =
     "mw4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11835,6 +13181,7 @@ mw4_m =
     "mw4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw4-ns { max-width: 8rem; }
@@ -11843,6 +13190,7 @@ mw4_m =
 mw4_ns : String
 mw4_ns =
     "mw4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11855,6 +13203,7 @@ mw5 =
     "mw5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw5-l { max-width: 16rem; }
@@ -11863,6 +13212,7 @@ mw5 =
 mw5_l : String
 mw5_l =
     "mw5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11875,6 +13225,7 @@ mw5_m =
     "mw5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw5-ns { max-width: 16rem; }
@@ -11883,6 +13234,7 @@ mw5_m =
 mw5_ns : String
 mw5_ns =
     "mw5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11895,6 +13247,7 @@ mw6 =
     "mw6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw6-l { max-width: 32rem; }
@@ -11903,6 +13256,7 @@ mw6 =
 mw6_l : String
 mw6_l =
     "mw6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11915,6 +13269,7 @@ mw6_m =
     "mw6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw6-ns { max-width: 32rem; }
@@ -11923,6 +13278,7 @@ mw6_m =
 mw6_ns : String
 mw6_ns =
     "mw6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11935,6 +13291,7 @@ mw7 =
     "mw7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw7-l { max-width: 48rem; }
@@ -11943,6 +13300,7 @@ mw7 =
 mw7_l : String
 mw7_l =
     "mw7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11955,6 +13313,7 @@ mw7_m =
     "mw7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw7-ns { max-width: 48rem; }
@@ -11963,6 +13322,7 @@ mw7_m =
 mw7_ns : String
 mw7_ns =
     "mw7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11975,6 +13335,7 @@ mw8 =
     "mw8"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw8-l { max-width: 64rem; }
@@ -11983,6 +13344,7 @@ mw8 =
 mw8_l : String
 mw8_l =
     "mw8-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -11995,6 +13357,7 @@ mw8_m =
     "mw8-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw8-ns { max-width: 64rem; }
@@ -12003,6 +13366,7 @@ mw8_m =
 mw8_ns : String
 mw8_ns =
     "mw8-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12015,6 +13379,7 @@ mw9 =
     "mw9"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw9-l { max-width: 96rem; }
@@ -12023,6 +13388,7 @@ mw9 =
 mw9_l : String
 mw9_l =
     "mw9-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12035,6 +13401,7 @@ mw9_m =
     "mw9-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .mw9-ns { max-width: 96rem; }
@@ -12045,9 +13412,10 @@ mw9_ns =
     "mw9-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .na1 { margin: -.25rem; }
+    .na1 { margin: -0.25rem; }
 
 -}
 na1 : String
@@ -12055,9 +13423,10 @@ na1 =
     "na1"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .na1-l { margin: -.25rem; }
+    .na1-l { margin: -0.25rem; }
 
 -}
 na1_l : String
@@ -12065,9 +13434,10 @@ na1_l =
     "na1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .na1-m { margin: -.25rem; }
+    .na1-m { margin: -0.25rem; }
 
 -}
 na1_m : String
@@ -12075,9 +13445,10 @@ na1_m =
     "na1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .na1-ns { margin: -.25rem; }
+    .na1-ns { margin: -0.25rem; }
 
 -}
 na1_ns : String
@@ -12085,9 +13456,10 @@ na1_ns =
     "na1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .na2 { margin: -.5rem; }
+    .na2 { margin: -0.5rem; }
 
 -}
 na2 : String
@@ -12095,9 +13467,10 @@ na2 =
     "na2"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .na2-l { margin: -.5rem; }
+    .na2-l { margin: -0.5rem; }
 
 -}
 na2_l : String
@@ -12105,9 +13478,10 @@ na2_l =
     "na2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .na2-m { margin: -.5rem; }
+    .na2-m { margin: -0.5rem; }
 
 -}
 na2_m : String
@@ -12115,14 +13489,16 @@ na2_m =
     "na2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .na2-ns { margin: -.5rem; }
+    .na2-ns { margin: -0.5rem; }
 
 -}
 na2_ns : String
 na2_ns =
     "na2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12135,6 +13511,7 @@ na3 =
     "na3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .na3-l { margin: -1rem; }
@@ -12143,6 +13520,7 @@ na3 =
 na3_l : String
 na3_l =
     "na3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12155,6 +13533,7 @@ na3_m =
     "na3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .na3-ns { margin: -1rem; }
@@ -12163,6 +13542,7 @@ na3_m =
 na3_ns : String
 na3_ns =
     "na3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12175,6 +13555,7 @@ na4 =
     "na4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .na4-l { margin: -2rem; }
@@ -12183,6 +13564,7 @@ na4 =
 na4_l : String
 na4_l =
     "na4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12195,6 +13577,7 @@ na4_m =
     "na4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .na4-ns { margin: -2rem; }
@@ -12203,6 +13586,7 @@ na4_m =
 na4_ns : String
 na4_ns =
     "na4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12215,6 +13599,7 @@ na5 =
     "na5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .na5-l { margin: -4rem; }
@@ -12223,6 +13608,7 @@ na5 =
 na5_l : String
 na5_l =
     "na5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12235,6 +13621,7 @@ na5_m =
     "na5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .na5-ns { margin: -4rem; }
@@ -12243,6 +13630,7 @@ na5_m =
 na5_ns : String
 na5_ns =
     "na5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12255,6 +13643,7 @@ na6 =
     "na6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .na6-l { margin: -8rem; }
@@ -12263,6 +13652,7 @@ na6 =
 na6_l : String
 na6_l =
     "na6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12275,6 +13665,7 @@ na6_m =
     "na6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .na6-ns { margin: -8rem; }
@@ -12283,6 +13674,7 @@ na6_m =
 na6_ns : String
 na6_ns =
     "na6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12295,6 +13687,7 @@ na7 =
     "na7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .na7-l { margin: -16rem; }
@@ -12303,6 +13696,7 @@ na7 =
 na7_l : String
 na7_l =
     "na7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12315,6 +13709,7 @@ na7_m =
     "na7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .na7-ns { margin: -16rem; }
@@ -12323,6 +13718,7 @@ na7_m =
 na7_ns : String
 na7_ns =
     "na7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12335,9 +13731,10 @@ navy =
     "navy"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nb1 { margin-bottom: -.25rem; }
+    .nb1 { margin-bottom: -0.25rem; }
 
 -}
 nb1 : String
@@ -12345,9 +13742,10 @@ nb1 =
     "nb1"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nb1-l { margin-bottom: -.25rem; }
+    .nb1-l { margin-bottom: -0.25rem; }
 
 -}
 nb1_l : String
@@ -12355,9 +13753,10 @@ nb1_l =
     "nb1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nb1-m { margin-bottom: -.25rem; }
+    .nb1-m { margin-bottom: -0.25rem; }
 
 -}
 nb1_m : String
@@ -12365,9 +13764,10 @@ nb1_m =
     "nb1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nb1-ns { margin-bottom: -.25rem; }
+    .nb1-ns { margin-bottom: -0.25rem; }
 
 -}
 nb1_ns : String
@@ -12375,9 +13775,10 @@ nb1_ns =
     "nb1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nb2 { margin-bottom: -.5rem; }
+    .nb2 { margin-bottom: -0.5rem; }
 
 -}
 nb2 : String
@@ -12385,9 +13786,10 @@ nb2 =
     "nb2"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nb2-l { margin-bottom: -.5rem; }
+    .nb2-l { margin-bottom: -0.5rem; }
 
 -}
 nb2_l : String
@@ -12395,9 +13797,10 @@ nb2_l =
     "nb2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nb2-m { margin-bottom: -.5rem; }
+    .nb2-m { margin-bottom: -0.5rem; }
 
 -}
 nb2_m : String
@@ -12405,14 +13808,16 @@ nb2_m =
     "nb2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nb2-ns { margin-bottom: -.5rem; }
+    .nb2-ns { margin-bottom: -0.5rem; }
 
 -}
 nb2_ns : String
 nb2_ns =
     "nb2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12425,6 +13830,7 @@ nb3 =
     "nb3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nb3-l { margin-bottom: -1rem; }
@@ -12433,6 +13839,7 @@ nb3 =
 nb3_l : String
 nb3_l =
     "nb3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12445,6 +13852,7 @@ nb3_m =
     "nb3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nb3-ns { margin-bottom: -1rem; }
@@ -12453,6 +13861,7 @@ nb3_m =
 nb3_ns : String
 nb3_ns =
     "nb3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12465,6 +13874,7 @@ nb4 =
     "nb4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nb4-l { margin-bottom: -2rem; }
@@ -12473,6 +13883,7 @@ nb4 =
 nb4_l : String
 nb4_l =
     "nb4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12485,6 +13896,7 @@ nb4_m =
     "nb4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nb4-ns { margin-bottom: -2rem; }
@@ -12493,6 +13905,7 @@ nb4_m =
 nb4_ns : String
 nb4_ns =
     "nb4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12505,6 +13918,7 @@ nb5 =
     "nb5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nb5-l { margin-bottom: -4rem; }
@@ -12513,6 +13927,7 @@ nb5 =
 nb5_l : String
 nb5_l =
     "nb5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12525,6 +13940,7 @@ nb5_m =
     "nb5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nb5-ns { margin-bottom: -4rem; }
@@ -12533,6 +13949,7 @@ nb5_m =
 nb5_ns : String
 nb5_ns =
     "nb5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12545,6 +13962,7 @@ nb6 =
     "nb6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nb6-l { margin-bottom: -8rem; }
@@ -12553,6 +13971,7 @@ nb6 =
 nb6_l : String
 nb6_l =
     "nb6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12565,6 +13984,7 @@ nb6_m =
     "nb6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nb6-ns { margin-bottom: -8rem; }
@@ -12573,6 +13993,7 @@ nb6_m =
 nb6_ns : String
 nb6_ns =
     "nb6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12585,6 +14006,7 @@ nb7 =
     "nb7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nb7-l { margin-bottom: -16rem; }
@@ -12593,6 +14015,7 @@ nb7 =
 nb7_l : String
 nb7_l =
     "nb7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12605,6 +14028,7 @@ nb7_m =
     "nb7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nb7-ns { margin-bottom: -16rem; }
@@ -12613,6 +14037,7 @@ nb7_m =
 nb7_ns : String
 nb7_ns =
     "nb7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12625,6 +14050,7 @@ near_black =
     "near-black"
 
 
+
 {-| This class maps to this CSS definition:
 
     .near-white { color: #f4f4f4; }
@@ -12633,6 +14059,7 @@ near_black =
 near_white : String
 near_white =
     "near-white"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12645,10 +14072,11 @@ nested_copy_indent =
     "nested-copy-indent"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nested-copy-line-height p, .nested-copy-line-height ul,
-    .nested-copy-line-height ol { line-height: 1.5; }
+     .nested-copy-line-height ol { line-height: 1.5; }
 
 -}
 nested_copy_line_height : String
@@ -12656,26 +14084,29 @@ nested_copy_line_height =
     "nested-copy-line-height"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nested-copy-seperator p+p { margin-top: 1.5em; }
+    .nested-copy-separator p+p { margin-top: 1.5em; }
 
 -}
-nested_copy_seperator : String
-nested_copy_seperator =
-    "nested-copy-seperator"
+nested_copy_separator : String
+nested_copy_separator =
+    "nested-copy-separator"
+
 
 
 {-| This class maps to this CSS definition:
 
     .nested-headline-line-height h1, .nested-headline-line-height h2,
-    .nested-headline-line-height h3, .nested-headline-line-height h4,
-    .nested-headline-line-height h5, .nested-headline-line-height h6 { line-height: 1.25; }
+     .nested-headline-line-height h3, .nested-headline-line-height h4,
+     .nested-headline-line-height h5, .nested-headline-line-height h6 { line-height: 1.25; }
 
 -}
 nested_headline_line_height : String
 nested_headline_line_height =
     "nested-headline-line-height"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12686,6 +14117,7 @@ nested_headline_line_height =
 nested_img : String
 nested_img =
     "nested-img"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12700,6 +14132,7 @@ nested_links =
     "nested-links"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nested-list-reset ul, .nested-list-reset ol { padding-left: 0; margin-left: 0; list-style-type: none; }
@@ -12710,9 +14143,10 @@ nested_list_reset =
     "nested-list-reset"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nl1 { margin-left: -.25rem; }
+    .nl1 { margin-left: -0.25rem; }
 
 -}
 nl1 : String
@@ -12720,9 +14154,10 @@ nl1 =
     "nl1"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nl1-l { margin-left: -.25rem; }
+    .nl1-l { margin-left: -0.25rem; }
 
 -}
 nl1_l : String
@@ -12730,9 +14165,10 @@ nl1_l =
     "nl1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nl1-m { margin-left: -.25rem; }
+    .nl1-m { margin-left: -0.25rem; }
 
 -}
 nl1_m : String
@@ -12740,9 +14176,10 @@ nl1_m =
     "nl1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nl1-ns { margin-left: -.25rem; }
+    .nl1-ns { margin-left: -0.25rem; }
 
 -}
 nl1_ns : String
@@ -12750,9 +14187,10 @@ nl1_ns =
     "nl1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nl2 { margin-left: -.5rem; }
+    .nl2 { margin-left: -0.5rem; }
 
 -}
 nl2 : String
@@ -12760,9 +14198,10 @@ nl2 =
     "nl2"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nl2-l { margin-left: -.5rem; }
+    .nl2-l { margin-left: -0.5rem; }
 
 -}
 nl2_l : String
@@ -12770,9 +14209,10 @@ nl2_l =
     "nl2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nl2-m { margin-left: -.5rem; }
+    .nl2-m { margin-left: -0.5rem; }
 
 -}
 nl2_m : String
@@ -12780,14 +14220,16 @@ nl2_m =
     "nl2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nl2-ns { margin-left: -.5rem; }
+    .nl2-ns { margin-left: -0.5rem; }
 
 -}
 nl2_ns : String
 nl2_ns =
     "nl2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12800,6 +14242,7 @@ nl3 =
     "nl3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nl3-l { margin-left: -1rem; }
@@ -12808,6 +14251,7 @@ nl3 =
 nl3_l : String
 nl3_l =
     "nl3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12820,6 +14264,7 @@ nl3_m =
     "nl3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nl3-ns { margin-left: -1rem; }
@@ -12828,6 +14273,7 @@ nl3_m =
 nl3_ns : String
 nl3_ns =
     "nl3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12840,6 +14286,7 @@ nl4 =
     "nl4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nl4-l { margin-left: -2rem; }
@@ -12848,6 +14295,7 @@ nl4 =
 nl4_l : String
 nl4_l =
     "nl4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12860,6 +14308,7 @@ nl4_m =
     "nl4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nl4-ns { margin-left: -2rem; }
@@ -12868,6 +14317,7 @@ nl4_m =
 nl4_ns : String
 nl4_ns =
     "nl4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12880,6 +14330,7 @@ nl5 =
     "nl5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nl5-l { margin-left: -4rem; }
@@ -12888,6 +14339,7 @@ nl5 =
 nl5_l : String
 nl5_l =
     "nl5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12900,6 +14352,7 @@ nl5_m =
     "nl5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nl5-ns { margin-left: -4rem; }
@@ -12908,6 +14361,7 @@ nl5_m =
 nl5_ns : String
 nl5_ns =
     "nl5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12920,6 +14374,7 @@ nl6 =
     "nl6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nl6-l { margin-left: -8rem; }
@@ -12928,6 +14383,7 @@ nl6 =
 nl6_l : String
 nl6_l =
     "nl6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12940,6 +14396,7 @@ nl6_m =
     "nl6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nl6-ns { margin-left: -8rem; }
@@ -12948,6 +14405,7 @@ nl6_m =
 nl6_ns : String
 nl6_ns =
     "nl6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12960,6 +14418,7 @@ nl7 =
     "nl7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nl7-l { margin-left: -16rem; }
@@ -12968,6 +14427,7 @@ nl7 =
 nl7_l : String
 nl7_l =
     "nl7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -12980,6 +14440,7 @@ nl7_m =
     "nl7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nl7-ns { margin-left: -16rem; }
@@ -12988,6 +14449,7 @@ nl7_m =
 nl7_ns : String
 nl7_ns =
     "nl7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13000,6 +14462,7 @@ no_underline =
     "no-underline"
 
 
+
 {-| This class maps to this CSS definition:
 
     .no-underline-l { text-decoration: none; }
@@ -13008,6 +14471,7 @@ no_underline =
 no_underline_l : String
 no_underline_l =
     "no-underline-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13020,6 +14484,7 @@ no_underline_m =
     "no-underline-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .no-underline-ns { text-decoration: none; }
@@ -13028,6 +14493,7 @@ no_underline_m =
 no_underline_ns : String
 no_underline_ns =
     "no-underline-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13040,6 +14506,7 @@ normal =
     "normal"
 
 
+
 {-| This class maps to this CSS definition:
 
     .normal-l { font-weight: normal; }
@@ -13048,6 +14515,7 @@ normal =
 normal_l : String
 normal_l =
     "normal-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13060,6 +14528,7 @@ normal_m =
     "normal-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .normal-ns { font-weight: normal; }
@@ -13068,6 +14537,7 @@ normal_m =
 normal_ns : String
 normal_ns =
     "normal-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13080,6 +14550,7 @@ nowrap =
     "nowrap"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nowrap-l { white-space: nowrap; }
@@ -13088,6 +14559,7 @@ nowrap =
 nowrap_l : String
 nowrap_l =
     "nowrap-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13100,6 +14572,7 @@ nowrap_m =
     "nowrap-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nowrap-ns { white-space: nowrap; }
@@ -13110,9 +14583,10 @@ nowrap_ns =
     "nowrap-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nr1 { margin-right: -.25rem; }
+    .nr1 { margin-right: -0.25rem; }
 
 -}
 nr1 : String
@@ -13120,9 +14594,10 @@ nr1 =
     "nr1"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nr1-l { margin-right: -.25rem; }
+    .nr1-l { margin-right: -0.25rem; }
 
 -}
 nr1_l : String
@@ -13130,9 +14605,10 @@ nr1_l =
     "nr1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nr1-m { margin-right: -.25rem; }
+    .nr1-m { margin-right: -0.25rem; }
 
 -}
 nr1_m : String
@@ -13140,9 +14616,10 @@ nr1_m =
     "nr1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nr1-ns { margin-right: -.25rem; }
+    .nr1-ns { margin-right: -0.25rem; }
 
 -}
 nr1_ns : String
@@ -13150,9 +14627,10 @@ nr1_ns =
     "nr1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nr2 { margin-right: -.5rem; }
+    .nr2 { margin-right: -0.5rem; }
 
 -}
 nr2 : String
@@ -13160,9 +14638,10 @@ nr2 =
     "nr2"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nr2-l { margin-right: -.5rem; }
+    .nr2-l { margin-right: -0.5rem; }
 
 -}
 nr2_l : String
@@ -13170,9 +14649,10 @@ nr2_l =
     "nr2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nr2-m { margin-right: -.5rem; }
+    .nr2-m { margin-right: -0.5rem; }
 
 -}
 nr2_m : String
@@ -13180,14 +14660,16 @@ nr2_m =
     "nr2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nr2-ns { margin-right: -.5rem; }
+    .nr2-ns { margin-right: -0.5rem; }
 
 -}
 nr2_ns : String
 nr2_ns =
     "nr2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13200,6 +14682,7 @@ nr3 =
     "nr3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nr3-l { margin-right: -1rem; }
@@ -13208,6 +14691,7 @@ nr3 =
 nr3_l : String
 nr3_l =
     "nr3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13220,6 +14704,7 @@ nr3_m =
     "nr3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nr3-ns { margin-right: -1rem; }
@@ -13228,6 +14713,7 @@ nr3_m =
 nr3_ns : String
 nr3_ns =
     "nr3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13240,6 +14726,7 @@ nr4 =
     "nr4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nr4-l { margin-right: -2rem; }
@@ -13248,6 +14735,7 @@ nr4 =
 nr4_l : String
 nr4_l =
     "nr4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13260,6 +14748,7 @@ nr4_m =
     "nr4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nr4-ns { margin-right: -2rem; }
@@ -13268,6 +14757,7 @@ nr4_m =
 nr4_ns : String
 nr4_ns =
     "nr4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13280,6 +14770,7 @@ nr5 =
     "nr5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nr5-l { margin-right: -4rem; }
@@ -13288,6 +14779,7 @@ nr5 =
 nr5_l : String
 nr5_l =
     "nr5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13300,6 +14792,7 @@ nr5_m =
     "nr5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nr5-ns { margin-right: -4rem; }
@@ -13308,6 +14801,7 @@ nr5_m =
 nr5_ns : String
 nr5_ns =
     "nr5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13320,6 +14814,7 @@ nr6 =
     "nr6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nr6-l { margin-right: -8rem; }
@@ -13328,6 +14823,7 @@ nr6 =
 nr6_l : String
 nr6_l =
     "nr6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13340,6 +14836,7 @@ nr6_m =
     "nr6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nr6-ns { margin-right: -8rem; }
@@ -13348,6 +14845,7 @@ nr6_m =
 nr6_ns : String
 nr6_ns =
     "nr6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13360,6 +14858,7 @@ nr7 =
     "nr7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nr7-l { margin-right: -16rem; }
@@ -13368,6 +14867,7 @@ nr7 =
 nr7_l : String
 nr7_l =
     "nr7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13380,6 +14880,7 @@ nr7_m =
     "nr7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nr7-ns { margin-right: -16rem; }
@@ -13390,9 +14891,10 @@ nr7_ns =
     "nr7-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nt1 { margin-top: -.25rem; }
+    .nt1 { margin-top: -0.25rem; }
 
 -}
 nt1 : String
@@ -13400,9 +14902,10 @@ nt1 =
     "nt1"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nt1-l { margin-top: -.25rem; }
+    .nt1-l { margin-top: -0.25rem; }
 
 -}
 nt1_l : String
@@ -13410,9 +14913,10 @@ nt1_l =
     "nt1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nt1-m { margin-top: -.25rem; }
+    .nt1-m { margin-top: -0.25rem; }
 
 -}
 nt1_m : String
@@ -13420,9 +14924,10 @@ nt1_m =
     "nt1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nt1-ns { margin-top: -.25rem; }
+    .nt1-ns { margin-top: -0.25rem; }
 
 -}
 nt1_ns : String
@@ -13430,9 +14935,10 @@ nt1_ns =
     "nt1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nt2 { margin-top: -.5rem; }
+    .nt2 { margin-top: -0.5rem; }
 
 -}
 nt2 : String
@@ -13440,9 +14946,10 @@ nt2 =
     "nt2"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nt2-l { margin-top: -.5rem; }
+    .nt2-l { margin-top: -0.5rem; }
 
 -}
 nt2_l : String
@@ -13450,9 +14957,10 @@ nt2_l =
     "nt2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nt2-m { margin-top: -.5rem; }
+    .nt2-m { margin-top: -0.5rem; }
 
 -}
 nt2_m : String
@@ -13460,14 +14968,16 @@ nt2_m =
     "nt2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .nt2-ns { margin-top: -.5rem; }
+    .nt2-ns { margin-top: -0.5rem; }
 
 -}
 nt2_ns : String
 nt2_ns =
     "nt2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13480,6 +14990,7 @@ nt3 =
     "nt3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nt3-l { margin-top: -1rem; }
@@ -13488,6 +14999,7 @@ nt3 =
 nt3_l : String
 nt3_l =
     "nt3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13500,6 +15012,7 @@ nt3_m =
     "nt3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nt3-ns { margin-top: -1rem; }
@@ -13508,6 +15021,7 @@ nt3_m =
 nt3_ns : String
 nt3_ns =
     "nt3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13520,6 +15034,7 @@ nt4 =
     "nt4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nt4-l { margin-top: -2rem; }
@@ -13528,6 +15043,7 @@ nt4 =
 nt4_l : String
 nt4_l =
     "nt4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13540,6 +15056,7 @@ nt4_m =
     "nt4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nt4-ns { margin-top: -2rem; }
@@ -13548,6 +15065,7 @@ nt4_m =
 nt4_ns : String
 nt4_ns =
     "nt4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13560,6 +15078,7 @@ nt5 =
     "nt5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nt5-l { margin-top: -4rem; }
@@ -13568,6 +15087,7 @@ nt5 =
 nt5_l : String
 nt5_l =
     "nt5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13580,6 +15100,7 @@ nt5_m =
     "nt5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nt5-ns { margin-top: -4rem; }
@@ -13588,6 +15109,7 @@ nt5_m =
 nt5_ns : String
 nt5_ns =
     "nt5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13600,6 +15122,7 @@ nt6 =
     "nt6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nt6-l { margin-top: -8rem; }
@@ -13608,6 +15131,7 @@ nt6 =
 nt6_l : String
 nt6_l =
     "nt6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13620,6 +15144,7 @@ nt6_m =
     "nt6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nt6-ns { margin-top: -8rem; }
@@ -13628,6 +15153,7 @@ nt6_m =
 nt6_ns : String
 nt6_ns =
     "nt6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13640,6 +15166,7 @@ nt7 =
     "nt7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nt7-l { margin-top: -16rem; }
@@ -13648,6 +15175,7 @@ nt7 =
 nt7_l : String
 nt7_l =
     "nt7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13660,6 +15188,7 @@ nt7_m =
     "nt7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .nt7-ns { margin-top: -16rem; }
@@ -13668,6 +15197,7 @@ nt7_m =
 nt7_ns : String
 nt7_ns =
     "nt7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13680,6 +15210,7 @@ o_0 =
     "o-0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .o-025 { opacity: .025; }
@@ -13688,6 +15219,7 @@ o_0 =
 o_025 : String
 o_025 =
     "o-025"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13700,6 +15232,7 @@ o_05 =
     "o-05"
 
 
+
 {-| This class maps to this CSS definition:
 
     .o-10 { opacity: .1; }
@@ -13708,6 +15241,7 @@ o_05 =
 o_10 : String
 o_10 =
     "o-10"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13720,6 +15254,7 @@ o_100 =
     "o-100"
 
 
+
 {-| This class maps to this CSS definition:
 
     .o-20 { opacity: .2; }
@@ -13728,6 +15263,7 @@ o_100 =
 o_20 : String
 o_20 =
     "o-20"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13740,6 +15276,7 @@ o_30 =
     "o-30"
 
 
+
 {-| This class maps to this CSS definition:
 
     .o-40 { opacity: .4; }
@@ -13748,6 +15285,7 @@ o_30 =
 o_40 : String
 o_40 =
     "o-40"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13760,6 +15298,7 @@ o_50 =
     "o-50"
 
 
+
 {-| This class maps to this CSS definition:
 
     .o-60 { opacity: .6; }
@@ -13768,6 +15307,7 @@ o_50 =
 o_60 : String
 o_60 =
     "o-60"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13780,6 +15320,7 @@ o_70 =
     "o-70"
 
 
+
 {-| This class maps to this CSS definition:
 
     .o-80 { opacity: .8; }
@@ -13788,6 +15329,7 @@ o_70 =
 o_80 : String
 o_80 =
     "o-80"
+
 
 
 {-| This class maps to this CSS definition:
@@ -13800,6 +15342,7 @@ o_90 =
     "o-90"
 
 
+
 {-| This class maps to this CSS definition:
 
     .orange { color: #ff6300; }
@@ -13810,9 +15353,10 @@ orange =
     "orange"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-0 { -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0; }
+    .order-0 { order: 0; }
 
 -}
 order_0 : String
@@ -13820,9 +15364,10 @@ order_0 =
     "order-0"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-0-l { -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0; }
+    .order-0-l { order: 0; }
 
 -}
 order_0_l : String
@@ -13830,9 +15375,10 @@ order_0_l =
     "order-0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-0-m { -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0; }
+    .order-0-m { order: 0; }
 
 -}
 order_0_m : String
@@ -13840,9 +15386,10 @@ order_0_m =
     "order-0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-0-ns { -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0; }
+    .order-0-ns { order: 0; }
 
 -}
 order_0_ns : String
@@ -13850,9 +15397,10 @@ order_0_ns =
     "order-0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-1 { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
+    .order-1 { order: 1; }
 
 -}
 order_1 : String
@@ -13860,9 +15408,10 @@ order_1 =
     "order-1"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-1-l { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
+    .order-1-l { order: 1; }
 
 -}
 order_1_l : String
@@ -13870,9 +15419,10 @@ order_1_l =
     "order-1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-1-m { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
+    .order-1-m { order: 1; }
 
 -}
 order_1_m : String
@@ -13880,9 +15430,10 @@ order_1_m =
     "order-1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-1-ns { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
+    .order-1-ns { order: 1; }
 
 -}
 order_1_ns : String
@@ -13890,9 +15441,10 @@ order_1_ns =
     "order-1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-2 { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2; }
+    .order-2 { order: 2; }
 
 -}
 order_2 : String
@@ -13900,9 +15452,10 @@ order_2 =
     "order-2"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-2-l { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2; }
+    .order-2-l { order: 2; }
 
 -}
 order_2_l : String
@@ -13910,9 +15463,10 @@ order_2_l =
     "order-2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-2-m { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2; }
+    .order-2-m { order: 2; }
 
 -}
 order_2_m : String
@@ -13920,9 +15474,10 @@ order_2_m =
     "order-2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-2-ns { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2; }
+    .order-2-ns { order: 2; }
 
 -}
 order_2_ns : String
@@ -13930,9 +15485,10 @@ order_2_ns =
     "order-2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-3 { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; }
+    .order-3 { order: 3; }
 
 -}
 order_3 : String
@@ -13940,9 +15496,10 @@ order_3 =
     "order-3"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-3-l { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; }
+    .order-3-l { order: 3; }
 
 -}
 order_3_l : String
@@ -13950,9 +15507,10 @@ order_3_l =
     "order-3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-3-m { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; }
+    .order-3-m { order: 3; }
 
 -}
 order_3_m : String
@@ -13960,9 +15518,10 @@ order_3_m =
     "order-3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-3-ns { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; }
+    .order-3-ns { order: 3; }
 
 -}
 order_3_ns : String
@@ -13970,9 +15529,10 @@ order_3_ns =
     "order-3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-4 { -webkit-box-ordinal-group: 5; -ms-flex-order: 4; order: 4; }
+    .order-4 { order: 4; }
 
 -}
 order_4 : String
@@ -13980,9 +15540,10 @@ order_4 =
     "order-4"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-4-l { -webkit-box-ordinal-group: 5; -ms-flex-order: 4; order: 4; }
+    .order-4-l { order: 4; }
 
 -}
 order_4_l : String
@@ -13990,9 +15551,10 @@ order_4_l =
     "order-4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-4-m { -webkit-box-ordinal-group: 5; -ms-flex-order: 4; order: 4; }
+    .order-4-m { order: 4; }
 
 -}
 order_4_m : String
@@ -14000,9 +15562,10 @@ order_4_m =
     "order-4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-4-ns { -webkit-box-ordinal-group: 5; -ms-flex-order: 4; order: 4; }
+    .order-4-ns { order: 4; }
 
 -}
 order_4_ns : String
@@ -14010,9 +15573,10 @@ order_4_ns =
     "order-4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-5 { -webkit-box-ordinal-group: 6; -ms-flex-order: 5; order: 5; }
+    .order-5 { order: 5; }
 
 -}
 order_5 : String
@@ -14020,9 +15584,10 @@ order_5 =
     "order-5"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-5-l { -webkit-box-ordinal-group: 6; -ms-flex-order: 5; order: 5; }
+    .order-5-l { order: 5; }
 
 -}
 order_5_l : String
@@ -14030,9 +15595,10 @@ order_5_l =
     "order-5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-5-m { -webkit-box-ordinal-group: 6; -ms-flex-order: 5; order: 5; }
+    .order-5-m { order: 5; }
 
 -}
 order_5_m : String
@@ -14040,9 +15606,10 @@ order_5_m =
     "order-5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-5-ns { -webkit-box-ordinal-group: 6; -ms-flex-order: 5; order: 5; }
+    .order-5-ns { order: 5; }
 
 -}
 order_5_ns : String
@@ -14050,9 +15617,10 @@ order_5_ns =
     "order-5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-6 { -webkit-box-ordinal-group: 7; -ms-flex-order: 6; order: 6; }
+    .order-6 { order: 6; }
 
 -}
 order_6 : String
@@ -14060,9 +15628,10 @@ order_6 =
     "order-6"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-6-l { -webkit-box-ordinal-group: 7; -ms-flex-order: 6; order: 6; }
+    .order-6-l { order: 6; }
 
 -}
 order_6_l : String
@@ -14070,9 +15639,10 @@ order_6_l =
     "order-6-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-6-m { -webkit-box-ordinal-group: 7; -ms-flex-order: 6; order: 6; }
+    .order-6-m { order: 6; }
 
 -}
 order_6_m : String
@@ -14080,9 +15650,10 @@ order_6_m =
     "order-6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-6-ns { -webkit-box-ordinal-group: 7; -ms-flex-order: 6; order: 6; }
+    .order-6-ns { order: 6; }
 
 -}
 order_6_ns : String
@@ -14090,9 +15661,10 @@ order_6_ns =
     "order-6-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-7 { -webkit-box-ordinal-group: 8; -ms-flex-order: 7; order: 7; }
+    .order-7 { order: 7; }
 
 -}
 order_7 : String
@@ -14100,9 +15672,10 @@ order_7 =
     "order-7"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-7-l { -webkit-box-ordinal-group: 8; -ms-flex-order: 7; order: 7; }
+    .order-7-l { order: 7; }
 
 -}
 order_7_l : String
@@ -14110,9 +15683,10 @@ order_7_l =
     "order-7-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-7-m { -webkit-box-ordinal-group: 8; -ms-flex-order: 7; order: 7; }
+    .order-7-m { order: 7; }
 
 -}
 order_7_m : String
@@ -14120,9 +15694,10 @@ order_7_m =
     "order-7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-7-ns { -webkit-box-ordinal-group: 8; -ms-flex-order: 7; order: 7; }
+    .order-7-ns { order: 7; }
 
 -}
 order_7_ns : String
@@ -14130,9 +15705,10 @@ order_7_ns =
     "order-7-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-8 { -webkit-box-ordinal-group: 9; -ms-flex-order: 8; order: 8; }
+    .order-8 { order: 8; }
 
 -}
 order_8 : String
@@ -14140,9 +15716,10 @@ order_8 =
     "order-8"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-8-l { -webkit-box-ordinal-group: 9; -ms-flex-order: 8; order: 8; }
+    .order-8-l { order: 8; }
 
 -}
 order_8_l : String
@@ -14150,9 +15727,10 @@ order_8_l =
     "order-8-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-8-m { -webkit-box-ordinal-group: 9; -ms-flex-order: 8; order: 8; }
+    .order-8-m { order: 8; }
 
 -}
 order_8_m : String
@@ -14160,9 +15738,10 @@ order_8_m =
     "order-8-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-8-ns { -webkit-box-ordinal-group: 9; -ms-flex-order: 8; order: 8; }
+    .order-8-ns { order: 8; }
 
 -}
 order_8_ns : String
@@ -14170,9 +15749,10 @@ order_8_ns =
     "order-8-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-last { -webkit-box-ordinal-group: 100000; -ms-flex-order: 99999; order: 99999; }
+    .order-last { order: 99999; }
 
 -}
 order_last : String
@@ -14180,9 +15760,10 @@ order_last =
     "order-last"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-last-l { -webkit-box-ordinal-group: 100000; -ms-flex-order: 99999; order: 99999; }
+    .order-last-l { order: 99999; }
 
 -}
 order_last_l : String
@@ -14190,9 +15771,10 @@ order_last_l =
     "order-last-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-last-m { -webkit-box-ordinal-group: 100000; -ms-flex-order: 99999; order: 99999; }
+    .order-last-m { order: 99999; }
 
 -}
 order_last_m : String
@@ -14200,14 +15782,16 @@ order_last_m =
     "order-last-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .order-last-ns { -webkit-box-ordinal-group: 100000; -ms-flex-order: 99999; order: 99999; }
+    .order-last-ns { order: 99999; }
 
 -}
 order_last_ns : String
 order_last_ns =
     "order-last-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14220,6 +15804,7 @@ outline =
     "outline"
 
 
+
 {-| This class maps to this CSS definition:
 
     .outline-0 { outline: 0; }
@@ -14228,6 +15813,7 @@ outline =
 outline_0 : String
 outline_0 =
     "outline-0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14240,6 +15826,7 @@ outline_0_l =
     "outline-0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .outline-0-m { outline: 0; }
@@ -14248,6 +15835,7 @@ outline_0_l =
 outline_0_m : String
 outline_0_m =
     "outline-0-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14260,6 +15848,7 @@ outline_0_ns =
     "outline-0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .outline-l { outline: 1px solid; }
@@ -14268,6 +15857,7 @@ outline_0_ns =
 outline_l : String
 outline_l =
     "outline-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14280,6 +15870,7 @@ outline_m =
     "outline-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .outline-ns { outline: 1px solid; }
@@ -14288,6 +15879,7 @@ outline_m =
 outline_ns : String
 outline_ns =
     "outline-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14300,6 +15892,7 @@ outline_transparent =
     "outline-transparent"
 
 
+
 {-| This class maps to this CSS definition:
 
     .outline-transparent-l { outline: 1px solid transparent; }
@@ -14308,6 +15901,7 @@ outline_transparent =
 outline_transparent_l : String
 outline_transparent_l =
     "outline-transparent-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14320,6 +15914,7 @@ outline_transparent_m =
     "outline-transparent-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .outline-transparent-ns { outline: 1px solid transparent; }
@@ -14328,6 +15923,7 @@ outline_transparent_m =
 outline_transparent_ns : String
 outline_transparent_ns =
     "outline-transparent-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14340,6 +15936,7 @@ overflow_auto =
     "overflow-auto"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-auto-l { overflow: auto; }
@@ -14348,6 +15945,7 @@ overflow_auto =
 overflow_auto_l : String
 overflow_auto_l =
     "overflow-auto-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14360,6 +15958,7 @@ overflow_auto_m =
     "overflow-auto-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-auto-ns { overflow: auto; }
@@ -14368,6 +15967,7 @@ overflow_auto_m =
 overflow_auto_ns : String
 overflow_auto_ns =
     "overflow-auto-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14380,6 +15980,7 @@ overflow_container =
     "overflow-container"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-hidden { overflow: hidden; }
@@ -14388,6 +15989,7 @@ overflow_container =
 overflow_hidden : String
 overflow_hidden =
     "overflow-hidden"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14400,6 +16002,7 @@ overflow_hidden_l =
     "overflow-hidden-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-hidden-m { overflow: hidden; }
@@ -14408,6 +16011,7 @@ overflow_hidden_l =
 overflow_hidden_m : String
 overflow_hidden_m =
     "overflow-hidden-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14420,6 +16024,7 @@ overflow_hidden_ns =
     "overflow-hidden-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-scroll { overflow: scroll; }
@@ -14428,6 +16033,7 @@ overflow_hidden_ns =
 overflow_scroll : String
 overflow_scroll =
     "overflow-scroll"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14440,6 +16046,7 @@ overflow_scroll_l =
     "overflow-scroll-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-scroll-m { overflow: scroll; }
@@ -14448,6 +16055,7 @@ overflow_scroll_l =
 overflow_scroll_m : String
 overflow_scroll_m =
     "overflow-scroll-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14460,6 +16068,7 @@ overflow_scroll_ns =
     "overflow-scroll-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-visible { overflow: visible; }
@@ -14468,6 +16077,7 @@ overflow_scroll_ns =
 overflow_visible : String
 overflow_visible =
     "overflow-visible"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14480,6 +16090,7 @@ overflow_visible_l =
     "overflow-visible-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-visible-m { overflow: visible; }
@@ -14488,6 +16099,7 @@ overflow_visible_l =
 overflow_visible_m : String
 overflow_visible_m =
     "overflow-visible-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14500,6 +16112,7 @@ overflow_visible_ns =
     "overflow-visible-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-x-auto { overflow-x: auto; }
@@ -14508,6 +16121,7 @@ overflow_visible_ns =
 overflow_x_auto : String
 overflow_x_auto =
     "overflow-x-auto"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14520,6 +16134,7 @@ overflow_x_auto_l =
     "overflow-x-auto-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-x-auto-m { overflow-x: auto; }
@@ -14528,6 +16143,7 @@ overflow_x_auto_l =
 overflow_x_auto_m : String
 overflow_x_auto_m =
     "overflow-x-auto-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14540,6 +16156,7 @@ overflow_x_auto_ns =
     "overflow-x-auto-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-x-hidden { overflow-x: hidden; }
@@ -14548,6 +16165,7 @@ overflow_x_auto_ns =
 overflow_x_hidden : String
 overflow_x_hidden =
     "overflow-x-hidden"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14560,6 +16178,7 @@ overflow_x_hidden_l =
     "overflow-x-hidden-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-x-hidden-m { overflow-x: hidden; }
@@ -14568,6 +16187,7 @@ overflow_x_hidden_l =
 overflow_x_hidden_m : String
 overflow_x_hidden_m =
     "overflow-x-hidden-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14580,6 +16200,7 @@ overflow_x_hidden_ns =
     "overflow-x-hidden-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-x-scroll { overflow-x: scroll; }
@@ -14588,6 +16209,7 @@ overflow_x_hidden_ns =
 overflow_x_scroll : String
 overflow_x_scroll =
     "overflow-x-scroll"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14600,6 +16222,7 @@ overflow_x_scroll_l =
     "overflow-x-scroll-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-x-scroll-m { overflow-x: scroll; }
@@ -14608,6 +16231,7 @@ overflow_x_scroll_l =
 overflow_x_scroll_m : String
 overflow_x_scroll_m =
     "overflow-x-scroll-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14620,6 +16244,7 @@ overflow_x_scroll_ns =
     "overflow-x-scroll-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-x-visible { overflow-x: visible; }
@@ -14628,6 +16253,7 @@ overflow_x_scroll_ns =
 overflow_x_visible : String
 overflow_x_visible =
     "overflow-x-visible"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14640,6 +16266,7 @@ overflow_x_visible_l =
     "overflow-x-visible-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-x-visible-m { overflow-x: visible; }
@@ -14648,6 +16275,7 @@ overflow_x_visible_l =
 overflow_x_visible_m : String
 overflow_x_visible_m =
     "overflow-x-visible-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14660,6 +16288,7 @@ overflow_x_visible_ns =
     "overflow-x-visible-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-y-auto { overflow-y: auto; }
@@ -14668,6 +16297,7 @@ overflow_x_visible_ns =
 overflow_y_auto : String
 overflow_y_auto =
     "overflow-y-auto"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14680,6 +16310,7 @@ overflow_y_auto_l =
     "overflow-y-auto-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-y-auto-m { overflow-y: auto; }
@@ -14688,6 +16319,7 @@ overflow_y_auto_l =
 overflow_y_auto_m : String
 overflow_y_auto_m =
     "overflow-y-auto-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14700,6 +16332,7 @@ overflow_y_auto_ns =
     "overflow-y-auto-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-y-hidden { overflow-y: hidden; }
@@ -14708,6 +16341,7 @@ overflow_y_auto_ns =
 overflow_y_hidden : String
 overflow_y_hidden =
     "overflow-y-hidden"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14720,6 +16354,7 @@ overflow_y_hidden_l =
     "overflow-y-hidden-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-y-hidden-m { overflow-y: hidden; }
@@ -14728,6 +16363,7 @@ overflow_y_hidden_l =
 overflow_y_hidden_m : String
 overflow_y_hidden_m =
     "overflow-y-hidden-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14740,6 +16376,7 @@ overflow_y_hidden_ns =
     "overflow-y-hidden-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-y-scroll { overflow-y: scroll; }
@@ -14748,6 +16385,7 @@ overflow_y_hidden_ns =
 overflow_y_scroll : String
 overflow_y_scroll =
     "overflow-y-scroll"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14760,6 +16398,7 @@ overflow_y_scroll_l =
     "overflow-y-scroll-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-y-scroll-m { overflow-y: scroll; }
@@ -14768,6 +16407,7 @@ overflow_y_scroll_l =
 overflow_y_scroll_m : String
 overflow_y_scroll_m =
     "overflow-y-scroll-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14780,6 +16420,7 @@ overflow_y_scroll_ns =
     "overflow-y-scroll-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-y-visible { overflow-y: visible; }
@@ -14788,6 +16429,7 @@ overflow_y_scroll_ns =
 overflow_y_visible : String
 overflow_y_visible =
     "overflow-y-visible"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14800,6 +16442,7 @@ overflow_y_visible_l =
     "overflow-y-visible-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .overflow-y-visible-m { overflow-y: visible; }
@@ -14808,6 +16451,7 @@ overflow_y_visible_l =
 overflow_y_visible_m : String
 overflow_y_visible_m =
     "overflow-y-visible-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14820,6 +16464,7 @@ overflow_y_visible_ns =
     "overflow-y-visible-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa0 { padding: 0; }
@@ -14828,6 +16473,7 @@ overflow_y_visible_ns =
 pa0 : String
 pa0 =
     "pa0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14840,6 +16486,7 @@ pa0_l =
     "pa0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa0-m { padding: 0; }
@@ -14848,6 +16495,7 @@ pa0_l =
 pa0_m : String
 pa0_m =
     "pa0-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14860,6 +16508,7 @@ pa0_ns =
     "pa0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa1 { padding: .25rem; }
@@ -14868,6 +16517,7 @@ pa0_ns =
 pa1 : String
 pa1 =
     "pa1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14880,6 +16530,7 @@ pa1_l =
     "pa1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa1-m { padding: .25rem; }
@@ -14888,6 +16539,7 @@ pa1_l =
 pa1_m : String
 pa1_m =
     "pa1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14900,6 +16552,7 @@ pa1_ns =
     "pa1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa2 { padding: .5rem; }
@@ -14908,6 +16561,7 @@ pa1_ns =
 pa2 : String
 pa2 =
     "pa2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14920,6 +16574,7 @@ pa2_l =
     "pa2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa2-m { padding: .5rem; }
@@ -14928,6 +16583,7 @@ pa2_l =
 pa2_m : String
 pa2_m =
     "pa2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14940,6 +16596,7 @@ pa2_ns =
     "pa2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa3 { padding: 1rem; }
@@ -14948,6 +16605,7 @@ pa2_ns =
 pa3 : String
 pa3 =
     "pa3"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14960,6 +16618,7 @@ pa3_l =
     "pa3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa3-m { padding: 1rem; }
@@ -14968,6 +16627,7 @@ pa3_l =
 pa3_m : String
 pa3_m =
     "pa3-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -14980,6 +16640,7 @@ pa3_ns =
     "pa3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa4 { padding: 2rem; }
@@ -14988,6 +16649,7 @@ pa3_ns =
 pa4 : String
 pa4 =
     "pa4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15000,6 +16662,7 @@ pa4_l =
     "pa4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa4-m { padding: 2rem; }
@@ -15008,6 +16671,7 @@ pa4_l =
 pa4_m : String
 pa4_m =
     "pa4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15020,6 +16684,7 @@ pa4_ns =
     "pa4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa5 { padding: 4rem; }
@@ -15028,6 +16693,7 @@ pa4_ns =
 pa5 : String
 pa5 =
     "pa5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15040,6 +16706,7 @@ pa5_l =
     "pa5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa5-m { padding: 4rem; }
@@ -15048,6 +16715,7 @@ pa5_l =
 pa5_m : String
 pa5_m =
     "pa5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15060,6 +16728,7 @@ pa5_ns =
     "pa5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa6 { padding: 8rem; }
@@ -15068,6 +16737,7 @@ pa5_ns =
 pa6 : String
 pa6 =
     "pa6"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15080,6 +16750,7 @@ pa6_l =
     "pa6-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa6-m { padding: 8rem; }
@@ -15088,6 +16759,7 @@ pa6_l =
 pa6_m : String
 pa6_m =
     "pa6-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15100,6 +16772,7 @@ pa6_ns =
     "pa6-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa7 { padding: 16rem; }
@@ -15108,6 +16781,7 @@ pa6_ns =
 pa7 : String
 pa7 =
     "pa7"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15120,6 +16794,7 @@ pa7_l =
     "pa7-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pa7-m { padding: 16rem; }
@@ -15128,6 +16803,7 @@ pa7_l =
 pa7_m : String
 pa7_m =
     "pa7-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15140,6 +16816,7 @@ pa7_ns =
     "pa7-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb0 { padding-bottom: 0; }
@@ -15148,6 +16825,7 @@ pa7_ns =
 pb0 : String
 pb0 =
     "pb0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15160,6 +16838,7 @@ pb0_l =
     "pb0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb0-m { padding-bottom: 0; }
@@ -15168,6 +16847,7 @@ pb0_l =
 pb0_m : String
 pb0_m =
     "pb0-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15180,6 +16860,7 @@ pb0_ns =
     "pb0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb1 { padding-bottom: .25rem; }
@@ -15188,6 +16869,7 @@ pb0_ns =
 pb1 : String
 pb1 =
     "pb1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15200,6 +16882,7 @@ pb1_l =
     "pb1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb1-m { padding-bottom: .25rem; }
@@ -15208,6 +16891,7 @@ pb1_l =
 pb1_m : String
 pb1_m =
     "pb1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15220,6 +16904,7 @@ pb1_ns =
     "pb1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb2 { padding-bottom: .5rem; }
@@ -15228,6 +16913,7 @@ pb1_ns =
 pb2 : String
 pb2 =
     "pb2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15240,6 +16926,7 @@ pb2_l =
     "pb2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb2-m { padding-bottom: .5rem; }
@@ -15248,6 +16935,7 @@ pb2_l =
 pb2_m : String
 pb2_m =
     "pb2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15260,6 +16948,7 @@ pb2_ns =
     "pb2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb3 { padding-bottom: 1rem; }
@@ -15268,6 +16957,7 @@ pb2_ns =
 pb3 : String
 pb3 =
     "pb3"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15280,6 +16970,7 @@ pb3_l =
     "pb3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb3-m { padding-bottom: 1rem; }
@@ -15288,6 +16979,7 @@ pb3_l =
 pb3_m : String
 pb3_m =
     "pb3-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15300,6 +16992,7 @@ pb3_ns =
     "pb3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb4 { padding-bottom: 2rem; }
@@ -15308,6 +17001,7 @@ pb3_ns =
 pb4 : String
 pb4 =
     "pb4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15320,6 +17014,7 @@ pb4_l =
     "pb4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb4-m { padding-bottom: 2rem; }
@@ -15328,6 +17023,7 @@ pb4_l =
 pb4_m : String
 pb4_m =
     "pb4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15340,6 +17036,7 @@ pb4_ns =
     "pb4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb5 { padding-bottom: 4rem; }
@@ -15348,6 +17045,7 @@ pb4_ns =
 pb5 : String
 pb5 =
     "pb5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15360,6 +17058,7 @@ pb5_l =
     "pb5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb5-m { padding-bottom: 4rem; }
@@ -15368,6 +17067,7 @@ pb5_l =
 pb5_m : String
 pb5_m =
     "pb5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15380,6 +17080,7 @@ pb5_ns =
     "pb5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb6 { padding-bottom: 8rem; }
@@ -15388,6 +17089,7 @@ pb5_ns =
 pb6 : String
 pb6 =
     "pb6"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15400,6 +17102,7 @@ pb6_l =
     "pb6-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb6-m { padding-bottom: 8rem; }
@@ -15408,6 +17111,7 @@ pb6_l =
 pb6_m : String
 pb6_m =
     "pb6-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15420,6 +17124,7 @@ pb6_ns =
     "pb6-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb7 { padding-bottom: 16rem; }
@@ -15428,6 +17133,7 @@ pb6_ns =
 pb7 : String
 pb7 =
     "pb7"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15440,6 +17146,7 @@ pb7_l =
     "pb7-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pb7-m { padding-bottom: 16rem; }
@@ -15448,6 +17155,7 @@ pb7_l =
 pb7_m : String
 pb7_m =
     "pb7-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15460,6 +17168,7 @@ pb7_ns =
     "pb7-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph0 { padding-left: 0; padding-right: 0; }
@@ -15468,6 +17177,7 @@ pb7_ns =
 ph0 : String
 ph0 =
     "ph0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15480,6 +17190,7 @@ ph0_l =
     "ph0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph0-m { padding-left: 0; padding-right: 0; }
@@ -15488,6 +17199,7 @@ ph0_l =
 ph0_m : String
 ph0_m =
     "ph0-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15500,6 +17212,7 @@ ph0_ns =
     "ph0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph1 { padding-left: .25rem; padding-right: .25rem; }
@@ -15508,6 +17221,7 @@ ph0_ns =
 ph1 : String
 ph1 =
     "ph1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15520,6 +17234,7 @@ ph1_l =
     "ph1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph1-m { padding-left: .25rem; padding-right: .25rem; }
@@ -15528,6 +17243,7 @@ ph1_l =
 ph1_m : String
 ph1_m =
     "ph1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15540,6 +17256,7 @@ ph1_ns =
     "ph1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph2 { padding-left: .5rem; padding-right: .5rem; }
@@ -15548,6 +17265,7 @@ ph1_ns =
 ph2 : String
 ph2 =
     "ph2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15560,6 +17278,7 @@ ph2_l =
     "ph2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph2-m { padding-left: .5rem; padding-right: .5rem; }
@@ -15568,6 +17287,7 @@ ph2_l =
 ph2_m : String
 ph2_m =
     "ph2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15580,6 +17300,7 @@ ph2_ns =
     "ph2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph3 { padding-left: 1rem; padding-right: 1rem; }
@@ -15588,6 +17309,7 @@ ph2_ns =
 ph3 : String
 ph3 =
     "ph3"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15600,6 +17322,7 @@ ph3_l =
     "ph3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph3-m { padding-left: 1rem; padding-right: 1rem; }
@@ -15608,6 +17331,7 @@ ph3_l =
 ph3_m : String
 ph3_m =
     "ph3-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15620,6 +17344,7 @@ ph3_ns =
     "ph3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph4 { padding-left: 2rem; padding-right: 2rem; }
@@ -15628,6 +17353,7 @@ ph3_ns =
 ph4 : String
 ph4 =
     "ph4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15640,6 +17366,7 @@ ph4_l =
     "ph4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph4-m { padding-left: 2rem; padding-right: 2rem; }
@@ -15648,6 +17375,7 @@ ph4_l =
 ph4_m : String
 ph4_m =
     "ph4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15660,6 +17388,7 @@ ph4_ns =
     "ph4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph5 { padding-left: 4rem; padding-right: 4rem; }
@@ -15668,6 +17397,7 @@ ph4_ns =
 ph5 : String
 ph5 =
     "ph5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15680,6 +17410,7 @@ ph5_l =
     "ph5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph5-m { padding-left: 4rem; padding-right: 4rem; }
@@ -15688,6 +17419,7 @@ ph5_l =
 ph5_m : String
 ph5_m =
     "ph5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15700,6 +17432,7 @@ ph5_ns =
     "ph5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph6 { padding-left: 8rem; padding-right: 8rem; }
@@ -15708,6 +17441,7 @@ ph5_ns =
 ph6 : String
 ph6 =
     "ph6"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15720,6 +17454,7 @@ ph6_l =
     "ph6-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph6-m { padding-left: 8rem; padding-right: 8rem; }
@@ -15728,6 +17463,7 @@ ph6_l =
 ph6_m : String
 ph6_m =
     "ph6-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15740,6 +17476,7 @@ ph6_ns =
     "ph6-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph7 { padding-left: 16rem; padding-right: 16rem; }
@@ -15748,6 +17485,7 @@ ph6_ns =
 ph7 : String
 ph7 =
     "ph7"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15760,6 +17498,7 @@ ph7_l =
     "ph7-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ph7-m { padding-left: 16rem; padding-right: 16rem; }
@@ -15768,6 +17507,7 @@ ph7_l =
 ph7_m : String
 ph7_m =
     "ph7-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15780,6 +17520,7 @@ ph7_ns =
     "ph7-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pink { color: #ff80cc; }
@@ -15788,6 +17529,7 @@ ph7_ns =
 pink : String
 pink =
     "pink"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15800,6 +17542,7 @@ pl0 =
     "pl0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl0-l { padding-left: 0; }
@@ -15808,6 +17551,7 @@ pl0 =
 pl0_l : String
 pl0_l =
     "pl0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15820,6 +17564,7 @@ pl0_m =
     "pl0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl0-ns { padding-left: 0; }
@@ -15828,6 +17573,7 @@ pl0_m =
 pl0_ns : String
 pl0_ns =
     "pl0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15840,6 +17586,7 @@ pl1 =
     "pl1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl1-l { padding-left: .25rem; }
@@ -15848,6 +17595,7 @@ pl1 =
 pl1_l : String
 pl1_l =
     "pl1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15860,6 +17608,7 @@ pl1_m =
     "pl1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl1-ns { padding-left: .25rem; }
@@ -15868,6 +17617,7 @@ pl1_m =
 pl1_ns : String
 pl1_ns =
     "pl1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15880,6 +17630,7 @@ pl2 =
     "pl2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl2-l { padding-left: .5rem; }
@@ -15888,6 +17639,7 @@ pl2 =
 pl2_l : String
 pl2_l =
     "pl2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15900,6 +17652,7 @@ pl2_m =
     "pl2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl2-ns { padding-left: .5rem; }
@@ -15908,6 +17661,7 @@ pl2_m =
 pl2_ns : String
 pl2_ns =
     "pl2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15920,6 +17674,7 @@ pl3 =
     "pl3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl3-l { padding-left: 1rem; }
@@ -15928,6 +17683,7 @@ pl3 =
 pl3_l : String
 pl3_l =
     "pl3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15940,6 +17696,7 @@ pl3_m =
     "pl3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl3-ns { padding-left: 1rem; }
@@ -15948,6 +17705,7 @@ pl3_m =
 pl3_ns : String
 pl3_ns =
     "pl3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15960,6 +17718,7 @@ pl4 =
     "pl4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl4-l { padding-left: 2rem; }
@@ -15968,6 +17727,7 @@ pl4 =
 pl4_l : String
 pl4_l =
     "pl4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -15980,6 +17740,7 @@ pl4_m =
     "pl4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl4-ns { padding-left: 2rem; }
@@ -15988,6 +17749,7 @@ pl4_m =
 pl4_ns : String
 pl4_ns =
     "pl4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16000,6 +17762,7 @@ pl5 =
     "pl5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl5-l { padding-left: 4rem; }
@@ -16008,6 +17771,7 @@ pl5 =
 pl5_l : String
 pl5_l =
     "pl5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16020,6 +17784,7 @@ pl5_m =
     "pl5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl5-ns { padding-left: 4rem; }
@@ -16028,6 +17793,7 @@ pl5_m =
 pl5_ns : String
 pl5_ns =
     "pl5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16040,6 +17806,7 @@ pl6 =
     "pl6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl6-l { padding-left: 8rem; }
@@ -16048,6 +17815,7 @@ pl6 =
 pl6_l : String
 pl6_l =
     "pl6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16060,6 +17828,7 @@ pl6_m =
     "pl6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl6-ns { padding-left: 8rem; }
@@ -16068,6 +17837,7 @@ pl6_m =
 pl6_ns : String
 pl6_ns =
     "pl6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16080,6 +17850,7 @@ pl7 =
     "pl7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl7-l { padding-left: 16rem; }
@@ -16088,6 +17859,7 @@ pl7 =
 pl7_l : String
 pl7_l =
     "pl7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16100,6 +17872,7 @@ pl7_m =
     "pl7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pl7-ns { padding-left: 16rem; }
@@ -16108,6 +17881,7 @@ pl7_m =
 pl7_ns : String
 pl7_ns =
     "pl7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16120,6 +17894,7 @@ pointer =
     "pointer"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr0 { padding-right: 0; }
@@ -16128,6 +17903,7 @@ pointer =
 pr0 : String
 pr0 =
     "pr0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16140,6 +17916,7 @@ pr0_l =
     "pr0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr0-m { padding-right: 0; }
@@ -16148,6 +17925,7 @@ pr0_l =
 pr0_m : String
 pr0_m =
     "pr0-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16160,6 +17938,7 @@ pr0_ns =
     "pr0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr1 { padding-right: .25rem; }
@@ -16168,6 +17947,7 @@ pr0_ns =
 pr1 : String
 pr1 =
     "pr1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16180,6 +17960,7 @@ pr1_l =
     "pr1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr1-m { padding-right: .25rem; }
@@ -16188,6 +17969,7 @@ pr1_l =
 pr1_m : String
 pr1_m =
     "pr1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16200,6 +17982,7 @@ pr1_ns =
     "pr1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr2 { padding-right: .5rem; }
@@ -16208,6 +17991,7 @@ pr1_ns =
 pr2 : String
 pr2 =
     "pr2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16220,6 +18004,7 @@ pr2_l =
     "pr2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr2-m { padding-right: .5rem; }
@@ -16228,6 +18013,7 @@ pr2_l =
 pr2_m : String
 pr2_m =
     "pr2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16240,6 +18026,7 @@ pr2_ns =
     "pr2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr3 { padding-right: 1rem; }
@@ -16248,6 +18035,7 @@ pr2_ns =
 pr3 : String
 pr3 =
     "pr3"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16260,6 +18048,7 @@ pr3_l =
     "pr3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr3-m { padding-right: 1rem; }
@@ -16268,6 +18057,7 @@ pr3_l =
 pr3_m : String
 pr3_m =
     "pr3-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16280,6 +18070,7 @@ pr3_ns =
     "pr3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr4 { padding-right: 2rem; }
@@ -16288,6 +18079,7 @@ pr3_ns =
 pr4 : String
 pr4 =
     "pr4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16300,6 +18092,7 @@ pr4_l =
     "pr4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr4-m { padding-right: 2rem; }
@@ -16308,6 +18101,7 @@ pr4_l =
 pr4_m : String
 pr4_m =
     "pr4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16320,6 +18114,7 @@ pr4_ns =
     "pr4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr5 { padding-right: 4rem; }
@@ -16328,6 +18123,7 @@ pr4_ns =
 pr5 : String
 pr5 =
     "pr5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16340,6 +18136,7 @@ pr5_l =
     "pr5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr5-m { padding-right: 4rem; }
@@ -16348,6 +18145,7 @@ pr5_l =
 pr5_m : String
 pr5_m =
     "pr5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16360,6 +18158,7 @@ pr5_ns =
     "pr5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr6 { padding-right: 8rem; }
@@ -16368,6 +18167,7 @@ pr5_ns =
 pr6 : String
 pr6 =
     "pr6"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16380,6 +18180,7 @@ pr6_l =
     "pr6-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr6-m { padding-right: 8rem; }
@@ -16388,6 +18189,7 @@ pr6_l =
 pr6_m : String
 pr6_m =
     "pr6-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16400,6 +18202,7 @@ pr6_ns =
     "pr6-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr7 { padding-right: 16rem; }
@@ -16408,6 +18211,7 @@ pr6_ns =
 pr7 : String
 pr7 =
     "pr7"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16420,6 +18224,7 @@ pr7_l =
     "pr7-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr7-m { padding-right: 16rem; }
@@ -16430,6 +18235,7 @@ pr7_m =
     "pr7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pr7-ns { padding-right: 16rem; }
@@ -16438,6 +18244,7 @@ pr7_m =
 pr7_ns : String
 pr7_ns =
     "pr7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16451,6 +18258,7 @@ pre =
     "pre"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pre-l { white-space: pre; }
@@ -16459,6 +18267,7 @@ pre =
 pre_l : String
 pre_l =
     "pre-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16471,6 +18280,7 @@ pre_m =
     "pre-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pre-ns { white-space: pre; }
@@ -16479,6 +18289,7 @@ pre_m =
 pre_ns : String
 pre_ns =
     "pre-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16491,6 +18302,7 @@ pt0 =
     "pt0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt0-l { padding-top: 0; }
@@ -16499,6 +18311,7 @@ pt0 =
 pt0_l : String
 pt0_l =
     "pt0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16511,6 +18324,7 @@ pt0_m =
     "pt0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt0-ns { padding-top: 0; }
@@ -16519,6 +18333,7 @@ pt0_m =
 pt0_ns : String
 pt0_ns =
     "pt0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16531,6 +18346,7 @@ pt1 =
     "pt1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt1-l { padding-top: .25rem; }
@@ -16539,6 +18355,7 @@ pt1 =
 pt1_l : String
 pt1_l =
     "pt1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16551,6 +18368,7 @@ pt1_m =
     "pt1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt1-ns { padding-top: .25rem; }
@@ -16559,6 +18377,7 @@ pt1_m =
 pt1_ns : String
 pt1_ns =
     "pt1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16571,6 +18390,7 @@ pt2 =
     "pt2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt2-l { padding-top: .5rem; }
@@ -16579,6 +18399,7 @@ pt2 =
 pt2_l : String
 pt2_l =
     "pt2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16591,6 +18412,7 @@ pt2_m =
     "pt2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt2-ns { padding-top: .5rem; }
@@ -16599,6 +18421,7 @@ pt2_m =
 pt2_ns : String
 pt2_ns =
     "pt2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16611,6 +18434,7 @@ pt3 =
     "pt3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt3-l { padding-top: 1rem; }
@@ -16619,6 +18443,7 @@ pt3 =
 pt3_l : String
 pt3_l =
     "pt3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16631,6 +18456,7 @@ pt3_m =
     "pt3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt3-ns { padding-top: 1rem; }
@@ -16639,6 +18465,7 @@ pt3_m =
 pt3_ns : String
 pt3_ns =
     "pt3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16651,6 +18478,7 @@ pt4 =
     "pt4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt4-l { padding-top: 2rem; }
@@ -16659,6 +18487,7 @@ pt4 =
 pt4_l : String
 pt4_l =
     "pt4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16671,6 +18500,7 @@ pt4_m =
     "pt4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt4-ns { padding-top: 2rem; }
@@ -16679,6 +18509,7 @@ pt4_m =
 pt4_ns : String
 pt4_ns =
     "pt4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16691,6 +18522,7 @@ pt5 =
     "pt5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt5-l { padding-top: 4rem; }
@@ -16699,6 +18531,7 @@ pt5 =
 pt5_l : String
 pt5_l =
     "pt5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16711,6 +18544,7 @@ pt5_m =
     "pt5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt5-ns { padding-top: 4rem; }
@@ -16719,6 +18553,7 @@ pt5_m =
 pt5_ns : String
 pt5_ns =
     "pt5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16731,6 +18566,7 @@ pt6 =
     "pt6"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt6-l { padding-top: 8rem; }
@@ -16739,6 +18575,7 @@ pt6 =
 pt6_l : String
 pt6_l =
     "pt6-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16751,6 +18588,7 @@ pt6_m =
     "pt6-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt6-ns { padding-top: 8rem; }
@@ -16759,6 +18597,7 @@ pt6_m =
 pt6_ns : String
 pt6_ns =
     "pt6-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16771,6 +18610,7 @@ pt7 =
     "pt7"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt7-l { padding-top: 16rem; }
@@ -16779,6 +18619,7 @@ pt7 =
 pt7_l : String
 pt7_l =
     "pt7-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16791,6 +18632,7 @@ pt7_m =
     "pt7-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pt7-ns { padding-top: 16rem; }
@@ -16799,6 +18641,7 @@ pt7_m =
 pt7_ns : String
 pt7_ns =
     "pt7-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16811,6 +18654,7 @@ purple =
     "purple"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv0 { padding-top: 0; padding-bottom: 0; }
@@ -16819,6 +18663,7 @@ purple =
 pv0 : String
 pv0 =
     "pv0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16831,6 +18676,7 @@ pv0_l =
     "pv0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv0-m { padding-top: 0; padding-bottom: 0; }
@@ -16839,6 +18685,7 @@ pv0_l =
 pv0_m : String
 pv0_m =
     "pv0-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16851,6 +18698,7 @@ pv0_ns =
     "pv0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv1 { padding-top: .25rem; padding-bottom: .25rem; }
@@ -16859,6 +18707,7 @@ pv0_ns =
 pv1 : String
 pv1 =
     "pv1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16871,6 +18720,7 @@ pv1_l =
     "pv1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv1-m { padding-top: .25rem; padding-bottom: .25rem; }
@@ -16879,6 +18729,7 @@ pv1_l =
 pv1_m : String
 pv1_m =
     "pv1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16891,6 +18742,7 @@ pv1_ns =
     "pv1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv2 { padding-top: .5rem; padding-bottom: .5rem; }
@@ -16899,6 +18751,7 @@ pv1_ns =
 pv2 : String
 pv2 =
     "pv2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16911,6 +18764,7 @@ pv2_l =
     "pv2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv2-m { padding-top: .5rem; padding-bottom: .5rem; }
@@ -16919,6 +18773,7 @@ pv2_l =
 pv2_m : String
 pv2_m =
     "pv2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16931,6 +18786,7 @@ pv2_ns =
     "pv2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv3 { padding-top: 1rem; padding-bottom: 1rem; }
@@ -16939,6 +18795,7 @@ pv2_ns =
 pv3 : String
 pv3 =
     "pv3"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16951,6 +18808,7 @@ pv3_l =
     "pv3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv3-m { padding-top: 1rem; padding-bottom: 1rem; }
@@ -16959,6 +18817,7 @@ pv3_l =
 pv3_m : String
 pv3_m =
     "pv3-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16971,6 +18830,7 @@ pv3_ns =
     "pv3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv4 { padding-top: 2rem; padding-bottom: 2rem; }
@@ -16979,6 +18839,7 @@ pv3_ns =
 pv4 : String
 pv4 =
     "pv4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -16991,6 +18852,7 @@ pv4_l =
     "pv4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv4-m { padding-top: 2rem; padding-bottom: 2rem; }
@@ -16999,6 +18861,7 @@ pv4_l =
 pv4_m : String
 pv4_m =
     "pv4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17011,6 +18874,7 @@ pv4_ns =
     "pv4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv5 { padding-top: 4rem; padding-bottom: 4rem; }
@@ -17019,6 +18883,7 @@ pv4_ns =
 pv5 : String
 pv5 =
     "pv5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17031,6 +18896,7 @@ pv5_l =
     "pv5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv5-m { padding-top: 4rem; padding-bottom: 4rem; }
@@ -17039,6 +18905,7 @@ pv5_l =
 pv5_m : String
 pv5_m =
     "pv5-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17051,6 +18918,7 @@ pv5_ns =
     "pv5-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv6 { padding-top: 8rem; padding-bottom: 8rem; }
@@ -17059,6 +18927,7 @@ pv5_ns =
 pv6 : String
 pv6 =
     "pv6"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17071,6 +18940,7 @@ pv6_l =
     "pv6-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv6-m { padding-top: 8rem; padding-bottom: 8rem; }
@@ -17079,6 +18949,7 @@ pv6_l =
 pv6_m : String
 pv6_m =
     "pv6-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17091,6 +18962,7 @@ pv6_ns =
     "pv6-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv7 { padding-top: 16rem; padding-bottom: 16rem; }
@@ -17099,6 +18971,7 @@ pv6_ns =
 pv7 : String
 pv7 =
     "pv7"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17111,6 +18984,7 @@ pv7_l =
     "pv7-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .pv7-m { padding-top: 16rem; padding-bottom: 16rem; }
@@ -17119,6 +18993,7 @@ pv7_l =
 pv7_m : String
 pv7_m =
     "pv7-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17131,6 +19006,7 @@ pv7_ns =
     "pv7-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .red { color: #ff4136; }
@@ -17139,6 +19015,7 @@ pv7_ns =
 red : String
 red =
     "red"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17151,6 +19028,7 @@ relative =
     "relative"
 
 
+
 {-| This class maps to this CSS definition:
 
     .relative-l { position: relative; }
@@ -17159,6 +19037,7 @@ relative =
 relative_l : String
 relative_l =
     "relative-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17171,6 +19050,7 @@ relative_m =
     "relative-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .relative-ns { position: relative; }
@@ -17179,6 +19059,7 @@ relative_m =
 relative_ns : String
 relative_ns =
     "relative-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17191,6 +19072,7 @@ right__1 =
     "right--1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .right--1-l { right: -1rem; }
@@ -17199,6 +19081,7 @@ right__1 =
 right__1_l : String
 right__1_l =
     "right--1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17211,6 +19094,7 @@ right__1_m =
     "right--1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .right--1-ns { right: -1rem; }
@@ -17219,6 +19103,7 @@ right__1_m =
 right__1_ns : String
 right__1_ns =
     "right--1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17231,6 +19116,7 @@ right__2 =
     "right--2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .right--2-l { right: -2rem; }
@@ -17239,6 +19125,7 @@ right__2 =
 right__2_l : String
 right__2_l =
     "right--2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17251,6 +19138,7 @@ right__2_m =
     "right--2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .right--2-ns { right: -2rem; }
@@ -17259,6 +19147,7 @@ right__2_m =
 right__2_ns : String
 right__2_ns =
     "right--2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17271,6 +19160,7 @@ right_0 =
     "right-0"
 
 
+
 {-| This class maps to this CSS definition:
 
     .right-0-l { right: 0; }
@@ -17279,6 +19169,7 @@ right_0 =
 right_0_l : String
 right_0_l =
     "right-0-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17291,6 +19182,7 @@ right_0_m =
     "right-0-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .right-0-ns { right: 0; }
@@ -17299,6 +19191,7 @@ right_0_m =
 right_0_ns : String
 right_0_ns =
     "right-0-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17311,6 +19204,7 @@ right_1 =
     "right-1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .right-1-l { right: 1rem; }
@@ -17319,6 +19213,7 @@ right_1 =
 right_1_l : String
 right_1_l =
     "right-1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17331,6 +19226,7 @@ right_1_m =
     "right-1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .right-1-ns { right: 1rem; }
@@ -17339,6 +19235,7 @@ right_1_m =
 right_1_ns : String
 right_1_ns =
     "right-1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17351,6 +19248,7 @@ right_2 =
     "right-2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .right-2-l { right: 2rem; }
@@ -17359,6 +19257,7 @@ right_2 =
 right_2_l : String
 right_2_l =
     "right-2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17371,6 +19270,7 @@ right_2_m =
     "right-2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .right-2-ns { right: 2rem; }
@@ -17379,6 +19279,7 @@ right_2_m =
 right_2_ns : String
 right_2_ns =
     "right-2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17391,6 +19292,7 @@ rotate_135 =
     "rotate-135"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-135-l { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
@@ -17399,6 +19301,7 @@ rotate_135 =
 rotate_135_l : String
 rotate_135_l =
     "rotate-135-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17411,6 +19314,7 @@ rotate_135_m =
     "rotate-135-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-135-ns { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
@@ -17419,6 +19323,7 @@ rotate_135_m =
 rotate_135_ns : String
 rotate_135_ns =
     "rotate-135-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17431,6 +19336,7 @@ rotate_180 =
     "rotate-180"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-180-l { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
@@ -17439,6 +19345,7 @@ rotate_180 =
 rotate_180_l : String
 rotate_180_l =
     "rotate-180-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17451,6 +19358,7 @@ rotate_180_m =
     "rotate-180-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-180-ns { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
@@ -17459,6 +19367,7 @@ rotate_180_m =
 rotate_180_ns : String
 rotate_180_ns =
     "rotate-180-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17471,6 +19380,7 @@ rotate_225 =
     "rotate-225"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-225-l { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
@@ -17479,6 +19389,7 @@ rotate_225 =
 rotate_225_l : String
 rotate_225_l =
     "rotate-225-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17491,6 +19402,7 @@ rotate_225_m =
     "rotate-225-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-225-ns { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
@@ -17499,6 +19411,7 @@ rotate_225_m =
 rotate_225_ns : String
 rotate_225_ns =
     "rotate-225-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17511,6 +19424,7 @@ rotate_270 =
     "rotate-270"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-270-l { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
@@ -17519,6 +19433,7 @@ rotate_270 =
 rotate_270_l : String
 rotate_270_l =
     "rotate-270-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17531,6 +19446,7 @@ rotate_270_m =
     "rotate-270-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-270-ns { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
@@ -17539,6 +19455,7 @@ rotate_270_m =
 rotate_270_ns : String
 rotate_270_ns =
     "rotate-270-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17551,6 +19468,7 @@ rotate_315 =
     "rotate-315"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-315-l { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
@@ -17559,6 +19477,7 @@ rotate_315 =
 rotate_315_l : String
 rotate_315_l =
     "rotate-315-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17571,6 +19490,7 @@ rotate_315_m =
     "rotate-315-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-315-ns { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
@@ -17579,6 +19499,7 @@ rotate_315_m =
 rotate_315_ns : String
 rotate_315_ns =
     "rotate-315-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17591,6 +19512,7 @@ rotate_45 =
     "rotate-45"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-45-l { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
@@ -17599,6 +19521,7 @@ rotate_45 =
 rotate_45_l : String
 rotate_45_l =
     "rotate-45-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17611,6 +19534,7 @@ rotate_45_m =
     "rotate-45-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-45-ns { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
@@ -17619,6 +19543,7 @@ rotate_45_m =
 rotate_45_ns : String
 rotate_45_ns =
     "rotate-45-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17631,6 +19556,7 @@ rotate_90 =
     "rotate-90"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-90-l { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
@@ -17639,6 +19565,7 @@ rotate_90 =
 rotate_90_l : String
 rotate_90_l =
     "rotate-90-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17651,6 +19578,7 @@ rotate_90_m =
     "rotate-90-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .rotate-90-ns { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
@@ -17659,6 +19587,7 @@ rotate_90_m =
 rotate_90_ns : String
 rotate_90_ns =
     "rotate-90-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17671,9 +19600,10 @@ sans_serif =
     "sans-serif"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-baseline { -ms-flex-item-align: baseline; align-self: baseline; }
+    .self-baseline { align-self: baseline; }
 
 -}
 self_baseline : String
@@ -17681,9 +19611,10 @@ self_baseline =
     "self-baseline"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-baseline-l { -ms-flex-item-align: baseline; align-self: baseline; }
+    .self-baseline-l { align-self: baseline; }
 
 -}
 self_baseline_l : String
@@ -17691,9 +19622,10 @@ self_baseline_l =
     "self-baseline-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-baseline-m { -ms-flex-item-align: baseline; align-self: baseline; }
+    .self-baseline-m { align-self: baseline; }
 
 -}
 self_baseline_m : String
@@ -17701,9 +19633,10 @@ self_baseline_m =
     "self-baseline-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-baseline-ns { -ms-flex-item-align: baseline; align-self: baseline; }
+    .self-baseline-ns { align-self: baseline; }
 
 -}
 self_baseline_ns : String
@@ -17711,9 +19644,10 @@ self_baseline_ns =
     "self-baseline-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-center { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+    .self-center { align-self: center; }
 
 -}
 self_center : String
@@ -17721,9 +19655,10 @@ self_center =
     "self-center"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-center-l { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+    .self-center-l { align-self: center; }
 
 -}
 self_center_l : String
@@ -17731,9 +19666,10 @@ self_center_l =
     "self-center-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-center-m { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+    .self-center-m { align-self: center; }
 
 -}
 self_center_m : String
@@ -17741,9 +19677,10 @@ self_center_m =
     "self-center-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-center-ns { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+    .self-center-ns { align-self: center; }
 
 -}
 self_center_ns : String
@@ -17751,9 +19688,10 @@ self_center_ns =
     "self-center-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-end { -ms-flex-item-align: end; align-self: flex-end; }
+    .self-end { align-self: flex-end; }
 
 -}
 self_end : String
@@ -17761,9 +19699,10 @@ self_end =
     "self-end"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-end-l { -ms-flex-item-align: end; align-self: flex-end; }
+    .self-end-l { align-self: flex-end; }
 
 -}
 self_end_l : String
@@ -17771,9 +19710,10 @@ self_end_l =
     "self-end-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-end-m { -ms-flex-item-align: end; align-self: flex-end; }
+    .self-end-m { align-self: flex-end; }
 
 -}
 self_end_m : String
@@ -17781,9 +19721,10 @@ self_end_m =
     "self-end-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-end-ns { -ms-flex-item-align: end; align-self: flex-end; }
+    .self-end-ns { align-self: flex-end; }
 
 -}
 self_end_ns : String
@@ -17791,9 +19732,10 @@ self_end_ns =
     "self-end-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-start { -ms-flex-item-align: start; align-self: flex-start; }
+    .self-start { align-self: flex-start; }
 
 -}
 self_start : String
@@ -17801,9 +19743,10 @@ self_start =
     "self-start"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-start-l { -ms-flex-item-align: start; align-self: flex-start; }
+    .self-start-l { align-self: flex-start; }
 
 -}
 self_start_l : String
@@ -17811,9 +19754,10 @@ self_start_l =
     "self-start-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-start-m { -ms-flex-item-align: start; align-self: flex-start; }
+    .self-start-m { align-self: flex-start; }
 
 -}
 self_start_m : String
@@ -17821,9 +19765,10 @@ self_start_m =
     "self-start-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-start-ns { -ms-flex-item-align: start; align-self: flex-start; }
+    .self-start-ns { align-self: flex-start; }
 
 -}
 self_start_ns : String
@@ -17831,9 +19776,10 @@ self_start_ns =
     "self-start-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-stretch { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
+    .self-stretch { align-self: stretch; }
 
 -}
 self_stretch : String
@@ -17841,9 +19787,10 @@ self_stretch =
     "self-stretch"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-stretch-l { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
+    .self-stretch-l { align-self: stretch; }
 
 -}
 self_stretch_l : String
@@ -17851,9 +19798,10 @@ self_stretch_l =
     "self-stretch-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-stretch-m { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
+    .self-stretch-m { align-self: stretch; }
 
 -}
 self_stretch_m : String
@@ -17861,14 +19809,16 @@ self_stretch_m =
     "self-stretch-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .self-stretch-ns { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
+    .self-stretch-ns { align-self: stretch; }
 
 -}
 self_stretch_ns : String
 self_stretch_ns =
     "self-stretch-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17881,6 +19831,7 @@ serif =
     "serif"
 
 
+
 {-| This class maps to this CSS definition:
 
     .shadow-1 { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
@@ -17889,6 +19840,7 @@ serif =
 shadow_1 : String
 shadow_1 =
     "shadow-1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17901,6 +19853,7 @@ shadow_1_l =
     "shadow-1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .shadow-1-m { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
@@ -17909,6 +19862,7 @@ shadow_1_l =
 shadow_1_m : String
 shadow_1_m =
     "shadow-1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17921,6 +19875,7 @@ shadow_1_ns =
     "shadow-1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .shadow-2 { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
@@ -17929,6 +19884,7 @@ shadow_1_ns =
 shadow_2 : String
 shadow_2 =
     "shadow-2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17941,6 +19897,7 @@ shadow_2_l =
     "shadow-2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .shadow-2-m { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
@@ -17949,6 +19906,7 @@ shadow_2_l =
 shadow_2_m : String
 shadow_2_m =
     "shadow-2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17961,6 +19919,7 @@ shadow_2_ns =
     "shadow-2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
@@ -17969,6 +19928,7 @@ shadow_2_ns =
 shadow_3 : String
 shadow_3 =
     "shadow-3"
+
 
 
 {-| This class maps to this CSS definition:
@@ -17981,6 +19941,7 @@ shadow_3_l =
     "shadow-3-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .shadow-3-m { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
@@ -17989,6 +19950,7 @@ shadow_3_l =
 shadow_3_m : String
 shadow_3_m =
     "shadow-3-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18001,6 +19963,7 @@ shadow_3_ns =
     "shadow-3-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .shadow-4 { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
@@ -18009,6 +19972,7 @@ shadow_3_ns =
 shadow_4 : String
 shadow_4 =
     "shadow-4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18021,6 +19985,7 @@ shadow_4_l =
     "shadow-4-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .shadow-4-m { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
@@ -18029,6 +19994,7 @@ shadow_4_l =
 shadow_4_m : String
 shadow_4_m =
     "shadow-4-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18041,6 +20007,7 @@ shadow_4_ns =
     "shadow-4-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .shadow-5 { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
@@ -18049,6 +20016,7 @@ shadow_4_ns =
 shadow_5 : String
 shadow_5 =
     "shadow-5"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18061,6 +20029,7 @@ shadow_5_l =
     "shadow-5-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .shadow-5-m { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
@@ -18071,6 +20040,7 @@ shadow_5_m =
     "shadow-5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .shadow-5-ns { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
@@ -18079,6 +20049,7 @@ shadow_5_m =
 shadow_5_ns : String
 shadow_5_ns =
     "shadow-5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18093,6 +20064,7 @@ shadow_hover =
     "shadow-hover"
 
 
+
 {-| This class maps to this CSS definition:
 
     .silver { color: #999; }
@@ -18101,6 +20073,7 @@ shadow_hover =
 silver : String
 silver =
     "silver"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18113,6 +20086,7 @@ small_caps =
     "small-caps"
 
 
+
 {-| This class maps to this CSS definition:
 
     .small-caps-l { font-variant: small-caps; }
@@ -18121,6 +20095,7 @@ small_caps =
 small_caps_l : String
 small_caps_l =
     "small-caps-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18133,6 +20108,7 @@ small_caps_m =
     "small-caps-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .small-caps-ns { font-variant: small-caps; }
@@ -18141,6 +20117,7 @@ small_caps_m =
 small_caps_ns : String
 small_caps_ns =
     "small-caps-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18153,6 +20130,7 @@ static =
     "static"
 
 
+
 {-| This class maps to this CSS definition:
 
     .static-l { position: static; }
@@ -18161,6 +20139,7 @@ static =
 static_l : String
 static_l =
     "static-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18173,6 +20152,7 @@ static_m =
     "static-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .static-ns { position: static; }
@@ -18181,6 +20161,7 @@ static_m =
 static_ns : String
 static_ns =
     "static-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18193,6 +20174,7 @@ strike =
     "strike"
 
 
+
 {-| This class maps to this CSS definition:
 
     .strike-l { text-decoration: line-through; }
@@ -18201,6 +20183,7 @@ strike =
 strike_l : String
 strike_l =
     "strike-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18213,6 +20196,7 @@ strike_m =
     "strike-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .strike-ns { text-decoration: line-through; }
@@ -18221,6 +20205,7 @@ strike_m =
 strike_ns : String
 strike_ns =
     "strike-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18233,6 +20218,7 @@ stripe_dark =
     "stripe-dark"
 
 
+
 {-| This class maps to this CSS definition:
 
     .stripe-light:nth-child(odd) { background-color: rgba( 255, 255, 255, .1 ); }
@@ -18241,6 +20227,7 @@ stripe_dark =
 stripe_light : String
 stripe_light =
     "stripe-light"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18253,6 +20240,7 @@ striped__light_gray =
     "striped--light-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .striped--light-silver:nth-child(odd) { background-color: #aaa; }
@@ -18261,6 +20249,7 @@ striped__light_gray =
 striped__light_silver : String
 striped__light_silver =
     "striped--light-silver"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18273,6 +20262,7 @@ striped__moon_gray =
     "striped--moon-gray"
 
 
+
 {-| This class maps to this CSS definition:
 
     .striped--near-white:nth-child(odd) { background-color: #f4f4f4; }
@@ -18281,6 +20271,7 @@ striped__moon_gray =
 striped__near_white : String
 striped__near_white =
     "striped--near-white"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18293,6 +20284,7 @@ system_sans_serif =
     "system-sans-serif"
 
 
+
 {-| This class maps to this CSS definition:
 
     .system-serif { font-family: serif; }
@@ -18301,6 +20293,7 @@ system_sans_serif =
 system_serif : String
 system_serif =
     "system-serif"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18313,6 +20306,7 @@ tc =
     "tc"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tc-l { text-align: center; }
@@ -18321,6 +20315,7 @@ tc =
 tc_l : String
 tc_l =
     "tc-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18333,6 +20328,7 @@ tc_m =
     "tc-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tc-ns { text-align: center; }
@@ -18341,6 +20337,7 @@ tc_m =
 tc_ns : String
 tc_ns =
     "tc-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18353,6 +20350,7 @@ times =
     "times"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tj { text-align: justify; }
@@ -18361,6 +20359,7 @@ times =
 tj : String
 tj =
     "tj"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18373,6 +20372,7 @@ tj_l =
     "tj-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tj-m { text-align: justify; }
@@ -18381,6 +20381,7 @@ tj_l =
 tj_m : String
 tj_m =
     "tj-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18393,6 +20394,7 @@ tj_ns =
     "tj-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tl { text-align: left; }
@@ -18401,6 +20403,7 @@ tj_ns =
 tl : String
 tl =
     "tl"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18413,6 +20416,7 @@ tl_l =
     "tl-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tl-m { text-align: left; }
@@ -18421,6 +20425,7 @@ tl_l =
 tl_m : String
 tl_m =
     "tl-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18433,6 +20438,7 @@ tl_ns =
     "tl-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .top--1 { top: -1rem; }
@@ -18441,6 +20447,7 @@ tl_ns =
 top__1 : String
 top__1 =
     "top--1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18453,6 +20460,7 @@ top__1_l =
     "top--1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .top--1-m { top: -1rem; }
@@ -18461,6 +20469,7 @@ top__1_l =
 top__1_m : String
 top__1_m =
     "top--1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18473,6 +20482,7 @@ top__1_ns =
     "top--1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .top--2 { top: -2rem; }
@@ -18481,6 +20491,7 @@ top__1_ns =
 top__2 : String
 top__2 =
     "top--2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18493,6 +20504,7 @@ top__2_l =
     "top--2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .top--2-m { top: -2rem; }
@@ -18501,6 +20513,7 @@ top__2_l =
 top__2_m : String
 top__2_m =
     "top--2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18513,6 +20526,7 @@ top__2_ns =
     "top--2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .top-0 { top: 0; }
@@ -18521,6 +20535,7 @@ top__2_ns =
 top_0 : String
 top_0 =
     "top-0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18533,6 +20548,7 @@ top_0_l =
     "top-0-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .top-0-m { top: 0; }
@@ -18541,6 +20557,7 @@ top_0_l =
 top_0_m : String
 top_0_m =
     "top-0-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18553,6 +20570,7 @@ top_0_ns =
     "top-0-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .top-1 { top: 1rem; }
@@ -18561,6 +20579,7 @@ top_0_ns =
 top_1 : String
 top_1 =
     "top-1"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18573,6 +20592,7 @@ top_1_l =
     "top-1-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .top-1-m { top: 1rem; }
@@ -18581,6 +20601,7 @@ top_1_l =
 top_1_m : String
 top_1_m =
     "top-1-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18593,6 +20614,7 @@ top_1_ns =
     "top-1-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .top-2 { top: 2rem; }
@@ -18601,6 +20623,7 @@ top_1_ns =
 top_2 : String
 top_2 =
     "top-2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18613,6 +20636,7 @@ top_2_l =
     "top-2-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .top-2-m { top: 2rem; }
@@ -18621,6 +20645,7 @@ top_2_l =
 top_2_m : String
 top_2_m =
     "top-2-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18633,6 +20658,7 @@ top_2_ns =
     "top-2-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tr { text-align: right; }
@@ -18641,6 +20667,7 @@ top_2_ns =
 tr : String
 tr =
     "tr"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18653,6 +20680,7 @@ tr_l =
     "tr-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tr-m { text-align: right; }
@@ -18661,6 +20689,7 @@ tr_l =
 tr_m : String
 tr_m =
     "tr-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18673,6 +20702,7 @@ tr_ns =
     "tr-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tracked { letter-spacing: .1em; }
@@ -18681,6 +20711,7 @@ tr_ns =
 tracked : String
 tracked =
     "tracked"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18693,6 +20724,7 @@ tracked_l =
     "tracked-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tracked-m { letter-spacing: .1em; }
@@ -18701,6 +20733,7 @@ tracked_l =
 tracked_m : String
 tracked_m =
     "tracked-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18713,6 +20746,7 @@ tracked_mega =
     "tracked-mega"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tracked-mega-l { letter-spacing: .25em; }
@@ -18721,6 +20755,7 @@ tracked_mega =
 tracked_mega_l : String
 tracked_mega_l =
     "tracked-mega-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18733,6 +20768,7 @@ tracked_mega_m =
     "tracked-mega-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tracked-mega-ns { letter-spacing: .25em; }
@@ -18741,6 +20777,7 @@ tracked_mega_m =
 tracked_mega_ns : String
 tracked_mega_ns =
     "tracked-mega-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18753,6 +20790,7 @@ tracked_ns =
     "tracked-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tracked-tight { letter-spacing: -.05em; }
@@ -18761,6 +20799,7 @@ tracked_ns =
 tracked_tight : String
 tracked_tight =
     "tracked-tight"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18773,6 +20812,7 @@ tracked_tight_l =
     "tracked-tight-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .tracked-tight-m { letter-spacing: -.05em; }
@@ -18781,6 +20821,7 @@ tracked_tight_l =
 tracked_tight_m : String
 tracked_tight_m =
     "tracked-tight-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18793,6 +20834,7 @@ tracked_tight_ns =
     "tracked-tight-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -18801,6 +20843,7 @@ tracked_tight_ns =
 truncate : String
 truncate =
     "truncate"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18813,6 +20856,7 @@ truncate_l =
     "truncate-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -18821,6 +20865,7 @@ truncate_l =
 truncate_m : String
 truncate_m =
     "truncate-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18833,6 +20878,7 @@ truncate_ns =
     "truncate-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ttc { text-transform: capitalize; }
@@ -18841,6 +20887,7 @@ truncate_ns =
 ttc : String
 ttc =
     "ttc"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18853,6 +20900,7 @@ ttc_l =
     "ttc-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ttc-m { text-transform: capitalize; }
@@ -18861,6 +20909,7 @@ ttc_l =
 ttc_m : String
 ttc_m =
     "ttc-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18873,6 +20922,7 @@ ttc_ns =
     "ttc-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ttl { text-transform: lowercase; }
@@ -18881,6 +20931,7 @@ ttc_ns =
 ttl : String
 ttl =
     "ttl"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18893,6 +20944,7 @@ ttl_l =
     "ttl-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ttl-m { text-transform: lowercase; }
@@ -18901,6 +20953,7 @@ ttl_l =
 ttl_m : String
 ttl_m =
     "ttl-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18913,6 +20966,7 @@ ttl_ns =
     "ttl-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ttn { text-transform: none; }
@@ -18921,6 +20975,7 @@ ttl_ns =
 ttn : String
 ttn =
     "ttn"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18933,6 +20988,7 @@ ttn_l =
     "ttn-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ttn-m { text-transform: none; }
@@ -18941,6 +20997,7 @@ ttn_l =
 ttn_m : String
 ttn_m =
     "ttn-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18953,6 +21010,7 @@ ttn_ns =
     "ttn-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ttu { text-transform: uppercase; }
@@ -18961,6 +21019,7 @@ ttn_ns =
 ttu : String
 ttu =
     "ttu"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18973,6 +21032,7 @@ ttu_l =
     "ttu-l"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ttu-m { text-transform: uppercase; }
@@ -18981,6 +21041,7 @@ ttu_l =
 ttu_m : String
 ttu_m =
     "ttu-m"
+
 
 
 {-| This class maps to this CSS definition:
@@ -18993,6 +21054,7 @@ ttu_ns =
     "ttu-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
     .underline { text-decoration: underline; }
@@ -19001,6 +21063,7 @@ ttu_ns =
 underline : String
 underline =
     "underline"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19013,6 +21076,7 @@ underline_hover =
     "underline-hover"
 
 
+
 {-| This class maps to this CSS definition:
 
     .underline-l { text-decoration: underline; }
@@ -19021,6 +21085,7 @@ underline_hover =
 underline_l : String
 underline_l =
     "underline-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19033,6 +21098,7 @@ underline_m =
     "underline-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .underline-ns { text-decoration: underline; }
@@ -19041,6 +21107,7 @@ underline_m =
 underline_ns : String
 underline_ns =
     "underline-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19053,6 +21120,7 @@ v_base =
     "v-base"
 
 
+
 {-| This class maps to this CSS definition:
 
     .v-base-l { vertical-align: baseline; }
@@ -19061,6 +21129,7 @@ v_base =
 v_base_l : String
 v_base_l =
     "v-base-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19073,6 +21142,7 @@ v_base_m =
     "v-base-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .v-base-ns { vertical-align: baseline; }
@@ -19081,6 +21151,7 @@ v_base_m =
 v_base_ns : String
 v_base_ns =
     "v-base-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19093,6 +21164,7 @@ v_btm =
     "v-btm"
 
 
+
 {-| This class maps to this CSS definition:
 
     .v-btm-l { vertical-align: bottom; }
@@ -19101,6 +21173,7 @@ v_btm =
 v_btm_l : String
 v_btm_l =
     "v-btm-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19113,6 +21186,7 @@ v_btm_m =
     "v-btm-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .v-btm-ns { vertical-align: bottom; }
@@ -19121,6 +21195,7 @@ v_btm_m =
 v_btm_ns : String
 v_btm_ns =
     "v-btm-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19133,6 +21208,7 @@ v_mid =
     "v-mid"
 
 
+
 {-| This class maps to this CSS definition:
 
     .v-mid-l { vertical-align: middle; }
@@ -19141,6 +21217,7 @@ v_mid =
 v_mid_l : String
 v_mid_l =
     "v-mid-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19153,6 +21230,7 @@ v_mid_m =
     "v-mid-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .v-mid-ns { vertical-align: middle; }
@@ -19161,6 +21239,7 @@ v_mid_m =
 v_mid_ns : String
 v_mid_ns =
     "v-mid-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19173,6 +21252,7 @@ v_top =
     "v-top"
 
 
+
 {-| This class maps to this CSS definition:
 
     .v-top-l { vertical-align: top; }
@@ -19181,6 +21261,7 @@ v_top =
 v_top_l : String
 v_top_l =
     "v-top-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19193,6 +21274,7 @@ v_top_m =
     "v-top-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .v-top-ns { vertical-align: top; }
@@ -19201,6 +21283,7 @@ v_top_m =
 v_top_ns : String
 v_top_ns =
     "v-top-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19213,6 +21296,7 @@ vh_100 =
     "vh-100"
 
 
+
 {-| This class maps to this CSS definition:
 
     .vh-100-l { height: 100vh; }
@@ -19221,6 +21305,7 @@ vh_100 =
 vh_100_l : String
 vh_100_l =
     "vh-100-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19233,6 +21318,7 @@ vh_100_m =
     "vh-100-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .vh-100-ns { height: 100vh; }
@@ -19241,6 +21327,7 @@ vh_100_m =
 vh_100_ns : String
 vh_100_ns =
     "vh-100-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19253,6 +21340,7 @@ vh_25 =
     "vh-25"
 
 
+
 {-| This class maps to this CSS definition:
 
     .vh-25-l { height: 25vh; }
@@ -19261,6 +21349,7 @@ vh_25 =
 vh_25_l : String
 vh_25_l =
     "vh-25-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19273,6 +21362,7 @@ vh_25_m =
     "vh-25-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .vh-25-ns { height: 25vh; }
@@ -19281,6 +21371,7 @@ vh_25_m =
 vh_25_ns : String
 vh_25_ns =
     "vh-25-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19293,6 +21384,7 @@ vh_50 =
     "vh-50"
 
 
+
 {-| This class maps to this CSS definition:
 
     .vh-50-l { height: 50vh; }
@@ -19301,6 +21393,7 @@ vh_50 =
 vh_50_l : String
 vh_50_l =
     "vh-50-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19313,6 +21406,7 @@ vh_50_m =
     "vh-50-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .vh-50-ns { height: 50vh; }
@@ -19321,6 +21415,7 @@ vh_50_m =
 vh_50_ns : String
 vh_50_ns =
     "vh-50-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19333,6 +21428,7 @@ vh_75 =
     "vh-75"
 
 
+
 {-| This class maps to this CSS definition:
 
     .vh-75-l { height: 75vh; }
@@ -19341,6 +21437,7 @@ vh_75 =
 vh_75_l : String
 vh_75_l =
     "vh-75-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19353,6 +21450,7 @@ vh_75_m =
     "vh-75-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .vh-75-ns { height: 75vh; }
@@ -19361,6 +21459,7 @@ vh_75_m =
 vh_75_ns : String
 vh_75_ns =
     "vh-75-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19373,6 +21472,7 @@ w_10 =
     "w-10"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-10-l { width: 10%; }
@@ -19381,6 +21481,7 @@ w_10 =
 w_10_l : String
 w_10_l =
     "w-10-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19393,6 +21494,7 @@ w_10_m =
     "w-10-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-10-ns { width: 10%; }
@@ -19401,6 +21503,7 @@ w_10_m =
 w_10_ns : String
 w_10_ns =
     "w-10-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19413,6 +21516,7 @@ w_100 =
     "w-100"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-100-l { width: 100%; }
@@ -19421,6 +21525,7 @@ w_100 =
 w_100_l : String
 w_100_l =
     "w-100-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19433,6 +21538,7 @@ w_100_m =
     "w-100-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-100-ns { width: 100%; }
@@ -19441,6 +21547,7 @@ w_100_m =
 w_100_ns : String
 w_100_ns =
     "w-100-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19453,6 +21560,7 @@ w_20 =
     "w-20"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-20-l { width: 20%; }
@@ -19461,6 +21569,7 @@ w_20 =
 w_20_l : String
 w_20_l =
     "w-20-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19473,6 +21582,7 @@ w_20_m =
     "w-20-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-20-ns { width: 20%; }
@@ -19481,6 +21591,7 @@ w_20_m =
 w_20_ns : String
 w_20_ns =
     "w-20-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19493,6 +21604,7 @@ w_25 =
     "w-25"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-25-l { width: 25%; }
@@ -19501,6 +21613,7 @@ w_25 =
 w_25_l : String
 w_25_l =
     "w-25-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19513,6 +21626,7 @@ w_25_m =
     "w-25-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-25-ns { width: 25%; }
@@ -19521,6 +21635,7 @@ w_25_m =
 w_25_ns : String
 w_25_ns =
     "w-25-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19533,6 +21648,7 @@ w_30 =
     "w-30"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-30-l { width: 30%; }
@@ -19541,6 +21657,7 @@ w_30 =
 w_30_l : String
 w_30_l =
     "w-30-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19553,6 +21670,7 @@ w_30_m =
     "w-30-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-30-ns { width: 30%; }
@@ -19561,6 +21679,7 @@ w_30_m =
 w_30_ns : String
 w_30_ns =
     "w-30-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19573,6 +21692,7 @@ w_33 =
     "w-33"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-33-l { width: 33%; }
@@ -19581,6 +21701,7 @@ w_33 =
 w_33_l : String
 w_33_l =
     "w-33-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19593,6 +21714,7 @@ w_33_m =
     "w-33-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-33-ns { width: 33%; }
@@ -19601,6 +21723,7 @@ w_33_m =
 w_33_ns : String
 w_33_ns =
     "w-33-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19613,6 +21736,7 @@ w_34 =
     "w-34"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-34-l { width: 34%; }
@@ -19621,6 +21745,7 @@ w_34 =
 w_34_l : String
 w_34_l =
     "w-34-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19633,6 +21758,7 @@ w_34_m =
     "w-34-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-34-ns { width: 34%; }
@@ -19641,6 +21767,7 @@ w_34_m =
 w_34_ns : String
 w_34_ns =
     "w-34-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19653,6 +21780,7 @@ w_40 =
     "w-40"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-40-l { width: 40%; }
@@ -19661,6 +21789,7 @@ w_40 =
 w_40_l : String
 w_40_l =
     "w-40-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19673,6 +21802,7 @@ w_40_m =
     "w-40-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-40-ns { width: 40%; }
@@ -19681,6 +21811,7 @@ w_40_m =
 w_40_ns : String
 w_40_ns =
     "w-40-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19693,6 +21824,7 @@ w_50 =
     "w-50"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-50-l { width: 50%; }
@@ -19701,6 +21833,7 @@ w_50 =
 w_50_l : String
 w_50_l =
     "w-50-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19713,6 +21846,7 @@ w_50_m =
     "w-50-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-50-ns { width: 50%; }
@@ -19721,6 +21855,7 @@ w_50_m =
 w_50_ns : String
 w_50_ns =
     "w-50-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19733,6 +21868,7 @@ w_60 =
     "w-60"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-60-l { width: 60%; }
@@ -19741,6 +21877,7 @@ w_60 =
 w_60_l : String
 w_60_l =
     "w-60-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19753,6 +21890,7 @@ w_60_m =
     "w-60-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-60-ns { width: 60%; }
@@ -19761,6 +21899,7 @@ w_60_m =
 w_60_ns : String
 w_60_ns =
     "w-60-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19773,6 +21912,7 @@ w_70 =
     "w-70"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-70-l { width: 70%; }
@@ -19781,6 +21921,7 @@ w_70 =
 w_70_l : String
 w_70_l =
     "w-70-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19793,6 +21934,7 @@ w_70_m =
     "w-70-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-70-ns { width: 70%; }
@@ -19801,6 +21943,7 @@ w_70_m =
 w_70_ns : String
 w_70_ns =
     "w-70-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19813,6 +21956,7 @@ w_75 =
     "w-75"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-75-l { width: 75%; }
@@ -19821,6 +21965,7 @@ w_75 =
 w_75_l : String
 w_75_l =
     "w-75-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19833,6 +21978,7 @@ w_75_m =
     "w-75-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-75-ns { width: 75%; }
@@ -19841,6 +21987,7 @@ w_75_m =
 w_75_ns : String
 w_75_ns =
     "w-75-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19853,6 +22000,7 @@ w_80 =
     "w-80"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-80-l { width: 80%; }
@@ -19861,6 +22009,7 @@ w_80 =
 w_80_l : String
 w_80_l =
     "w-80-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19873,6 +22022,7 @@ w_80_m =
     "w-80-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-80-ns { width: 80%; }
@@ -19881,6 +22031,7 @@ w_80_m =
 w_80_ns : String
 w_80_ns =
     "w-80-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19893,6 +22044,7 @@ w_90 =
     "w-90"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-90-l { width: 90%; }
@@ -19901,6 +22053,7 @@ w_90 =
 w_90_l : String
 w_90_l =
     "w-90-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19913,6 +22066,7 @@ w_90_m =
     "w-90-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-90-ns { width: 90%; }
@@ -19921,6 +22075,7 @@ w_90_m =
 w_90_ns : String
 w_90_ns =
     "w-90-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19933,6 +22088,7 @@ w_auto =
     "w-auto"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-auto-l { width: auto; }
@@ -19941,6 +22097,7 @@ w_auto =
 w_auto_l : String
 w_auto_l =
     "w-auto-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -19953,6 +22110,7 @@ w_auto_m =
     "w-auto-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w-auto-ns { width: auto; }
@@ -19963,9 +22121,10 @@ w_auto_ns =
     "w-auto-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .w-third { width: calc( 100% / 3 ); }
+    .w-third { width: 33.33333%; }
 
 -}
 w_third : String
@@ -19973,9 +22132,10 @@ w_third =
     "w-third"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .w-third-l { width: calc( 100% / 3 ); }
+    .w-third-l { width: 33.33333%; }
 
 -}
 w_third_l : String
@@ -19983,9 +22143,10 @@ w_third_l =
     "w-third-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .w-third-m { width: calc( 100% / 3 ); }
+    .w-third-m { width: 33.33333%; }
 
 -}
 w_third_m : String
@@ -19993,9 +22154,10 @@ w_third_m =
     "w-third-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .w-third-ns { width: calc( 100% / 3 ); }
+    .w-third-ns { width: 33.33333%; }
 
 -}
 w_third_ns : String
@@ -20003,9 +22165,10 @@ w_third_ns =
     "w-third-ns"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .w-two-thirds { width: calc( 100% / 1.5 ); }
+    .w-two-thirds { width: 66.66667%; }
 
 -}
 w_two_thirds : String
@@ -20013,9 +22176,10 @@ w_two_thirds =
     "w-two-thirds"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .w-two-thirds-l { width: calc( 100% / 1.5 ); }
+    .w-two-thirds-l { width: 66.66667%; }
 
 -}
 w_two_thirds_l : String
@@ -20023,9 +22187,10 @@ w_two_thirds_l =
     "w-two-thirds-l"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .w-two-thirds-m { width: calc( 100% / 1.5 ); }
+    .w-two-thirds-m { width: 66.66667%; }
 
 -}
 w_two_thirds_m : String
@@ -20033,14 +22198,16 @@ w_two_thirds_m =
     "w-two-thirds-m"
 
 
+
 {-| This class maps to this CSS definition:
 
-    .w-two-thirds-ns { width: calc( 100% / 1.5 ); }
+    .w-two-thirds-ns { width: 66.66667%; }
 
 -}
 w_two_thirds_ns : String
 w_two_thirds_ns =
     "w-two-thirds-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20053,6 +22220,7 @@ w1 =
     "w1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w1-l { width: 1rem; }
@@ -20061,6 +22229,7 @@ w1 =
 w1_l : String
 w1_l =
     "w1-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20073,6 +22242,7 @@ w1_m =
     "w1-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w1-ns { width: 1rem; }
@@ -20081,6 +22251,7 @@ w1_m =
 w1_ns : String
 w1_ns =
     "w1-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20093,6 +22264,7 @@ w2 =
     "w2"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w2-l { width: 2rem; }
@@ -20101,6 +22273,7 @@ w2 =
 w2_l : String
 w2_l =
     "w2-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20113,6 +22286,7 @@ w2_m =
     "w2-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w2-ns { width: 2rem; }
@@ -20121,6 +22295,7 @@ w2_m =
 w2_ns : String
 w2_ns =
     "w2-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20133,6 +22308,7 @@ w3 =
     "w3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w3-l { width: 4rem; }
@@ -20141,6 +22317,7 @@ w3 =
 w3_l : String
 w3_l =
     "w3-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20153,6 +22330,7 @@ w3_m =
     "w3-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w3-ns { width: 4rem; }
@@ -20161,6 +22339,7 @@ w3_m =
 w3_ns : String
 w3_ns =
     "w3-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20173,6 +22352,7 @@ w4 =
     "w4"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w4-l { width: 8rem; }
@@ -20181,6 +22361,7 @@ w4 =
 w4_l : String
 w4_l =
     "w4-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20193,6 +22374,7 @@ w4_m =
     "w4-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w4-ns { width: 8rem; }
@@ -20201,6 +22383,7 @@ w4_m =
 w4_ns : String
 w4_ns =
     "w4-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20213,6 +22396,7 @@ w5 =
     "w5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w5-l { width: 16rem; }
@@ -20221,6 +22405,7 @@ w5 =
 w5_l : String
 w5_l =
     "w5-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20233,6 +22418,7 @@ w5_m =
     "w5-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .w5-ns { width: 16rem; }
@@ -20241,6 +22427,7 @@ w5_m =
 w5_ns : String
 w5_ns =
     "w5-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20253,6 +22440,7 @@ washed_blue =
     "washed-blue"
 
 
+
 {-| This class maps to this CSS definition:
 
     .washed-green { color: #e8fdf5; }
@@ -20261,6 +22449,7 @@ washed_blue =
 washed_green : String
 washed_green =
     "washed-green"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20273,6 +22462,7 @@ washed_red =
     "washed-red"
 
 
+
 {-| This class maps to this CSS definition:
 
     .washed-yellow { color: #fffceb; }
@@ -20281,6 +22471,7 @@ washed_red =
 washed_yellow : String
 washed_yellow =
     "washed-yellow"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20293,6 +22484,7 @@ white =
     "white"
 
 
+
 {-| This class maps to this CSS definition:
 
     .white-10 { color: rgba( 255, 255, 255, .1 ); }
@@ -20301,6 +22493,7 @@ white =
 white_10 : String
 white_10 =
     "white-10"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20313,6 +22506,7 @@ white_20 =
     "white-20"
 
 
+
 {-| This class maps to this CSS definition:
 
     .white-30 { color: rgba( 255, 255, 255, .3 ); }
@@ -20321,6 +22515,7 @@ white_20 =
 white_30 : String
 white_30 =
     "white-30"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20333,6 +22528,7 @@ white_40 =
     "white-40"
 
 
+
 {-| This class maps to this CSS definition:
 
     .white-50 { color: rgba( 255, 255, 255, .5 ); }
@@ -20341,6 +22537,7 @@ white_40 =
 white_50 : String
 white_50 =
     "white-50"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20353,6 +22550,7 @@ white_60 =
     "white-60"
 
 
+
 {-| This class maps to this CSS definition:
 
     .white-70 { color: rgba( 255, 255, 255, .7 ); }
@@ -20361,6 +22559,7 @@ white_60 =
 white_70 : String
 white_70 =
     "white-70"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20373,6 +22572,7 @@ white_80 =
     "white-80"
 
 
+
 {-| This class maps to this CSS definition:
 
     .white-90 { color: rgba( 255, 255, 255, .9 ); }
@@ -20381,6 +22581,7 @@ white_80 =
 white_90 : String
 white_90 =
     "white-90"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20393,6 +22594,7 @@ ws_normal =
     "ws-normal"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ws-normal-l { white-space: normal; }
@@ -20401,6 +22603,7 @@ ws_normal =
 ws_normal_l : String
 ws_normal_l =
     "ws-normal-l"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20413,6 +22616,7 @@ ws_normal_m =
     "ws-normal-m"
 
 
+
 {-| This class maps to this CSS definition:
 
     .ws-normal-ns { white-space: normal; }
@@ -20421,6 +22625,7 @@ ws_normal_m =
 ws_normal_ns : String
 ws_normal_ns =
     "ws-normal-ns"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20433,6 +22638,7 @@ yellow =
     "yellow"
 
 
+
 {-| This class maps to this CSS definition:
 
     .z-0 { z-index: 0; }
@@ -20441,6 +22647,7 @@ yellow =
 z_0 : String
 z_0 =
     "z-0"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20453,6 +22660,7 @@ z_1 =
     "z-1"
 
 
+
 {-| This class maps to this CSS definition:
 
     .z-2 { z-index: 2; }
@@ -20461,6 +22669,7 @@ z_1 =
 z_2 : String
 z_2 =
     "z-2"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20473,6 +22682,7 @@ z_3 =
     "z-3"
 
 
+
 {-| This class maps to this CSS definition:
 
     .z-4 { z-index: 4; }
@@ -20481,6 +22691,7 @@ z_3 =
 z_4 : String
 z_4 =
     "z-4"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20493,6 +22704,7 @@ z_5 =
     "z-5"
 
 
+
 {-| This class maps to this CSS definition:
 
     .z-999 { z-index: 999; }
@@ -20501,6 +22713,7 @@ z_5 =
 z_999 : String
 z_999 =
     "z-999"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20513,6 +22726,7 @@ z_9999 =
     "z-9999"
 
 
+
 {-| This class maps to this CSS definition:
 
     .z-inherit { z-index: inherit; }
@@ -20521,6 +22735,7 @@ z_9999 =
 z_inherit : String
 z_inherit =
     "z-inherit"
+
 
 
 {-| This class maps to this CSS definition:
@@ -20533,6 +22748,7 @@ z_initial =
     "z-initial"
 
 
+
 {-| This class maps to this CSS definition:
 
     .z-max { z-index: 2147483647; }
@@ -20543,6 +22759,7 @@ z_max =
     "z-max"
 
 
+
 {-| This class maps to this CSS definition:
 
     .z-unset { z-index: unset; }
@@ -20551,3 +22768,5 @@ z_max =
 z_unset : String
 z_unset =
     "z-unset"
+
+
