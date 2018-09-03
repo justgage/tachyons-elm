@@ -5,7 +5,7 @@ const extract = require("./custom-string-extract-class-names"); // original filt
 
 const postcss = require("postcss");
 const _ = require("lodash");
-const exportPath = "./Tachyons/Classes.elm";
+const exportPath = "./src/Tachyons/Classes.elm";
 
 fs = require("fs");
 
