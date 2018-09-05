@@ -1,24 +1,24 @@
 // to use this run `node ./index.js`
 
 // const extract = require('string-extract-class-names')
-const extract = require("./custom-string-extract-class-names"); // original filters too short classes (e.g .b, .i)
+const extract = require('./custom-string-extract-class-names'); // original filters too short classes (e.g .b, .i)
 
-const postcss = require("postcss");
-const _ = require("lodash");
-const exportPath = "./src/Tachyons/Classes.elm";
+const postcss = require('postcss');
+const _ = require('lodash');
+const exportPath = './src/Tachyons/Classes.elm';
 
-fs = require("fs");
+fs = require('fs');
 
-const css = fs.readFileSync("./scripts/tachyons.css", "utf8"); // minificated version introduces problems with compound selectors
+const css = fs.readFileSync('./scripts/tachyons.css', 'utf8'); // minificated version introduces problems with compound selectors
 
 const root = postcss.parse(css);
 
 const classObjs = {};
 
-const defaultIndentation = " ".repeat(4);
+const defaultIndentation = ' '.repeat(4);
 
 const ruleFormatter = rule => {
-  let def = rule.toString().replace("{-", "{ -");
+  let def = rule.toString().replace('{-', '{ -');
   def = setCorrectIndentation(def);
   return def;
 };
@@ -26,10 +26,10 @@ const ruleFormatter = rule => {
 const setCorrectIndentation = text => {
   // normalize indentation
   if (/ {4}/.test(text)) {
-    text = text.replace(/\n {2}/g, "\n");
+    text = text.replace(/\n {2}/g, '\n');
   }
   // set indentation
-  text = text.replace(/\n/g, "\n" + defaultIndentation);
+  text = text.replace(/\n/g, '\n' + defaultIndentation);
   return text;
 };
 
@@ -41,25 +41,26 @@ root.walkRules(rule => {
   const names = new Set( // get unique classes
     extract(rule.selector)
       .filter(str => /^\./g.test(str)) // only want classes, no ids
-      .map(s => s.replace(".", "")) // no dots
+      .map(s => s.replace('.', '')) // no dots
   );
 
   names.forEach(name => {
     const obj = {
       name,
-      elmName: name.replace(/-/g, "_"),
+      elmName: name.replace(/-/g, '_'),
       def: ruleFormatter(rule)
     };
 
     console.log(obj);
 
     if (name in classObjs)
-      classObjs[name].def += "\n" + defaultIndentation + obj.def; // class has been already registered, only append new def
+      classObjs[name].def += '\n' + defaultIndentation + obj.def;
+    // class has been already registered, only append new def
     else classObjs[name] = obj;
   });
 });
 
-const classes = _(classObjs).sortBy("name");
+const classes = _(classObjs).sortBy('name');
 
 // creates an elm variable for each class
 const elmify = cl => {
@@ -77,9 +78,11 @@ ${cl.elmName} =
 `;
 };
 
+const funcNames = classes.map(({ elmName }) => elmName).join(', ');
+
 // // string of the elm file
 const elmString = `
-module Tachyons.Classes exposing (..)
+module Tachyons.Classes exposing (${funcNames})
 
 {-|
 
@@ -93,11 +96,11 @@ They do however show the minifed css definition as their comment.
 
 # Classes and their Definitions
 
-@docs ${classes.map(({ elmName }) => elmName).join(", ")}
+@docs ${funcNames}
 
 -}
 
-${classes.map(elmify).join("")}`;
+${classes.map(elmify).join('')}`;
 
 // writing the string to the file
 fs.writeFile(exportPath, elmString, function(err) {
@@ -105,5 +108,5 @@ fs.writeFile(exportPath, elmString, function(err) {
     return console.log(err);
   }
 
-  console.log(exportPath, "was saved!");
+  console.log(exportPath, 'was saved!');
 });
