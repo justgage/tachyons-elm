@@ -1,4 +1,4 @@
-module Tachyons exposing (..)
+module Tachyons exposing (classes, tachyons)
 
 {-| [Tachyons](http://tachyons.io/) is _the_ best CSS framework ever. It's an implementation of
 what people call "Functional CSS" which makes working with CSS a little bit easier.
