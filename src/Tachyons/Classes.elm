@@ -1,14 +1,14 @@
 module Tachyons.Classes exposing (absolute, absolute__fill, absolute__fill_l, absolute__fill_m, absolute__fill_ns, absolute_l, absolute_m, absolute_ns, aspect_ratio, aspect_ratio__16x9, aspect_ratio__16x9_l, aspect_ratio__16x9_m, aspect_ratio__16x9_ns, aspect_ratio__1x1, aspect_ratio__1x1_l, aspect_ratio__1x1_m, aspect_ratio__1x1_ns, aspect_ratio__3x4, aspect_ratio__3x4_l, aspect_ratio__3x4_m, aspect_ratio__3x4_ns, aspect_ratio__4x3, aspect_ratio__4x3_l, aspect_ratio__4x3_m, aspect_ratio__4x3_ns, aspect_ratio__4x6, aspect_ratio__4x6_l, aspect_ratio__4x6_m, aspect_ratio__4x6_ns, aspect_ratio__5x7, aspect_ratio__5x7_l, aspect_ratio__5x7_m, aspect_ratio__5x7_ns, aspect_ratio__5x8, aspect_ratio__5x8_l, aspect_ratio__5x8_m, aspect_ratio__5x8_ns, aspect_ratio__6x4, aspect_ratio__6x4_l, aspect_ratio__6x4_m, aspect_ratio__6x4_ns, aspect_ratio__7x5, aspect_ratio__7x5_l, aspect_ratio__7x5_m, aspect_ratio__7x5_ns, aspect_ratio__8x5, aspect_ratio__8x5_l, aspect_ratio__8x5_m, aspect_ratio__8x5_ns, aspect_ratio__9x16, aspect_ratio__9x16_l, aspect_ratio__9x16_m, aspect_ratio__9x16_ns, aspect_ratio__object, aspect_ratio__object_l, aspect_ratio__object_m, aspect_ratio__object_ns, aspect_ratio_l, aspect_ratio_m, aspect_ratio_ns, athelas, avenir, b, b__black, b__black_0125, b__black_025, b__black_05, b__black_10, b__black_20, b__black_30, b__black_40, b__black_50, b__black_60, b__black_70, b__black_80, b__black_90, b__blue, b__dark_blue, b__dark_gray, b__dark_green, b__dark_pink, b__dark_red, b__dashed, b__dashed_l, b__dashed_m, b__dashed_ns, b__dotted, b__dotted_l, b__dotted_m, b__dotted_ns, b__gold, b__gray, b__green, b__hot_pink, b__inherit, b__light_blue, b__light_gray, b__light_green, b__light_pink, b__light_purple, b__light_red, b__light_silver, b__light_yellow, b__lightest_blue, b__mid_gray, b__moon_gray, b__navy, b__near_black, b__near_white, b__none, b__none_l, b__none_m, b__none_ns, b__orange, b__pink, b__purple, b__red, b__silver, b__solid, b__solid_l, b__solid_m, b__solid_ns, b__transparent, b__washed_blue, b__washed_green, b__washed_red, b__washed_yellow, b__white, b__white_0125, b__white_025, b__white_05, b__white_10, b__white_20, b__white_30, b__white_40, b__white_50, b__white_60, b__white_70, b__white_80, b__white_90, b__yellow, b_l, b_m, b_ns, ba, ba_l, ba_m, ba_ns, baskerville, bb, bb_0, bb_0_l, bb_0_m, bb_0_ns, bb_l, bb_m, bb_ns, bg_animate, bg_black, bg_black_05, bg_black_10, bg_black_20, bg_black_30, bg_black_40, bg_black_50, bg_black_60, bg_black_70, bg_black_80, bg_black_90, bg_blue, bg_bottom, bg_bottom_l, bg_bottom_m, bg_bottom_ns, bg_center, bg_center_l, bg_center_m, bg_center_ns, bg_dark_blue, bg_dark_gray, bg_dark_green, bg_dark_pink, bg_dark_red, bg_gold, bg_gray, bg_green, bg_hot_pink, bg_inherit, bg_left, bg_left_l, bg_left_m, bg_left_ns, bg_light_blue, bg_light_gray, bg_light_green, bg_light_pink, bg_light_purple, bg_light_red, bg_light_silver, bg_light_yellow, bg_lightest_blue, bg_mid_gray, bg_moon_gray, bg_navy, bg_near_black, bg_near_white, bg_orange, bg_pink, bg_purple, bg_red, bg_right, bg_right_l, bg_right_m, bg_right_ns, bg_silver, bg_top, bg_top_l, bg_top_m, bg_top_ns, bg_transparent, bg_washed_blue, bg_washed_green, bg_washed_red, bg_washed_yellow, bg_white, bg_white_10, bg_white_20, bg_white_30, bg_white_40, bg_white_50, bg_white_60, bg_white_70, bg_white_80, bg_white_90, bg_yellow, bl, bl_0, bl_0_l, bl_0_m, bl_0_ns, bl_l, bl_m, bl_ns, black, black_05, black_10, black_20, black_30, black_40, black_50, black_60, black_70, black_80, black_90, blue, bn, bn_l, bn_m, bn_ns, bodoni, border_box, bottom__1, bottom__1_l, bottom__1_m, bottom__1_ns, bottom__2, bottom__2_l, bottom__2_m, bottom__2_ns, bottom_0, bottom_0_l, bottom_0_m, bottom_0_ns, bottom_1, bottom_1_l, bottom_1_m, bottom_1_ns, bottom_2, bottom_2_l, bottom_2_m, bottom_2_ns, br, br__bottom, br__bottom_l, br__bottom_m, br__bottom_ns, br__left, br__left_l, br__left_m, br__left_ns, br__right, br__right_l, br__right_m, br__right_ns, br__top, br__top_l, br__top_m, br__top_ns, br_0, br_0_l, br_0_m, br_0_ns, br_100, br_100_l, br_100_m, br_100_ns, br_l, br_m, br_ns, br_pill, br_pill_l, br_pill_m, br_pill_ns, br0, br0_l, br0_m, br0_ns, br1, br1_l, br1_m, br1_ns, br2, br2_l, br2_m, br2_ns, br3, br3_l, br3_m, br3_ns, br4, br4_l, br4_m, br4_ns, bt, bt_0, bt_0_l, bt_0_m, bt_0_ns, bt_l, bt_m, bt_ns, button_reset, bw0, bw0_l, bw0_m, bw0_ns, bw1, bw1_l, bw1_m, bw1_ns, bw2, bw2_l, bw2_m, bw2_ns, bw3, bw3_l, bw3_m, bw3_ns, bw4, bw4_l, bw4_m, bw4_ns, bw5, bw5_l, bw5_m, bw5_ns, calisto, cb, cb_l, cb_m, cb_ns, center, center_l, center_m, center_ns, cf, child, cl, cl_l, cl_m, cl_ns, clip, clip_l, clip_m, clip_ns, cn, cn_l, cn_m, cn_ns, code, collapse, color_inherit, contain, contain_l, contain_m, contain_ns, content_around, content_around_l, content_around_m, content_around_ns, content_between, content_between_l, content_between_m, content_between_ns, content_center, content_center_l, content_center_m, content_center_ns, content_end, content_end_l, content_end_m, content_end_ns, content_start, content_start_l, content_start_m, content_start_ns, content_stretch, content_stretch_l, content_stretch_m, content_stretch_ns, courier, cover, cover_l, cover_m, cover_ns, cr, cr_l, cr_m, cr_ns, dark_blue, dark_gray, dark_green, dark_pink, dark_red, db, db_l, db_m, db_ns, debug, debug_black, debug_grid, debug_grid_16, debug_grid_16_solid, debug_grid_8_solid, debug_white, di, di_l, di_m, di_ns, dib, dib_l, dib_m, dib_ns, dim, dit, dit_l, dit_m, dit_ns, dn, dn_l, dn_m, dn_ns, dt, dt__fixed, dt__fixed_l, dt__fixed_m, dt__fixed_ns, dt_column, dt_column_group, dt_column_group_l, dt_column_group_m, dt_column_group_ns, dt_column_l, dt_column_m, dt_column_ns, dt_l, dt_m, dt_ns, dt_row, dt_row_group, dt_row_group_l, dt_row_group_m, dt_row_group_ns, dt_row_l, dt_row_m, dt_row_ns, dtc, dtc_l, dtc_m, dtc_ns, f_5, f_5_l, f_5_m, f_5_ns, f_6, f_6_l, f_6_m, f_6_ns, f_headline, f_headline_l, f_headline_m, f_headline_ns, f_subheadline, f_subheadline_l, f_subheadline_m, f_subheadline_ns, f1, f1_l, f1_m, f1_ns, f2, f2_l, f2_m, f2_ns, f3, f3_l, f3_m, f3_ns, f4, f4_l, f4_m, f4_ns, f5, f5_l, f5_m, f5_ns, f6, f6_l, f6_m, f6_ns, f7, f7_l, f7_m, f7_ns, fixed, fixed_l, fixed_m, fixed_ns, fl, fl_l, fl_m, fl_ns, flex, flex_auto, flex_auto_l, flex_auto_m, flex_auto_ns, flex_column, flex_column_l, flex_column_m, flex_column_ns, flex_column_reverse, flex_column_reverse_l, flex_column_reverse_m, flex_column_reverse_ns, flex_grow_0, flex_grow_0_l, flex_grow_0_m, flex_grow_0_ns, flex_grow_1, flex_grow_1_l, flex_grow_1_m, flex_grow_1_ns, flex_l, flex_m, flex_none, flex_none_l, flex_none_m, flex_none_ns, flex_nowrap, flex_nowrap_l, flex_nowrap_m, flex_nowrap_ns, flex_ns, flex_row, flex_row_l, flex_row_m, flex_row_ns, flex_row_reverse, flex_row_reverse_l, flex_row_reverse_m, flex_row_reverse_ns, flex_shrink_0, flex_shrink_0_l, flex_shrink_0_m, flex_shrink_0_ns, flex_shrink_1, flex_shrink_1_l, flex_shrink_1_m, flex_shrink_1_ns, flex_wrap, flex_wrap_l, flex_wrap_m, flex_wrap_ns, flex_wrap_reverse, flex_wrap_reverse_l, flex_wrap_reverse_m, flex_wrap_reverse_ns, fn, fn_l, fn_m, fn_ns, fr, fr_l, fr_m, fr_ns, fs_normal, fs_normal_l, fs_normal_m, fs_normal_ns, fw1, fw1_l, fw1_m, fw1_ns, fw2, fw2_l, fw2_m, fw2_ns, fw3, fw3_l, fw3_m, fw3_ns, fw4, fw4_l, fw4_m, fw4_ns, fw5, fw5_l, fw5_m, fw5_ns, fw6, fw6_l, fw6_m, fw6_ns, fw7, fw7_l, fw7_m, fw7_ns, fw8, fw8_l, fw8_m, fw8_ns, fw9, fw9_l, fw9_m, fw9_ns, garamond, georgia, glow, gold, gray, green, grow, grow_large, h_100, h_100_l, h_100_m, h_100_ns, h_25, h_25_l, h_25_m, h_25_ns, h_50, h_50_l, h_50_m, h_50_ns, h_75, h_75_l, h_75_m, h_75_ns, h_auto, h_auto_l, h_auto_m, h_auto_ns, h_inherit, h_inherit_l, h_inherit_m, h_inherit_ns, h1, h1_l, h1_m, h1_ns, h2, h2_l, h2_m, h2_ns, h3, h3_l, h3_m, h3_ns, h4, h4_l, h4_m, h4_ns, h5, h5_l, h5_m, h5_ns, helvetica, hide_child, hot_pink, hover_bg_black, hover_bg_black_10, hover_bg_black_20, hover_bg_black_30, hover_bg_black_40, hover_bg_black_50, hover_bg_black_60, hover_bg_black_70, hover_bg_black_80, hover_bg_black_90, hover_bg_blue, hover_bg_dark_blue, hover_bg_dark_gray, hover_bg_dark_green, hover_bg_dark_pink, hover_bg_dark_red, hover_bg_gold, hover_bg_gray, hover_bg_green, hover_bg_hot_pink, hover_bg_inherit, hover_bg_light_blue, hover_bg_light_gray, hover_bg_light_green, hover_bg_light_pink, hover_bg_light_purple, hover_bg_light_red, hover_bg_light_silver, hover_bg_light_yellow, hover_bg_lightest_blue, hover_bg_mid_gray, hover_bg_moon_gray, hover_bg_navy, hover_bg_near_black, hover_bg_near_white, hover_bg_orange, hover_bg_pink, hover_bg_purple, hover_bg_red, hover_bg_silver, hover_bg_transparent, hover_bg_washed_blue, hover_bg_washed_green, hover_bg_washed_red, hover_bg_washed_yellow, hover_bg_white, hover_bg_white_10, hover_bg_white_20, hover_bg_white_30, hover_bg_white_40, hover_bg_white_50, hover_bg_white_60, hover_bg_white_70, hover_bg_white_80, hover_bg_white_90, hover_bg_yellow, hover_black, hover_black_10, hover_black_20, hover_black_30, hover_black_40, hover_black_50, hover_black_60, hover_black_70, hover_black_80, hover_black_90, hover_blue, hover_dark_blue, hover_dark_gray, hover_dark_green, hover_dark_pink, hover_dark_red, hover_gold, hover_gray, hover_green, hover_hot_pink, hover_inherit, hover_light_blue, hover_light_gray, hover_light_green, hover_light_pink, hover_light_purple, hover_light_red, hover_light_silver, hover_light_yellow, hover_lightest_blue, hover_mid_gray, hover_moon_gray, hover_navy, hover_near_black, hover_near_white, hover_orange, hover_pink, hover_purple, hover_red, hover_silver, hover_washed_blue, hover_washed_green, hover_washed_red, hover_washed_yellow, hover_white, hover_white_10, hover_white_20, hover_white_30, hover_white_40, hover_white_50, hover_white_60, hover_white_70, hover_white_80, hover_white_90, hover_yellow, i, i_l, i_m, i_ns, indent, indent_l, indent_m, indent_ns, inline_flex, inline_flex_l, inline_flex_m, inline_flex_ns, input_reset, items_baseline, items_baseline_l, items_baseline_m, items_baseline_ns, items_center, items_center_l, items_center_m, items_center_ns, items_end, items_end_l, items_end_m, items_end_ns, items_start, items_start_l, items_start_m, items_start_ns, items_stretch, items_stretch_l, items_stretch_m, items_stretch_ns, justify_around, justify_around_l, justify_around_m, justify_around_ns, justify_between, justify_between_l, justify_between_m, justify_between_ns, justify_center, justify_center_l, justify_center_m, justify_center_ns, justify_end, justify_end_l, justify_end_m, justify_end_ns, justify_start, justify_start_l, justify_start_m, justify_start_ns, left__1, left__1_l, left__1_m, left__1_ns, left__2, left__2_l, left__2_m, left__2_ns, left_0, left_0_l, left_0_m, left_0_ns, left_1, left_1_l, left_1_m, left_1_ns, left_2, left_2_l, left_2_m, left_2_ns, lh_copy, lh_copy_l, lh_copy_m, lh_copy_ns, lh_solid, lh_solid_l, lh_solid_m, lh_solid_ns, lh_title, lh_title_l, lh_title_m, lh_title_ns, light_blue, light_gray, light_green, light_pink, light_purple, light_red, light_silver, light_yellow, lightest_blue, link, list, ma0, ma0_l, ma0_m, ma0_ns, ma1, ma1_l, ma1_m, ma1_ns, ma2, ma2_l, ma2_m, ma2_ns, ma3, ma3_l, ma3_m, ma3_ns, ma4, ma4_l, ma4_m, ma4_ns, ma5, ma5_l, ma5_m, ma5_ns, ma6, ma6_l, ma6_m, ma6_ns, ma7, ma7_l, ma7_m, ma7_ns, mb0, mb0_l, mb0_m, mb0_ns, mb1, mb1_l, mb1_m, mb1_ns, mb2, mb2_l, mb2_m, mb2_ns, mb3, mb3_l, mb3_m, mb3_ns, mb4, mb4_l, mb4_m, mb4_ns, mb5, mb5_l, mb5_m, mb5_ns, mb6, mb6_l, mb6_m, mb6_ns, mb7, mb7_l, mb7_m, mb7_ns, measure, measure_l, measure_m, measure_narrow, measure_narrow_l, measure_narrow_m, measure_narrow_ns, measure_ns, measure_wide, measure_wide_l, measure_wide_m, measure_wide_ns, mh0, mh0_l, mh0_m, mh0_ns, mh1, mh1_l, mh1_m, mh1_ns, mh2, mh2_l, mh2_m, mh2_ns, mh3, mh3_l, mh3_m, mh3_ns, mh4, mh4_l, mh4_m, mh4_ns, mh5, mh5_l, mh5_m, mh5_ns, mh6, mh6_l, mh6_m, mh6_ns, mh7, mh7_l, mh7_m, mh7_ns, mid_gray, min_h_100, min_h_100_l, min_h_100_m, min_h_100_ns, min_vh_100, min_vh_100_l, min_vh_100_m, min_vh_100_ns, ml_auto, ml_auto_l, ml_auto_m, ml_auto_ns, ml0, ml0_l, ml0_m, ml0_ns, ml1, ml1_l, ml1_m, ml1_ns, ml2, ml2_l, ml2_m, ml2_ns, ml3, ml3_l, ml3_m, ml3_ns, ml4, ml4_l, ml4_m, ml4_ns, ml5, ml5_l, ml5_m, ml5_ns, ml6, ml6_l, ml6_m, ml6_ns, ml7, ml7_l, ml7_m, ml7_ns, moon_gray, mr_auto, mr_auto_l, mr_auto_m, mr_auto_ns, mr0, mr0_l, mr0_m, mr0_ns, mr1, mr1_l, mr1_m, mr1_ns, mr2, mr2_l, mr2_m, mr2_ns, mr3, mr3_l, mr3_m, mr3_ns, mr4, mr4_l, mr4_m, mr4_ns, mr5, mr5_l, mr5_m, mr5_ns, mr6, mr6_l, mr6_m, mr6_ns, mr7, mr7_l, mr7_m, mr7_ns, mt0, mt0_l, mt0_m, mt0_ns, mt1, mt1_l, mt1_m, mt1_ns, mt2, mt2_l, mt2_m, mt2_ns, mt3, mt3_l, mt3_m, mt3_ns, mt4, mt4_l, mt4_m, mt4_ns, mt5, mt5_l, mt5_m, mt5_ns, mt6, mt6_l, mt6_m, mt6_ns, mt7, mt7_l, mt7_m, mt7_ns, mv0, mv0_l, mv0_m, mv0_ns, mv1, mv1_l, mv1_m, mv1_ns, mv2, mv2_l, mv2_m, mv2_ns, mv3, mv3_l, mv3_m, mv3_ns, mv4, mv4_l, mv4_m, mv4_ns, mv5, mv5_l, mv5_m, mv5_ns, mv6, mv6_l, mv6_m, mv6_ns, mv7, mv7_l, mv7_m, mv7_ns, mw_100, mw_100_l, mw_100_m, mw_100_ns, mw_none, mw_none_l, mw_none_m, mw_none_ns, mw1, mw1_l, mw1_m, mw1_ns, mw2, mw2_l, mw2_m, mw2_ns, mw3, mw3_l, mw3_m, mw3_ns, mw4, mw4_l, mw4_m, mw4_ns, mw5, mw5_l, mw5_m, mw5_ns, mw6, mw6_l, mw6_m, mw6_ns, mw7, mw7_l, mw7_m, mw7_ns, mw8, mw8_l, mw8_m, mw8_ns, mw9, mw9_l, mw9_m, mw9_ns, na1, na1_l, na1_m, na1_ns, na2, na2_l, na2_m, na2_ns, na3, na3_l, na3_m, na3_ns, na4, na4_l, na4_m, na4_ns, na5, na5_l, na5_m, na5_ns, na6, na6_l, na6_m, na6_ns, na7, na7_l, na7_m, na7_ns, navy, nb1, nb1_l, nb1_m, nb1_ns, nb2, nb2_l, nb2_m, nb2_ns, nb3, nb3_l, nb3_m, nb3_ns, nb4, nb4_l, nb4_m, nb4_ns, nb5, nb5_l, nb5_m, nb5_ns, nb6, nb6_l, nb6_m, nb6_ns, nb7, nb7_l, nb7_m, nb7_ns, near_black, near_white, nested_copy_indent, nested_copy_line_height, nested_copy_separator, nested_headline_line_height, nested_img, nested_links, nested_list_reset, nl1, nl1_l, nl1_m, nl1_ns, nl2, nl2_l, nl2_m, nl2_ns, nl3, nl3_l, nl3_m, nl3_ns, nl4, nl4_l, nl4_m, nl4_ns, nl5, nl5_l, nl5_m, nl5_ns, nl6, nl6_l, nl6_m, nl6_ns, nl7, nl7_l, nl7_m, nl7_ns, no_underline, no_underline_l, no_underline_m, no_underline_ns, normal, normal_l, normal_m, normal_ns, nowrap, nowrap_l, nowrap_m, nowrap_ns, nr1, nr1_l, nr1_m, nr1_ns, nr2, nr2_l, nr2_m, nr2_ns, nr3, nr3_l, nr3_m, nr3_ns, nr4, nr4_l, nr4_m, nr4_ns, nr5, nr5_l, nr5_m, nr5_ns, nr6, nr6_l, nr6_m, nr6_ns, nr7, nr7_l, nr7_m, nr7_ns, nt1, nt1_l, nt1_m, nt1_ns, nt2, nt2_l, nt2_m, nt2_ns, nt3, nt3_l, nt3_m, nt3_ns, nt4, nt4_l, nt4_m, nt4_ns, nt5, nt5_l, nt5_m, nt5_ns, nt6, nt6_l, nt6_m, nt6_ns, nt7, nt7_l, nt7_m, nt7_ns, o_0, o_025, o_05, o_10, o_100, o_20, o_30, o_40, o_50, o_60, o_70, o_80, o_90, orange, order_0, order_0_l, order_0_m, order_0_ns, order_1, order_1_l, order_1_m, order_1_ns, order_2, order_2_l, order_2_m, order_2_ns, order_3, order_3_l, order_3_m, order_3_ns, order_4, order_4_l, order_4_m, order_4_ns, order_5, order_5_l, order_5_m, order_5_ns, order_6, order_6_l, order_6_m, order_6_ns, order_7, order_7_l, order_7_m, order_7_ns, order_8, order_8_l, order_8_m, order_8_ns, order_last, order_last_l, order_last_m, order_last_ns, outline, outline_0, outline_0_l, outline_0_m, outline_0_ns, outline_l, outline_m, outline_ns, outline_transparent, outline_transparent_l, outline_transparent_m, outline_transparent_ns, overflow_auto, overflow_auto_l, overflow_auto_m, overflow_auto_ns, overflow_container, overflow_hidden, overflow_hidden_l, overflow_hidden_m, overflow_hidden_ns, overflow_scroll, overflow_scroll_l, overflow_scroll_m, overflow_scroll_ns, overflow_visible, overflow_visible_l, overflow_visible_m, overflow_visible_ns, overflow_x_auto, overflow_x_auto_l, overflow_x_auto_m, overflow_x_auto_ns, overflow_x_hidden, overflow_x_hidden_l, overflow_x_hidden_m, overflow_x_hidden_ns, overflow_x_scroll, overflow_x_scroll_l, overflow_x_scroll_m, overflow_x_scroll_ns, overflow_x_visible, overflow_x_visible_l, overflow_x_visible_m, overflow_x_visible_ns, overflow_y_auto, overflow_y_auto_l, overflow_y_auto_m, overflow_y_auto_ns, overflow_y_hidden, overflow_y_hidden_l, overflow_y_hidden_m, overflow_y_hidden_ns, overflow_y_scroll, overflow_y_scroll_l, overflow_y_scroll_m, overflow_y_scroll_ns, overflow_y_visible, overflow_y_visible_l, overflow_y_visible_m, overflow_y_visible_ns, pa0, pa0_l, pa0_m, pa0_ns, pa1, pa1_l, pa1_m, pa1_ns, pa2, pa2_l, pa2_m, pa2_ns, pa3, pa3_l, pa3_m, pa3_ns, pa4, pa4_l, pa4_m, pa4_ns, pa5, pa5_l, pa5_m, pa5_ns, pa6, pa6_l, pa6_m, pa6_ns, pa7, pa7_l, pa7_m, pa7_ns, pb0, pb0_l, pb0_m, pb0_ns, pb1, pb1_l, pb1_m, pb1_ns, pb2, pb2_l, pb2_m, pb2_ns, pb3, pb3_l, pb3_m, pb3_ns, pb4, pb4_l, pb4_m, pb4_ns, pb5, pb5_l, pb5_m, pb5_ns, pb6, pb6_l, pb6_m, pb6_ns, pb7, pb7_l, pb7_m, pb7_ns, ph0, ph0_l, ph0_m, ph0_ns, ph1, ph1_l, ph1_m, ph1_ns, ph2, ph2_l, ph2_m, ph2_ns, ph3, ph3_l, ph3_m, ph3_ns, ph4, ph4_l, ph4_m, ph4_ns, ph5, ph5_l, ph5_m, ph5_ns, ph6, ph6_l, ph6_m, ph6_ns, ph7, ph7_l, ph7_m, ph7_ns, pink, pl0, pl0_l, pl0_m, pl0_ns, pl1, pl1_l, pl1_m, pl1_ns, pl2, pl2_l, pl2_m, pl2_ns, pl3, pl3_l, pl3_m, pl3_ns, pl4, pl4_l, pl4_m, pl4_ns, pl5, pl5_l, pl5_m, pl5_ns, pl6, pl6_l, pl6_m, pl6_ns, pl7, pl7_l, pl7_m, pl7_ns, pointer, pr0, pr0_l, pr0_m, pr0_ns, pr1, pr1_l, pr1_m, pr1_ns, pr2, pr2_l, pr2_m, pr2_ns, pr3, pr3_l, pr3_m, pr3_ns, pr4, pr4_l, pr4_m, pr4_ns, pr5, pr5_l, pr5_m, pr5_ns, pr6, pr6_l, pr6_m, pr6_ns, pr7, pr7_l, pr7_m, pr7_ns, pre, pre_l, pre_m, pre_ns, pt0, pt0_l, pt0_m, pt0_ns, pt1, pt1_l, pt1_m, pt1_ns, pt2, pt2_l, pt2_m, pt2_ns, pt3, pt3_l, pt3_m, pt3_ns, pt4, pt4_l, pt4_m, pt4_ns, pt5, pt5_l, pt5_m, pt5_ns, pt6, pt6_l, pt6_m, pt6_ns, pt7, pt7_l, pt7_m, pt7_ns, purple, pv0, pv0_l, pv0_m, pv0_ns, pv1, pv1_l, pv1_m, pv1_ns, pv2, pv2_l, pv2_m, pv2_ns, pv3, pv3_l, pv3_m, pv3_ns, pv4, pv4_l, pv4_m, pv4_ns, pv5, pv5_l, pv5_m, pv5_ns, pv6, pv6_l, pv6_m, pv6_ns, pv7, pv7_l, pv7_m, pv7_ns, red, relative, relative_l, relative_m, relative_ns, right__1, right__1_l, right__1_m, right__1_ns, right__2, right__2_l, right__2_m, right__2_ns, right_0, right_0_l, right_0_m, right_0_ns, right_1, right_1_l, right_1_m, right_1_ns, right_2, right_2_l, right_2_m, right_2_ns, rotate_135, rotate_135_l, rotate_135_m, rotate_135_ns, rotate_180, rotate_180_l, rotate_180_m, rotate_180_ns, rotate_225, rotate_225_l, rotate_225_m, rotate_225_ns, rotate_270, rotate_270_l, rotate_270_m, rotate_270_ns, rotate_315, rotate_315_l, rotate_315_m, rotate_315_ns, rotate_45, rotate_45_l, rotate_45_m, rotate_45_ns, rotate_90, rotate_90_l, rotate_90_m, rotate_90_ns, sans_serif, self_baseline, self_baseline_l, self_baseline_m, self_baseline_ns, self_center, self_center_l, self_center_m, self_center_ns, self_end, self_end_l, self_end_m, self_end_ns, self_start, self_start_l, self_start_m, self_start_ns, self_stretch, self_stretch_l, self_stretch_m, self_stretch_ns, serif, shadow_1, shadow_1_l, shadow_1_m, shadow_1_ns, shadow_2, shadow_2_l, shadow_2_m, shadow_2_ns, shadow_3, shadow_3_l, shadow_3_m, shadow_3_ns, shadow_4, shadow_4_l, shadow_4_m, shadow_4_ns, shadow_5, shadow_5_l, shadow_5_m, shadow_5_ns, shadow_hover, silver, small_caps, small_caps_l, small_caps_m, small_caps_ns, static, static_l, static_m, static_ns, strike, strike_l, strike_m, strike_ns, stripe_dark, stripe_light, striped__light_gray, striped__light_silver, striped__moon_gray, striped__near_white, system_sans_serif, system_serif, tc, tc_l, tc_m, tc_ns, times, tj, tj_l, tj_m, tj_ns, tl, tl_l, tl_m, tl_ns, top__1, top__1_l, top__1_m, top__1_ns, top__2, top__2_l, top__2_m, top__2_ns, top_0, top_0_l, top_0_m, top_0_ns, top_1, top_1_l, top_1_m, top_1_ns, top_2, top_2_l, top_2_m, top_2_ns, tr, tr_l, tr_m, tr_ns, tracked, tracked_l, tracked_m, tracked_mega, tracked_mega_l, tracked_mega_m, tracked_mega_ns, tracked_ns, tracked_tight, tracked_tight_l, tracked_tight_m, tracked_tight_ns, truncate, truncate_l, truncate_m, truncate_ns, ttc, ttc_l, ttc_m, ttc_ns, ttl, ttl_l, ttl_m, ttl_ns, ttn, ttn_l, ttn_m, ttn_ns, ttu, ttu_l, ttu_m, ttu_ns, underline, underline_hover, underline_l, underline_m, underline_ns, v_base, v_base_l, v_base_m, v_base_ns, v_btm, v_btm_l, v_btm_m, v_btm_ns, v_mid, v_mid_l, v_mid_m, v_mid_ns, v_top, v_top_l, v_top_m, v_top_ns, vh_100, vh_100_l, vh_100_m, vh_100_ns, vh_25, vh_25_l, vh_25_m, vh_25_ns, vh_50, vh_50_l, vh_50_m, vh_50_ns, vh_75, vh_75_l, vh_75_m, vh_75_ns, w_10, w_10_l, w_10_m, w_10_ns, w_100, w_100_l, w_100_m, w_100_ns, w_20, w_20_l, w_20_m, w_20_ns, w_25, w_25_l, w_25_m, w_25_ns, w_30, w_30_l, w_30_m, w_30_ns, w_33, w_33_l, w_33_m, w_33_ns, w_34, w_34_l, w_34_m, w_34_ns, w_40, w_40_l, w_40_m, w_40_ns, w_50, w_50_l, w_50_m, w_50_ns, w_60, w_60_l, w_60_m, w_60_ns, w_70, w_70_l, w_70_m, w_70_ns, w_75, w_75_l, w_75_m, w_75_ns, w_80, w_80_l, w_80_m, w_80_ns, w_90, w_90_l, w_90_m, w_90_ns, w_auto, w_auto_l, w_auto_m, w_auto_ns, w_third, w_third_l, w_third_m, w_third_ns, w_two_thirds, w_two_thirds_l, w_two_thirds_m, w_two_thirds_ns, w1, w1_l, w1_m, w1_ns, w2, w2_l, w2_m, w2_ns, w3, w3_l, w3_m, w3_ns, w4, w4_l, w4_m, w4_ns, w5, w5_l, w5_m, w5_ns, washed_blue, washed_green, washed_red, washed_yellow, white, white_10, white_20, white_30, white_40, white_50, white_60, white_70, white_80, white_90, ws_normal, ws_normal_l, ws_normal_m, ws_normal_ns, yellow, z_0, z_1, z_2, z_3, z_4, z_5, z_999, z_9999, z_inherit, z_initial, z_max, z_unset)
 
-{-|
+{-| These are all the classes ported from Tachyons. **NOTE**: this is a auto-generated file by `scripts/index.js`
 
-These are all the classes ported from Tachyons. __NOTE__: this is a auto-generated file by `scripts/index.js`
 
 # Useless Docs below:
 
 Yes these docs are useless, please look at [Tachyons Table of Styles](http://tachyons.io/docs/table-of-styles/) for the definitions of these classes. Keep in mind this was made with a script (not typed by hand ).
 
 They do however show the minifed css definition as their comment.
+
 
 # Classes and their Definitions
 
@@ -29,7 +29,7 @@ absolute =
 
 {-| This class maps to this CSS definition:
 
-    .absolute--fill { top: 0; right: 0; bottom: 0; left: 0; }
+    .absolute --fill { top: 0; right: 0; bottom: 0; left: 0; }
 
 -}
 absolute__fill : String
@@ -39,7 +39,7 @@ absolute__fill =
 
 {-| This class maps to this CSS definition:
 
-    .absolute--fill-l { top: 0; right: 0; bottom: 0; left: 0; }
+    .absolute --fill-l { top: 0; right: 0; bottom: 0; left: 0; }
 
 -}
 absolute__fill_l : String
@@ -49,7 +49,7 @@ absolute__fill_l =
 
 {-| This class maps to this CSS definition:
 
-    .absolute--fill-m { top: 0; right: 0; bottom: 0; left: 0; }
+    .absolute --fill-m { top: 0; right: 0; bottom: 0; left: 0; }
 
 -}
 absolute__fill_m : String
@@ -59,7 +59,7 @@ absolute__fill_m =
 
 {-| This class maps to this CSS definition:
 
-    .absolute--fill-ns { top: 0; right: 0; bottom: 0; left: 0; }
+    .absolute --fill-ns { top: 0; right: 0; bottom: 0; left: 0; }
 
 -}
 absolute__fill_ns : String
@@ -109,7 +109,7 @@ aspect_ratio =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--16x9 { padding-bottom: 56.25%; }
+    .aspect - ratio --16x9 { padding-bottom: 56.25%; }
 
 -}
 aspect_ratio__16x9 : String
@@ -119,7 +119,7 @@ aspect_ratio__16x9 =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--16x9-l { padding-bottom: 56.25%; }
+    .aspect - ratio --16x9-l { padding-bottom: 56.25%; }
 
 -}
 aspect_ratio__16x9_l : String
@@ -129,7 +129,7 @@ aspect_ratio__16x9_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
+    .aspect - ratio --16x9-m { padding-bottom: 56.25%; }
 
 -}
 aspect_ratio__16x9_m : String
@@ -139,7 +139,7 @@ aspect_ratio__16x9_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
+    .aspect - ratio --16x9-ns { padding-bottom: 56.25%; }
 
 -}
 aspect_ratio__16x9_ns : String
@@ -149,7 +149,7 @@ aspect_ratio__16x9_ns =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--1x1 { padding-bottom: 100%; }
+    .aspect - ratio --1x1 { padding-bottom: 100%; }
 
 -}
 aspect_ratio__1x1 : String
@@ -159,7 +159,7 @@ aspect_ratio__1x1 =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--1x1-l { padding-bottom: 100%; }
+    .aspect - ratio --1x1-l { padding-bottom: 100%; }
 
 -}
 aspect_ratio__1x1_l : String
@@ -169,7 +169,7 @@ aspect_ratio__1x1_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--1x1-m { padding-bottom: 100%; }
+    .aspect - ratio --1x1-m { padding-bottom: 100%; }
 
 -}
 aspect_ratio__1x1_m : String
@@ -179,7 +179,7 @@ aspect_ratio__1x1_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--1x1-ns { padding-bottom: 100%; }
+    .aspect - ratio --1x1-ns { padding-bottom: 100%; }
 
 -}
 aspect_ratio__1x1_ns : String
@@ -189,7 +189,7 @@ aspect_ratio__1x1_ns =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--3x4 { padding-bottom: 133.33%; }
+    .aspect - ratio --3x4 { padding-bottom: 133.33%; }
 
 -}
 aspect_ratio__3x4 : String
@@ -199,7 +199,7 @@ aspect_ratio__3x4 =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--3x4-l { padding-bottom: 133.33%; }
+    .aspect - ratio --3x4-l { padding-bottom: 133.33%; }
 
 -}
 aspect_ratio__3x4_l : String
@@ -209,7 +209,7 @@ aspect_ratio__3x4_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--3x4-m { padding-bottom: 133.33%; }
+    .aspect - ratio --3x4-m { padding-bottom: 133.33%; }
 
 -}
 aspect_ratio__3x4_m : String
@@ -219,7 +219,7 @@ aspect_ratio__3x4_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--3x4-ns { padding-bottom: 133.33%; }
+    .aspect - ratio --3x4-ns { padding-bottom: 133.33%; }
 
 -}
 aspect_ratio__3x4_ns : String
@@ -229,7 +229,7 @@ aspect_ratio__3x4_ns =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--4x3 { padding-bottom: 75%; }
+    .aspect - ratio --4x3 { padding-bottom: 75%; }
 
 -}
 aspect_ratio__4x3 : String
@@ -239,7 +239,7 @@ aspect_ratio__4x3 =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--4x3-l { padding-bottom: 75%; }
+    .aspect - ratio --4x3-l { padding-bottom: 75%; }
 
 -}
 aspect_ratio__4x3_l : String
@@ -249,7 +249,7 @@ aspect_ratio__4x3_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--4x3-m { padding-bottom: 75%; }
+    .aspect - ratio --4x3-m { padding-bottom: 75%; }
 
 -}
 aspect_ratio__4x3_m : String
@@ -259,7 +259,7 @@ aspect_ratio__4x3_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--4x3-ns { padding-bottom: 75%; }
+    .aspect - ratio --4x3-ns { padding-bottom: 75%; }
 
 -}
 aspect_ratio__4x3_ns : String
@@ -269,7 +269,7 @@ aspect_ratio__4x3_ns =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--4x6 { padding-bottom: 150%; }
+    .aspect - ratio --4x6 { padding-bottom: 150%; }
 
 -}
 aspect_ratio__4x6 : String
@@ -279,7 +279,7 @@ aspect_ratio__4x6 =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--4x6-l { padding-bottom: 150%; }
+    .aspect - ratio --4x6-l { padding-bottom: 150%; }
 
 -}
 aspect_ratio__4x6_l : String
@@ -289,7 +289,7 @@ aspect_ratio__4x6_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--4x6-m { padding-bottom: 150%; }
+    .aspect - ratio --4x6-m { padding-bottom: 150%; }
 
 -}
 aspect_ratio__4x6_m : String
@@ -299,7 +299,7 @@ aspect_ratio__4x6_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--4x6-ns { padding-bottom: 150%; }
+    .aspect - ratio --4x6-ns { padding-bottom: 150%; }
 
 -}
 aspect_ratio__4x6_ns : String
@@ -309,7 +309,7 @@ aspect_ratio__4x6_ns =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--5x7 { padding-bottom: 140%; }
+    .aspect - ratio --5x7 { padding-bottom: 140%; }
 
 -}
 aspect_ratio__5x7 : String
@@ -319,7 +319,7 @@ aspect_ratio__5x7 =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--5x7-l { padding-bottom: 140%; }
+    .aspect - ratio --5x7-l { padding-bottom: 140%; }
 
 -}
 aspect_ratio__5x7_l : String
@@ -329,7 +329,7 @@ aspect_ratio__5x7_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--5x7-m { padding-bottom: 140%; }
+    .aspect - ratio --5x7-m { padding-bottom: 140%; }
 
 -}
 aspect_ratio__5x7_m : String
@@ -339,7 +339,7 @@ aspect_ratio__5x7_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--5x7-ns { padding-bottom: 140%; }
+    .aspect - ratio --5x7-ns { padding-bottom: 140%; }
 
 -}
 aspect_ratio__5x7_ns : String
@@ -349,7 +349,7 @@ aspect_ratio__5x7_ns =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--5x8 { padding-bottom: 160%; }
+    .aspect - ratio --5x8 { padding-bottom: 160%; }
 
 -}
 aspect_ratio__5x8 : String
@@ -359,7 +359,7 @@ aspect_ratio__5x8 =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--5x8-l { padding-bottom: 160%; }
+    .aspect - ratio --5x8-l { padding-bottom: 160%; }
 
 -}
 aspect_ratio__5x8_l : String
@@ -369,7 +369,7 @@ aspect_ratio__5x8_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--5x8-m { padding-bottom: 160%; }
+    .aspect - ratio --5x8-m { padding-bottom: 160%; }
 
 -}
 aspect_ratio__5x8_m : String
@@ -379,7 +379,7 @@ aspect_ratio__5x8_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--5x8-ns { padding-bottom: 160%; }
+    .aspect - ratio --5x8-ns { padding-bottom: 160%; }
 
 -}
 aspect_ratio__5x8_ns : String
@@ -389,7 +389,7 @@ aspect_ratio__5x8_ns =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--6x4 { padding-bottom: 66.6%; }
+    .aspect - ratio --6x4 { padding-bottom: 66.6%; }
 
 -}
 aspect_ratio__6x4 : String
@@ -399,7 +399,7 @@ aspect_ratio__6x4 =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--6x4-l { padding-bottom: 66.6%; }
+    .aspect - ratio --6x4-l { padding-bottom: 66.6%; }
 
 -}
 aspect_ratio__6x4_l : String
@@ -409,7 +409,7 @@ aspect_ratio__6x4_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--6x4-m { padding-bottom: 66.6%; }
+    .aspect - ratio --6x4-m { padding-bottom: 66.6%; }
 
 -}
 aspect_ratio__6x4_m : String
@@ -419,7 +419,7 @@ aspect_ratio__6x4_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--6x4-ns { padding-bottom: 66.6%; }
+    .aspect - ratio --6x4-ns { padding-bottom: 66.6%; }
 
 -}
 aspect_ratio__6x4_ns : String
@@ -429,7 +429,7 @@ aspect_ratio__6x4_ns =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--7x5 { padding-bottom: 71.42%; }
+    .aspect - ratio --7x5 { padding-bottom: 71.42%; }
 
 -}
 aspect_ratio__7x5 : String
@@ -439,7 +439,7 @@ aspect_ratio__7x5 =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--7x5-l { padding-bottom: 71.42%; }
+    .aspect - ratio --7x5-l { padding-bottom: 71.42%; }
 
 -}
 aspect_ratio__7x5_l : String
@@ -449,7 +449,7 @@ aspect_ratio__7x5_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--7x5-m { padding-bottom: 71.42%; }
+    .aspect - ratio --7x5-m { padding-bottom: 71.42%; }
 
 -}
 aspect_ratio__7x5_m : String
@@ -459,7 +459,7 @@ aspect_ratio__7x5_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--7x5-ns { padding-bottom: 71.42%; }
+    .aspect - ratio --7x5-ns { padding-bottom: 71.42%; }
 
 -}
 aspect_ratio__7x5_ns : String
@@ -469,7 +469,7 @@ aspect_ratio__7x5_ns =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--8x5 { padding-bottom: 62.5%; }
+    .aspect - ratio --8x5 { padding-bottom: 62.5%; }
 
 -}
 aspect_ratio__8x5 : String
@@ -479,7 +479,7 @@ aspect_ratio__8x5 =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--8x5-l { padding-bottom: 62.5%; }
+    .aspect - ratio --8x5-l { padding-bottom: 62.5%; }
 
 -}
 aspect_ratio__8x5_l : String
@@ -489,7 +489,7 @@ aspect_ratio__8x5_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--8x5-m { padding-bottom: 62.5%; }
+    .aspect - ratio --8x5-m { padding-bottom: 62.5%; }
 
 -}
 aspect_ratio__8x5_m : String
@@ -499,7 +499,7 @@ aspect_ratio__8x5_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--8x5-ns { padding-bottom: 62.5%; }
+    .aspect - ratio --8x5-ns { padding-bottom: 62.5%; }
 
 -}
 aspect_ratio__8x5_ns : String
@@ -509,7 +509,7 @@ aspect_ratio__8x5_ns =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--9x16 { padding-bottom: 177.77%; }
+    .aspect - ratio --9x16 { padding-bottom: 177.77%; }
 
 -}
 aspect_ratio__9x16 : String
@@ -519,7 +519,7 @@ aspect_ratio__9x16 =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--9x16-l { padding-bottom: 177.77%; }
+    .aspect - ratio --9x16-l { padding-bottom: 177.77%; }
 
 -}
 aspect_ratio__9x16_l : String
@@ -529,7 +529,7 @@ aspect_ratio__9x16_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--9x16-m { padding-bottom: 177.77%; }
+    .aspect - ratio --9x16-m { padding-bottom: 177.77%; }
 
 -}
 aspect_ratio__9x16_m : String
@@ -539,7 +539,7 @@ aspect_ratio__9x16_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--9x16-ns { padding-bottom: 177.77%; }
+    .aspect - ratio --9x16-ns { padding-bottom: 177.77%; }
 
 -}
 aspect_ratio__9x16_ns : String
@@ -549,7 +549,7 @@ aspect_ratio__9x16_ns =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--object { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
+    .aspect - ratio --object { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
 
 -}
 aspect_ratio__object : String
@@ -559,7 +559,7 @@ aspect_ratio__object =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--object-l { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
+    .aspect - ratio --object-l { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
 
 -}
 aspect_ratio__object_l : String
@@ -569,7 +569,7 @@ aspect_ratio__object_l =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--object-m { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
+    .aspect - ratio --object-m { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
 
 -}
 aspect_ratio__object_m : String
@@ -579,7 +579,7 @@ aspect_ratio__object_m =
 
 {-| This class maps to this CSS definition:
 
-    .aspect-ratio--object-ns { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
+    .aspect - ratio --object-ns { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
 
 -}
 aspect_ratio__object_ns : String
@@ -649,7 +649,7 @@ b =
 
 {-| This class maps to this CSS definition:
 
-    .b--black { border-color: #000; }
+    .b --black { border-color: #000; }
 
 -}
 b__black : String
@@ -659,7 +659,7 @@ b__black =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-0125 { border-color: rgba( 0, 0, 0, .0125 ); }
+    .b --black-0125 { border-color: rgba( 0, 0, 0, .0125 ); }
 
 -}
 b__black_0125 : String
@@ -669,7 +669,7 @@ b__black_0125 =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-025 { border-color: rgba( 0, 0, 0, .025 ); }
+    .b --black-025 { border-color: rgba( 0, 0, 0, .025 ); }
 
 -}
 b__black_025 : String
@@ -679,7 +679,7 @@ b__black_025 =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-05 { border-color: rgba( 0, 0, 0, .05 ); }
+    .b --black-05 { border-color: rgba( 0, 0, 0, .05 ); }
 
 -}
 b__black_05 : String
@@ -689,7 +689,7 @@ b__black_05 =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-10 { border-color: rgba( 0, 0, 0, .1 ); }
+    .b --black-10 { border-color: rgba( 0, 0, 0, .1 ); }
 
 -}
 b__black_10 : String
@@ -699,7 +699,7 @@ b__black_10 =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-20 { border-color: rgba( 0, 0, 0, .2 ); }
+    .b --black-20 { border-color: rgba( 0, 0, 0, .2 ); }
 
 -}
 b__black_20 : String
@@ -709,7 +709,7 @@ b__black_20 =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-30 { border-color: rgba( 0, 0, 0, .3 ); }
+    .b --black-30 { border-color: rgba( 0, 0, 0, .3 ); }
 
 -}
 b__black_30 : String
@@ -719,7 +719,7 @@ b__black_30 =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-40 { border-color: rgba( 0, 0, 0, .4 ); }
+    .b --black-40 { border-color: rgba( 0, 0, 0, .4 ); }
 
 -}
 b__black_40 : String
@@ -729,7 +729,7 @@ b__black_40 =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-50 { border-color: rgba( 0, 0, 0, .5 ); }
+    .b --black-50 { border-color: rgba( 0, 0, 0, .5 ); }
 
 -}
 b__black_50 : String
@@ -739,7 +739,7 @@ b__black_50 =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-60 { border-color: rgba( 0, 0, 0, .6 ); }
+    .b --black-60 { border-color: rgba( 0, 0, 0, .6 ); }
 
 -}
 b__black_60 : String
@@ -749,7 +749,7 @@ b__black_60 =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-70 { border-color: rgba( 0, 0, 0, .7 ); }
+    .b --black-70 { border-color: rgba( 0, 0, 0, .7 ); }
 
 -}
 b__black_70 : String
@@ -759,7 +759,7 @@ b__black_70 =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-80 { border-color: rgba( 0, 0, 0, .8 ); }
+    .b --black-80 { border-color: rgba( 0, 0, 0, .8 ); }
 
 -}
 b__black_80 : String
@@ -769,7 +769,7 @@ b__black_80 =
 
 {-| This class maps to this CSS definition:
 
-    .b--black-90 { border-color: rgba( 0, 0, 0, .9 ); }
+    .b --black-90 { border-color: rgba( 0, 0, 0, .9 ); }
 
 -}
 b__black_90 : String
@@ -779,7 +779,7 @@ b__black_90 =
 
 {-| This class maps to this CSS definition:
 
-    .b--blue { border-color: #357edd; }
+    .b --blue { border-color: #357edd; }
 
 -}
 b__blue : String
@@ -789,7 +789,7 @@ b__blue =
 
 {-| This class maps to this CSS definition:
 
-    .b--dark-blue { border-color: #00449e; }
+    .b --dark-blue { border-color: #00449e; }
 
 -}
 b__dark_blue : String
@@ -799,7 +799,7 @@ b__dark_blue =
 
 {-| This class maps to this CSS definition:
 
-    .b--dark-gray { border-color: #333; }
+    .b --dark-gray { border-color: #333; }
 
 -}
 b__dark_gray : String
@@ -809,7 +809,7 @@ b__dark_gray =
 
 {-| This class maps to this CSS definition:
 
-    .b--dark-green { border-color: #137752; }
+    .b --dark-green { border-color: #137752; }
 
 -}
 b__dark_green : String
@@ -819,7 +819,7 @@ b__dark_green =
 
 {-| This class maps to this CSS definition:
 
-    .b--dark-pink { border-color: #d5008f; }
+    .b --dark-pink { border-color: #d5008f; }
 
 -}
 b__dark_pink : String
@@ -829,7 +829,7 @@ b__dark_pink =
 
 {-| This class maps to this CSS definition:
 
-    .b--dark-red { border-color: #e7040f; }
+    .b --dark-red { border-color: #e7040f; }
 
 -}
 b__dark_red : String
@@ -839,7 +839,7 @@ b__dark_red =
 
 {-| This class maps to this CSS definition:
 
-    .b--dashed { border-style: dashed; }
+    .b --dashed { border-style: dashed; }
 
 -}
 b__dashed : String
@@ -849,7 +849,7 @@ b__dashed =
 
 {-| This class maps to this CSS definition:
 
-    .b--dashed-l { border-style: dashed; }
+    .b --dashed-l { border-style: dashed; }
 
 -}
 b__dashed_l : String
@@ -859,7 +859,7 @@ b__dashed_l =
 
 {-| This class maps to this CSS definition:
 
-    .b--dashed-m { border-style: dashed; }
+    .b --dashed-m { border-style: dashed; }
 
 -}
 b__dashed_m : String
@@ -869,7 +869,7 @@ b__dashed_m =
 
 {-| This class maps to this CSS definition:
 
-    .b--dashed-ns { border-style: dashed; }
+    .b --dashed-ns { border-style: dashed; }
 
 -}
 b__dashed_ns : String
@@ -879,7 +879,7 @@ b__dashed_ns =
 
 {-| This class maps to this CSS definition:
 
-    .b--dotted { border-style: dotted; }
+    .b --dotted { border-style: dotted; }
 
 -}
 b__dotted : String
@@ -889,7 +889,7 @@ b__dotted =
 
 {-| This class maps to this CSS definition:
 
-    .b--dotted-l { border-style: dotted; }
+    .b --dotted-l { border-style: dotted; }
 
 -}
 b__dotted_l : String
@@ -899,7 +899,7 @@ b__dotted_l =
 
 {-| This class maps to this CSS definition:
 
-    .b--dotted-m { border-style: dotted; }
+    .b --dotted-m { border-style: dotted; }
 
 -}
 b__dotted_m : String
@@ -909,7 +909,7 @@ b__dotted_m =
 
 {-| This class maps to this CSS definition:
 
-    .b--dotted-ns { border-style: dotted; }
+    .b --dotted-ns { border-style: dotted; }
 
 -}
 b__dotted_ns : String
@@ -919,7 +919,7 @@ b__dotted_ns =
 
 {-| This class maps to this CSS definition:
 
-    .b--gold { border-color: #ffb700; }
+    .b --gold { border-color: #ffb700; }
 
 -}
 b__gold : String
@@ -929,7 +929,7 @@ b__gold =
 
 {-| This class maps to this CSS definition:
 
-    .b--gray { border-color: #777; }
+    .b --gray { border-color: #777; }
 
 -}
 b__gray : String
@@ -939,7 +939,7 @@ b__gray =
 
 {-| This class maps to this CSS definition:
 
-    .b--green { border-color: #19a974; }
+    .b --green { border-color: #19a974; }
 
 -}
 b__green : String
@@ -949,7 +949,7 @@ b__green =
 
 {-| This class maps to this CSS definition:
 
-    .b--hot-pink { border-color: #ff41b4; }
+    .b --hot-pink { border-color: #ff41b4; }
 
 -}
 b__hot_pink : String
@@ -959,7 +959,7 @@ b__hot_pink =
 
 {-| This class maps to this CSS definition:
 
-    .b--inherit { border-color: inherit; }
+    .b --inherit { border-color: inherit; }
 
 -}
 b__inherit : String
@@ -969,7 +969,7 @@ b__inherit =
 
 {-| This class maps to this CSS definition:
 
-    .b--light-blue { border-color: #96ccff; }
+    .b --light-blue { border-color: #96ccff; }
 
 -}
 b__light_blue : String
@@ -979,7 +979,7 @@ b__light_blue =
 
 {-| This class maps to this CSS definition:
 
-    .b--light-gray { border-color: #eee; }
+    .b --light-gray { border-color: #eee; }
 
 -}
 b__light_gray : String
@@ -989,7 +989,7 @@ b__light_gray =
 
 {-| This class maps to this CSS definition:
 
-    .b--light-green { border-color: #9eebcf; }
+    .b --light-green { border-color: #9eebcf; }
 
 -}
 b__light_green : String
@@ -999,7 +999,7 @@ b__light_green =
 
 {-| This class maps to this CSS definition:
 
-    .b--light-pink { border-color: #ffa3d7; }
+    .b --light-pink { border-color: #ffa3d7; }
 
 -}
 b__light_pink : String
@@ -1009,7 +1009,7 @@ b__light_pink =
 
 {-| This class maps to this CSS definition:
 
-    .b--light-purple { border-color: #a463f2; }
+    .b --light-purple { border-color: #a463f2; }
 
 -}
 b__light_purple : String
@@ -1019,7 +1019,7 @@ b__light_purple =
 
 {-| This class maps to this CSS definition:
 
-    .b--light-red { border-color: #ff725c; }
+    .b --light-red { border-color: #ff725c; }
 
 -}
 b__light_red : String
@@ -1029,7 +1029,7 @@ b__light_red =
 
 {-| This class maps to this CSS definition:
 
-    .b--light-silver { border-color: #aaa; }
+    .b --light-silver { border-color: #aaa; }
 
 -}
 b__light_silver : String
@@ -1039,7 +1039,7 @@ b__light_silver =
 
 {-| This class maps to this CSS definition:
 
-    .b--light-yellow { border-color: #fbf1a9; }
+    .b --light-yellow { border-color: #fbf1a9; }
 
 -}
 b__light_yellow : String
@@ -1049,7 +1049,7 @@ b__light_yellow =
 
 {-| This class maps to this CSS definition:
 
-    .b--lightest-blue { border-color: #cdecff; }
+    .b --lightest-blue { border-color: #cdecff; }
 
 -}
 b__lightest_blue : String
@@ -1059,7 +1059,7 @@ b__lightest_blue =
 
 {-| This class maps to this CSS definition:
 
-    .b--mid-gray { border-color: #555; }
+    .b --mid-gray { border-color: #555; }
 
 -}
 b__mid_gray : String
@@ -1069,7 +1069,7 @@ b__mid_gray =
 
 {-| This class maps to this CSS definition:
 
-    .b--moon-gray { border-color: #ccc; }
+    .b --moon-gray { border-color: #ccc; }
 
 -}
 b__moon_gray : String
@@ -1079,7 +1079,7 @@ b__moon_gray =
 
 {-| This class maps to this CSS definition:
 
-    .b--navy { border-color: #001b44; }
+    .b --navy { border-color: #001b44; }
 
 -}
 b__navy : String
@@ -1089,7 +1089,7 @@ b__navy =
 
 {-| This class maps to this CSS definition:
 
-    .b--near-black { border-color: #111; }
+    .b --near-black { border-color: #111; }
 
 -}
 b__near_black : String
@@ -1099,7 +1099,7 @@ b__near_black =
 
 {-| This class maps to this CSS definition:
 
-    .b--near-white { border-color: #f4f4f4; }
+    .b --near-white { border-color: #f4f4f4; }
 
 -}
 b__near_white : String
@@ -1109,7 +1109,7 @@ b__near_white =
 
 {-| This class maps to this CSS definition:
 
-    .b--none { border-style: none; }
+    .b --none { border-style: none; }
 
 -}
 b__none : String
@@ -1119,7 +1119,7 @@ b__none =
 
 {-| This class maps to this CSS definition:
 
-    .b--none-l { border-style: none; }
+    .b --none-l { border-style: none; }
 
 -}
 b__none_l : String
@@ -1129,7 +1129,7 @@ b__none_l =
 
 {-| This class maps to this CSS definition:
 
-    .b--none-m { border-style: none; }
+    .b --none-m { border-style: none; }
 
 -}
 b__none_m : String
@@ -1139,7 +1139,7 @@ b__none_m =
 
 {-| This class maps to this CSS definition:
 
-    .b--none-ns { border-style: none; }
+    .b --none-ns { border-style: none; }
 
 -}
 b__none_ns : String
@@ -1149,7 +1149,7 @@ b__none_ns =
 
 {-| This class maps to this CSS definition:
 
-    .b--orange { border-color: #ff6300; }
+    .b --orange { border-color: #ff6300; }
 
 -}
 b__orange : String
@@ -1159,7 +1159,7 @@ b__orange =
 
 {-| This class maps to this CSS definition:
 
-    .b--pink { border-color: #ff80cc; }
+    .b --pink { border-color: #ff80cc; }
 
 -}
 b__pink : String
@@ -1169,7 +1169,7 @@ b__pink =
 
 {-| This class maps to this CSS definition:
 
-    .b--purple { border-color: #5e2ca5; }
+    .b --purple { border-color: #5e2ca5; }
 
 -}
 b__purple : String
@@ -1179,7 +1179,7 @@ b__purple =
 
 {-| This class maps to this CSS definition:
 
-    .b--red { border-color: #ff4136; }
+    .b --red { border-color: #ff4136; }
 
 -}
 b__red : String
@@ -1189,7 +1189,7 @@ b__red =
 
 {-| This class maps to this CSS definition:
 
-    .b--silver { border-color: #999; }
+    .b --silver { border-color: #999; }
 
 -}
 b__silver : String
@@ -1199,7 +1199,7 @@ b__silver =
 
 {-| This class maps to this CSS definition:
 
-    .b--solid { border-style: solid; }
+    .b --solid { border-style: solid; }
 
 -}
 b__solid : String
@@ -1209,7 +1209,7 @@ b__solid =
 
 {-| This class maps to this CSS definition:
 
-    .b--solid-l { border-style: solid; }
+    .b --solid-l { border-style: solid; }
 
 -}
 b__solid_l : String
@@ -1219,7 +1219,7 @@ b__solid_l =
 
 {-| This class maps to this CSS definition:
 
-    .b--solid-m { border-style: solid; }
+    .b --solid-m { border-style: solid; }
 
 -}
 b__solid_m : String
@@ -1229,7 +1229,7 @@ b__solid_m =
 
 {-| This class maps to this CSS definition:
 
-    .b--solid-ns { border-style: solid; }
+    .b --solid-ns { border-style: solid; }
 
 -}
 b__solid_ns : String
@@ -1239,7 +1239,7 @@ b__solid_ns =
 
 {-| This class maps to this CSS definition:
 
-    .b--transparent { border-color: transparent; }
+    .b --transparent { border-color: transparent; }
 
 -}
 b__transparent : String
@@ -1249,7 +1249,7 @@ b__transparent =
 
 {-| This class maps to this CSS definition:
 
-    .b--washed-blue { border-color: #f6fffe; }
+    .b --washed-blue { border-color: #f6fffe; }
 
 -}
 b__washed_blue : String
@@ -1259,7 +1259,7 @@ b__washed_blue =
 
 {-| This class maps to this CSS definition:
 
-    .b--washed-green { border-color: #e8fdf5; }
+    .b --washed-green { border-color: #e8fdf5; }
 
 -}
 b__washed_green : String
@@ -1269,7 +1269,7 @@ b__washed_green =
 
 {-| This class maps to this CSS definition:
 
-    .b--washed-red { border-color: #ffdfdf; }
+    .b --washed-red { border-color: #ffdfdf; }
 
 -}
 b__washed_red : String
@@ -1279,7 +1279,7 @@ b__washed_red =
 
 {-| This class maps to this CSS definition:
 
-    .b--washed-yellow { border-color: #fffceb; }
+    .b --washed-yellow { border-color: #fffceb; }
 
 -}
 b__washed_yellow : String
@@ -1289,7 +1289,7 @@ b__washed_yellow =
 
 {-| This class maps to this CSS definition:
 
-    .b--white { border-color: #fff; }
+    .b --white { border-color: #fff; }
 
 -}
 b__white : String
@@ -1299,7 +1299,7 @@ b__white =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-0125 { border-color: rgba( 255, 255, 255, .0125 ); }
+    .b --white-0125 { border-color: rgba( 255, 255, 255, .0125 ); }
 
 -}
 b__white_0125 : String
@@ -1309,7 +1309,7 @@ b__white_0125 =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-025 { border-color: rgba( 255, 255, 255, .025 ); }
+    .b --white-025 { border-color: rgba( 255, 255, 255, .025 ); }
 
 -}
 b__white_025 : String
@@ -1319,7 +1319,7 @@ b__white_025 =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-05 { border-color: rgba( 255, 255, 255, .05 ); }
+    .b --white-05 { border-color: rgba( 255, 255, 255, .05 ); }
 
 -}
 b__white_05 : String
@@ -1329,7 +1329,7 @@ b__white_05 =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-10 { border-color: rgba( 255, 255, 255, .1 ); }
+    .b --white-10 { border-color: rgba( 255, 255, 255, .1 ); }
 
 -}
 b__white_10 : String
@@ -1339,7 +1339,7 @@ b__white_10 =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-20 { border-color: rgba( 255, 255, 255, .2 ); }
+    .b --white-20 { border-color: rgba( 255, 255, 255, .2 ); }
 
 -}
 b__white_20 : String
@@ -1349,7 +1349,7 @@ b__white_20 =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-30 { border-color: rgba( 255, 255, 255, .3 ); }
+    .b --white-30 { border-color: rgba( 255, 255, 255, .3 ); }
 
 -}
 b__white_30 : String
@@ -1359,7 +1359,7 @@ b__white_30 =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-40 { border-color: rgba( 255, 255, 255, .4 ); }
+    .b --white-40 { border-color: rgba( 255, 255, 255, .4 ); }
 
 -}
 b__white_40 : String
@@ -1369,7 +1369,7 @@ b__white_40 =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-50 { border-color: rgba( 255, 255, 255, .5 ); }
+    .b --white-50 { border-color: rgba( 255, 255, 255, .5 ); }
 
 -}
 b__white_50 : String
@@ -1379,7 +1379,7 @@ b__white_50 =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-60 { border-color: rgba( 255, 255, 255, .6 ); }
+    .b --white-60 { border-color: rgba( 255, 255, 255, .6 ); }
 
 -}
 b__white_60 : String
@@ -1389,7 +1389,7 @@ b__white_60 =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-70 { border-color: rgba( 255, 255, 255, .7 ); }
+    .b --white-70 { border-color: rgba( 255, 255, 255, .7 ); }
 
 -}
 b__white_70 : String
@@ -1399,7 +1399,7 @@ b__white_70 =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-80 { border-color: rgba( 255, 255, 255, .8 ); }
+    .b --white-80 { border-color: rgba( 255, 255, 255, .8 ); }
 
 -}
 b__white_80 : String
@@ -1409,7 +1409,7 @@ b__white_80 =
 
 {-| This class maps to this CSS definition:
 
-    .b--white-90 { border-color: rgba( 255, 255, 255, .9 ); }
+    .b --white-90 { border-color: rgba( 255, 255, 255, .9 ); }
 
 -}
 b__white_90 : String
@@ -1419,7 +1419,7 @@ b__white_90 =
 
 {-| This class maps to this CSS definition:
 
-    .b--yellow { border-color: #ffd700; }
+    .b --yellow { border-color: #ffd700; }
 
 -}
 b__yellow : String
@@ -2633,7 +2633,7 @@ border_box =
 
 {-| This class maps to this CSS definition:
 
-    .bottom--1 { bottom: -1rem; }
+    .bottom --1 { bottom: -1rem; }
 
 -}
 bottom__1 : String
@@ -2643,7 +2643,7 @@ bottom__1 =
 
 {-| This class maps to this CSS definition:
 
-    .bottom--1-l { bottom: -1rem; }
+    .bottom --1-l { bottom: -1rem; }
 
 -}
 bottom__1_l : String
@@ -2653,7 +2653,7 @@ bottom__1_l =
 
 {-| This class maps to this CSS definition:
 
-    .bottom--1-m { bottom: -1rem; }
+    .bottom --1-m { bottom: -1rem; }
 
 -}
 bottom__1_m : String
@@ -2663,7 +2663,7 @@ bottom__1_m =
 
 {-| This class maps to this CSS definition:
 
-    .bottom--1-ns { bottom: -1rem; }
+    .bottom --1-ns { bottom: -1rem; }
 
 -}
 bottom__1_ns : String
@@ -2673,7 +2673,7 @@ bottom__1_ns =
 
 {-| This class maps to this CSS definition:
 
-    .bottom--2 { bottom: -2rem; }
+    .bottom --2 { bottom: -2rem; }
 
 -}
 bottom__2 : String
@@ -2683,7 +2683,7 @@ bottom__2 =
 
 {-| This class maps to this CSS definition:
 
-    .bottom--2-l { bottom: -2rem; }
+    .bottom --2-l { bottom: -2rem; }
 
 -}
 bottom__2_l : String
@@ -2693,7 +2693,7 @@ bottom__2_l =
 
 {-| This class maps to this CSS definition:
 
-    .bottom--2-m { bottom: -2rem; }
+    .bottom --2-m { bottom: -2rem; }
 
 -}
 bottom__2_m : String
@@ -2703,7 +2703,7 @@ bottom__2_m =
 
 {-| This class maps to this CSS definition:
 
-    .bottom--2-ns { bottom: -2rem; }
+    .bottom --2-ns { bottom: -2rem; }
 
 -}
 bottom__2_ns : String
@@ -2843,7 +2843,7 @@ br =
 
 {-| This class maps to this CSS definition:
 
-    .br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
+    .br --bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
 
 -}
 br__bottom : String
@@ -2853,7 +2853,7 @@ br__bottom =
 
 {-| This class maps to this CSS definition:
 
-    .br--bottom-l { border-top-left-radius: 0; border-top-right-radius: 0; }
+    .br --bottom-l { border-top-left-radius: 0; border-top-right-radius: 0; }
 
 -}
 br__bottom_l : String
@@ -2863,7 +2863,7 @@ br__bottom_l =
 
 {-| This class maps to this CSS definition:
 
-    .br--bottom-m { border-top-left-radius: 0; border-top-right-radius: 0; }
+    .br --bottom-m { border-top-left-radius: 0; border-top-right-radius: 0; }
 
 -}
 br__bottom_m : String
@@ -2873,7 +2873,7 @@ br__bottom_m =
 
 {-| This class maps to this CSS definition:
 
-    .br--bottom-ns { border-top-left-radius: 0; border-top-right-radius: 0; }
+    .br --bottom-ns { border-top-left-radius: 0; border-top-right-radius: 0; }
 
 -}
 br__bottom_ns : String
@@ -2883,7 +2883,7 @@ br__bottom_ns =
 
 {-| This class maps to this CSS definition:
 
-    .br--left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+    .br --left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 
 -}
 br__left : String
@@ -2893,7 +2893,7 @@ br__left =
 
 {-| This class maps to this CSS definition:
 
-    .br--left-l { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+    .br --left-l { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 
 -}
 br__left_l : String
@@ -2903,7 +2903,7 @@ br__left_l =
 
 {-| This class maps to this CSS definition:
 
-    .br--left-m { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+    .br --left-m { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 
 -}
 br__left_m : String
@@ -2913,7 +2913,7 @@ br__left_m =
 
 {-| This class maps to this CSS definition:
 
-    .br--left-ns { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+    .br --left-ns { border-top-right-radius: 0; border-bottom-right-radius: 0; }
 
 -}
 br__left_ns : String
@@ -2923,7 +2923,7 @@ br__left_ns =
 
 {-| This class maps to this CSS definition:
 
-    .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+    .br --right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 
 -}
 br__right : String
@@ -2933,7 +2933,7 @@ br__right =
 
 {-| This class maps to this CSS definition:
 
-    .br--right-l { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+    .br --right-l { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 
 -}
 br__right_l : String
@@ -2943,7 +2943,7 @@ br__right_l =
 
 {-| This class maps to this CSS definition:
 
-    .br--right-m { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+    .br --right-m { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 
 -}
 br__right_m : String
@@ -2953,7 +2953,7 @@ br__right_m =
 
 {-| This class maps to this CSS definition:
 
-    .br--right-ns { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+    .br --right-ns { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 
 -}
 br__right_ns : String
@@ -2963,7 +2963,7 @@ br__right_ns =
 
 {-| This class maps to this CSS definition:
 
-    .br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+    .br --top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 
 -}
 br__top : String
@@ -2973,7 +2973,7 @@ br__top =
 
 {-| This class maps to this CSS definition:
 
-    .br--top-l { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+    .br --top-l { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 
 -}
 br__top_l : String
@@ -2983,7 +2983,7 @@ br__top_l =
 
 {-| This class maps to this CSS definition:
 
-    .br--top-m { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+    .br --top-m { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 
 -}
 br__top_m : String
@@ -2993,7 +2993,7 @@ br__top_m =
 
 {-| This class maps to this CSS definition:
 
-    .br--top-ns { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+    .br --top-ns { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 
 -}
 br__top_ns : String
@@ -4658,7 +4658,7 @@ dt =
 
 {-| This class maps to this CSS definition:
 
-    .dt--fixed { table-layout: fixed; width: 100%; }
+    .dt --fixed { table-layout: fixed; width: 100%; }
 
 -}
 dt__fixed : String
@@ -4668,7 +4668,7 @@ dt__fixed =
 
 {-| This class maps to this CSS definition:
 
-    .dt--fixed-l { table-layout: fixed; width: 100%; }
+    .dt --fixed-l { table-layout: fixed; width: 100%; }
 
 -}
 dt__fixed_l : String
@@ -4678,7 +4678,7 @@ dt__fixed_l =
 
 {-| This class maps to this CSS definition:
 
-    .dt--fixed-m { table-layout: fixed; width: 100%; }
+    .dt --fixed-m { table-layout: fixed; width: 100%; }
 
 -}
 dt__fixed_m : String
@@ -4688,7 +4688,7 @@ dt__fixed_m =
 
 {-| This class maps to this CSS definition:
 
-    .dt--fixed-ns { table-layout: fixed; width: 100%; }
+    .dt --fixed-ns { table-layout: fixed; width: 100%; }
 
 -}
 dt__fixed_ns : String
@@ -8794,7 +8794,7 @@ justify_start_ns =
 
 {-| This class maps to this CSS definition:
 
-    .left--1 { left: -1rem; }
+    .left --1 { left: -1rem; }
 
 -}
 left__1 : String
@@ -8804,7 +8804,7 @@ left__1 =
 
 {-| This class maps to this CSS definition:
 
-    .left--1-l { left: -1rem; }
+    .left --1-l { left: -1rem; }
 
 -}
 left__1_l : String
@@ -8814,7 +8814,7 @@ left__1_l =
 
 {-| This class maps to this CSS definition:
 
-    .left--1-m { left: -1rem; }
+    .left --1-m { left: -1rem; }
 
 -}
 left__1_m : String
@@ -8824,7 +8824,7 @@ left__1_m =
 
 {-| This class maps to this CSS definition:
 
-    .left--1-ns { left: -1rem; }
+    .left --1-ns { left: -1rem; }
 
 -}
 left__1_ns : String
@@ -8834,7 +8834,7 @@ left__1_ns =
 
 {-| This class maps to this CSS definition:
 
-    .left--2 { left: -2rem; }
+    .left --2 { left: -2rem; }
 
 -}
 left__2 : String
@@ -8844,7 +8844,7 @@ left__2 =
 
 {-| This class maps to this CSS definition:
 
-    .left--2-l { left: -2rem; }
+    .left --2-l { left: -2rem; }
 
 -}
 left__2_l : String
@@ -8854,7 +8854,7 @@ left__2_l =
 
 {-| This class maps to this CSS definition:
 
-    .left--2-m { left: -2rem; }
+    .left --2-m { left: -2rem; }
 
 -}
 left__2_m : String
@@ -8864,7 +8864,7 @@ left__2_m =
 
 {-| This class maps to this CSS definition:
 
-    .left--2-ns { left: -2rem; }
+    .left --2-ns { left: -2rem; }
 
 -}
 left__2_ns : String
@@ -17344,7 +17344,7 @@ relative_ns =
 
 {-| This class maps to this CSS definition:
 
-    .right--1 { right: -1rem; }
+    .right --1 { right: -1rem; }
 
 -}
 right__1 : String
@@ -17354,7 +17354,7 @@ right__1 =
 
 {-| This class maps to this CSS definition:
 
-    .right--1-l { right: -1rem; }
+    .right --1-l { right: -1rem; }
 
 -}
 right__1_l : String
@@ -17364,7 +17364,7 @@ right__1_l =
 
 {-| This class maps to this CSS definition:
 
-    .right--1-m { right: -1rem; }
+    .right --1-m { right: -1rem; }
 
 -}
 right__1_m : String
@@ -17374,7 +17374,7 @@ right__1_m =
 
 {-| This class maps to this CSS definition:
 
-    .right--1-ns { right: -1rem; }
+    .right --1-ns { right: -1rem; }
 
 -}
 right__1_ns : String
@@ -17384,7 +17384,7 @@ right__1_ns =
 
 {-| This class maps to this CSS definition:
 
-    .right--2 { right: -2rem; }
+    .right --2 { right: -2rem; }
 
 -}
 right__2 : String
@@ -17394,7 +17394,7 @@ right__2 =
 
 {-| This class maps to this CSS definition:
 
-    .right--2-l { right: -2rem; }
+    .right --2-l { right: -2rem; }
 
 -}
 right__2_l : String
@@ -17404,7 +17404,7 @@ right__2_l =
 
 {-| This class maps to this CSS definition:
 
-    .right--2-m { right: -2rem; }
+    .right --2-m { right: -2rem; }
 
 -}
 right__2_m : String
@@ -17414,7 +17414,7 @@ right__2_m =
 
 {-| This class maps to this CSS definition:
 
-    .right--2-ns { right: -2rem; }
+    .right --2-ns { right: -2rem; }
 
 -}
 right__2_ns : String
@@ -18406,7 +18406,7 @@ stripe_light =
 
 {-| This class maps to this CSS definition:
 
-    .striped--light-gray:nth-child(odd) { background-color: #eee; }
+    .striped --light-gray:nth-child(odd) { background-color: #eee; }
 
 -}
 striped__light_gray : String
@@ -18416,7 +18416,7 @@ striped__light_gray =
 
 {-| This class maps to this CSS definition:
 
-    .striped--light-silver:nth-child(odd) { background-color: #aaa; }
+    .striped --light-silver:nth-child(odd) { background-color: #aaa; }
 
 -}
 striped__light_silver : String
@@ -18426,7 +18426,7 @@ striped__light_silver =
 
 {-| This class maps to this CSS definition:
 
-    .striped--moon-gray:nth-child(odd) { background-color: #ccc; }
+    .striped --moon-gray:nth-child(odd) { background-color: #ccc; }
 
 -}
 striped__moon_gray : String
@@ -18436,7 +18436,7 @@ striped__moon_gray =
 
 {-| This class maps to this CSS definition:
 
-    .striped--near-white:nth-child(odd) { background-color: #f4f4f4; }
+    .striped --near-white:nth-child(odd) { background-color: #f4f4f4; }
 
 -}
 striped__near_white : String
@@ -18596,7 +18596,7 @@ tl_ns =
 
 {-| This class maps to this CSS definition:
 
-    .top--1 { top: -1rem; }
+    .top --1 { top: -1rem; }
 
 -}
 top__1 : String
@@ -18606,7 +18606,7 @@ top__1 =
 
 {-| This class maps to this CSS definition:
 
-    .top--1-l { top: -1rem; }
+    .top --1-l { top: -1rem; }
 
 -}
 top__1_l : String
@@ -18616,7 +18616,7 @@ top__1_l =
 
 {-| This class maps to this CSS definition:
 
-    .top--1-m { top: -1rem; }
+    .top --1-m { top: -1rem; }
 
 -}
 top__1_m : String
@@ -18626,7 +18626,7 @@ top__1_m =
 
 {-| This class maps to this CSS definition:
 
-    .top--1-ns { top: -1rem; }
+    .top --1-ns { top: -1rem; }
 
 -}
 top__1_ns : String
@@ -18636,7 +18636,7 @@ top__1_ns =
 
 {-| This class maps to this CSS definition:
 
-    .top--2 { top: -2rem; }
+    .top --2 { top: -2rem; }
 
 -}
 top__2 : String
@@ -18646,7 +18646,7 @@ top__2 =
 
 {-| This class maps to this CSS definition:
 
-    .top--2-l { top: -2rem; }
+    .top --2-l { top: -2rem; }
 
 -}
 top__2_l : String
@@ -18656,7 +18656,7 @@ top__2_l =
 
 {-| This class maps to this CSS definition:
 
-    .top--2-m { top: -2rem; }
+    .top --2-m { top: -2rem; }
 
 -}
 top__2_m : String
@@ -18666,7 +18666,7 @@ top__2_m =
 
 {-| This class maps to this CSS definition:
 
-    .top--2-ns { top: -2rem; }
+    .top --2-ns { top: -2rem; }
 
 -}
 top__2_ns : String
