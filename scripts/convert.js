@@ -4,13 +4,11 @@ const extract = require('./custom-string-extract-class-names') // original filte
 const postcss = require('postcss')
 const _ = require('lodash')
 const fs = require('fs')
-const CleanCSS = require('clean-css')
 
 const elmHelpersPath = './src/Tachyons.elm'
 const elmClassesPath = './src/Tachyons/Classes.elm'
 
-const css = fs.readFileSync('./scripts/tachyons.css', 'utf8')
-const minifiedCSS = new CleanCSS().minify(css);
+const css = fs.readFileSync('./scripts/tachyons.min.css', 'utf8')
 const root = postcss.parse(css)
 const classObjs = {}
 const defaultIndentation = ' '.repeat(4)
@@ -198,7 +196,7 @@ allowing you to define your own <style> tag, if need be.
 -}
 tachyonsStylesheet : String
 tachyonsStylesheet =
-  """${minifiedCSS.styles}"""
+  """${css}"""
 `
 
 // Writes the string to Tachyons.Classes.elm
