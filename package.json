@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/justgage/tachyons-elm#readme",
   "dependencies": {
+    "clean-css": "^4.2.1",
     "lodash": "^4.17.10",
     "lodash.flattendeep": "^4.4.0",
     "lodash.replace": "^4.1.4",
