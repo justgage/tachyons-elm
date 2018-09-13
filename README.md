@@ -38,3 +38,8 @@ npm install
 ```
 
 This will create `Tachyons/Classes.elm`, format it, and make sure it builds.
+
+### Requirements
+
+* [elm-format](https://github.com/avh4/elm-format) for formatting elm
+* [prettier](https://github.com/prettier/prettier) for formatting js. `prettier --write scripts/file_name.js`
