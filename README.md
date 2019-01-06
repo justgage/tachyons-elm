@@ -18,7 +18,9 @@ import Html exposing (..)
 
 main =
     div [ classes [ f1, purple, pointer, b ] ]
-        [ tachyons.css
+        [ -- `tachyons.css` this should only be used for demo pourposes, it's better included as a cdn in HTML: 
+          -- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+          tachyons.css 
         , text "I'm Purple and big!"
         ]
 ```
