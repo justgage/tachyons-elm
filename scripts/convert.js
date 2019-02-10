@@ -166,7 +166,7 @@ classes stringList =
 {-| [Tachyons](http://tachyons.io/)
 
 This basically includes an \`<style>\` tag containing the inline CSS code
-for the tachyons version this library supports. Namely 4.11.2.
+for the tachyons version this library supports. Namely 4.11.1.
 
 To use it just place it inside of a HTML tag like so:
 
@@ -176,7 +176,7 @@ If you want to use it from a CDN link rather than a \`<style>\` tag I would enco
 include the CDN link in your HTML like so:
 
     <!-- NOTE: this is outside of Elm, inside of Elm it will cause a css flash -->
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.11.2/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.11.1/css/tachyons.min.css"/>
 
 then use the \`Tachyons.Classes\` as you normally would.
 -}
