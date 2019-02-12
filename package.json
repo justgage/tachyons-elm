@@ -16,8 +16,9 @@
     "url": "https://github.com/justgage/tachyons-elm/issues"
   },
   "homepage": "https://github.com/justgage/tachyons-elm#readme",
-  "dependencies": {
-    "lodash": "^4.17.10",
+  "dependencies": {},
+  "devDependencies": {
+    "lodash": "^4.17",
     "lodash.flattendeep": "^4.4.0",
     "lodash.replace": "^4.1.4",
     "lodash.without": "^4.4.0",
