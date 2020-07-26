@@ -166,7 +166,7 @@ classes stringList =
 {-| [Tachyons](http://tachyons.io/)
 
 This basically includes an \`<style>\` tag containing the inline CSS code
-for the tachyons version this library supports. Namely 4.11.1.
+for the tachyons version this library supports. Namely 4.12.0.
 
 To use it just place it inside of a HTML tag like so:
 
