@@ -1,9 +1,9 @@
 {
     "type": "package",
-    "name": "justgage/tachyons-elm",
-    "summary": "Tachyons CSS classnames for Elm",
+    "name": "groma84/tachyons-elm",
+    "summary": "Tachyons CSS classnames for Elm - updated fork",
     "license": "MIT",
-    "version": "4.1.3",
+    "version": "1.0.0",
     "exposed-modules": [
         "Tachyons",
         "Tachyons.Classes"
