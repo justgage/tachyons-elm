@@ -2,7 +2,9 @@
 
 This basically allows [Tachyons](http://tachyons.io/) auto-completion to work in Elm.
 
-See the Tachyons Module on http://package.elm-lang.org/packages/justgage/tachyons-elm/latest for more info.
+See the Tachyons Module on http://package.elm-lang.org/packages/groma84/tachyons-elm/latest for more info.
+
+This is an updated fork of http://package.elm-lang.org/packages/justgage/tachyons-elm/latest to support a newer version of Tachyons.
 
 # Working example
 
@@ -18,8 +20,8 @@ import Html exposing (..)
 
 main =
     div [ classes [ f1, purple, pointer, b ] ]
-        [ -- `tachyons.css` this should only be used for demo pourposes, it's better included as a cdn in HTML: 
-          -- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+        [ -- `tachyons.css` this should only be used for demo purposes, it's better included as a cdn in HTML: 
+          -- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
           tachyons.css 
         , text "I'm Purple and big!"
         ]
